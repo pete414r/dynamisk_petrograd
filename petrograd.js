@@ -38,6 +38,14 @@ function visProdukt(produkt) {
 
     klon.querySelector(".date_billede").src = "/imgs/small/" + produkt.billede + "-sm.jpg";
 
+    if (produkt.udsolgt == false) {
+        var udsolgttekst = klon.querySelector(".udsolgttekst");
+        udsolgttekst.parentNode.removeChild(udsolgttekst);
+    } else {
+        klon.querySelector(".pris").classList.add("udsolgt");
+
+    }
+
     document.querySelector(".produktliste").appendChild(klon);
 
 }
