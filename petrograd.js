@@ -49,7 +49,7 @@ function visProdukt(produkt) {
         var rabatpris = klon.querySelector(".rabatpris");
         rabatpris.parentNode.removeChild(rabatpris);
     } else {
-        klon.querySelector(".pris").classList.add("udsolgt");
+        klon.querySelector(".pris").classList.add("rabat");
     }
     document.querySelector(".produktliste").appendChild(klon);
 
