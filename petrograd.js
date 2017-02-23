@@ -1,14 +1,26 @@
-$(document).ready(function () {
-    console.log("start");
-    $('.lukkeklik').click(function () {
-        var navbar_toggle = $('.navbar-toggle');
-        if (navbar_toggle.is(':visible')) {
-            navbar_toggle.trigger('click');
-        }
-    });
+//$(document).ready(function () {
+//    console.log("start");
+//    $('.lukkeklik').click(function () {
+//        var navbar_toggle = $('.navbar-toggle');
+//        if (navbar_toggle.is(':visible')) {
+//            navbar_toggle.trigger('click');
+//        }
+//    });
+//
+//});
+window.addEventListener("load", sidenVises);
 
-});
+function sidenVises() {
+    console.log("siden vises");
+    visProdukt();
+}
 
+function visProdukt() {
+    var klon = document.querySelector("#produkt_template").content.cloneNode(true);
+
+    document.querySelector(".produktliste").appendChild(klon);
+
+}
 
 ////$(document).on("load", start);
 ///*
