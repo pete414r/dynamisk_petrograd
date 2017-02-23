@@ -45,7 +45,7 @@ function visProdukt(produkt) {
         klon.querySelector(".pris").classList.add("udsolgt");
 
     }
-    if (produkt.rabatsats == 0) {
+    if (produkt.udsolgt == true || produkt.rabatsats == 0) {
         var rabatpris = klon.querySelector(".rabatpris");
         rabatpris.parentNode.removeChild(rabatpris);
     } else {
