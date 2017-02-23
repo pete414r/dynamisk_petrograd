@@ -1,4 +1,72 @@
+  
+  <!--
+   <script>
+    $(document).ready(function () {
+        console.log("start");
+        $('.lukkeklik').click(function () {
+            var navbar_toggle = $('.navbar-toggle');
+            if (navbar_toggle.is(':visible')) {
+                navbar_toggle.trigger('click');
+            }
+        });
 
+    });
+</script>-->
+  
+  <!--
+  <header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"><img src="imgs/petrograd2.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+                <nav class="social-nav">
+                    <a class="socialmenu" href="#">Facebook</a>
+                    <a class="socialmenu" href="#">Instragram</a>
+                    <a class="socialmenu" href="#">Twitter</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <nav class="navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand lukkeklik" href="#">petrograd</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class=" lukkeklik" href="#">OM</a></li>
+
+                    <li><a class="lukkeklik" href="#">KONTAKT</a></li>
+                    <li><a class="lukkeklik" href="#">OS</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">RETTERNE<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="lukkeklik" href="#forretter">Forretter</a></li>
+                            <li><a class="lukkeklik" href="#hovedretter">Hovedretter</a></li>
+                            <li><a class="lukkeklik" href="#deserter">Deserter</a></li>
+                            <li><a class="lukkeklik" href="#drikkevare">Drikkevare</a></li>
+                            <li><a class="lukkeklik" href="#sideordrs">Sideordrs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="lukkeklik" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a class="lukkeklik" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</header>
+-->
             <table id="person_info"></table>
 
 

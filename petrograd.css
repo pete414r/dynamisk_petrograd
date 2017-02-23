@@ -1,5 +1,5 @@
 /*
-#main {
+main {
     position: relative;
     margin: 0 auto;
     background-size: 100%;
@@ -7,6 +7,14 @@
     color: white;
 }
 */
+
+.main {
+    background: 100vw rgb(255, 64, 64);
+}
+
+.rowmain {
+    margin-top: 1%;
+}
 
 
 /*

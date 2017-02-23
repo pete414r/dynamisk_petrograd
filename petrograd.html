@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <title>Petrograd</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="petrograd.css">
-</head>
+    <link rel="stylesheet" href="petrograd.css"> </head>
+
+
 
 <body>
+
+
     <header>
+
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4"></div>
-                <div class="col-lg-4"><img src="imgs/petrograd2.png" alt="" class="img-responsive">
+                <div class="col-lg-4"><img src="imgs/petrograd2.png" class="img-responsive">
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-3">
@@ -26,7 +30,10 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+
+
+
+        <div class="container-fluid ">
             <nav class="navbar">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -63,58 +70,66 @@
         </div>
     </header>
 
-    <div class="container-fluid">
-        <div class="row ">
 
-            <!--forret1-->
-            <div class="col-xs-12 col-md-4 ">
-                <a href=""><img class="img-responsive" src="imgs/small/baltiskbondesuppe-sm.jpg" alt=""></a>
-                <h3>Forret1</h3>
-                <h4>49-</h4>
+    <div class="container-fluid main">
+        <div class="row rowmain">
+            <template id="produkt_template">
+                <div class="col-sm-4 col-md-4">
+                    <a href="#"><img class="img-responsive date_billede" src="imgs/small/baltiskbondesuppe-sm.jpg" alt=""></a>
+                    <h3 class="data_kategori">DATA_KATEGORI</h3>
+                    <h3 class="data_navn">DATA_NAVN</h3>
+                    <h4 class="pris">Pris: <span class="data_pris">DATA_PRIS</span>,-</h4>
+                    <!--todo sæt udsolgt class ved udsolgt!-->
+                    <h4 class="Udsolgttekst">Udsolgt forret1</h4>
+                    <h4 class="rabatpris">Rabatpris: <span class="data_rabatpris">DATA_RABATPRIS</span>,-</h4>
+                    <!--skal kun vises ved rabat-->
+                    <!--skla kun vises ved udsolgt
+                sæt rabat class ved rabat-->
+                    <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal">Detaljer</button>
+                </div>
+            </template>
+            <div class="col-sm-4  col-md-4">
+                <a href="#"><img class="img-responsive date_billede" src="imgs/small/boef-sm.jpg" alt=""></a>
+                <h3 class=" data_navn">Forret2</h3>
+                <h4 class="pris"><span class="data_pris">49 </span>,-</h4>
+                <h4 class="Udsolgttekst">Udsolgt forret2</h4>
                 <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal">Detaljer</button>
             </div>
 
-            <!--forret2-->
-            <div class="col-xs-12  col-md-4  ">
-                <a href=""><img class="img-responsive" src="imgs/small/boef-sm.jpg" alt=""></a>
-                <h3>Forret2</h3>
-                <h4>49-</h4>
-                <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal">Detaljer</button>
-                <h3>Special</h3>
-                <h4>49-</h4> </div>
 
-            <!--forret3-->
-            <div class="col-xs-12  col-md-4 ">
-                <a href=""><img class="img-responsive" src="imgs/small/guzni-sm.jpg" alt=""></a>
-                <h3>Forret3</h3>
-                <h4>49-</h4>
+            <div class="col-sm-4  col-md-4">
+                <a href="#"><img class="img-responsive date_billede" src="imgs/small/guzni-sm.jpg" alt=""></a>
+                <h3 class=" data_navn">Forret3</h3>
+                <h4 class="pris"><span class="data_pris">49</span>,-</h4>
+                <h4 class="rabat">,-</h4>
+                <h4 class="rabatpris"><span class="data_rabatpris">49</span>,-</h4>
                 <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal">Detaljer</button>
             </div>
 
 
         </div>
-
-
-
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="petrograd.js"></script>
-        <script src="bootstrap.min.js"></script>
-
-
-        <script>
-            $(document).ready(function () {
-                console.log("start");
-                $('.lukkeklik').click(function () {
-                    var navbar_toggle = $('.navbar-toggle');
-                    if (navbar_toggle.is(':visible')) {
-                        navbar_toggle.trigger('click');
-                    }
-                });
-
-            });
-        </script>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="petrograd.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            console.log("start");
+            $('.lukkeklik').click(function () {
+                var navbar_toggle = $('.navbar-toggle');
+                if (navbar_toggle.is(':visible')) {
+                    navbar_toggle.trigger('click');
+                }
+            });
+
+        });
+    </script>
+
+
+
 </body>
 
 </html>
