@@ -31,7 +31,7 @@ function filtrerVegetar(event) {
     var liste = document.querySelectorAll(".produkt:not(.vegetar)");
     //skjul all
 
-    liste.forEach(produkt => produkt.classList.toggle("hide"));
+    liste.forEach(div => div.classList.toggle("hide"));
     event.preventDefault();
     //  event.preventDefault();
 
@@ -44,21 +44,32 @@ function filtrerVegetar(event) {
 function filterTilbud(event) {
     console.log("Klik på tilbud-filter");
     var liste = document.querySelectorAll(".produkt:not(.tilbud)");
-    liste.forEach(produkt => produkt.classList.toggle("hide"));
+    liste.forEach(div => div.classList.toggle("hide"));
     event.preventDefault();
 }
 
 function filtrerAlkohol(event) {
     console.log("Klik på alkohol-filter");
     var liste = document.querySelectorAll(".produkt:not(.alkohol)");
-    liste.forEach(produkt => produkt.classList.toggle("hide"));
+    liste.forEach(div => div.classList.toggle("hide"));
     event.preventDefault();
 }
 
 function sorterBilligste(listen) {
 
-    console.log("Klik på sorter efter billigste -> dyreste");
+    console.log("Klik på sorter billigste");
+    var liste = document.querySelectorAll(".produkt:<(.produkt)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
 
+}
+
+function sorterdyreste(listen) {
+
+    console.log("Klik på sorter billigste");
+    var liste = document.querySelectorAll(".produkt:>(.produkt)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
 
 }
 
@@ -130,12 +141,18 @@ function visProdukt(produkt) {
 
     if (produkt.kategori == "forretter") {
         document.querySelector(".forretter").appendChild(klon);
+
     } else if (produkt.kategori == "hovedretter") {
         document.querySelector(".hovedretter").appendChild(klon);
+
     } else if (produkt.kategori == "desserter") {
         document.querySelector(".desserter").appendChild(klon);
+
+        //    } else if (produkt.kategori == "drikkevare") {
+        //        document.querySelector(".drikkevarer").appendChild(klon);
     } else {
-        document.querySelector(".drikke_og_sideorders").appendChild(klon);
+        document.querySelector(".drikkevare").appendChild(klon);
+
     }
 
 }

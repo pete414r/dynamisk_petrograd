@@ -12,6 +12,10 @@ main {
     background: 100vw rgb(255, 64, 64);
 }
 
+.hr {
+    background-color: #4242ff;
+}
+
 .rowmain {
     margin-top: 1%;
 }

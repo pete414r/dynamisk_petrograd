@@ -39,19 +39,16 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand lukkeklik" href="#">petrograd</a>
+                    <a class="navbar-brand lukkeklik" href="petrograd.html">petrograd</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a class="filterKnap_vegetar " href="#">VEGETAR</a></li>
-                        <li><a class="filterknap_tilbud " href="#">TILBUD</a></li>
-                        <li><a class="filterknap_alkohol " href="#">ALKOHOL</a></li>
-                        <li><a class="sorter_billigste " href="#">BILLIGSTE</a></li>
-                        <li><a class="sorter_dyreste " href="#">DYRESTE</a></li>
+                        <li><a class="filterknap_vegetar lukkeklik" href="">VEGETAR</a></li>
+                        <li><a class="filterknap_tilbud lukkeklik" href="">TILBUD</a></li>
+                        <li><a class="filterknap_alkohol lukkeklik" href="">ALKOHOL</a></li>
+                        <li><a class="sorter_billigste lukkeklik" href="">BILLIGSTE</a></li>
+                        <li><a class="sorter_dyreste lukkeklik" href="">DYRESTE</a></li>
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -68,9 +65,10 @@
     <div class="container-fluid main">
         <div class="row">
             <div class="col-sm-12 menuer">
-                <h1>Forretter</h1>
+                <h3>Forretter</h3>
             </div>
         </div>
+
         <div class="row forretter"></div>
 
 
@@ -82,38 +80,50 @@
         </div>
         <div class="row">
             <div class="col-sm-12 menuer">
-                <h1>Hovedretter</h1>
+                <hr>
+                <h3>Hovedretter</h3>
             </div>
         </div>
         <div class="row hovedretter"></div>
         <div class="row">
             <div class="col-sm-12 menuer">
-                <h1>Dessert</h1>
+                <hr>
+                <h3>Dessert </h1>
             </div>
         </div>
         <div class="row desserter"></div>
         <div class="row">
             <div class="col-sm-12 menuer">
-                <h1>Drikkevare &amp; sidere</h1>
+                        <hr>
+<!--
+<h3>Drikkevare</h3>
             </div>
         </div>
-        <div class="row drikke_og_sideorders"></div>
+        <div class="row drikkevarer"></div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                <hr> -->
+
+                <h3>Drikkevare m.m.</h3>
+            </div>
+        </div>
+        <div class="row drikkevare"></div>
+
 
         <!--her skal produkter lægges ind-->
         <template id="produkt_template">
-
-            <div class="col-xs-12 col-sm-6 col-md-3 produkt">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 produkt">
                 <img src="imgs/small/ringbroed-druer-sm.jpg" class="img-responsive data_billede">
-                <h3 class="data_navn">DATA_NAVN</h3>
+                <h5 class="data_navn">DATA_NAVN</h5>
                 <p class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</p>
-                <h4 class="pris">Pris: <span class="data_pris">DATA_PRIS</span> kr.</h4>
+                <h4 class="pris">Pris: <span class="data_pris">DATA_PRIS</span>,- kr</h4>
                 <!--todo sæt udsolgt class ved udsolgt!-->
-                <h4 class="udsolgttekst">Denne ret er desværre udsolgt</h4>
+                <h5 class="udsolgttekst">Denne ret er desværre udsolgt</h5>
                 <!--skal kun vises ved rabat-->
-                <h4 class="rabatpris">Pris: <span class="data_rabatpris">DATA_RABATPRIS</span> kr.</h4>
+                <h3 class="rabatpris">Rabatpris: <span class="data_rabatpris">DATA_RABATPRIS</span>,-  kr</h3>
                 <!--skla kun vises ved udsolgt
                 sæt rabat class ved rabat-->
-                <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal"> Detaljer </button>
+                <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
             </div>
 
 
@@ -123,28 +133,26 @@
 
         <!-- Modal -->
         <template id="modal_template">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Din ynglings bestilling</h5>
-                <h3 class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></h3>
+            <h5 class="modal-title" id="exampleModalLabel">Din ynglings bestilling</h5>
+            <h4 class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></h4>
 
-            </div>
+
 
             <div class="modal-body">
                 <img src="imgs/medium/ringbroed-druer-md.jpg" alt="" class="img-responsive data_billede modalbillede">
 
-                <h4 class="pris">Pris: <span class="data_pris">DATA_PRIS</span> kr.</h4>
-                <h4 class="rabatpris">Rabat pris: <span class="data_rabatpris">DATA_RABATPRIS</span>- kr</h4>
+                <h5 strong class="pris">Pris: <span class="data_pris">DATA_PRIS</span>,- kr</h5>
+                <h4 class="rabatpris">Rabat pris: <span class="data_rabatpris">DATA_RABATPRIS</span>,- kr</h4>
                 <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
-                <h5><span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></h5>
+                <h6>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></h6>
 
-                <h5>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </h5>
-                <h5>Alkoholprocent: <span class="data_alkoholprocent">DATA_ALKOHOLPROCENT</span> </h5>
-                <br>Stjerner<span class="data_stjerner">DATA_STJERNER</span>
+                <h6>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </h6>
+                <h6>Alkoholprocent: <span class="data_alkoholprocent">DATA_ALKOHOLPROCENT</span> </h6> Stjerner:
+                <span class="data_stjerner">DATA_STJERNER</span>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">CLOSE</button>
-            </div>
+            <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-link" data-dismiss="modal">CLOSE</button>
+
 
 
 
@@ -166,19 +174,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="petrograd.js"></script>
 
-    <!--<script>
-    $(document).ready(function () {
-        console.log("start");
-        $('.lukkeklik').click(function () {
-            var navbar_toggle = $('.navbar-toggle');
-            if (navbar_toggle.is(':visible')) {
-                navbar_toggle.trigger('click');
-            }
+    <script>
+        $(document).ready(function () {
+            console.log("start");
+            $('.lukkeklik').click(function () {
+                var navbar_toggle = $('.navbar-toggle');
+                if (navbar_toggle.is(':visible')) {
+                    navbar_toggle.trigger('click');
+                }
+            });
+
         });
-
-    });
-</script>-->
-
+    </script>
 
 
 </body>
