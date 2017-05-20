@@ -1,0 +1,159 @@
+[
+	{
+		"id": "Mødestedet Gefionspringvand, næste post er ved Broen",
+		"lng": 12.597404,
+		"lat": 55.689066,
+		"ll": "55.689066, 12.597404",
+		"video": "video_turen/moedestedet.mp4",
+		"images": "images_turen/moedestedet_1.png",
+		"images1": "images_turen/moedestedet_2.png",
+		"icon": "images_turen/icon-m.png",
+		"title": "Mødestedet Gefionspringsvandet",
+		"txt": "Gefionspringsvandet er det største monument, der er at finde i København. Springvandet ligger ved kastellet og Langlinie lige ved siden af Skt. Albans Kirke med de smukke spir. Værket er udført af billedhuggeren Anders Bundgård. Han arbejdede på det fra 1897 til, det blev afsløret i 1908. Det forestiller Gudinden Gefion, der med sine okser pløjer Sjælland ud af Sverige. Oprindeligt var det meningen, af kunstværket skulle stå på Rådhuspladsen, men dette blev ændret, da det skulle stå et sted nær Øresund. Ifølge sagnet illustrer springvandet, hvordan Sjælland blev skabt. Den svenske Kong Gylfe lovede gudinden Gefion lige så meget svensk jord, som hun kunne pløje på en dag og en nat. Så forvandlede Gefion sine fire sønner til okser og spændte dem for en plov. I løbet af en dag og en nat pløjede de så meget jord, at en bunke jord ude i Øresund blev til øen Sjælland. I Sverige var det et stort hul tilbage, som ifølge, sagnet blev til søen Vänern."
+    }, {
+		"id": "Post 1 Broen ved Gefionspringvandet, næste post er ved Churchillparken",
+		"lng": 12.598083,
+		"lat": 55.689495,
+		"ll": "55.689495, 12.598083",
+		"video": "video_turen/post1.mp4",
+		"images": "images_turen/post1_1.png",
+		"images1": "images_turen/post1_2.png",
+
+		"icon": "images_turen/icon-1.png",
+		"title": "Hej til turen Besættelsen",
+		"txt": "1. Kastellet. Kastellet blev som noget af det første besat den 9. april 1940, hvor tyskerne gik i land ved Langelinie og sprængte Norgesporten. Kastellet tjente derefter som tysk fængsel. Det vedblev med at være militærfængsel. Senest sad værnemagtens befuldmægtigede, Werner Best, som fange i Kastellet lige efter 1945. Oberstløjtnant Christian Peter Bokkenheuser fungerede som Kastellets kasernekommandanter i årene 1939 – 1949. Det store egetræ blev brugt som mindetræ ved 60-året for besættelsens ophør. "
+    }, {
+		"id": "Post 2 Statuen med Churchill, næste post er ved Mærsk",
+		"lng": 12.596634,
+		"lat": 55.688740,
+		"ll": "55.688740, 12.596634",
+		"video": "video_turen/post2.mp4",
+		"images": "images_turen/post2_1.png",
+		"images1": "images_turen/post2_2.png",
+
+		"icon": "images_turen/icon-2.png",
+		"title": "2. Churchill, Winston S. (1874-1965)",
+		"txt": "Britisk marineminister fra september 1939, hvor 2.verdenskrig i Europa begyndte. Afløste i maj 1940 Neville Chamberlain og var Premierminister for den Bristiske samlingsregning frem til krigens afslutning i 1945. Churchill var en ivrig forkæmper for, at Storbritannien deltog i krigen, og han afviste gang på gang i sine taler, at landet ville overgive sig til tyskerne. Han var et beundringsværdigt symbol på den britiske udholdenhed og kampvilje. Churchill så det som sine primære opgaver at sørge for, at de allierede holdt sammen samt fremme britiske interesser under og efter krigen. Trods sin store indsats under krigen tabte Churchill i 1945 valget til Labour, idet han var skeptisk over for befolkningens ønsker om velfærdsreformer."
+    }, {
+		"id": "Post 3 Statuen med Anders Andersen, næste post er rundt om busken",
+		"lng": 12.596568,
+		"lat": 55.688305,
+		"ll": "55.688305, 12.596568",
+		"video": "video_turen/post3.mp4",
+		"images": "images_turen/post3_1.png",
+		"images1": "images_turen/post3_2.png",
+
+		"icon": "images_turen/icon-3.png",
+		"title": "3. Anders Larsen",
+		"txt": "Anders Frederik Emil Victor Schau Lassen (22 september 1920 på Høvdingsgård - 9 april 1945 ved Comacchio i Italien) var en dansk officer i den britiske hær og gjorde tjeneste under det meste af 2. verdenskrig. Anders Lassen modtog som eneste udlænding i 2. verdenskrig Victoria Cross, som er den højeste britiske hædersbevisning for heltemod. (Tre danskere modtog denne orden i 1. verdskrig). Anders Larsen blev født den 22. september 1920 som søn af kaptajn i hæren Emil Victor Schau Lassen og Suzanne Maria Signe født Raben-Levetzau."
+    }, {
+		"id": "Post 4 Statue med Kaj Birkbrek",
+		"lng": 12.596542,
+		"lat": 55.688386,
+		"ll": "55.688386, 12.596542",
+		"video": "video_turen/post4.mp4",
+		"images": "images_turen/post4_1.png",
+		"images1": "images_turen/post4_2.png",
+
+		"icon": "images_turen/icon-4.png",
+		"title": "4. Kaj Birksted",
+		"txt": "Ønsket om at hædre Kaj Birksteds mindre er kun til en vis grad baserat på hans indsats i kampen mod Nazi-Tyskland under Anden Verdenskrig, hvor han opnåede status som flyver-es med følgende officielle tal for hans luftsejre: 10 (1/2) nedskudte, 1/2 sandsynligvis. nedskudt og 5 beskadigede. Dette gjorde ham til den hidtil eneste danske krigsflyver af international format. Kaj Birksted som Flyverløjtnant I (R) i 1939."
+    }, {
+		"id": "Post 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.594970,
+		"lat": 55.683571,
+		"ll": "55.683571, 12.594970",
+		"video": "video_turen/post5.mp4",
+		"images": "images_turen/post5_1.png",
+		"images1": "images_turen/post5_2.png",
+		"icon": "images_turen/icon-5.png",
+		"title": "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }, {
+		"id": "Post 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.593366,
+		"lat": 55.683952,
+		"ll": "55.683952, 12.593366",
+		"video": "video_turen/post6.mp4",
+		"images": "images_turen/post6_1.png",
+		"images1": "images_turen/post6_2.png",
+
+		"icon": "images_turen/icon-6.png",
+		"title": "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }, {
+		"id": "Post 7 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.588763,
+		"lat": 55.682385,
+		"ll": "55.682385, 12.588763",
+		"video": "video_turen/post7.mp4",
+		"images": "images_turen/post7_1.png",
+		"images1": "images_turen/post7_2.png",
+
+		"icon": "images_turen/icon-7.png",
+		"title": "7. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "7. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }, {
+		"id": "Post 8 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.587465,
+		"lat": 55.680668,
+		"ll": "55.680668, 12.587465",
+		"video": "video_turen/post8.mp4",
+		"images": "images_turen/post8_1.png",
+		"images1": "images_turen/post8_2.png",
+
+		"icon": "images_turen/icon-8.png",
+		"title": "8. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "8. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }, {
+		"id": "Post 9 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.585121,
+		"lat": 55.680916,
+		"ll": "55.680916, 12.585121",
+		"video": "video_turen/post9.mp4",
+		"images": "images_turen/post9_1.png",
+		"images1": "images_turen/post9_2.png",
+
+		"icon": "images_turen/icon-9.png",
+		"title": "9. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "9. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }, {
+		"id": "Post 10 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"lng": 12.580562,
+		"lat": 55.683475,
+		"ll": "55.683475, 12.580562",
+		"video": "video_turen/post10.mp4",
+		"images": "images_turen/post10_1.png",
+		"images1": "images_turen/post10_2.png",
+
+		"icon": "images_turen/icon-10.png",
+		"title": "10. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"txt": "10. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+    }
+    ,
+	{
+		"id": "tur1",
+		"navn": "Amerika",
+		"beskrivelse": "Rejsen til Amerika - fra 1800 hundrededetallet til førsteverdenskrig."
+
+    }, {
+		"id": "tur2",
+		"navn": "Holmen",
+		"beskrivelse": "Fra Honnør til hipster - om holmen."
+
+    }, {
+		"id": "tur3",
+		"navn": "Kolonisering",
+		"beskrivelse": "Koloniernes København - en anderledes byvandring."
+
+    }, {
+		"id": "tur4",
+		"navn": "Lægevidenskab",
+		"beskrivelse": "Fra vrøvl til videnskab - da lægevidenskaben tog form."
+    }, {
+		"id": "tur5",
+		"navn": "Fyraftenstur",
+		"beskrivelse": "Festlig fyraftenstur - en sjov byvandring."
+    }
+
+]
