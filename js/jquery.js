@@ -17,6 +17,7 @@
         m = function (a, b) {
             return new m.fn.init(a, b)
         },
+
         n = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
         o = /^-ms-/,
         p = /-([\da-z])/gi,

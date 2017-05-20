@@ -8,6 +8,8 @@ function initMap() {
 		lng: 12.597405
 
 
+
+
 	};
 	map = new google.maps.Map(document.getElementById("map"), {
 		zoom: 19,
