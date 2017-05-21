@@ -6,6 +6,8 @@
 
 body {
 	position: relative;
+	width: 100%;
+	height: 100%;
 	background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
 }
 #section {
@@ -50,34 +52,45 @@ body {
 	}
 */
 .video{
-	height: 200px;
-	width: 400px;
+	background-size: 100%;
+	height: 100px;
+	width: 200px;
 	background-color: black;
 	color:white;
 }
+/*
 	.loginoverskrift {
 		top: 1vw;
 	}
+*/
 	/*
 		.pingvin img {
 		height: 37vw;
 		padding-top: 5%;
 	}
 */
-	.login {
+	.logologin {
 		height: 100%;
 		background-size: 100%;
-		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+		background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
 		background-repeat: no-repeat;
-		background-color: #ffffff;
 	}
-.login img{
-	width: 100%;
-}
-
+.logologin1 img{
+		padding-top: 10vw;
+		height: 40%;
+	width: 40%;
+		background-repeat: no-repeat;
+	}
+.logologin2 img{
+		height: 40%;
+	width: 40%;
+		background-repeat: no-repeat;
+	}
+/*
 .likontaktinfo {
 	margin-top: 7vw;
 }
+*/
 
 .r-responsive {
 	padding-top: 1vw;
@@ -181,7 +194,6 @@ h5 {
 	color: black;
 	text-decoration: none;
 }
-
 .panel-default {
 	border-color: rgba(0, 0, 0, 0);
 }
@@ -192,11 +204,6 @@ h5 {
 	border-top: 0px;
 }
 
-.bg-success {
-	border-color: rgba(0, 0, 0, 0);
-	border-top-color: rgba(0, 0, 0, 0);
-	border-top: 0px;
-}
 
 .panel-default .panel-heading {
 	background-color: rgba(0, 0, 0, 0);
@@ -218,9 +225,7 @@ h5 {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.panel-body {
-	border-color: rgba(0, 0, 0, 0);
-}
+
 
 .panel {
 	background-color: rgba(0, 0, 0, 0);
@@ -281,6 +286,7 @@ table {
 	justify-content: space-between;
 	padding-right: 0vw;
 	padding-left: 0vw;
+	display: flex;
 }
 
 .some ul img {
@@ -298,43 +304,13 @@ footer {
 	background-color: #000;
 }
 
-.pil {
-	z-index: 10000;
-	position: fixed;
-	top: 125vw;
-	left: 90vw;
-	height: 12vw;
-	width: 8vw;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
 
 #map {
 	height: 40vw;
 	margin-top: 2vw;
 }
 
-#proces {
-	border: dashed 2px #1E88E5;
-}
 
-.login {
-	height: 100vw;
-	background-size: 100%;
-	background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
-	background-repeat: no-repeat;
-	background-color: #ffffff;
-}
-
-/*
-.login form {
-	padding-left: 1vw;
-	color: white;
-	position: absolute;
-	display: inline-flex;
-	top: 40vw;
-}
-*/
 
 .loginoverskrift {
 	top: 25vw;
@@ -342,18 +318,28 @@ footer {
 }
 
 
-/*
-.pingvin img {
-	height: 40vw;
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-*/
 
 @media screen and (min-width: 767px) and (orientation: landscape) {
 	body {
 		position: relative;
 		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+	}
+	.logologin {
+		height: 100%;
+		background-size: 100%;
+		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+		background-repeat: no-repeat;
+	}
+.logologin1 img{
+		padding-top: 10vw;
+		height: 100%;
+	width: 100%;
+		background-repeat: no-repeat;
+	}
+.logologin2 img{
+		height: 100%;
+	width: 100%;
+		background-repeat: no-repeat;
 	}
 	h1 {
 		font-family: 'Source Sans Pro';
@@ -361,6 +347,7 @@ footer {
 		font-size: 6vw;
 		color: rgb(72, 58, 37);
 	}
+
 /*
 	.login form {
 		padding-left: 1vw;
@@ -380,6 +367,7 @@ footer {
 		padding-top: 5%;
 	}
 */
+/*
 	.login {
 		padding: 0px;
 		height: 100%;
@@ -387,8 +375,8 @@ footer {
 		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
 		background-repeat: no-repeat;
 		background-color: #ffffff;
-/*		display: flex;*/
 	}
+*/
 	.login img {
 		padding-top: 5vw;
 		width: 50vw;
