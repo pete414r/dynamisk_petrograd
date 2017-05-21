@@ -52,9 +52,10 @@ body {
 	}
 */
 .video{
+	margin-left: 5vw;
 	background-size: 100%;
-	height: 100px;
-	width: 200px;
+	height: 400px;
+	width: 600px;
 	background-color: black;
 	color:white;
 }
@@ -76,14 +77,14 @@ body {
 		background-repeat: no-repeat;
 	}
 .logologin1 img{
-		padding-top: 10vw;
-		height: 40%;
-	width: 40%;
+		padding-top: 12vw;
+		height: 100%;
+	width: 100%;
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
-		height: 40%;
-	width: 40%;
+		height: 80%;
+	width: 80%;
 		background-repeat: no-repeat;
 	}
 /*
@@ -151,7 +152,7 @@ ol {
 
 p {
 	font-family: 'Source Sans Pro';
-	padding-left: 7vw;
+	padding-left: 1vw;
 	font-size: 2vw;
 	color: rgb(72, 58, 37);
 }
@@ -160,14 +161,15 @@ h1 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 8vw;
-	color: rgb(72, 58, 37);
+	color: rgb(255, 255, 255);
 }
 
 h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
-	font-size: 4vw;
-	color: rgb(72, 58, 37);
+	font-size: 5vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px;
 }
 
 h4 {
@@ -175,15 +177,14 @@ h4 {
 	font-size: 4vw;
 	padding-left: 11vw;
 	padding-bottom: 1vw;
-	color: rgb(72, 58, 37);
+	color: rgb(0, 0, 0);
 }
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 3vw;
-	padding-left: 11vw;
+	font-size: 1.5vw;
 	padding-bottom: 1vw;
-	color: rgb(72, 58, 37);
+	color: rgb(0, 0, 0);
 }
 
 .panel a {
@@ -245,33 +246,66 @@ table {
 }
 
 .samlogo {
-	padding: 2vw;
+	margin-top: 2vw;
 }
 
 .pic1 {
-	width: 200px;
-	height: 200px;
-	background: url(../images_sitet/kea.png);
+	width: 155px;
+	height: 155px;
+	background: url(../images_turen/cs_partiring_alternativet.png);
+	border-radius: 50%;
 }
 
 .text1 {
 	transition: ease-in-out 1s;
 	padding-top: 10px;
-	width: 200px;
-	height: 200px;
+	width: 155px;
+	height: 155px;
 	background: #ffffff;
 	opacity: 0;
 }
 
 .pic1:hover .text1 {
 	padding-top: 25px;
-	opacity: 0.7;
+	opacity: 0.9;
 	text-align: center;
-	font-size: 20px;
+	font-size: 12px;
 	font-weight: 700;
 	border-radius: 20%;
 }
-
+.pic2 {
+	background: url(../images_turen/cs_partiring_dansk_folkeparti.png);
+}
+.pic3 {
+	background: url(../images_turen/cs_partiring_enhedslisten.png);
+}
+.pic4 {
+	background: url(../images_turen/cs_partiring_guldborgssundlisten.png);
+}
+.pic5 {
+	background: url(../images_turen/cs_partiring_konservative_folkeparti.png);
+}
+.pic6 {
+	background: url(../images_turen/cs_partiring_kristendemokraterne.png);
+}
+.pic7 {
+	background: url(../images_turen/cs_partiring_lbeiral_aliance.png);
+}
+.pic8 {
+	background: url(../images_turen/cs_partiring_oerige.png);
+}
+.pic9 {
+	background: url(../images_turen/cs_partiring_radikale_venstre.png);
+}
+.pic10 {
+	background: url(../images_turen/cs_partiring_slesvigskparti.png);
+}
+.pic11 {
+	background: url(../images_turen/cs_partiring_socialdemokratiet.png);
+}
+.pic12 {
+	background: url(../images_turen/cs_partiring_venstre.png);
+}
 input {
 	font-size: 3vw;
 	color: black;
@@ -315,12 +349,12 @@ footer {
 @media screen and (min-width: 767px) and (orientation: landscape) {
 	body {
 		position: relative;
-		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
 	}
 	.logologin {
 		height: 100%;
 		background-size: 100%;
-		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
 		background-repeat: no-repeat;
 	}
 .logologin1 img{
@@ -330,15 +364,19 @@ footer {
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
+	padding-top: 6vw;
 		height: 100%;
 	width: 100%;
 		background-repeat: no-repeat;
+	}
+	h5{
+		font-size: 2.5vw;
 	}
 	h1 {
 		font-family: 'Source Sans Pro';
 		padding: 2vw 2vw 2vw 2vw;
 		font-size: 6vw;
-		color: rgb(72, 58, 37);
+		color: rgb(255, 255, 255);
 	}
 
 /*

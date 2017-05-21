@@ -133,27 +133,27 @@
     ,
 	{
 		"id": "tur1",
-		"navn": "Amerika",
-		"beskrivelse": "Rejsen til Amerika - fra 1800 hundrededetallet til førsteverdenskrig."
+		"navn": "Region Hovedstaden",
+		"beskrivelse": "Regionsforvaltning Hillerød Indbyggere 1.807.404 (1.1.2017) Regionsrådsformand Sophie Hæstorp Andersen Websted regionh.dk."
 
     }, {
 		"id": "tur2",
-		"navn": "Holmen",
-		"beskrivelse": "Fra Honnør til hipster - om holmen."
+		"navn": "Region Midtjylland",
+		"beskrivelse": "Regionsforvaltning Viborg Indbyggere 1.282.750 (1.1.2015) Regionsrådsformand Bent Hansen Websted www.rm.dk."
 
     }, {
 		"id": "tur3",
-		"navn": "Kolonisering",
-		"beskrivelse": "Koloniernes København - en anderledes byvandring."
+		"navn": "Region Nordjylland",
+		"beskrivelse": "Regionsforvaltning Aalborg Indbyggere 582.632 (1.1.2015) Regionsrådsformand Ulla Astman Websted www.rn.dk."
 
     }, {
 		"id": "tur4",
-		"navn": "Lægevidenskab",
-		"beskrivelse": "Fra vrøvl til videnskab - da lægevidenskaben tog form."
+		"navn": "Region Syddanmark",
+		"beskrivelse": "Regionsforvaltning Vejle Indbyggere 1.217.224 (1.1.2017) Regionsrådsformand Stephanie Lose Websted www.regionsyddanmark.dk."
     }, {
 		"id": "tur5",
-		"navn": "Fyraftenstur",
-		"beskrivelse": "Festlig fyraftenstur - en sjov byvandring."
+		"navn": "Region Sjælland",
+		"beskrivelse": "Regionsforvaltning Sorø Indbyggere 820.480 (1.1.2015) Regionsrådsformand Jens Stenbæk Websted www.regionsjaelland.dk."
     }
 
 ]
