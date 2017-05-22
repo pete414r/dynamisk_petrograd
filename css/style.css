@@ -184,7 +184,7 @@ h5 {
 	font-family: 'Source Sans Pro';
 	font-size: 1.5vw;
 	padding-bottom: 1vw;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 .panel a {
@@ -259,8 +259,8 @@ table {
 .text1 {
 	transition: ease-in-out 1s;
 	padding-top: 10px;
-	width: 155px;
-	height: 155px;
+	width: 180px;
+	height: 180px;
 	background: #ffffff;
 	opacity: 0;
 }
