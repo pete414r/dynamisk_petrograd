@@ -8,6 +8,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	background-size: 100%;
 	background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
 }
 #section {
@@ -54,8 +55,8 @@ body {
 .video{
 	margin-left: 5vw;
 	background-size: 100%;
-	height: 300px;
-	width: 600px;
+	height: 20vw;
+	width: 80vw;
 	background-color: black;
 	color:white;
 }
@@ -70,21 +71,22 @@ body {
 		padding-top: 5%;
 	}
 */
+/*
 	.logologin {
 		height: 100%;
 		background-size: 100%;
 		background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
 		background-repeat: no-repeat;
 	}
+*/
 .logologin1 img{
-		padding-top: 12vw;
 		height: 100%;
 	width: 100%;
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
-		height: 80%;
-	width: 80%;
+		height:100%;
+	width: 100%;
 		background-repeat: no-repeat;
 	}
 /*
@@ -127,7 +129,7 @@ guider {
 	text-align: center;
 	background-color: rgba(72, 38, 37, );
 	color:#fff;
-	height:8vw;
+	height:7.4vw;
 }
 .affix {
 	z-index: 25;
@@ -135,7 +137,7 @@ guider {
       width: 100%;
   }
 .social-nav a{
-	color:white;
+	color:lightgoldenrodyellow;
 }
 .aforside{
 	transition: ease-in-out 1s;
@@ -215,14 +217,16 @@ h4 {
 }
 
 h5 {
+	line-height: 5.7vw;
 	font-family: 'Source Sans Pro';
-	font-size: 1.5vw;
+	font-size: 2.3vw;
 	padding-bottom: 1vw;
 	color: rgb(255, 255, 255);
 }
 h7{
 	font-size: 2.5vw;
-	color:#3f0000;
+	color:crimson
+/*	color:#3f0000;*/
 }
 .panel a {
 	color: aliceblue;
@@ -366,14 +370,18 @@ table {
 }
 
 .some {
-	margin-top: 6vw;
+	margin-top: 1vw;
 	justify-content: space-between;
 	padding-right: 0vw;
 	padding-left: 0vw;
 	display: flex;
+	height: 7vw;
 }
 
-.some ul img {
+.some ul li{
+	color: black;
+}
+.some ul li img {
 	width: 10%;
 	border-radius: 30%;
 	border: 2px solid #fff;
@@ -381,7 +389,6 @@ table {
 
 footer {
 	background-color: black;
-	margin-top: 5vw;
 }
 
 .rowoverfotter {
@@ -400,35 +407,53 @@ footer {
 @media screen and (min-width: 767px) and (orientation: landscape) {
 	body {
 		position: relative;
+		width: 100%;
+	height: 100%;
+	background-size: 100%;
 		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
 	}
-	.logologin {
-		height: 100%;
-		background-size: 100%;
-		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
-		background-repeat: no-repeat;
-	}
-.logologin1 img{
-		padding-top: 10vw;
-		height: 100%;
-	width: 100%;
+	.affixbar {
+	text-align: center;
+	background-color: rgba(72, 38, 37, );
+	color:#fff;
+	height:6.4vw;
+}
+.affix {
+	z-index: 25;
+      top: 0;
+      width: 100%;
+  }
+	.logologin1 img{
+		height: 35%;
+	width: 35%;
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
-	padding-top: 6vw;
-		height: 100%;
-	width: 100%;
+	margin-left: 13vw;
+	padding-top: 2vw;
+		height: 50%;
+	width: 50%;
 		background-repeat: no-repeat;
 	}
 	h5{
 		font-size: 2.5vw;
 	}
 	h1 {
+		margin-left: 11vw;
 		font-family: 'Source Sans Pro';
 		padding: 2vw 2vw 2vw 2vw;
 		font-size: 6vw;
 		color: rgb(255, 255, 255);
 	}
+	h6{
+		font-size: 2.5vw;
+		color:white
+	}
+	.rowoverfotter ul{
+		margin-top: 7vw;
+	color: #fff;
+	background-color: #000;
+}
 
 /*
 	.login form {
@@ -477,5 +502,6 @@ footer {
 	#map {
 		height: 30vw;
 		padding: 5vw;
+		border-radius: 5%;
 	}
 }
