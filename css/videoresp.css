@@ -19,7 +19,7 @@ body {
 }
 
 .btn-link {
-	color: #00bb6c;
+	color: #168f2f;
 }
 
 video {
@@ -48,7 +48,7 @@ video {
 .hs-responsive-embed-youtube iframe {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 100vw;
 }
 
 .center {
@@ -57,12 +57,19 @@ video {
 }
 
 .large a {
-	color: #00bb6c;
+	color: #168f2f;
 	font-size: 2vw;
 	text-decoration: none;
 }
-
-
+.mainbaggrund{
+	background-image: url(../images_turen/cs_flovding_bg_landskab_.png);
+	background-size: 100%;
+	height: 100%;
+}
+form{
+	margin-left: 0;
+	margin-right: 0;
+}
 /*
 video {
 	z-index: 1000;
@@ -107,15 +114,30 @@ h4 {
 }
 
 a {
-	color: #cc0000;
+	color: #f51021;
 	font-size: 20px;
 }
 
 li a {
 	font-size: 2vw;
-	color: #cc0000;
+	color: #0479be;
 }
-
+h6{
+	color: #168f2f;
+	font-size: 2vw;
+	text-align: center;
+}
+h5{
+	color: #168f2f;
+	font-size: 3vw;
+	text-align: center;
+}
+h4{
+	color: #168f2f;
+	font-size: 3vw;
+	text-align: center;
+	font-weight: 900;
+}
 ul {
 	text-align: right;
 }
@@ -148,11 +170,16 @@ kampagne {
 	position: absolute;
 	background-size: 100%;
 	border-radius: 20%;
-	margin-top: 20px;
-	width: 200px;
-	height: 180px;
+	margin-top: 2vw;
+	width: 20vw;
+	height: 18vw;
 	background-image: url(../images_turen/cs_logo_gul_small.png);
 	background-color: white;
-	color: #cc0000;
+	color: #f51021;
 	background-repeat: no-repeat;
+	text-align: center;
+}
+.vinner-center{
+	margin-top: 5vw;
+
 }
