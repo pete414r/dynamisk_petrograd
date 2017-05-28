@@ -1,0 +1,27 @@
+[
+{
+		"id": "tur1",
+		"navn": "Valgkortet",
+		"beskrivelse": "Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato."
+
+    }, {
+		"id": "tur2",
+		"navn": "Byliv",
+		"beskrivelse": "Festen er kun lige begyndt."
+
+    }, {
+		"id": "tur3",
+		"navn": "Valgstedet",
+		"beskrivelse": "Valgstedet summer af liv, så hyg op med dine venner og lav det til en fest."
+
+    }, {
+		"id": "tur4",
+		"navn": "Byliv",
+		"beskrivelse": "Lad det være en fest, cocktailbaren er lige rundt om hjørnet."
+    }, {
+		"id": "tur5",
+		"navn": "Stemmeafgivelse",
+		"beskrivelse": "Huske dit valgkort, dit navn og personnummer, find din valgtilforordnet og få dit valgliste."
+    }
+
+]
