@@ -43,13 +43,14 @@ function initMap() {
 		listen.forEach(visPunktInfo);
 	}
 	var bounds = {
-		north: 55.695646,
-		south: 55.674656,
-		east: 12.621274,
-		west: 12.560273
+		north: 58.117764258222024,
+		south: 54.373327731522416,
+		east: 13.929399559375042,
+		west: 7.183794090625042
+
 
 	}
-	var overlay = new google.maps.GroundOverlay("images_turen/kort_kbhture_A12-01.svg", bounds);
+	var overlay = new google.maps.GroundOverlay("../images_turen/kort_kbhture_A12-01.svg", bounds);
 	overlay.setMap(map);
 
 	function visPunktInfo(punkt) {

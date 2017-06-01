@@ -344,7 +344,7 @@ table {
 	text-align: center;
 }
 .pic8 {
-	background: url(../images_turen/cs_partiring_oerige.png);
+	background: url(../images_turen/cs_partiring_socialistisk_folkeparti.png);
 	text-align: center;
 }
 .pic9 {
@@ -523,7 +523,135 @@ footer {
 		background-repeat: no-repeat;
 	}
 	#map {
-		height: 30vw;
+		height: 50vw;
+		padding: 5vw;
+		border-radius: 5%;
+	}
+
+.hs-responsive-embed-youtube {
+	 width:640px;
+	height:320px;
+	position: relative;
+	padding-bottom: 60%;
+	/* 16:9 Aspect Ratio */
+	padding-top: 1px;
+	margin-bottom: 1vw;
+}
+
+.hs-responsive-embed-youtube iframe {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+	width: 50vw;
+	margin: 0 auto;
+}
+	h7{
+	font-size: 2.5vw;
+	color:#000;
+/*	color:#3f0000;*/
+}
+
+@media screen and (min-width: 1600px) and (orientation: landscape) {
+	body {
+		width: 100%;
+	height: 100%;
+	background-size: 100%;
+		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
+	}
+	.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height:6.4vw;
+}
+.affix {
+	z-index: 25;
+      top: 0;
+      width: 100%;
+  }
+	.logologin1 img{
+		height: 35%;
+	width: 35%;
+		background-repeat: no-repeat;
+	}
+.logologin2 img{
+	margin-left: 13vw;
+	padding-top: 2vw;
+		height: 50%;
+	width: 50%;
+		background-repeat: no-repeat;
+	}
+	h5{
+		font-size: 2.5vw;
+	}
+	h1 {
+		margin-left: 11vw;
+		font-family: 'Source Sans Pro';
+		padding: 2vw 2vw 2vw 2vw;
+		font-size: 3vw;
+		color: rgb(255, 255, 255);
+	}
+	h6{
+		margin-left: 2vw;
+		font-size: 2.5vw;
+		color:white
+	}
+	.rowoverfotter ul{
+		margin-top: 7vw;
+	color: #fff;
+	background-color: #000;
+}
+
+/*
+	.login form {
+		padding-left: 1vw;
+		color: white;
+		display: inline-flex;
+		top: 30vw;
+	}
+*/
+/*
+	.loginoverskrift {
+		top: 5vw;
+	}
+*/
+	/*
+		.pingvin img {
+		height: 37vw;
+		padding-top: 5%;
+	}
+*/
+/*
+	.login {
+		padding: 0px;
+		height: 100%;
+		background-size: 100%;
+		background-image: url(../images_turen/cs_web_baggrund_landskab-12345.jpg);
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+	}
+*/
+	.login img {
+		padding-top: 5vw;
+		width: 50vw;
+
+	}
+	.pil {
+		z-index: 10000;
+		position: fixed;
+		top: 35vw;
+		left: 90vw;
+		height: 12vw;
+		width: 8vw;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	#map {
+		height: 50vw;
 		padding: 5vw;
 		border-radius: 5%;
 	}

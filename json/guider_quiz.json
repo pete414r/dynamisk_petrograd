@@ -1,39 +1,37 @@
 [
 
 	{
-		"guide1navn": "Sa",
-		"guide1posi": "Under",
-		"guide2navn": "Me",
-		"guide2posi": "ing",
+		"guide1navn": "",
+		"guide1posi": "",
+		"guide2navn": "",
+		"guide2posi": "",
 
-		"spgidm": "Mødestedet Test",
-		"svaridm1": "Russisk",
-		"svaridm2": "Russisk Russisk",
-		"svaridm3": "Russisk Russisk Russisk",
-		"rigtsvaridm": "3. Russisk Russisk Russisk",
 
-		"spgid1": "Post 1.",
-		"svarid11": "Til",
-		"svarid12": "En ",
-		"svarid13": "sen",
+
+		"spgidm": "Region Hovedstaden",
+		"svaridm1": "Regionsforvaltning Hillerød Indbyggere 1.807.404 (1.1.2017) Regionsrådsformand Sophie Hæstorp Andersen",
+		"svaridm2": "Websted regionh.dk (21.05.17)",
+		"rigtsvaridm": "hør",
+
+
+		"spgid1": "Region Midtjylland",
+		"svarid11": "Regionsforvaltning Viborg Indbyggere 1.282.750 (1.1.2015) Regionsrådsformand Bent Hansen",
+		"svarid12": "Websted www.rm.dk (21.05.17)",
 		"rigtsvarid1": "hør",
 
-		"spgid2": "Post 2.",
-		"svarid21": "serne",
-		"svarid22": "former",
-		"svarid23": "erne",
+		"spgid2": "Region Nordjylland",
+		"svarid21": "Regionsforvaltning Aalborg Indbyggere 582.632 (1.1.2015) Regionsrådsformand Ulla Astman",
+		"svarid22": "Websted www.rn.dk (21.05.17)",
 		"rigtsvarid2": "former",
 
-		"spgid3": "Post 3.",
-		"svarid31": "Den",
-		"svarid32": "Det",
-		"svarid33": "Den",
+		"spgid3": "Region Syddanmark",
+		"svarid31": "Regionsforvaltning Vejle Indbyggere 1.217.224 (1.1.2017) Regionsrådsformand Stephanie Lose",
+		"svarid32": "Websted www.regionsyddanmark.dk (21.05.17)",
 		"rigtsvarid3": "oss",
 
-		"spgid4": "Post 4.",
-		"svarid41": "Holland",
-		"svarid42": "Holland Holland",
-		"svarid43": "Holland Holland Holland",
+		"spgid4": "Region Sjælland",
+		"svarid41": "Regionsforvaltning Sorø Indbyggere 820.480 (1.1.2015) Regionsrådsformand Jens Stenbæk",
+		"svarid42": "Websted www.regionsjaelland.dk (21.05.17)",
 		"rigtsvarid4": "3. Holland Holland Holland",
 
 		"spgid5": "Post 5.",
