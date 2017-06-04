@@ -52,7 +52,13 @@ h6{
 	margin: 0 auto;
 	background-repeat: no-repeat;
 }
-
+h7{
+	padding: 1vw;
+	font-family: 'Source Sans Pro';
+	font-size: 2.5vw;
+	color:#f51021;
+/*	color:#3f0000;*/
+}
 .barometer {
 	height: 3vw;
 	position: absolute;
@@ -110,9 +116,9 @@ li {
 }
 
 .prikker {
-	display: none;
+	z-index: 25;
 	position: absolute;
-	top: 32vw;
+	top: 80vw;
 	left: 4vw;
 	width: 2.5vw;
 	height: 2.5vw;
@@ -131,7 +137,68 @@ li {
 		background-position: 0% 0;
 	}
 }
+.affixbar {
+	text-align: center;
+	background-color: rgba(72, 38, 37, );
+	color:#fff;
+	height:8vw;
+}
+.affix {
+	z-index: 25;
+      top: 0;
+      width: 100%;
+  }
+.social-nav a{
+	z-index: 10;
+	color:lightgoldenrodyellow;
+}
+.aforside{
+	transition: ease-in-out 1s;
+	background-color: black;
+}
+.apartiinfo{
+	transition: ease-in-out 1s;
+	background-color: black;
+}
+.avalginfo{
+	transition: ease-in-out 1s;
+	background-color: black;
+}
+.akonkurrence{
+	transition: ease-in-out 1s;
+	background-color: black;
+}
+.akontakt{
+	transition: ease-in-out 1s;
+	background-color: black;
+}
 
+a {
+	color: grey;
+}
+
+.nav {
+	font-size: 2.5vw;
+	z-index: 10;
+}
+
+.navbar {
+	background-color: rgba(72, 38, 37, 0.52);
+}
+
+ul {
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	font-size: 2.5vw;
+}
+
+#myNavbar ul li a {
+	color: #168f2f;
+}
+
+ol {
+	color: #000;
+}
 .info {
 	display: none;
 	position: absolute;
