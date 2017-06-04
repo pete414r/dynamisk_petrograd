@@ -16,12 +16,12 @@ function initMap() {
 		center: center
 
 	});
-	$.getJSON("json/ture_maps_info.json", visKort);
+	$.getJSON("../json/ture_maps_info.json", visKort);
 
 	var mig = new google.maps.Marker({
 		map: map,
-		icon: "images_turen/pointer_5turen.png",
-		title: "Husk at stemme til kommunalvalget 21. november"
+		icon: "../images_turen/pointer_5turen.png",
+		title: "Husk at stemme"
 
 	});
 	if (navigator.geolocation) {
@@ -50,7 +50,7 @@ function initMap() {
 
 
 	}
-	var overlay = new google.maps.GroundOverlay("images_turen/kort_kbhture_A12-01.svg", bounds);
+	var overlay = new google.maps.GroundOverlay("../images_turen/kort_kbhture_A12-01.svg", bounds);
 	overlay.setMap(map);
 
 	function visPunktInfo(punkt) {
@@ -65,8 +65,8 @@ function initMap() {
 			map: map,
 
 
-			icon: "images_turen/pointer_5turen.png",
-			title: "hej til Københavnerture",
+			icon: "../images_turen/pointer_5turen.png",
+			title: "Husk at stemme til kommunalvalget",
 			animation: google.maps.Animation.DROP,
 			icon: punkt.icon
 		});
@@ -83,11 +83,10 @@ function initMap() {
 			tempinfo.querySelector(".re-responsive").src = punkt.video;
 			tempinfo.querySelector(".r-responsive").src = punkt.images;
 			tempinfo.querySelector(".res-responsive").src = punkt.images1;
-			tempinfo.querySelector(".pclass").innerHTML = punkt.txt;
+			tempinfo.querySelector(".h1class").innerHTML = punkt.txt;
 			tempinfo.querySelector(".pclass").innerHTML = punkt.title;
 			infowindow.setContent(tempinfo);
 			infowindow.open(map, m);
 		}
-
 	}
 }
