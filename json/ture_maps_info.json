@@ -1,8 +1,8 @@
 [
 	{
 		"id": "Region Hovedstaden",
-		"lng": 12.597404,
-		"lat": 55.689066,
+		"lng": 12.3496186,
+		"lat": 55.9330901,
 		"ll": "55.689066, 12.597404",
 		"video": "",
 		"images": "images_turen/RegionHlogo.png",
@@ -12,8 +12,8 @@
 		"txt": "Websted www.regionh.dk"
     }, {
 		"id": "Region Midtjylland",
-		"lng": 12.598083,
-		"lat": 55.689495,
+		"lng": 9.3990542,
+		"lat": 56.4535589,
 		"ll": "55.689495, 12.598083",
 		"video": "",
 		"images": "images_turen/midt_logo_logotype_2.jpg",
@@ -23,8 +23,8 @@
 		"txt": "Websted www.rm.dk.dk"
     }, {
 		"id": "Region Nordjylland",
-		"lng": 12.596634,
-		"lat": 55.688740,
+		"lng": 9.9834693,
+		"lat": 57.0173519,
 		"ll": "55.688740, 12.596634",
 		"video": "",
 		"images": "images_turen/regionnordjyllandlogo.jpg",
@@ -34,8 +34,8 @@
 		"txt": "Websted www.rn.dk"
     }, {
 		"id": "Region Syddanmark",
-		"lng": 12.596568,
-		"lat": 55.688305,
+		"lng": 9.5225556,
+		"lat": 55.7047836,
 		"ll": "55.688305, 12.596568",
 		"video": "",
 		"images": "images_turen/rs_logo.jpg",
@@ -46,8 +46,8 @@
 		"txt": "Websted www.regionsyddanmark.dk"
     }, {
 		"id": "Region Sjælland",
-		"lng": 12.596542,
-		"lat": 55.688386,
+		"lng": 11.5570313,
+		"lat": 55.438047,
 		"ll": "55.688386, 12.596542",
 		"video": "",
 		"images": "images_turen/20161013_104329sjarllogo.jpg",
@@ -56,64 +56,64 @@
 		"title": "Regionsforvaltning Sorø Indbyggere 820.480 (1.1.2015) Regionsrådsformand Jens Stenbæk",
 			"txt": "Websted www.regionsjaelland.dk"
     }, {
-		"id": "Post 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"lng": 12.594970,
-		"lat": 55.683571,
+		"id": "DRAGØR KOMMUNE",
+		"lng": 12.6350143,
+		"lat": 55.596464,
 		"ll": "55.683571, 12.594970",
 		"video": "video_turen/post5.mp4",
 		"images": "images_turen/post5_1.png",
 		"images1": "images_turen/post5_2.png",
 		"icon": "images_turen/icon-5.png",
-		"title": "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"txt": "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+		"title": "Politikker og indsatsområder. Få indblik i udvalgte politikker, strategier og indsatsområder i Dragør Kommune. Dragør Kommune er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km² Befolkningstal: 14.028 (1. jan. 2015)",
+		"txt": "www.dragoer.dk"
     }, {
-		"id": "Post 6 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"lng": 12.593366,
-		"lat": 55.683952,
+		"id": "SAMSØ KOMMUNE",
+		"lng": 10.5874223,
+		"lat": 55.831264,
 		"ll": "55.683952, 12.593366",
 		"video": "video_turen/post6.mp4",
 		"images": "images_turen/post6_1.png",
 		"images1": "images_turen/post6_2.png",
 
 		"icon": "images_turen/icon-6.png",
-		"title": "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"txt": "6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+		"title": "Politikker og strategier. Få et overblik over de mange forskellige projekter, Samsø Kommune har gang i, og bliv klogere på kommunens økonomi, politikker og langsigtede strategier. Samsø Kommune udgør det lokale styre på Samsø og en række småøer. Kommunen blev dannet pr. 1. april 1962 ved sammenlægning af sognekommunerne Besser, Kolby, Nordby, Onsbjerg og Tranebjerg Areal: 114,71 km² Befolkningstal: 3.724 (2017)",
+		"txt": "www.samsoe.dk"
     }, {
-		"id": "Post 7 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"lng": 12.588763,
-		"lat": 55.682385,
+		"id": "LÆSØ KOMMUNE",
+		"lng": 10.9972047,
+		"lat": 57.2563006,
 		"ll": "55.682385, 12.588763",
 		"video": "video_turen/post7.mp4",
 		"images": "images_turen/post7_1.png",
 		"images1": "images_turen/post7_2.png",
 
 		"icon": "images_turen/icon-7.png",
-		"title": "7. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"txt": "7. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+		"title": "Vedtagne politikker og strategier Kommunikationspolitik Solpolitik Sammenhængende politik for alle børn og unge Læsø Kommune er en kommune i Region Nordjylland. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret efter kommunesammenlægningen Areal: 118,4 km² Befolkningstal: 1.793 (2017)",
+		"txt": "www.laesoe.dk"
     }, {
-		"id": "Post 8 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"lng": 12.587465,
-		"lat": 55.680668,
+		"id": "FANØ KOMMUNE",
+		"lng": 8.4006297,
+		"lat": 55.446101,
 		"ll": "55.680668, 12.587465",
 		"video": "video_turen/post8.mp4",
 		"images": "images_turen/post8_1.png",
 		"images1": "images_turen/post8_2.png",
 
 		"icon": "images_turen/icon-8.png",
-		"title": "8. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"txt": "8. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+		"title": "Politikker, planer og strategier KommuneplanKommuneplanen er Fanø Byråds overordnede plan for kommunens udvikling By- og lokalplaner Fanø Kommunes lokalplan nr. 1 blev vedtaget i 1978 Fanø Kommune er en kommune i Region Syddanmark. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune Areal: 59,86 km² Indbyggere 3.345 (2017)",
+		"txt": "www.fanoe.dk"
     }, {
-		"id": "Post 9 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"lng": 12.585121,
-		"lat": 55.680916,
+		"id": "SOLRØD KOMMUNE",
+		"lng": 12.2121907,
+		"lat":55.533792,
 		"ll": "55.680916, 12.585121",
 		"video": "video_turen/post9.mp4",
 		"images": "images_turen/post9_1.png",
 		"images1": "images_turen/post9_2.png",
 
 		"icon": "images_turen/icon-9.png",
-		"title": "9. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		"txt": "9. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare id leo ac cursus. Mauris consequat pulvinar velit vel rhoncus."
+		"title": "Planer og politikker På denne side finder du de overordnede politikker og planer En stor del af politikkerne og planerne udstikker visioner og mål for et enkelte fagområde, mens andre går på tværs af fagområder og dækker kommunen i bred forstand. Solrød Kommune er en kommune i Region Sjælland på Sjælland. Solrød Kommune ligger cirka 30 kilometer syd for København med seks kilometers kyststrækning ud til Køge Bugt. Areal: 40 km² Indbyggere 22.147 (2017)",
+		"txt": "www.solrod.dk"
     }, {
 		"id": "Post 10 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 		"lng": 12.580562,
