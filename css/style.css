@@ -3,13 +3,22 @@
 	font-family: 'Source Sans Pro';
 	margin: 0 auto;
 }
-
+#top-image {
+background:url('../images_turen/cs_flovding_potraetbg_768x1024.png') -25px -50px;
+position:fixed;
+top:10vw;
+width:100%;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
 body {
-	width: 100%;
+	background-size: 100%;
+		width: 100%;
 	height: 100%;
 	background-size: 100%;
-	background-image: url(../images_turen/cs_web_baggrund_potraet-12345.jpg);
-}
+		background-image: url(../images_turen/Tablet%20potrat-768%20x%201024.jpg);
+	}
+
 #section {
 	padding-top: 0vw;
 	height: 100%;
@@ -20,7 +29,7 @@ body {
 }
 
 #section1 {
-	padding: 1vw;
+	padding-bottom: 1vw;
 	height: 100%;
 	width: 100%;
 	color: #fff;
@@ -84,15 +93,17 @@ body {
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
-		height:100%;
+	height: 100%;
 	width: 100%;
+	margin-top: 0vw;
+	top: 0vw;
 		background-repeat: no-repeat;
 	}
-/*
+
 .likontaktinfo {
 	margin-top: 7vw;
 }
-*/
+
 
 .r-responsive {
 	padding-top: 1vw;
@@ -113,7 +124,8 @@ body {
 	height: 100%;
 }
 
-.turene {
+#turene {
+	z-index: 3000;
 	padding-top: 1vw;
 	width: 100%;
 	height: 100%;
@@ -136,6 +148,7 @@ guider {
       width: 100%;
   }
 .social-nav a{
+	z-index: 10;
 	color:lightgoldenrodyellow;
 }
 .aforside{
@@ -165,6 +178,7 @@ a {
 
 .nav {
 	font-size: 2.5vw;
+	z-index: 10;
 }
 
 .navbar {
@@ -192,18 +206,13 @@ p {
 	color: #000;
 }
 
-h1 {
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 4vw;
-	color: rgb(255, 255, 255);
-}
+
 
 h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 5vw;
-	color: rgb(255, 255, 255);
+	color: #f51021;
 	text-shadow: 5px;
 }
 
@@ -212,7 +221,7 @@ h4 {
 	font-size: 4vw;
 	padding-left: 11vw;
 	padding-bottom: 1vw;
-	color: rgb(0, 0, 0);
+	color: #fff;
 }
 
 h5 {
@@ -222,13 +231,19 @@ h5 {
 	padding-bottom: 1vw;
 	color: rgb(255, 255, 255);
 }
+h1 {
+	font-family: 'Source Sans Pro';
+	padding: 2vw 2vw 2vw 2vw;
+	font-size: 4vw;
+	color: rgb(255, 255, 255);
+}
 h6{
 		font-size: 2.5vw;
 		color:white
 	}
 h7{
 	font-size: 2.5vw;
-	color:#fffccc;
+	color:#f51021;
 /*	color:#3f0000;*/
 }
 .panel a {
@@ -401,13 +416,13 @@ footer {
 
 
 #map {
-	height: 50vw;
+	height: 35vw;
 	margin-top: 2vw;
 }
 
 .hs-responsive-embed-youtube {
-	 width:320px;
-	height:175px;
+	 width:100%;
+	height:100%;
 	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
@@ -432,8 +447,16 @@ footer {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
+		background-image: url(../images_turen/Tablet%20landskab-1024%20x768.jpg);
 	}
+	#top-image {
+background:url('../images_turen/cs_flovding_landskabbg_1024x768.png') -25px -50px;
+position:fixed;
+top:10vw;
+width:100%;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
 	.affixbar {
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
@@ -450,9 +473,11 @@ footer {
 	width: 35%;
 		background-repeat: no-repeat;
 	}
+	.logologin2{
+	display: flex;
+	}
 .logologin2 img{
-	margin-left: 13vw;
-	padding-top: 2vw;
+	padding-top: 12vw;
 		height: 50%;
 	width: 50%;
 		background-repeat: no-repeat;
@@ -461,10 +486,10 @@ footer {
 		font-size: 2.5vw;
 	}
 	h1 {
-		margin-left: 11vw;
+	margin-top: 12vw;
 		font-family: 'Source Sans Pro';
-		padding: 2vw 2vw 2vw 2vw;
-		font-size: 3vw;
+		padding: 0;
+		font-size: 4vw;
 		color: rgb(255, 255, 255);
 	}
 	h6{
@@ -473,7 +498,7 @@ footer {
 		color:white
 	}
 	.rowoverfotter ul{
-		margin-top: 7vw;
+		margin-top: 9vw;
 	color: #fff;
 	background-color: #000;
 }
@@ -523,19 +548,19 @@ footer {
 		background-repeat: no-repeat;
 	}
 	#map {
-		height: 50vw;
+		height: 35vw;
 		padding: 5vw;
 		border-radius: 5%;
 	}
 
 .hs-responsive-embed-youtube {
-	 width:640px;
-	height:320px;
+	 width:100%;
+	height:100%;
 	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
 	padding-top: 1px;
-	margin-bottom: 1vw;
+	margin-bottom: 10vw;
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -550,8 +575,9 @@ footer {
 	margin: 0 auto;
 }
 	h7{
+		z-index: 10;
 	font-size: 2.5vw;
-	color:#000;
+	color:#f51021;
 /*	color:#3f0000;*/
 }
 
@@ -560,8 +586,16 @@ footer {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/cs_web_baggrund_landskab_light.jpg);
+		background-image: url(../images_turen/Laptop%2016x9-5120%20x%202880.jpg);
 	}
+	#top-image {
+background:url('../images_turen/cs_flovding_landskabbg_5729x3333.png') -25px -50px;
+position:fixed;
+top:10vw;
+width:100%;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
 	.affixbar {
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
@@ -651,14 +685,14 @@ footer {
 		background-repeat: no-repeat;
 	}
 	#map {
-		height: 50vw;
+		height: 35vw;
 		padding: 5vw;
 		border-radius: 5%;
 	}
 
 .hs-responsive-embed-youtube {
-	 width:640px;
-	height:320px;
+	 width:100%;
+	height:100%;
 	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
@@ -679,7 +713,7 @@ footer {
 }
 	h7{
 	font-size: 2.5vw;
-	color:#000;
+	color:#f51021;
 /*	color:#3f0000;*/
 }
 }

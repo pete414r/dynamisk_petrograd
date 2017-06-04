@@ -49,7 +49,7 @@
 				<div class="videocontainer">
 
 					<video width="100%" id="radissonvideo">
-						<source src="video_turen/MVI_1255.mp4" type="video/mp4"> din browser virker ikke
+						<source src="video_turen/cs_valg2017_kampagne.mp4" type="video/mp4"> din browser virker ikke
 					</video>
 
 				</div>
@@ -57,10 +57,12 @@
 		</div>
 	</div>
 
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="video_js/valgvideo.js"></script>
 	<script src="video_js/jquery.js"></script>
 	<script src="video_js/bootstrap.min.js"></script>
 	<script src="video_js/popcorn-complete.js"></script>
-<!--
+
 	<script>
 		var videoid = document.querySelector('#radissonvideo');
 		var popcornvideo = Popcorn(videoid);
@@ -85,29 +87,15 @@
 
 		popcornvideo.footnote({
 			start: 0,
-			end: 58,
+			end: 118,
 			text: "-Call to action på skærmen!-",
 
 			target: "annotation"
 		});
 	</script>
-	<script>
-		var vid = document.getElementById("radissonvideo");
 
-		function enableMute() {
-			vid.muted = true;
-		}
 
-		function disableMute() {
-			vid.muted = false;
-		}
-
-		function checkMute() {
-			alert(vid.muted);
-		}
-	</script>
--->
-	<!--
+<!--
 	<script>
 		var vid = document.getElementById("bgvid"),
 			pauseButton = document.getElementById("vidpause");
@@ -118,6 +106,7 @@
 		}
 	</script>
 -->
+
 </body>
 
 </html>
