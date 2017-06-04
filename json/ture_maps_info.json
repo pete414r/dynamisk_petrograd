@@ -1,63 +1,60 @@
 [
 	{
-		"id": "Mødestedet Gefionspringvand, næste post er ved Broen",
+		"id": "Region Hovedstaden",
 		"lng": 12.597404,
 		"lat": 55.689066,
 		"ll": "55.689066, 12.597404",
-		"video": "video_turen/moedestedet.mp4",
-		"images": "images_turen/moedestedet_1.png",
-		"images1": "images_turen/moedestedet_2.png",
+		"video": "",
+		"images": "images_turen/RegionHlogo.png",
+		"images1": "images_turen/RegionHlogo.png",
 		"icon": "images_turen/icon-m.png",
-		"title": "Mødestedet Gefionspringsvandet",
-		"txt": "Gefionspringsvandet er det største monument, der er at finde i København. Springvandet ligger ved kastellet og Langlinie lige ved siden af Skt. Albans Kirke med de smukke spir. Værket er udført af billedhuggeren Anders Bundgård. Han arbejdede på det fra 1897 til, det blev afsløret i 1908. Det forestiller Gudinden Gefion, der med sine okser pløjer Sjælland ud af Sverige. Oprindeligt var det meningen, af kunstværket skulle stå på Rådhuspladsen, men dette blev ændret, da det skulle stå et sted nær Øresund. Ifølge sagnet illustrer springvandet, hvordan Sjælland blev skabt. Den svenske Kong Gylfe lovede gudinden Gefion lige så meget svensk jord, som hun kunne pløje på en dag og en nat. Så forvandlede Gefion sine fire sønner til okser og spændte dem for en plov. I løbet af en dag og en nat pløjede de så meget jord, at en bunke jord ude i Øresund blev til øen Sjælland. I Sverige var det et stort hul tilbage, som ifølge, sagnet blev til søen Vänern."
+		"title": "Regionsforvaltning Hillerød Indbyggere 1.807.404 (1.1.2017) Regionsrådsformand Sophie Hæstorp Andersen",
+		"txt": "Websted www.regionh.dk"
     }, {
-		"id": "Post 1 Broen ved Gefionspringvandet, næste post er ved Churchillparken",
+		"id": "Region Midtjylland",
 		"lng": 12.598083,
 		"lat": 55.689495,
 		"ll": "55.689495, 12.598083",
-		"video": "video_turen/post1.mp4",
-		"images": "images_turen/post1_1.png",
-		"images1": "images_turen/post1_2.png",
-
+		"video": "",
+		"images": "images_turen/midt_logo_logotype_2.jpg",
+		"images1": "images_turen/midt_logo_logotype_2.jpg",
 		"icon": "images_turen/icon-1.png",
-		"title": "Hej til turen Besættelsen",
-		"txt": "1. Kastellet. Kastellet blev som noget af det første besat den 9. april 1940, hvor tyskerne gik i land ved Langelinie og sprængte Norgesporten. Kastellet tjente derefter som tysk fængsel. Det vedblev med at være militærfængsel. Senest sad værnemagtens befuldmægtigede, Werner Best, som fange i Kastellet lige efter 1945. Oberstløjtnant Christian Peter Bokkenheuser fungerede som Kastellets kasernekommandanter i årene 1939 – 1949. Det store egetræ blev brugt som mindetræ ved 60-året for besættelsens ophør. "
+		"title": "Regionsforvaltning Viborg Indbyggere 1.282.750 (1.1.2015) Regionsrådsformand Bent Hansen",
+		"txt": "Websted www.rm.dk.dk"
     }, {
-		"id": "Post 2 Statuen med Churchill, næste post er ved Mærsk",
+		"id": "Region Nordjylland",
 		"lng": 12.596634,
 		"lat": 55.688740,
 		"ll": "55.688740, 12.596634",
-		"video": "video_turen/post2.mp4",
-		"images": "images_turen/post2_1.png",
-		"images1": "images_turen/post2_2.png",
-
+		"video": "",
+		"images": "images_turen/regionnordjyllandlogo.jpg",
+		"images1": "images_turen/regionnordjyllandlogo.jpg",
 		"icon": "images_turen/icon-2.png",
-		"title": "2. Churchill, Winston S. (1874-1965)",
-		"txt": "Britisk marineminister fra september 1939, hvor 2.verdenskrig i Europa begyndte. Afløste i maj 1940 Neville Chamberlain og var Premierminister for den Bristiske samlingsregning frem til krigens afslutning i 1945. Churchill var en ivrig forkæmper for, at Storbritannien deltog i krigen, og han afviste gang på gang i sine taler, at landet ville overgive sig til tyskerne. Han var et beundringsværdigt symbol på den britiske udholdenhed og kampvilje. Churchill så det som sine primære opgaver at sørge for, at de allierede holdt sammen samt fremme britiske interesser under og efter krigen. Trods sin store indsats under krigen tabte Churchill i 1945 valget til Labour, idet han var skeptisk over for befolkningens ønsker om velfærdsreformer."
+		"title": "Regionsforvaltning Aalborg Indbyggere 582.632 (1.1.2015) Regionsrådsformand Ulla Astman",
+		"txt": "Websted www.rn.dk"
     }, {
-		"id": "Post 3 Statuen med Anders Andersen, næste post er rundt om busken",
+		"id": "Region Syddanmark",
 		"lng": 12.596568,
 		"lat": 55.688305,
 		"ll": "55.688305, 12.596568",
-		"video": "video_turen/post3.mp4",
-		"images": "images_turen/post3_1.png",
-		"images1": "images_turen/post3_2.png",
+		"video": "",
+		"images": "images_turen/rs_logo.jpg",
+		"images1": "images_turen/rs_logo.jpg",
 
 		"icon": "images_turen/icon-3.png",
-		"title": "3. Anders Larsen",
-		"txt": "Anders Frederik Emil Victor Schau Lassen (22 september 1920 på Høvdingsgård - 9 april 1945 ved Comacchio i Italien) var en dansk officer i den britiske hær og gjorde tjeneste under det meste af 2. verdenskrig. Anders Lassen modtog som eneste udlænding i 2. verdenskrig Victoria Cross, som er den højeste britiske hædersbevisning for heltemod. (Tre danskere modtog denne orden i 1. verdskrig). Anders Larsen blev født den 22. september 1920 som søn af kaptajn i hæren Emil Victor Schau Lassen og Suzanne Maria Signe født Raben-Levetzau."
+		"title": "Regionsforvaltning Vejle Indbyggere 1.217.224 (1.1.2017) Regionsrådsformand Stephanie Lose",
+		"txt": "Websted www.regionsyddanmark.dk"
     }, {
-		"id": "Post 4 Statue med Kaj Birkbrek",
+		"id": "Region Sjælland",
 		"lng": 12.596542,
 		"lat": 55.688386,
 		"ll": "55.688386, 12.596542",
-		"video": "video_turen/post4.mp4",
-		"images": "images_turen/post4_1.png",
-		"images1": "images_turen/post4_2.png",
-
+		"video": "",
+		"images": "images_turen/20161013_104329sjarllogo.jpg",
+		"images1": "images_turen/20161013_104329sjarllogo.jpg",
 		"icon": "images_turen/icon-4.png",
-		"title": "4. Kaj Birksted",
-		"txt": "Ønsket om at hædre Kaj Birksteds mindre er kun til en vis grad baserat på hans indsats i kampen mod Nazi-Tyskland under Anden Verdenskrig, hvor han opnåede status som flyver-es med følgende officielle tal for hans luftsejre: 10 (1/2) nedskudte, 1/2 sandsynligvis. nedskudt og 5 beskadigede. Dette gjorde ham til den hidtil eneste danske krigsflyver af international format. Kaj Birksted som Flyverløjtnant I (R) i 1939."
+		"title": "Regionsforvaltning Sorø Indbyggere 820.480 (1.1.2015) Regionsrådsformand Jens Stenbæk",
+			"txt": "Websted www.regionsjaelland.dk"
     }, {
 		"id": "Post 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 		"lng": 12.594970,
