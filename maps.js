@@ -50,7 +50,7 @@ function initMap() {
 
 
 	}
-	var overlay = new google.maps.GroundOverlay("../images_turen/kort_kbhture_A12-01.svg", bounds);
+	var overlay = new google.maps.GroundOverlay("images_turen/kort_kbhture_A12-01.svg", bounds);
 	overlay.setMap(map);
 
 	function visPunktInfo(punkt) {
