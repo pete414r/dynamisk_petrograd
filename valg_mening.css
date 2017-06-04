@@ -52,7 +52,7 @@ h6{
 	margin: 0 auto;
 	background-repeat: no-repeat;
 }
-h7{
+ h7{
 	padding: 1vw;
 	font-family: 'Source Sans Pro';
 	font-size: 2.5vw;
@@ -349,10 +349,10 @@ ol {
 	background-size: cover;
 }
 .wrappertop{
-
+margin-top: 40px;
 	 position: fixed;
 	display: flex;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
 }
 .wrappertop .some a{
@@ -362,12 +362,12 @@ ol {
 	font-family: 'Source Sans Pro';
 	text-decoration: none;
 
-	 background-color: #000;
+	 background-color: rgba(0, 0, 0, 0.0);
 }
  .wrappertop .some {
 	 margin-right: 2vw;
 	color: #fff;
-	 background-color: #000;
+	 background-color: rgba(0, 0, 0, 0);
 
 }
 
@@ -499,7 +499,11 @@ ol {
 	color: #c41c1c;
 }
 */
-
+	.callto{
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.50);
+		position: fixed;
+	}
 .chattype {
 	position: absolute;
 	top: 50vw;

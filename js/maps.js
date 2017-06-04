@@ -12,7 +12,7 @@ function initMap() {
 
 	};
 	map = new google.maps.Map(document.getElementById("map"), {
-		zoom: 19,
+		zoom: 6,
 		center: center
 
 	});
@@ -21,7 +21,7 @@ function initMap() {
 	var mig = new google.maps.Marker({
 		map: map,
 		icon: "images_turen/pointer_5turen.png",
-		title: "Hej til Københavnerture. Smil til verden, du er her"
+		title: "Husk at stemme til kommunalvalget 21. november"
 
 	});
 	if (navigator.geolocation) {
@@ -84,7 +84,7 @@ function initMap() {
 			tempinfo.querySelector(".r-responsive").src = punkt.images;
 			tempinfo.querySelector(".res-responsive").src = punkt.images1;
 			tempinfo.querySelector(".pclass").innerHTML = punkt.txt;
-			tempinfo.querySelector(".h1class").innerHTML = punkt.title;
+			tempinfo.querySelector(".pclass").innerHTML = punkt.title;
 			infowindow.setContent(tempinfo);
 			infowindow.open(map, m);
 		}
