@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 #top-image {
-background:url('../images_turen/cs_flovding_potraetbg_768x1024.png') -25px -50px;
+background:url('../images_turen/') -25px -50px;
 position:fixed;
 top:10vw;
 width:100%;
@@ -16,7 +16,7 @@ body {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/Tablet%20potrat-768%20x%201024.jpg);
+		background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
 	}
 
 #section {
@@ -447,10 +447,10 @@ footer {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/Tablet%20landskab-1024%20x768.jpg);
+		background-image: url(../images_turen/tabletlandskab-1024%20x768.jpg);
 	}
 	#top-image {
-background:url('../images_turen/cs_flovding_landskabbg_1024x768.png') -25px -50px;
+background:url('../images_turen/') -25px -50px;
 position:fixed;
 top:10vw;
 width:100%;
@@ -586,10 +586,10 @@ width:100%;
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/Laptop%2016x9-5120%20x%202880.jpg);
+		background-image: url(../images_turen/laptop16x9-5120%20x%202880.jpg);
 	}
 	#top-image {
-background:url('../images_turen/cs_flovding_landskabbg_5729x3333.png') -25px -50px;
+background:url('../images_turen/') -25px -50px;
 position:fixed;
 top:10vw;
 width:100%;

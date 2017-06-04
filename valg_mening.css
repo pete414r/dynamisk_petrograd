@@ -8,7 +8,7 @@ body {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/Tablet%20potrat-768%20x%201024.jpg);
+		background-image: url(images_turen/tabletpotrat-768%20x%201024.jpg);
 	}
 h1 {
 	font-family: 'Source Sans Pro';
@@ -363,7 +363,7 @@ li {
 	body {
 	height: 100%;
 	background-size: 100%;
-		background-image: url(images_turen/Tablet%20landskab-1024%20x768.jpg);
+		background-image: url(images_turen/tabletlandskab-1024%20x768.jpg);
 	}
 	.logologin1 img{
 		height: 35%;
@@ -525,7 +525,7 @@ li {
 	body {
 	height: 100%;
 	background-size: 100%;
-		background-image: url(images_turen/Laptop%2016x9-5120%20x%202880.jpg);
+		background-image: url(images_turen/laptop16x9-5120%20x%202880.jpg);
 	}
 	.logologin1 img{
 		height: 35%;
