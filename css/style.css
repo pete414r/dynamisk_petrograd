@@ -140,7 +140,7 @@ guider {
 	text-align: center;
 	background-color: rgba(72, 38, 37, );
 	color:#fff;
-	height:8vw;
+	height:9vw;
 }
 .affix {
 	z-index: 25;
@@ -177,8 +177,9 @@ a {
 }
 
 .nav {
-	font-size: 2.5vw;
 	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
 }
 
 .navbar {
@@ -203,7 +204,7 @@ p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
 	font-size: 2vw;
-	color: #000;
+	color: #101010;
 }
 
 
@@ -221,17 +222,18 @@ h4 {
 	font-size: 4vw;
 	padding-left: 11vw;
 	padding-bottom: 1vw;
-	color: #fff;
+	color: #101010;
 }
 
 h5 {
 	line-height: 5.7vw;
 	font-family: 'Source Sans Pro';
-	font-size: 2.3vw;
-	padding-bottom: 1vw;
+	font-size: 2.0vw;
+	padding: 1vw;
 	color: rgb(255, 255, 255);
 }
 h1 {
+	margin-left: 3vw;
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 4vw;
@@ -241,7 +243,9 @@ h6{
 		font-size: 2.5vw;
 		color:white
 	}
-h7{
+h2{
+
+		font-weight: bold;
 	font-size: 2.5vw;
 	color:#f51021;
 /*	color:#3f0000;*/
@@ -297,6 +301,8 @@ h7{
 
 .panel p {
 	margin: 0;
+
+	color: #101010;
 }
 
 table {
@@ -393,14 +399,14 @@ table {
 	padding-right: 0vw;
 	padding-left: 0vw;
 	display: flex;
-	height: 7vw;
+	height: 5vw;
 }
 
 .some ul li{
 	color: black;
 }
 .some ul li img {
-	width: 10%;
+	width: 14%;
 	border-radius: 30%;
 	border: 2px solid #fff;
 }
@@ -441,14 +447,39 @@ footer {
 	width: 50vw;
 	margin: 0 auto;
 }
+.callto{
+	text-align: center;
+}
 
 @media screen and (min-width: 767px) and (orientation: landscape) {
 	body {
 		width: 100%;
-	height: 100%;
+	height: 1text-align: %;
 	background-size: 100%;
 		background-image: url(../images_turen/tabletlandskab-1024%20x768.jpg);
 	}
+
+	.some {
+	margin-top: 2vw;
+	justify-content: space-between;
+	padding-right: 0vw;
+	padding-left: 0vw;
+	display: flex;
+	height: 7vw;
+}
+
+.some ul li{
+	color: black;
+}
+.some ul li a{
+	font-size: 2vw
+}
+.some ul li img {
+	width: 10%;
+	border-radius: 30%;
+	border: 2px solid #fff;
+}
+
 	#top-image {
 background:url('../images_turen/') -25px -50px;
 position:fixed;
@@ -463,11 +494,7 @@ width:100%;
 	color:#fff;
 	height:6.4vw;
 }
-.affix {
-	z-index: 25;
-      top: 0;
-      width: 100%;
-  }
+
 	.logologin1 img{
 		height: 35%;
 	width: 35%;
@@ -482,10 +509,9 @@ width:100%;
 	width: 50%;
 		background-repeat: no-repeat;
 	}
-	h5{
-		font-size: 2.5vw;
-	}
+
 	h1 {
+	margin-left: 3vw;
 	margin-top: 12vw;
 		font-family: 'Source Sans Pro';
 		padding: 0;
@@ -575,12 +601,14 @@ width:100%;
 	margin: 0 auto;
 }
 	h7{
+		font-weight: bold;
 		z-index: 10;
 	font-size: 2.5vw;
 	color:#f51021;
 /*	color:#3f0000;*/
 }
 
+}
 @media screen and (min-width: 1600px) and (orientation: landscape) {
 	body {
 		width: 100%;
@@ -600,13 +628,9 @@ width:100%;
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
 	color:#fff;
-	height:6.4vw;
+	height:6.0vw;
 }
-.affix {
-	z-index: 25;
-      top: 0;
-      width: 100%;
-  }
+
 	.logologin1 img{
 		height: 35%;
 	width: 35%;
@@ -615,17 +639,15 @@ width:100%;
 .logologin2 img{
 	margin-left: 13vw;
 	padding-top: 2vw;
-		height: 50%;
-	width: 50%;
+		height: 60%;
+	width: 60%;
 		background-repeat: no-repeat;
 	}
-	h5{
-		font-size: 2.5vw;
-	}
+
 	h1 {
-		margin-left: 11vw;
+		margin-left: 3vw;
 		font-family: 'Source Sans Pro';
-		padding: 2vw 2vw 2vw 2vw;
+		padding: 3vw;
 		font-size: 3vw;
 		color: rgb(255, 255, 255);
 	}
@@ -712,8 +734,33 @@ width:100%;
 	margin: 0 auto;
 }
 	h7{
-	font-size: 2.5vw;
+
+		font-weight: bold;
+	font-size: 3.5vw;
 	color:#f51021;
 /*	color:#3f0000;*/
 }
+
+.some {
+	margin-top: 1vw;
+	justify-content: space-between;
+	padding-right: 0vw;
+	padding-left: 0vw;
+	display: flex;
+	height: 5vw;
+}
+
+.some ul li{
+	color: black;
+}
+.some ul li img {
+	width: 5%;
+	border-radius: 30%;
+	border: 3px solid #fff;
+}
+
+footer {
+	background-color: black;
+}
+
 }
