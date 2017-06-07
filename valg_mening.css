@@ -55,7 +55,8 @@ h6{
 	margin: 0 auto;
 	background-repeat: no-repeat;
 }
- h7{
+ h2{
+	 text-align: center;
 	padding: 1vw;
 	font-family: 'Source Sans Pro';
 	font-size: 2.5vw;
@@ -73,11 +74,9 @@ h6{
 }
 
 .barometerred {
-	background-color: rgb(255, 0, 0, 0);
 }
 
 .barometergreen {
-	background-color: rgb(10, 0, 255, 0);
 }
 
 .dialog {
@@ -420,7 +419,7 @@ margin-top: 4vw;
 }
 .callto{
 	height: 4vw;
-	text-align: center
+	text-align: center;
 	font-weight: bold;
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.50);
@@ -525,17 +524,17 @@ margin-top: 4vw;
 	height: 2.5vw;
 	z-index: 15;
 	background-image: url(Img/prikker-01.png);
-	background-size: cover;
+	background-size: 12.5vw 2.5vw;
 	background-repeat: no-repeat;
 	animation: prik_kf 0.8s infinite steps(5);
 }
 
 @keyframes prik_kf {
-	80% {
-		background-position: 100% 0;
+	0% {
+		background-position: 0vw;
 	}
-	81% {
-		background-position: 0% 0;
+	100% {
+		background-position: -12.5vw;
 	}
 }
 
@@ -725,17 +724,18 @@ margin-top: 4vw;
 	height: 2.5vw;
 	z-index: 15;
 	background-image: url(Img/prikker-01.png);
-	background-size: cover;
+
+	background-size: 12.5vw 2.5vw;
 	background-repeat: no-repeat;
 	animation: prik_kf 0.8s infinite steps(5);
 }
 
 @keyframes prik_kf {
-	80% {
-		background-position: 100% 0;
+	0% {
+		background-position: 0vw;
 	}
-	81% {
-		background-position: 0% 0;
+	100% {
+		background-position: -12.5vw;
 	}
 }
 
