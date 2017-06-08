@@ -11,6 +11,8 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<div id="top-image"></div>
+
 <div class="container-fluid affixbar">
    <div class="container-fluid">
             <div class="row">
@@ -120,7 +122,19 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fitvids.js"></script>
-
+<script>
+	$(document).ready(function() {
+var movementStrength = 500;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$("#top-image").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25000;
+          var newvalueY = height * pageY * -1 - 50000;
+          $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});</script>
 
 
 </body>

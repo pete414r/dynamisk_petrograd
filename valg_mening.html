@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<div id="top-image"></div>
 	<div class="callto"> <h2>Kommunal og regionsvalget 21. nov 2017 -Find call to action!- Kommunal konkurrencen</h2></div>
  	<div class="wrappertop">
 
@@ -183,6 +184,20 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="typeit.min.js"></script>
 	<script src="valg_mening.js"></script>
+
+<script>
+	$(document).ready(function() {
+var movementStrength = 500;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$("#top-image").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25000;
+          var newvalueY = height * pageY * -1 - 50000;
+          $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});</script>
 </body>
 
 </html>

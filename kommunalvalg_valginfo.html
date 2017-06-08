@@ -15,6 +15,9 @@
 
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<div id="top-image123"><img src="images_turen/cs_flovding_bg_light_30.png" alt="logo"></div>
 <div class="container-fluid affixbar">
    <div class="container-fluid">
             <div class="row">
@@ -93,7 +96,7 @@
 		<br>
 		<h3>Turen til stemmeboksen</h3>
 		<h4>Valgkortet</h4>
-		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato.</h5></div>
+		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af.</h5></div>
 
 
 
@@ -104,6 +107,7 @@
 
 
 	<div id="section2" class="container-fluid">
+
 		<br>
 		<br>
 		<h3>De fem store Regioner og de fem mindste Kommuner</h3>
@@ -383,7 +387,6 @@
 				</div>
 			</div>
 		</template>
-
 	</div>
 
 
@@ -538,7 +541,22 @@
 			});
 		});
 	</script>
+<!--
 
+<script>
+	$(document).ready(function() {
+var movementStrength = 500;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$("#top-image").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25000;
+          var newvalueY = height * pageY * -1 - 50000;
+          $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});</script>
+-->
 
 
 
