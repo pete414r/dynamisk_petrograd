@@ -14,19 +14,21 @@
 
 				<div id="annotation"> </div>
 <div id="annotationcallto"> </div>
-
-				<button onclick="enableMute()" type="button"> MUTE </button>
-				<button  onclick="disableMute()" type="button"> SOUND </button>
-
+<div id="annotationbutton">
+				<ul><li><button  onclick="enableMute()" type="button"> MUTE </button></li><li>
+				<button  onclick="disableMute()" type="button"> SOUND </button></li><li> <button onclick="playPause()">Play/Pause</button> </li>
+</ul>
 				<div id="endcredits">
 					<div id="endcriditbuttons">CTA -> <a href="kommunalvalg_valgvideo_konkurence.html" target="_self" class="btn btn-link btn-succes btn-lg">Deltag i Kommunal konkurrencen</a></div>
 				</div>
 
 				<!--<button id="vidpause">deltag</button>-->
 
-				<ul> <li><a href="kommunalvalg.html" target="_self"> Kommunalvalg </a>
+
+				<ul> <a href="kommunalvalg_valgvideo_konkurence.html" target="_self">konkurrencen</a>
+				<a href="kommunalvalg.html" target="_self"> Kommunalvalg </a>
 					<a href="https://www.facebook.com/Kommunal-og-Regionsvalg-2017-1174689772639649/" target="_blank"> Facebook.dk </a>
-					<a href="http://www.tv2lorry.dk" target="_self"> Tv2lorry.dk </a>	</li>			</ul>
+					<a href="http://www.tv2lorry.dk" target="_self"> Tv2lorry.dk </a>				</ul></div>
 
 	<div class="container-fluid">
 		<div class="row">
@@ -39,7 +41,7 @@
 
 				<div class="videocontainer">
 
-					<video id="radissonvideo">
+					<video  id="radissonvideo">
 						<source src="video_turen/cs_valg2017_kampagne.mp4" type="video/mp4"> din browser virker ikke
 					</video>
 
@@ -50,6 +52,8 @@
 
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
 	<script src="video_js/jquery.js"></script>
 	<script src="video_js/bootstrap.min.js"></script>
 	<script src="video_js/popcorn-complete.js"></script>
@@ -84,33 +88,16 @@
 			target: "annotationcallto"
 		});
 	</script>
-	<script>
-		var vid = document.getElementById("radissonvideo");
+<script>
+var myVideo = document.getElementById("radissonvideo");
 
-		function enableMute() {
-			vid.muted = true;
-		}
-
-		function disableMute() {
-			vid.muted = false;
-		}
-
-		function checkMute() {
-			alert(vid.muted);
-		}
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+}
 	</script>
-
-<!--
-	<script>
-		var vid = document.getElementById("bgvid"),
-			pauseButton = document.getElementById("vidpause");
-		if (window.matchMedia('(prefers-reduced-motion)').matches) {
-			vid.removeAttribute("autoplay");
-			vid.pause();
-			pauseButton.innerHTML = "Paused";
-		}
-	</script>
--->
 
 </body>
 

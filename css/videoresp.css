@@ -30,6 +30,7 @@ width:100%;
 	color: #168f2f;
 }
 button{
+	position: absolute;
 	color: #168f2f;
 }
 
@@ -134,31 +135,48 @@ a {
 	color: #997bbb;
 	font-size: 20px;
 }
+li{
 
+	background-color: rgba(0, 0, 0, 0);
+}
 li a {
 	font-size: 2vw;
 	color: #0479be;
+	background-color: rgba(0, 0, 0, 0);
 }
 h6{
-	color: #168f2f;
+	color: #0479be;
 	font-size: 2vw;
 	text-align: center;
 }
 h5{
-	color: #168f2f;
+	color: #0479be;
 	font-size: 3vw;
 	text-align: center;
 }
 h4{
-	color: #168f2f;
+	color: #0479be;
 	font-size: 3vw;
 	text-align: center;
 	font-weight: 900;
 }
 ul {
-	text-align: right;
-}
 
+	display: flex;
+	text-align: right;
+	margin-right: 2vw;
+}
+ul li{
+	text-align: left;
+	margin-left: 7vw;
+	background-color: rgba(0, 0, 0, 0);
+}
+#endcriditbuttons ul li{
+	display: flex;
+	text-align: left;
+	margin-left: 7vw;
+	background-color: rgba(0, 0, 0, 0);
+}
 .pollogo img {
 	height: 100%;
 	width: 100%;
@@ -188,10 +206,11 @@ ul {
 */
 
 #annotation {
+	top: 5vw;
 	position: absolute;
 	background-size: 100%;
 	border-radius: 20%;
-	margin-top: 2vw;
+	margin-top: 5vw;
 	margin-left: 1vw;
 	width: 10vw;
 	height: 9vw;
@@ -203,7 +222,7 @@ ul {
 	position: absolute;
 	background-size: 100%;
 	left: 1vw;
-	top: 12vw;
+	top: 21vw;
 		color: #f51021;
 
 }
