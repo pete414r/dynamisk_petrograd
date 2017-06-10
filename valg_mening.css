@@ -51,7 +51,7 @@ h6{
 	background-image: url(Img/Chatroom8-01.jpg);
 	/*	background-size: cover;*/
 	width: 100%;
-	height:36%;
+	height:41%;
 	/*	overflow: hidden;
 	*/
 	margin: 0 auto;
@@ -207,7 +207,7 @@ ol {
 .valg {
 	position: absolute;
 	left: 56vw;
-	top: 142vw;
+	top: 128vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -274,7 +274,7 @@ ol {
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 145vw;
+	top: 128vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -306,7 +306,7 @@ ol {
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top: 142vw;
+	top: 128vw;
 }
 
 .birgitjensen {
@@ -317,7 +317,7 @@ ol {
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 162vw;
+	top: 146vw;
 }
 
 .lastscreen {
@@ -401,6 +401,7 @@ margin-top:1vw;
 }
 
  .wrapper .some {
+	 height:10vw;
 	 margin-top: 2vw;
 	 margin-right: 2vw;
 	color: #fff;
@@ -478,7 +479,7 @@ width:100%;
 .valg {
 	position: absolute;
 	left: 56vw;
-	top:85vw;
+	top:71vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -569,7 +570,7 @@ width: 2.5vw;
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 85vw;
+	top: 71vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -601,7 +602,7 @@ width: 2.5vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:85vw;
+	top:71vw;
 }
 
 .birgitjensen {
@@ -612,7 +613,7 @@ width: 2.5vw;
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 104vw;
+	top: 90vw;
 }
 
 .lastscreen {
@@ -644,7 +645,7 @@ width: 2.5vw;
 	background-image: url(Img/Chatroom8-01.jpg);
 	/*	background-size: cover;*/
 	width: 100%;
-	height:61%;
+	height:71%;
 	/*	overflow: hidden;
 	*/
 	margin: 0 auto;
@@ -653,7 +654,7 @@ width: 2.5vw;
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 	body {
-	height: 100%;
+	width:  100%;
 	background-size: 100%;
 		background-image: url(images_turen/tabletlandskab-1024%20x768.jpg);
 	}
@@ -682,7 +683,7 @@ width:100%;
 .valg {
 	position: absolute;
 	left: 56vw;
-	top:85vw;
+	top:70vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -774,7 +775,7 @@ width:100%;
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 85vw;
+	top: 70vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -806,7 +807,7 @@ width:100%;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:85vw;
+	top:70vw;
 }
 
 .birgitjensen {
@@ -817,7 +818,7 @@ width:100%;
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 104vw;
+	top: 90vw;
 }
 
 .lastscreen {
@@ -849,6 +850,7 @@ width:100%;
 	background-image: url(Img/Chatroom8-01.jpg);
 	/*	background-size: cover;*/
 	width: 100%;
+	height: 52vw;
 	/*	overflow: hidden;
 	*/
 	margin: 0 auto;
