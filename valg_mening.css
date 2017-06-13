@@ -58,11 +58,12 @@ h6{
 	background-repeat: no-repeat;
 }
  h2{
+	 margin-top: 0vw;
 	 font-weight: 500;
 	 text-align: center;
-	padding: 1vw;
+	padding-top: 0vw;
 	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
+	font-size: 2.3vw;
 	color:#f51021;
 /*	color:#3f0000;*/
 }
@@ -107,23 +108,11 @@ h6{
 	height: 2.2vw;
 }
 
-ul {
-	display: none;
-	position: absolute;
-	list-style-type: none;
-	padding: 0;
-	bottom: 0;
-}
-
-li {
-	display: none;
-	margin-top: 3vw;
-}
 
 .prikker {
 	z-index: 25;
 	position: absolute;
-	top: 142vw;
+	top: 138vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
@@ -172,28 +161,6 @@ a {
 	color: grey;
 }
 
-.nav {
-	font-size: 2.5vw;
-	z-index: 10;
-}
-
-.navbar {
-	background-color: rgba(72, 38, 37, 0.52);
-}
-
-ul {
-	margin-bottom: 1vw;
-	margin-top: 1vw;
-	font-size: 2.5vw;
-}
-
-#myNavbar ul li a {
-	color: #168f2f;
-}
-
-ol {
-	color: #000;
-}
 .info {
 	display: none;
 	position: absolute;
@@ -207,7 +174,7 @@ ol {
 .valg {
 	position: absolute;
 	left: 56vw;
-	top: 130vw;
+	top: 126vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -274,7 +241,7 @@ ol {
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 130vw;
+	top: 126vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -306,7 +273,7 @@ ol {
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top: 130vw;
+	top: 126vw;
 }
 
 .birgitjensen {
@@ -317,7 +284,7 @@ ol {
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 146vw;
+	top: 141vw;
 }
 
 .lastscreen {
@@ -333,7 +300,40 @@ ol {
 	top: 136vw;
 	margin: 0 auto;
 }
+.affixbar {
+	text-align: center;
+	background-color: rgba(72, 38, 37, 0.5);
+	color:#fff;
+	height:14vw;
+}
+.affix {
+	z-index: 25;
+      top: 0;
+      width: 100%;
+  }
+.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
 
+.navbar {
+	background-color: rgba(72, 38, 37, 0.52);
+}
+
+ul {
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	font-size: 2.5vw;
+}
+
+#myNavbar ul li a {
+	color: #168f2f;
+}
+
+ol {
+	color: #000;
+}
 .retry {
 	top: 22vw;
 	left: 41vw;
@@ -450,31 +450,21 @@ width:100%;
 	background-size: 100%;
 		background-image: url(images_turen/tabletlandskab-1024%20x768.jpg);
 	}
-	.wrapper{
+	.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+	.navbar{
+		height: 5vw;
+	}
+	.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height: 11vw;
+}
 
-	 position: absolute;
-	top: 95%;
-	height:12vw;
-	display: flex;
-	background-color: #000;
-	width: 100%
-}
-	.wrapper .somebund a img {
-	width: 10%;
-	border-radius: 30%;
-	border: 2px solid #fff;
-	padding-bottom: 0;
-	margin-top: 1vw;
-}
-/*
-	#top-image {
-background:url('images_turen/cs_flovding_bg_light_30.png') -25px -50px;
-position:fixed;
-width:100%;
-  height:100%;
-  background-size: calc(100% + 50px);
-}
-*/
 	.logologin1 img{
 		height: 35%;
 	width: 35%;
@@ -494,7 +484,7 @@ width:100%;
 .valg {
 	position: absolute;
 	left: 56vw;
-	top:74vw;
+	top:66vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -559,7 +549,7 @@ width:100%;
 .prikker {
 	z-index: 25;
 	position: absolute;
-	top: 87vw;
+	top: 80vw;
 	left: 2vw;
 width: 2.5vw;
 	height: 2.5vw;
@@ -585,7 +575,7 @@ width: 2.5vw;
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 75vw;
+	top: 68vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -617,7 +607,7 @@ width: 2.5vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:75vw;
+	top:68vw;
 }
 
 .birgitjensen {
@@ -628,7 +618,7 @@ width: 2.5vw;
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 90vw;
+	top: 85vw;
 }
 
 .lastscreen {
@@ -641,7 +631,7 @@ width: 2.5vw;
 	left: 8vw;
 	z-index: 40;
 	background-size: cover;
-	top: 80vw;
+	top: 82vw;
 	margin: 0 auto;
 }
 
@@ -673,6 +663,26 @@ width: 2.5vw;
 	background-size: 100%;
 		background-image: url(images_turen/tabletlandskab-1024%20x768.jpg);
 	}
+	h2{
+	 font-weight: 500;
+	 text-align: center;
+	font-family: 'Source Sans Pro';
+	font-size: 2.3vw;
+	color:#f51021;
+/*	color:#3f0000;*/
+}
+	.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+
+	.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height:4.0vw;
+}
 	.wrapper .somebund a img {
 	width: 6%;
 	border-radius: 30%;
@@ -705,7 +715,7 @@ width:100%;
 .valg {
 	position: absolute;
 	left: 56vw;
-	top:75vw;
+	top:62vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -770,7 +780,7 @@ width:100%;
 .prikker {
 	z-index: 25;
 	position: absolute;
-	top: 87vw;
+	top: 74vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
@@ -797,7 +807,7 @@ width:100%;
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 75vw;
+	top: 62vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -829,7 +839,7 @@ width:100%;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:75vw;
+	top:62vw;
 }
 
 .birgitjensen {
@@ -840,7 +850,7 @@ width:100%;
 	width:7.5vw;
 	height:10vw;
 	left: 35vw;
-	top: 90vw;
+	top: 82vw;
 }
 
 .lastscreen {
