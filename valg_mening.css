@@ -198,7 +198,7 @@ a {
 	text-align: center;
 }
 
-.birgitsvar {
+.avatarsvar {
 	display: none;
 	z-index: 0;
 	width: 40vw;
@@ -218,7 +218,7 @@ a {
 }
 
 /*
-.birgit {
+.avatar {
 	color: #c41c1c;
 }
 */
@@ -265,7 +265,7 @@ a {
 	}
 }
 
-.doctorhansen {
+.doctorsen {
 	z-index: 10;
 	position: absolute;
 	background-image: url(Img/standard-glad-01.png);
@@ -276,7 +276,7 @@ a {
 	top: 126vw;
 }
 
-.birgitjensen {
+.avatarsin {
 
 	position: absolute;
 	background-image: url(Img/dameneutral-01.png);
@@ -477,7 +477,7 @@ footer{
 .valg {
 	position: absolute;
 	left: 56vw;
-	top:63vw;
+	top:64vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -501,7 +501,7 @@ footer{
 	text-align: center;
 }
 
-.birgitsvar {
+.avatarsvar {
 	display: none;
 	z-index: 0;
 	width: 40vw;
@@ -521,7 +521,7 @@ footer{
 }
 
 /*
-.birgit {
+.avatar {
 	color: #c41c1c;
 }
 */
@@ -592,7 +592,7 @@ width: 2.5vw;
 	}
 }
 
-.doctorhansen {
+.doctorsen {
 	z-index: 10;
 	position: absolute;
 	background-image: url(Img/standard-glad-01.png);
@@ -603,7 +603,7 @@ width: 2.5vw;
 	top:64vw;
 }
 
-.birgitjensen {
+.avatarsin {
 
 	position: absolute;
 	background-image: url(Img/dameneutral-01.png);
@@ -753,7 +753,7 @@ width:100%;
 	text-align: center;
 }
 
-.birgitsvar {
+.avatarsvar {
 	display: none;
 	z-index: 0;
 	width: 40vw;
@@ -773,7 +773,7 @@ width:100%;
 }
 
 /*
-.birgit {
+.avatar {
 	color: #c41c1c;
 }
 */
@@ -845,7 +845,7 @@ width:100%;
 	}
 }
 
-.doctorhansen {
+.doctorsen {
 	z-index: 10;
 	position: absolute;
 	background-image: url(Img/standard-glad-01.png);
@@ -856,7 +856,7 @@ width:100%;
 	top:62vw;
 }
 
-.birgitjensen {
+.avatarsin {
 
 	position: absolute;
 	background-image: url(Img/dameneutral-01.png);
