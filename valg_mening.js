@@ -3010,15 +3010,15 @@ function birgitSvarer30a() {
 	$(".prikker").hide(0);
 	$(".dialog").css("height", "32vw");
 	$("ul").append(sv30a);
-	setTimeout(valg31, 1); //5000
+	setTimeout(valg31, 1);
 }
 
 function valg31() {
 	console.log("valg31");
-	$(".birgitsvar").html("<strong>Birgit: </strong>Det ved jeg ikke, men kan du ikke hjælpe mig?");
-	$(".mulighed1").html("<strong>Dr. Hansen: </strong>Her har du en pjece, der omhandler dit problem. Læs den, og så skal det nok ordne sig.");
-	$(".mulighed2").html("<strong>Dr. Hansen: </strong>Det ved jeg ikke. Kender ikke selv til problemet.");
-	$(".mulighed3").html("<strong>Dr. Hansen: </strong>Det er rigtig vigtigt, at dig og din partner snakker om det, da det godt kan være svært for den modsatte part at forstå. I kan eventuelt komme herop sammen, eller snakke med en sexolog. Jeg har også nogle pjecer, som du kan kigge lidt på. ");
+	$(".birgitsvar").html("<strong></strong>Valget: Kommunerne virker kun som en slags bank der vidreformidler og administrere offentlig velfærd");
+	$(".mulighed1").html("<strong></strong>Avatar: Her har du alle muligheder, grib changsen og find dit rigtige ståsted på arbejdsmarket");
+	$(".mulighed2").html("<strong></strong>Avatar: Det er godt og mindsker burikratiet på kommunalt plan");
+	$(".mulighed3").html("<strong></strong>Avatar: Det er meningen at Staten er vores alle sammens økonomi. Det er der for at udliciteringen har været svær at sluge, men når der er konkurrence på området får man også de bedste i ansættelse");
 	$(".valg").css("z-index", "25");
 	$(".mulighed").show(0);
 	$(".mulighed1").on("click", mulighed2a);
@@ -3027,7 +3027,6 @@ function valg31() {
 }
 
 
-////////////////////////
 function getRndInteger(min, max) {
 	return Math.floor(Math.random() * (max - min)) + min;
 }
