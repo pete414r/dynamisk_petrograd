@@ -82,7 +82,7 @@ function startHumør() {
 function start() {
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Hej Birgit! Jeg har kigget på dine tal og alt ser helt fint ud. Er der andet, som du vil tale om?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -150,7 +150,7 @@ function mulighed1() {
 	$(".mulighed3").off("click", mulighed3);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Er der problemer?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -218,7 +218,7 @@ function mulighed1a() {
 	$(".mulighed3").off("click", mulighed1c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det lyder da ikke så godt.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -360,7 +360,7 @@ function mulighed2a() {
 	$(".mulighed2").off("click", mulighed3c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Her har du en pjece, der omhandler dit problem. Læs den, og så skal det nok ordne sig.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -531,7 +531,7 @@ function mulighed2b() {
 	$(".mulighed3").off("click", mulighed2c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det ved jeg ikke. Kender ikke selv til problemet.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -707,7 +707,7 @@ function mulighed2c() {
 	$(".mulighed2").off("click", mulighed3c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det er rigtig vigtigt, at dig og din partner snakker om det, da det godt kan være svært for den modsatte part at forstå. I kan eventuelt komme herop sammen, eller snakke med en sexolog. Jeg har også nogle pjecer, som du kan kigge lidt på.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -884,7 +884,7 @@ function mulighed1b() {
 	$(".mulighed1").off("click", mulighed30a);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det er meget almindeligt, når man kommer lidt op i alderen. Snakker du med din partner om det?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1028,7 +1028,7 @@ function mulighed3c() {
 	$(".mulighed3").off("click", mulighed2c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det er vigtigt, at du får talt med din partner om det. I kan eventuelt snakke med en sexolog?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1203,7 +1203,7 @@ function mulighed1c() {
 	$(".mulighed1").off("click", mulighed30a);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Sådan er det, når man bliver gammel…'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1347,7 +1347,7 @@ function mulighed4a() {
 	$(".mulighed3").off("click", mulighed4c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Beklager, hvis du blev stødt af det. Men i hvert fald er det et problem, som I er nødt til at tage hånd om, hvis jeres parforhold skal holde.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1520,7 +1520,7 @@ function mulighed4b() {
 	$(".mulighed3").off("click", mulighed4c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Hvad jeg bilder mig ind?! Hvis du vil have min hjælp, så må du også sætte lidt pris på det.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1693,7 +1693,7 @@ function mulighed4c() {
 	$(".mulighed3").off("click", mulighed4c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Ja, man er da gammel, når man er over 60.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -1868,7 +1868,7 @@ function mulighed2() {
 	$(".mulighed3").off("click", mulighed3);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Hvad så? Kan han ikke få den op og stå? ;-)'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2014,7 +2014,7 @@ function mulighed20a() {
 	$(".mulighed3").off("click", mulighed20c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Nå, hvad så? Du må jo fortælle, hvad det er så! Jeg kan jo ikke læse tanker.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2054,7 +2054,7 @@ function mulighed20b() {
 	$(".mulighed3").off("click", mulighed20c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Nå okay - beklager mit kække svar. Hvad er så problemet?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2093,7 +2093,7 @@ function mulighed20c() {
 	$(".mulighed3").off("click", mulighed20c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Hvad er så problemet?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2234,7 +2234,7 @@ function mulighed21a() {
 	$(".mulighed3").off("click", mulighed21c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Jeg kan give dig nummeret på en god sexolog, som muligvis kan hjælpe jer.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2265,15 +2265,7 @@ function lægeSvarer21a() {
 }
 
 function humørSkift21a() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
+
 	console.log("Humør skifte1");
 	if (birgitHumor <= 1) {
 		console.log("Humør 1");
@@ -2405,7 +2397,7 @@ function mulighed21b() {
 	$(".mulighed3").off("click", mulighed21c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Jeg har nogle forskellige pjecer og informationsfoldere, som du kan læse lidt i, og hvis du ikke finder svar, må du tage kontakt til mig igen.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2577,7 +2569,7 @@ function mulighed21c() {
 	$(".mulighed3").off("click", mulighed21c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det er bare at komme op på hesten igen ;-) , så skal problemet nok blive løst.'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2750,7 +2742,7 @@ function mulighed3() {
 	$(".mulighed3").off("click", mulighed3);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Har I nogle fysiske problemer, eller er det noget andet?'],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -2894,7 +2886,7 @@ function mulighed30a() {
 	$(".mulighed3").off("click", mulighed1c);
 	$("#typing")[0].play();
 	$(".chattype").typeIt({
-		strings: ['Det lyder da ikke så godt. Hvad forventer du, at jeg kan gøre ? '],
+		strings: ['Hej'],
 		speed: 1 //40
 
 	});
@@ -3015,10 +3007,10 @@ function birgitSvarer30a() {
 
 function valg31() {
 	console.log("valg31");
-	$(".birgitsvar").html("<strong></strong>Valget: Kommunerne virker kun som en slags bank der vidreformidler og administrere offentlig velfærd");
-	$(".mulighed1").html("<strong></strong>Avatar: Her har du alle muligheder, grib changsen og find dit rigtige ståsted på arbejdsmarket");
-	$(".mulighed2").html("<strong></strong>Avatar: Det er godt og mindsker burikratiet på kommunalt plan");
-	$(".mulighed3").html("<strong></strong>Avatar: Det er meningen at Staten er vores alle sammens økonomi. Det er der for at udliciteringen har været svær at sluge, men når der er konkurrence på området får man også de bedste i ansættelse");
+	$(".birgitsvar").html("<strong></strong>Kommunerne virker kun som en slags bank der vidreformidler og administrere offentlig velfærd");
+	$(".mulighed1").html("<strong></strong>Her har du alle muligheder, grib changsen og find dit rigtige ståsted på arbejdsmarket");
+	$(".mulighed2").html("<strong></strong>Det er godt og mindsker burikratiet på kommunalt plan");
+	$(".mulighed3").html("<strong></strong>Det er meningen at Staten er vores alle sammens økonomi. Det er der for at udliciteringen har været svær at sluge, men når der er konkurrence på området får man også de bedste i ansættelse");
 	$(".valg").css("z-index", "25");
 	$(".mulighed").show(0);
 	$(".mulighed1").on("click", mulighed2a);
