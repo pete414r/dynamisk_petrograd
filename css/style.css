@@ -39,6 +39,9 @@ body {
 .likontaktinfo {
 	margin-top: 7vw;
 }
+.likontaktinfo li{
+	color:black;
+}
 
 
 .r-responsive {
