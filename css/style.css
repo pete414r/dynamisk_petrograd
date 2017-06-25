@@ -352,9 +352,11 @@ span{
 	color: black;
 }
 .some ul li img {
-	width: 14%;
+	width: 12%;
 	border-radius: 30%;
 	border: 2px solid #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 footer {
@@ -427,6 +429,8 @@ footer {
 	width: 10%;
 	border-radius: 30%;
 	border: 2px solid #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 
@@ -760,6 +764,8 @@ width:100%;
 	width: 5%;
 	border-radius: 30%;
 	border: 3px solid #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 footer {

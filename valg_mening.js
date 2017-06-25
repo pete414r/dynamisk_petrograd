@@ -1,4 +1,4 @@
-var svar1 = $(".svar1");
+var sar1 = $(".sar1");
 var spgm1 = $(".spgm1");
 var s1a = $(".s1a");
 var s2a = $(".s2a");
@@ -12,16 +12,16 @@ var s5a = $(".s5a");
 var s5b = $(".s5b");
 var s5c = $(".s5c");
 
-var sv1a = $(".sv1a");
-var sv2a = $(".sv2a");
-var sv2b = $(".sv2b");
-var sv2c = $(".sv2c");
-var sv3a = $(".sv3a");
-var sv3b = $(".sv3b");
-var sv3c = $(".sv3c");
-var sv4c = $(".sv4c");
-var sv5a = $(".sv5a");
-var sv5b = $(".sv5b");
+var s1a = $(".s1a");
+var s2a = $(".s2a");
+var s2b = $(".s2b");
+var s2c = $(".s2c");
+var s3a = $(".s3a");
+var s3b = $(".s3b");
+var s3c = $(".s3c");
+var s4c = $(".s4c");
+var s5a = $(".s5a");
+var s5b = $(".s5b");
 
 var s20 = $(".s20");
 var s20a = $(".s20a");
@@ -31,609 +31,477 @@ var s21a = $(".s21a");
 var s21b = $(".s21b");
 var s21c = $(".s21c");
 
-var sv20 = $(".sv20");
-var sv20b = $(".sv20b");
-var sv21a = $(".sv21a");
-var sv21b = $(".sv21b");
-var sv21c = $(".sv21c");
+var s20 = $(".s20");
+var s20b = $(".s20b");
+var s21a = $(".s21a");
+var s21b = $(".s21b");
+var s21c = $(".s21c");
 
 var s30 = $(".s30");
 var s30a = $(".s30a");
-var sv30a = $(".sv30a");
+var s30a = $(".s30a");
 
-var prikker = $(".prikker");
-var avatarHumor = getRndInteger(5, 8);
-//1 = sur 0% grøn, 100% rød
-//2 = megetKed 12.5% grøn, 87.5% rød
-//3 = lidtKed 25% grøn, 75% rød
-//4 = overrasket 37.5% grøn, 62.5% rød
-//5 = flov 50% grøn, 50% rød
-//6 = neutral 62.5% grøn, 37.5% rød
-//7 = glad 75% grøn, 25% rød
-//8 = megetGlad 87.5% grøn, 12.5% rød
-//9 ekstatisk 100% grøn, 0% rød
+var motiver = $(".motiver");
+var avatarv = getRndInteger(1, 9);
 
-startHumør();
+humorv();
 
-$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 
-function startHumør() {
-	console.log("Start humør");
-	if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%")
-		$(".barometergreen").css("width", "50%")
+function humorv() {
+	console.log("Start Humor");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		setTimeout(start, 1); //1500
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".barometerred").css("width", "37.5%")
-		$(".barometergreen").css("width", "62.5%")
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
+		setTimeout(start, 1); //1500
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		setTimeout(start, 1); //1500
 	} else {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url(Img/dameglad-01.png)");
-		$(".barometerred").css("width", "25%")
-		$(".barometergreen").css("width", "75%")
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		setTimeout(start, 1); //1500
 	}
 }
 
 function start() {
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap, 1); //4600
+	$("#keyboard")[0].play();
+	setTimeout(klikkenPåKnap, 1); //4600
 }
 
-function klikPåKnap() {
-	console.log("Klik på knappen")
-		//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer);
-	setTimeout(docSvarer, 55500);
+function klikkenPåKnap() {
+	console.log("klikken på knappen");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer);
+	setTimeout(docsarer, 55500);
 
 }
 
 
-function docSvarer() {
+function docsarer() {
 	console.log("Hej");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer);
 	$("ul").append(spgm1);
 	setTimeout(avatarSkriver, 1); //2000
 
 }
 
 function avatarSkriver() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer, 1); //3000
+	console.log("typisk");
+		$(".motiver").show();
+	setTimeout(avatarsarer, 1); //3000
 }
 
-function avatarSvarer() {
+function avatarsarer() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(svar1);
-	setTimeout(valg1, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(sar1);
+	setTimeout(v1, 3000); //3000
 }
 
-function valg1() {
-	console.log("Valg1");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed1);
-	$(".mulighed2").on("click", mulighed2);
-	$(".mulighed3").on("click", mulighed3);
+function v1() {
+	console.log("v1");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige1);
+	$(".mulige2").on("click", mulige2);
+	$(".mulige3").on("click", mulige3);
 }
 
-/////////dialog-spor 1
+//Dialogben1
 
-function mulighed1() {
-	console.log("Mulighed 1");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1);
-	$(".mulighed2").off("click", mulighed2);
-	$(".mulighed3").off("click", mulighed3);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-
-	setTimeout(klikPåKnap2, 1); //4000
+function mulige1() {
+	console.log("mulige 1");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1);
+	$(".mulige2").off("click", mulige2);
+	$(".mulige3").off("click", mulige3);
+		setTimeout(klikkenPåKnap2, 1); //4000
 }
 
-function klikPåKnap2() {
-	console.log("Klik på knappen");
-	//	$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer2);
-	setTimeout(docSvarer2, 1);
+function klikkenPåKnap2() {
+	console.log("klikken på knappen");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer2);
+	setTimeout(docsarer2, 1);
 }
 
-function docSvarer2() {
-	console.log("doc svarer 2");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer2);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer2() {
+	console.log("doc sarer 2");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer2);
 	$("ul").append(s1a);
 	setTimeout(avatarSkriver2, 1); //2000
 }
 
 function avatarSkriver2() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer2, 1); //3000
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer2, 1); //3000
 }
 
-function avatarSvarer2() {
+function avatarsarer2() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv1a);
-	setTimeout(valga1, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s1a);
+	setTimeout(va1, 1); //3000
 }
 
-function valga1() {
-	console.log("Valg a1");
-	$(".avatarsvar").html("<strong></strong>Der har været stillet forslag til at mindske delen af almennøtige boliger?");
-	$(".mulighed1").html("<strong></strong>Jeg burde vide om Christiania indgår i lokalplanen?");
-	$(".mulighed2").html("<strong></strong>Der er meget store forandringer på boligområdet. Det kan medføre stor forskelsbehandling?");
-	$(".mulighed3").html("<strong></strong>Sådan er det, hvis der er råd?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed1a);
-	$(".mulighed2").on("click", mulighed1b);
-	$(".mulighed3").on("click", mulighed1c);
+function va1() {
+	console.log("v a1");
+	$(".avatarsar").html("<strong></strong>Der har været stillet forslag til at mindske delen af almennøtige boliger?");
+	$(".mulige1").html("<strong></strong>Jeg burde vide om Christiania indgår i lokalplanen?");
+	$(".mulige2").html("<strong></strong>Der er meget store forandringer på boligområdet. Det kan medføre stor forskelsbehandling?");
+	$(".mulige3").html("<strong></strong>Sådan er det, hvis der er råd?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige1a);
+	$(".mulige2").on("click", mulige1b);
+	$(".mulige3").on("click", mulige1c);
 }
 
-function mulighed1a() {
-	console.log("Mulighed 1a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1a);
-	$(".mulighed2").off("click", mulighed1b);
-	$(".mulighed3").off("click", mulighed1c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap3a, 1);
+function mulige1a() {
+	console.log("mulige 1a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1a);
+	$(".mulige2").off("click", mulige1b);
+	$(".mulige3").off("click", mulige1c);
+	setTimeout(klikkenPåKnap3a, 1);
 }
 
-function klikPåKnap3a() {
-	console.log("Klik på knap 3");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer3a);
-	setTimeout(docSvarer3a, 1);
+function klikkenPåKnap3a() {
+	console.log("klikken på knap 3");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer3a);
+	setTimeout(docsarer3a, 1);
 }
 
-function docSvarer3a() {
-	console.log("doc svarer 3");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer3a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer3a() {
+	console.log("doc sarer 3");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer3a);
 	$("ul").append(s2a);
-	setTimeout(humørSkift1a, 1); //2000
+	setTimeout(HumorSkift1a, 1); //2000
 }
 
-function humørSkift1a() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift1a() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver3();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver3();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver3();
 	}
 }
 
 function avatarSkriver3() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer3, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer3, 1);
 }
 
-function avatarSvarer3() {
+function avatarsarer3() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv2a);
-	setTimeout(valg2a, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s2a);
+	setTimeout(v2a, 3000); //3000
 }
 
-function valg2a() {
-	console.log("Valg 2a");
-	$(".avatarsvar").html("<strong></strong>Nej. Hvad med dialogen mellem politikere og borgere?");
-	$(".mulighed1").html("<strong></strong>Her har der altid været en god dialog til politikerne. Vi får altid en sludder når de har en stand sat op?");
-	$(".mulighed2").html("<strong></strong>Det ved jeg ikke rigtigt, de kan bare sige til?");
-	$(".mulighed3").html("<strong></strong>Det er mange gange svært at se hvem der er lokal politiker, men jeg er medlem af et parti og får det samme matriale som politikeren, så der masser at snakke om?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed2a);
-	$(".mulighed2").on("click", mulighed2b);
-	$(".mulighed3").on("click", mulighed2c);
+function v2a() {
+	console.log("v 2a");
+	$(".avatarsar").html("<strong></strong>Nej. Hvad med dialogen mellem politikere og borgere?");
+	$(".mulige1").html("<strong></strong>Her har der altid været en god dialog til politikerne. Vi får altid en sludder når de har en stand sat op?");
+	$(".mulige2").html("<strong></strong>Det ved jeg ikke rigtigt, de kan bare sige til?");
+	$(".mulige3").html("<strong></strong>Det er mange gange sært at se hvem der er lokal politiker, men jeg er medlem af et parti og får det samme matriale som politikeren, så der masser at snakke om?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige2a);
+	$(".mulige2").on("click", mulige2b);
+	$(".mulige3").on("click", mulige2c);
 }
 
-function mulighed2a() {
-	console.log("Mulighed 2a")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed2a);
-	$(".mulighed2").off("click", mulighed2b);
-	$(".mulighed3").off("click", mulighed2c);
-	$(".mulighed2").off("click", mulighed3c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap4a, 1);
+function mulige2a() {
+	console.log("mulige 2a")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige2a);
+	$(".mulige2").off("click", mulige2b);
+	$(".mulige3").off("click", mulige2c);
+	$(".mulige2").off("click", mulige3c);
+	setTimeout(klikkenPåKnap4a, 1);
 }
 
-function klikPåKnap4a() {
-	console.log("klikPåKnap4");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer4a);
-	setTimeout(docSvarer4a, 1);
+function klikkenPåKnap4a() {
+	console.log("klikkenPåKnap4");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer4a);
+	setTimeout(docsarer4a, 1);
 }
 
-function docSvarer4a() {
-	console.log("doc svarer 4a");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer4a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer4a() {
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer4a);
 	$("ul").append(s3a);
-	setTimeout(humørSkift2a, 1); //2000
+	setTimeout(HumorSkift2a, 1); //2000
 }
 
-function humørSkift2a() {
-	console.log("Humør skift 2a");
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift2a() {
+	console.log("Humor skift 2a");
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver4a();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver4a();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver4a();
 	}
 }
 
 function avatarSkriver4a() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer4a, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer4a, 1);
 }
 
-function avatarSvarer4a() {
+function avatarsarer4a() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv3a);
-	setTimeout(tabEllerVind1a, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s3a);
+	setTimeout(tabEllerVind1a, 1); //3000
 }
 
 function tabEllerVind1a() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
-//////////
+///
 
-function mulighed2b() {
-	console.log("Mulighed 2b")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed2a);
-	$(".mulighed2").off("click", mulighed2b);
-	$(".mulighed3").off("click", mulighed2c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap4b, 1);
+function mulige2b() {
+	console.log("mulige 2b")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige2a);
+	$(".mulige2").off("click", mulige2b);
+	$(".mulige3").off("click", mulige2c);
+	setTimeout(klikkenPåKnap4b, 1);
 }
 
-function klikPåKnap4b() {
-	console.log("klikPåKnap4");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer4b);
-	setTimeout(docSvarer4b, 1);
+function klikkenPåKnap4b() {
+	console.log("klikkenPåKnap4");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer4b);
+	setTimeout(docsarer4b, 1);
 }
 
-function docSvarer4b() {
-	console.log("docSvarer4b");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer4b);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer4b() {
+	console.log("docsarer4b");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer4b);
 	$("ul").append(s3b);
-	avatarHumor--;
-	avatarHumor--;
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift2b, 1); //2000
+	avatarv--;
+	avatarv--;
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift2b, 1); //2000
 }
 
-function humørSkift2b() {
-	console.log("Humør skift 2b");
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift2b() {
+	console.log("Humor skift 2b");
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver4b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver4b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver4b();
 	}
 }
@@ -641,174 +509,130 @@ function humørSkift2b() {
 
 function avatarSkriver4b() {
 	console.log("avatarSkriver4b");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer4b, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer4b, 1);
 }
 
-function avatarSvarer4b() {
+function avatarsarer4b() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv3b);
-	setTimeout(tabEllerVind1b, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s3b);
+	setTimeout(tabEllerVind1b, 1); //3000
 }
 
 function tabEllerVind1b() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
-///////////
-function mulighed2c() {
-	console.log("Mulighed 2c")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed2a);
-	$(".mulighed2").off("click", mulighed2b);
-	$(".mulighed3").off("click", mulighed2c);
-	$(".mulighed2").off("click", mulighed3c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap4c, 1);
+////
+function mulige2c() {
+	console.log("mulige 2c")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige2a);
+	$(".mulige2").off("click", mulige2b);
+	$(".mulige3").off("click", mulige2c);
+	$(".mulige2").off("click", mulige3c);
+	setTimeout(klikkenPåKnap4c, 1);
 }
 
-function klikPåKnap4c() {
-	console.log("klikPåKnap4c");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer4c);
-	setTimeout(docSvarer4c, 1);
+function klikkenPåKnap4c() {
+	console.log("klikkenPåKnap4c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer4c);
+	setTimeout(docsarer4c, 1);
 }
 
-function docSvarer4c() {
-	console.log("docSvarer4c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer4c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer4c() {
+	console.log("docsarer4c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer4c);
 	$("ul").append(s3c);
-	avatarHumor++;
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift2c, 1); //2000
+	avatarv++;
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift2c, 1); //2000
 }
 
-function humørSkift2c() {
-	console.log("Humør skift 2c");
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor == 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift2c() {
+	console.log("Humor skift 2c");
+
+	console.log("Humor skifte1");
+	if (avatarv == 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver4c();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver4c();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-1.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-1.png')");
 		avatarSkriver4c();
 	}
 }
@@ -816,1041 +640,779 @@ function humørSkift2c() {
 
 function avatarSkriver4c() {
 	console.log("avatarSkriver4c");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer4c, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer4c, 1);
 }
 
-function avatarSvarer4c() {
+function avatarsarer4c() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv3c);
-	setTimeout(tabEllerVind1c, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s3c);
+	setTimeout(tabEllerVind1c, 1); //3000
 }
 
 function tabEllerVind1c() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
 
 //////
 
-function mulighed1b() {
-	console.log("Mulighed 1b");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1a);
-	$(".mulighed2").off("click", mulighed1b);
-	$(".mulighed3").off("click", mulighed1c);
-	$(".mulighed1").off("click", mulighed30a);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap3b, 1);
+function mulige1b() {
+	console.log("mulige 1b");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1a);
+	$(".mulige2").off("click", mulige1b);
+	$(".mulige3").off("click", mulige1c);
+	$(".mulige1").off("click", mulige30a);
+	setTimeout(klikkenPåKnap3b, 1);
 }
 
-function klikPåKnap3b() {
-	console.log("Klik på knap 3b");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer3b);
-	setTimeout(docSvarer3b, 1);
+function klikkenPåKnap3b() {
+	console.log("klikken på knap 3b");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer3b);
+	setTimeout(docsarer3b, 1);
 }
 
-function docSvarer3b() {
-	console.log("doc svarer 3");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer3b);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer3b() {
+	console.log("doc sarer 3");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer3b);
 	$("ul").append(s2b);
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift1c, 1); //2000
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift1c, 1); //2000
 }
 
-function humørSkift1c() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift1c() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver3b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver3b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver3b();
 	}
 }
 
 function avatarSkriver3b() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer3b, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer3b, 1);
 }
 
-function avatarSvarer3b() {
+function avatarsarer3b() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv2b);
-	setTimeout(valg2b, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s2b);
+	setTimeout(v2b, 3000); //3000
 }
 
 
-function valg2b() {
-	console.log("Valg 2b");
-	$(".avatarsvar").html("<strong></strong>Ja, flere indbyggere, har betydning for miljøet?");
-	$(".mulighed1").html("<strong></strong>Her har der været taget hensyn for grøn by og at CO2- niveauet skal ned?");
-	$(".mulighed2").html("<strong></strong>Her har du en pjece, der omhandler dit problem. Læs den, og så skal det nok ordne sig?");
-	$(".mulighed3").html("<strong></strong>Det er vigtigt der er boliger nok og at der satses på bæredygtighed over hele linjen?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed2c);
-	$(".mulighed2").on("click", mulighed2a);
-	$(".mulighed3").on("click", mulighed3c);
+function v2b() {
+	console.log("v 2b");
+	$(".avatarsar").html("<strong></strong>Ja, flere indbyggere, har betydning for miljøet?");
+	$(".mulige1").html("<strong></strong>Her har der været taget hensyn for grøn by og at CO2- niveauet skal ned?");
+	$(".mulige2").html("<strong></strong>Her har du en pjece, der omhandler dit problem. Læs den, og så skal det nok ordne sig?");
+	$(".mulige3").html("<strong></strong>Det er vigtigt der er boliger nok og at der satses på bæredygtighed over hele linjen?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige2c);
+	$(".mulige2").on("click", mulige2a);
+	$(".mulige3").on("click", mulige3c);
 }
 
-function mulighed3c() {
-	console.log("Mulighed 2a")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed2a);
-	$(".mulighed2").off("click", mulighed3c);
-	$(".mulighed3").off("click", mulighed2c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap5c, 1);
+function mulige3c() {
+	console.log("mulige 2a")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige2a);
+	$(".mulige2").off("click", mulige3c);
+	$(".mulige3").off("click", mulige2c);
+	setTimeout(klikkenPåKnap5c, 1);
 }
 
-function klikPåKnap5c() {
-	console.log("klikPåKnap5c");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer5c);
-	setTimeout(docSvarer5c, 1);
+function klikkenPåKnap5c() {
+	console.log("klikkenPåKnap5c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer5c);
+	setTimeout(docsarer5c, 1);
 }
 
-function docSvarer5c() {
-	console.log("doc svarer 5c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer5c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer5c() {
+	console.log("doc sarer 5c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer5c);
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s4c);
-	setTimeout(humørSkift3c, 1); //2000
+	setTimeout(HumorSkift3c, 1); //2000
 }
 
-function humørSkift3c() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift3c() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver5c();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver5c();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver5c();
 	}
 }
 
 function avatarSkriver5c() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer5c, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer5c, 1);
 }
 
-function avatarSvarer5c() {
+function avatarsarer5c() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv4c);
-	setTimeout(tabEllerVind1d, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s4c);
+	setTimeout(tabEllerVind1d, 1); //3000
 }
 
 function tabEllerVind1d() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
 
 
-///////////
+////
 
-function mulighed1c() {
-	console.log("Mulighed 1c");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1a);
-	$(".mulighed2").off("click", mulighed1b);
-	$(".mulighed3").off("click", mulighed1c);
-	$(".mulighed1").off("click", mulighed30a);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap3c, 1);
+function mulige1c() {
+	console.log("mulige 1c");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1a);
+	$(".mulige2").off("click", mulige1b);
+	$(".mulige3").off("click", mulige1c);
+	$(".mulige1").off("click", mulige30a);
+	setTimeout(klikkenPåKnap3c, 1);
 }
 
-function klikPåKnap3c() {
-	console.log("Klik på knap 3c");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer3c);
-	setTimeout(docSvarer3c, 1);
+function klikkenPåKnap3c() {
+	console.log("klikken på knap 3c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer3c);
+	setTimeout(docsarer3c, 1);
 }
 
-function docSvarer3c() {
-	console.log("doc svarer 3c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer3c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer3c() {
+	console.log("doc sarer 3c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer3c);
 	$("ul").append(s2c);
-	avatarHumor--;
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift5c, 1); //2000
+	avatarv--;
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift5c, 1); //2000
 }
 
-function humørSkift5c() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift5c() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver6c();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver6c();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver6c();
 	}
 }
 
 function avatarSkriver6c() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer6c, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer6c, 1);
 }
 
-function avatarSvarer6c() {
+function avatarsarer6c() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv2c);
-	setTimeout(valg2c, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s2c);
+	setTimeout(v2c, 1); //3000
 }
 
-function valg2c() {
-	console.log("Valg 2c");
-	$(".avatarsvar").html("<strong></strong>Men der er altid råd til en bedre udvikling?");
-	$(".mulighed1").html("<strong></strong>Beklager, udsatte kvinder, løsarbejdere og prostitution er svært at komme til livs?");
-	$(".mulighed2").html("<strong></strong>Ja, men det er altid usikkert hvad man får ikke hvad man har?");
-	$(".mulighed3").html("<strong></strong>Og hvad har jounior så tænkt sig at gøre ved det?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed4a);
-	$(".mulighed2").on("click", mulighed4b);
-	$(".mulighed3").on("click", mulighed4c);
+function v2c() {
+	console.log("v 2c");
+	$(".avatarsar").html("<strong></strong>Men der er altid råd til en bedre udvikling?");
+	$(".mulige1").html("<strong></strong>Beklager, udsatte kvinder, løsarbejdere og prostitution er sært at komme til livs?");
+	$(".mulige2").html("<strong></strong>Ja, men det er altid usikkert hvad man får ikke hvad man har?");
+	$(".mulige3").html("<strong></strong>Og hvad har jounior så tænkt sig at gøre ved det?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige4a);
+	$(".mulige2").on("click", mulige4b);
+	$(".mulige3").on("click", mulige4c);
 }
 
-function mulighed4a() {
-	console.log("mulighed4a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed4a);
-	$(".mulighed2").off("click", mulighed4b);
-	$(".mulighed3").off("click", mulighed4c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap6a, 1);
+function mulige4a() {
+	console.log("mulige4a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige4a);
+	$(".mulige2").off("click", mulige4b);
+	$(".mulige3").off("click", mulige4c);
+	setTimeout(klikkenPåKnap6a, 1);
 }
 
-function klikPåKnap6a() {
-	console.log("klikPåKnap6a");
-	//	$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer6a);
-	setTimeout(docSvarer6a, 1);
+function klikkenPåKnap6a() {
+	console.log("klikkenPåKnap6a");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer6a);
+	setTimeout(docsarer6a, 1);
 }
 
-function docSvarer6a() {
-	console.log("docSvarer6a");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer6a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer6a() {
+	console.log("docsarer6a");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer6a);
 	$("ul").append(s5a);
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift6a, 1); //2000
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift6a, 1); //2000
 }
 
-function humørSkift6a() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift6a() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver7a();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver7a();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver7a();
 	}
 }
 
 function avatarSkriver7a() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer7a, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer7a, 1);
 }
 
-function avatarSvarer7a() {
+function avatarsarer7a() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv5a);
-	setTimeout(tabEllerVind1e, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s5a);
+	setTimeout(tabEllerVind1e, 1); //3000
 }
 
 function tabEllerVind1e() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
 
 
 ///////
-function mulighed4b() {
-	console.log("mulighed4b");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed4a);
-	$(".mulighed2").off("click", mulighed4b);
-	$(".mulighed3").off("click", mulighed4c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap6b, 1);
+function mulige4b() {
+	console.log("mulige4b");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige4a);
+	$(".mulige2").off("click", mulige4b);
+	$(".mulige3").off("click", mulige4c);
+	setTimeout(klikkenPåKnap6b, 1);
 }
 
-function klikPåKnap6b() {
-	console.log("klikPåKnap6b");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer6b);
-	setTimeout(docSvarer6b, 1);
+function klikkenPåKnap6b() {
+	console.log("klikkenPåKnap6b");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer6b);
+	setTimeout(docsarer6b, 1);
 }
 
-function docSvarer6b() {
-	console.log("docSvarer6b");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer6b);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer6b() {
+	console.log("docsarer6b");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer6b);
 	$("ul").append(s5b);
-	avatarHumor--;
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift6b, 1); //2000
+	avatarv--;
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift6b, 1); //2000
 }
 
-function humørSkift6b() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift6b() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')")
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')")
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver7b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver7b();
 	}
 }
 
 function avatarSkriver7b() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer7b, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer7b, 1);
 }
 
-function avatarSvarer7b() {
+function avatarsarer7b() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv5b);
-	setTimeout(tabEllerVind1f, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s5b);
+	setTimeout(tabEllerVind1f, 1); //3000
 }
 
 function tabEllerVind1f() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
 
 ///////
-function mulighed4c() {
-	console.log("mulighed4c");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed4a);
-	$(".mulighed2").off("click", mulighed4b);
-	$(".mulighed3").off("click", mulighed4c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap6c, 1);
+function mulige4c() {
+	console.log("mulige4c");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige4a);
+	$(".mulige2").off("click", mulige4b);
+	$(".mulige3").off("click", mulige4c);
+	setTimeout(klikkenPåKnap6c, 1);
 }
 
-function klikPåKnap6c() {
-	console.log("klikPåKnap6c");
-	//	$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer6c);
-	setTimeout(docSvarer6c, 1);
+function klikkenPåKnap6c() {
+	console.log("klikkenPåKnap6c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer6c);
+	setTimeout(docsarer6c, 1);
 }
 
-function docSvarer6c() {
-	console.log("docSvarer6c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer6c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer6c() {
+	console.log("docsarer6c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer6c);
 	$("ul").append(s5c);
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift6b, 1); //2000
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift6b, 1); //2000
 }
 
-function humørSkift6b() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift6b() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver7b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver7b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/_meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/_gglad-01.png')");
 		avatarSkriver7b();
 	}
 }
 
 function avatarSkriver7b() {
-	console.log("typing");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer7b, 1);
+	console.log("typisk");
+	$(".motiver").show();
+	setTimeout(avatarsarer7b, 1);
 }
 
-function avatarSvarer7b() {
+function avatarsarer7b() {
 	console.log("avatar");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv5b);
-	setTimeout(tabEllerVind1g, 1); //5000
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s5b);
+	setTimeout(tabEllerVind1g, 1); //3000
 }
 
 function tabEllerVind1g() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
@@ -1859,1166 +1421,857 @@ function tabEllerVind1g() {
 
 ////////dialog-spor 2
 
-function mulighed2() {
-	console.log("Mulighed 2");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1);
-	$(".mulighed2").off("click", mulighed2);
-	$(".mulighed3").off("click", mulighed3);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-
-	setTimeout(klikPåKnap20, 1); //4000
+function mulige2() {
+	console.log("mulige 2");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1);
+	$(".mulige2").off("click", mulige2);
+	$(".mulige3").off("click", mulige3);
+		setTimeout(klikkenPåKnap20, 1); //4000
 }
 
-function klikPåKnap20() {
-	console.log("Klik på knap 3");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer20);
-	setTimeout(docSvarer20, 1);
+function klikkenPåKnap20() {
+	console.log("klikken på knap 3");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer20);
+	setTimeout(docsarer20, 1);
 }
 
-function docSvarer20() {
-	console.log("doc svarer 3");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer20);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor--;
-	avatarHumor--;
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer20() {
+	console.log("doc sarer 3");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer20);
+	avatarv--;
+	avatarv--;
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s20);
-	setTimeout(humørSkift20, 1); //2000
+	setTimeout(HumorSkift20, 1); //2000
 }
 
-function humørSkift20() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift20() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver20();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver20();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver20();
 	}
 }
 
 function avatarSkriver20() {
 	console.log("avatarSkriver20");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer20, 1); //3000
+	$(".motiver").show();
+	setTimeout(avatarsarer20, 1); //3000
 }
 
-function avatarSvarer20() {
-	console.log("avatarSvarer20");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv20);
-	setTimeout(valg20, 1); //5000
+function avatarsarer20() {
+	console.log("avatarsarer20");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s20);
+	setTimeout(v20, 3000); //3000
 }
 
-function valg20() {
-	console.log("valg20");
-	$(".avatarsvar").html("<strong></strong>Øhh, der er stadig psykisk udsatte og alle har ret til en bolig, som danske statsborgere?");
-	$(".mulighed1").html("<strong></strong>Nå, hvad med den merudgift der er på bolig som familie, må vi nu ikke være familie længere?");
-	$(".mulighed2").html("<strong></strong>Nå ok, så skal der holdes godt øje med hjemløse, så de også får en bolig?");
-	$(".mulighed3").html("<strong></strong>Hvad er sundhedsmæssigt den rigtige størrelses bolig?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed20a);
-	$(".mulighed2").on("click", mulighed20b);
-	$(".mulighed3").on("click", mulighed20c);
+function v20() {
+	console.log("v20");
+	$(".avatarsar").html("<strong></strong>Øhh, der er stadig psykisk udsatte og alle har ret til en bolig, som danske statsborgere?");
+	$(".mulige1").html("<strong></strong>Nå, hvad med den merudgift der er på bolig som familie, må vi nu ikke være familie længere?");
+	$(".mulige2").html("<strong></strong>Nå ok, så skal der holdes godt øje med hjemløse, så de også får en bolig?");
+	$(".mulige3").html("<strong></strong>Hvad er sundhedsmæssigt den rigtige størrelses bolig?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige20a);
+	$(".mulige2").on("click", mulige20b);
+	$(".mulige3").on("click", mulige20c);
 }
 
-function mulighed20a() {
-	console.log("mulighed20a")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed20a);
-	$(".mulighed2").off("click", mulighed20b);
-	$(".mulighed3").off("click", mulighed20c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap20a, 1);
+function mulige20a() {
+	console.log("mulige20a")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige20a);
+	$(".mulige2").off("click", mulige20b);
+	$(".mulige3").off("click", mulige20c);
+	setTimeout(klikkenPåKnap20a, 1);
 }
 
-function klikPåKnap20a() {
-	console.log("klikPåKnap20a");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer20a);
-	setTimeout(docSvarer20a, 1);
+function klikkenPåKnap20a() {
+	console.log("klikkenPåKnap20a");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer20a);
+	setTimeout(docsarer20a, 1);
 }
 
-function docSvarer20a() {
-	console.log("doc svarer 20a");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer20a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer20a() {
+	console.log("doc sarer 20a");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer20a);
 	$("ul").append(s20a);
-	avatarHumor--;
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(humørSkift6b, 1); //2000
+	avatarv--;
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(HumorSkift6b, 1); //2000
 }
 
-function mulighed20b() {
-	console.log("mulighed20b")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed20a);
-	$(".mulighed2").off("click", mulighed20b);
-	$(".mulighed3").off("click", mulighed20c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
-	setTimeout(klikPåKnap20b, 1);
+function mulige20b() {
+	console.log("mulige20b")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige20a);
+	$(".mulige2").off("click", mulige20b);
+	$(".mulige3").off("click", mulige20c);
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
+	setTimeout(klikkenPåKnap20b, 1);
 }
 
-function klikPåKnap20b() {
-	console.log("klikPåKnap20b");
-	//	$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer20b);
-	setTimeout(docSvarer20b, 1);
+function klikkenPåKnap20b() {
+	console.log("klikkenPåKnap20b");
+
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer20b);
+	setTimeout(docsarer20b, 1);
 }
 
-function docSvarer20b() {
-	console.log("doc svarer 20b");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer20b);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer20b() {
+	console.log("doc sarer 20b");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer20b);
 	$("ul").append(s20b);
-	setTimeout(humørSkift20b, 1); //2000
+	setTimeout(HumorSkift20b, 1); //2000
 }
 
-function mulighed20c() {
-	console.log("mulighed20c")
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed20a);
-	$(".mulighed2").off("click", mulighed20b);
-	$(".mulighed3").off("click", mulighed20c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap20c, 1);
+function mulige20c() {
+	console.log("mulige20c")
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige20a);
+	$(".mulige2").off("click", mulige20b);
+	$(".mulige3").off("click", mulige20c);
+	setTimeout(klikkenPåKnap20c, 1);
 }
 
-function klikPåKnap20c() {
-	console.log("klikPåKnap20c");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer20c);
-	setTimeout(docSvarer20c, 1);
+function klikkenPåKnap20c() {
+	console.log("klikkenPåKnap20c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer20c);
+	setTimeout(docsarer20c, 1);
 }
 
-function docSvarer20c() {
-	console.log("doc svarer 20c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer20c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer20c() {
+	console.log("doc sarer 20c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer20c);
 	$("ul").append(s20c);
-	setTimeout(humørSkift20b, 1); //2000
+	setTimeout(HumorSkift20b, 1); //2000
 }
 
-function humørSkift20b() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift20b() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver20b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver20b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver29b();
 	}
 }
 
 function avatarSkriver20b() {
 	console.log("avatarSkriver20b");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer20b, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer20b, 1);
 }
 
-function avatarSvarer20b() {
-	console.log("avatarSvarer20b");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv20b);
-	setTimeout(valg21, 1); //5000
+function avatarsarer20b() {
+	console.log("avatarsarer20b");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s20b);
+	setTimeout(v21, 3000); //3000
 }
 
-function valg21() {
-	console.log("valg21");
-	$(".avatarsvar").html("<strong></strong>Jeg har praktikpladser og voksenuddannelse?");
-	$(".mulighed1").html("<strong></strong>Jeg kan give min arbejdsgiver besked om at der er voksen-uddannelser?");
-	$(".mulighed2").html("<strong></strong>Jeg kender nogle industriområder, der samarbejder om at få flest gennem uddannelse uanset alder og social status?");
-	$(".mulighed3").html("<strong></strong>Det er bare at bruge pengene på kriminalforsovnet?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed21a);
-	$(".mulighed2").on("click", mulighed21b);
-	$(".mulighed3").on("click", mulighed21c);
+function v21() {
+	console.log("v21");
+	$(".avatarsar").html("<strong></strong>Jeg har praktikpladser og voksenuddannelse?");
+	$(".mulige1").html("<strong></strong>Jeg kan give min arbejdsgiver besked om at der er voksen-uddannelser?");
+	$(".mulige2").html("<strong></strong>Jeg kender nogle industriområder, der samarbejder om at få flest gennem uddannelse uanset alder og social status?");
+	$(".mulige3").html("<strong></strong>Det er bare at bruge pengene på kriminalforsovnet?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige21a);
+	$(".mulige2").on("click", mulige21b);
+	$(".mulige3").on("click", mulige21c);
 }
 
-function mulighed21a() {
-	console.log("mulighed21a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed21a);
-	$(".mulighed2").off("click", mulighed21b);
-	$(".mulighed3").off("click", mulighed21c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap21a, 1); //4600
+function mulige21a() {
+	console.log("mulige21a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige21a);
+	$(".mulige2").off("click", mulige21b);
+	$(".mulige3").off("click", mulige21c);
+	setTimeout(klikkenPåKnap21a, 1); //4600
 }
 
-function klikPåKnap21a() {
-	console.log("klikPåKnap21a");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer21a);
-	setTimeout(docSvarer21a, 1);
+function klikkenPåKnap21a() {
+	console.log("klikkenPåKnap21a");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer21a);
+	setTimeout(docsarer21a, 1);
 }
 
-function docSvarer21a() {
-	console.log("doc svarer 21a");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer21a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer21a() {
+	console.log("doc sarer 21a");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer21a);
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s21a);
-	setTimeout(humørSkift21a, 1); //2000
+	setTimeout(HumorSkift21a, 1); //2000
 }
 
-function humørSkift21a() {
+function HumorSkift21a() {
 
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver21a();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21a();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21a();
 	}
 }
 
 function avatarSkriver21a() {
 	console.log("avatarSkriver21a");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer21a, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer21a, 1);
 }
 
-function avatarSvarer21a() {
-	console.log("avatarSvarer21a");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv21a);
-	setTimeout(tabEllerVind2a, 1); //5000
+function avatarsarer21a() {
+	console.log("avatarsarer21a");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s21a);
+	setTimeout(tabEllerVind2a, 1); //3000
 }
 
 function tabEllerVind2a() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
-///////////
+////
 
-function mulighed21b() {
-	console.log("mulighed21a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed21a);
-	$(".mulighed2").off("click", mulighed21b);
-	$(".mulighed3").off("click", mulighed21c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap21b, 1); //4600
+function mulige21b() {
+	console.log("mulige21a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige21a);
+	$(".mulige2").off("click", mulige21b);
+	$(".mulige3").off("click", mulige21c);
+	setTimeout(klikkenPåKnap21b, 1); //4600
 }
 
-function klikPåKnap21b() {
-	console.log("klikPåKnap21b");
-	//	$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer21b);
-	setTimeout(docSvarer21b, 1);
+function klikkenPåKnap21b() {
+	console.log("klikkenPåKnap21b");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer21b);
+	setTimeout(docsarer21b, 1);
 }
 
-function docSvarer21b() {
-	console.log("doc svarer 21b");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer21b);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor++;
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer21b() {
+	console.log("doc sarer 21b");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer21b);
+	avatarv++;
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s21b);
-	setTimeout(humørSkift21b, 1); //2000
+	setTimeout(HumorSkift21b, 1); //2000
 }
 
-function humørSkift21b() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift21b() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver21b();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21b();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21b();
 	}
 }
 
 function avatarSkriver21b() {
 	console.log("avatarSkriver21b");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer21b, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer21b, 1);
 }
 
-function avatarSvarer21b() {
-	console.log("avatarSvarer21b");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv21b);
-	setTimeout(tabEllerVind2b, 1); //5000
+function avatarsarer21b() {
+	console.log("avatarsarer21b");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s21b);
+	setTimeout(tabEllerVind2b, 1); //3000
 }
 
 function tabEllerVind2b() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
-/////////////////
-function mulighed21c() {
-	console.log("mulighed21a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed21a);
-	$(".mulighed2").off("click", mulighed21b);
-	$(".mulighed3").off("click", mulighed21c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap21c, 1); //4600
+//
+function mulige21c() {
+	console.log("mulige21a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige21a);
+	$(".mulige2").off("click", mulige21b);
+	$(".mulige3").off("click", mulige21c);
+	setTimeout(klikkenPåKnap21c, 1); //4600
 }
 
-function klikPåKnap21c() {
-	console.log("klikPåKnap21c");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer21c);
-	setTimeout(docSvarer21c, 1);
+function klikkenPåKnap21c() {
+	console.log("klikkenPåKnap21c");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer21c);
+	setTimeout(docsarer21c, 1);
 }
 
-function docSvarer21c() {
-	console.log("doc svarer 21c");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer21c);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor--;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer21c() {
+	console.log("doc sarer 21c");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer21c);
+	avatarv--;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s21c);
-	setTimeout(humørSkift21c, 1); //2000
+	setTimeout(HumorSkift21c, 1); //2000
 }
 
-function humørSkift21c() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/gammeldamesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift21c() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/gammelsur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/gammeldamemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/gammelmegetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/gammeldamelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/gammellidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver21c();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21c();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver21c();
 	}
 }
 
 function avatarSkriver21c() {
 	console.log("avatarSkriver21a");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer21c, 1);
+	$(".motiver").show();
+	setTimeout(avatarsarer21c, 1);
 }
 
-function avatarSvarer21c() {
-	console.log("avatarSvarer21c");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv21c);
-	setTimeout(tabEllerVind2c, 1); //5000
+function avatarsarer21c() {
+	console.log("avatarsarer21c");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s21c);
+	setTimeout(tabEllerVind2c, 1); //3000
 }
 
 function tabEllerVind2c() {
 	console.log("tabEllerVind");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".lastscreen").css("background-image", "url('Img/loss-01.png')");
-		$(".lastscreen").show(0);
-		$(".loss")[0].play();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".lastscreen").show(0);
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".screenes").css("background-image", "url('images_sitet/taber-01.png')");
+		$(".screenes").show(0);
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".screenes").show(0);
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".screenes").show(0);
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".screenes").show(0);
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".screenes").show(0);
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".screenes").show(0);
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	} else {
-		console.log("Humør 9");
-		$(".lastscreen").css("background-image", "url('Img/sejr-01.png')");
-		$(".lastscreen").show(0);
-		$(".win")[0].play();
+		console.log("Humor 9");
+		$(".screenes").css("background-image", "url('images_sitet/vinner-01.png')");
+		$(".screenes").show(0);
 	}
 }
 
 
-//////////dialog-spor 3
+///dialog-spor 3
 
-function mulighed3() {
-	console.log("Mulighed 3");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed1);
-	$(".mulighed2").off("click", mulighed2);
-	$(".mulighed3").off("click", mulighed3);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-
-	setTimeout(klikPåKnap30, 1); //4000
+function mulige3() {
+	console.log("mulige 3");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige1);
+	$(".mulige2").off("click", mulige2);
+	$(".mulige3").off("click", mulige3);
+		setTimeout(klikkenPåKnap30, 1); //4000
 }
 
-function klikPåKnap30() {
-	console.log("klikPåKnap30");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer30);
-	setTimeout(docSvarer30, 1);
+function klikkenPåKnap30() {
+	console.log("klikkenPåKnap30");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer30);
+	setTimeout(docsarer30, 1);
 }
 
-function docSvarer30() {
-	console.log("docSvarer30");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer30);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
-	avatarHumor++;
-	$(".info").html("avatar <span>" + avatarHumor + "</span> humør");
+function docsarer30() {
+	console.log("docsarer30");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer30);
+	avatarv++;
+	$(".info").html("avatar <span>" + avatarv + "</span> Humor");
 	$("ul").append(s30);
-	setTimeout(humørSkift30, 1); //2000
+	setTimeout(HumorSkift30, 1); //2000
 }
 
-function humørSkift30() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/dpå_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift30() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/dvand-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver30();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver30();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver30();
 	}
 }
 
 function avatarSkriver30() {
 	console.log("avatarSkriver30");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer30, 1); //3000
+	$(".motiver").show();
+	setTimeout(avatarsarer30, 1); //3000
 }
 
-function avatarSvarer30() {
-	console.log("avatarSvarer20");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv1a);
-	setTimeout(valg30, 1); //5000
+function avatarsarer30() {
+	console.log("avatarsarer20");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s1a);
+	setTimeout(v30, 3000); //3000
 }
 
-function valg30() {
-	console.log("valg30");
-	$(".avatarsvar").html("<strong></strong>Det kan kun gå for langsomt med flere fritidsordninger og ansatte i institutionerne?");
-	$(".mulighed1").html("<strong></strong>Det er lige noget for mig, hvor kan jeg skrive mig op?");
-	$(".mulighed2").html("<strong></strong>Det lyder som om at der skal bygges i fremtiden?");
-	$(".mulighed3").html("<strong></strong>Sådan er er det ikke hvor jeg kommer fra?");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed30a);
-	$(".mulighed2").on("click", mulighed1b);
-	$(".mulighed3").on("click", mulighed1c);
+function v30() {
+	console.log("v30");
+	$(".avatarsar").html("<strong></strong>Det kan kun gå for langsomt med flere fritidsordninger og ansatte i institutionerne?");
+	$(".mulige1").html("<strong></strong>Det er lige noget for mig, hvor kan jeg skrive mig op?");
+	$(".mulige2").html("<strong></strong>Det lyder som om at der skal bygges i fremtiden?");
+	$(".mulige3").html("<strong></strong>Sådan er er det ikke hvor jeg kommer fra?");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige30a);
+	$(".mulige2").on("click", mulige1b);
+	$(".mulige3").on("click", mulige1c);
 }
 
-function mulighed30a() {
-	console.log("mulighed30a");
-	$(".mulighed").hide(0);
-	$(".valg").css("z-index", "10");
-	$(".mulighed1").off("click", mulighed30a);
-	$(".mulighed2").off("click", mulighed1b);
-	$(".mulighed3").off("click", mulighed1c);
-	$("#typing")[0].play();
-	$(".chattype").typeIt({
-		strings: ['Hej'],
-		speed: 1 //40
-
-	});
-	setTimeout(klikPåKnap30a, 1);
+function mulige30a() {
+	console.log("mulige30a");
+	$(".mulige").hide(0);
+	$(".v").css("z-index", "10");
+	$(".mulige1").off("click", mulige30a);
+	$(".mulige2").off("click", mulige1b);
+	$(".mulige3").off("click", mulige1c);
+	setTimeout(klikkenPåKnap30a, 1);
 }
 
-function klikPåKnap30a() {
-	console.log("klikPåKnap30a");
-	//$("#typing")[0].pause();
-	$(".send").addClass("klik");
-	$(".send").on("click", docSvarer30a);
-	setTimeout(docSvarer30a, 1);
+function klikkenPåKnap30a() {
+	console.log("klikkenPåKnap30a");
+	$(".starter").addClass("klikken");
+	$(".starter").on("click", docsarer30a);
+	setTimeout(docsarer30a, 1);
 }
 
-function docSvarer30a() {
-	console.log("docSvarer30a");
-	$("#sendknap")[0].play();
-	$("#sendknap")[0].volume = 0.2;
-	$(".send").removeClass("klik");
-	$(".send").off("click", docSvarer30a);
-	$(".chattype").typeIt({
-		startDelete: true
-	});
+function docsarer30a() {
+	console.log("docsarer30a");
+	$(".starter").removeClass("klikken");
+	$(".starter").off("click", docsarer30a);
 	$("ul").append(s30a);
-	setTimeout(humørSkift30a, 1); //2000
+	setTimeout(HumorSkift30a, 1); //2000
 }
 
-function humørSkift30a() {
-	//1 = sur 0% grøn, 100% rød
-	//2 = megetKed 12.5% grøn, 87.5% rød
-	//3 = lidtKed 25% grøn, 75% rød
-	//4 = overrasket 37.5% grøn, 62.5% rød
-	//5 = flov 50% grøn, 50% rød
-	//6 = neutral 62.5% grøn, 37.5% rød
-	//7 = glad 75% grøn, 25% rød
-	//8 = megetGlad 87.5% grøn, 12.5% rød
-	//9 ekstatisk 100% grøn, 0% rød
-	console.log("Humør skifte1");
-	if (avatarHumor <= 1) {
-		console.log("Humør 1");
-		$(".avatarsin").css("background-image", "url('Img/damesur-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "100%");
-		$(".barometergreen").css("width", "0%");
+function HumorSkift30a() {
+
+	console.log("Humor skifte1");
+	if (avatarv <= 1) {
+		console.log("Humor 1");
+		$(".avatarsin").css("background-image", "url('images_sitet/sur-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 2) {
-		console.log("Humør 2");
-		$(".avatarsin").css("background-image", "url('Img/damemegetked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/på_dybt_vand-01.png')");
-		$(".barometerred").css("width", "87.5%");
-		$(".barometergreen").css("width", "12.5%");
+	} else if (avatarv == 2) {
+		console.log("Humor 2");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/vand-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 3) {
-		console.log("Humør 3");
-		$(".avatarsin").css("background-image", "url('Img/damelidtked-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "75%");
-		$(".barometergreen").css("width", "25%");
+	} else if (avatarv == 3) {
+		console.log("Humor 3");
+		$(".avatarsin").css("background-image", "url('images_sitet/lidtked-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 4) {
-		console.log("Humør 4");
-		$(".avatarsin").css("background-image", "url('Img/dameoverrasket-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/overrasket_negativt-01.png')");
-		$(".barometerred").css("width", "62.5%");
-		$(".barometergreen").css("width", "37.5%");
+	} else if (avatarv == 4) {
+		console.log("Humor 4");
+		$(".avatarsin").css("background-image", "url('images_sitet/overrasket-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/negativt-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 5) {
-		console.log("Humør 5");
-		$(".avatarsin").css("background-image", "url('Img/dameflov-01.png')");
-		$(".barometerred").css("width", "50%");
-		$(".barometergreen").css("width", "50%");
+	} else if (avatarv == 5) {
+		console.log("Humor 5");
+		$(".avatarsin").css("background-image", "url('images_sitet/flov-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 6) {
-		console.log("Humør 6");
-		$(".avatarsin").css("background-image", "url('Img/dameneutral-01.png')");
-		$(".barometerred").css("width", "37.5%");
-		$(".barometergreen").css("width", "62.5%");
+	} else if (avatarv == 6) {
+		console.log("Humor 6");
+		$(".avatarsin").css("background-image", "url('images_sitet/neutral-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 7) {
-		console.log("Humør 7");
-		$(".avatarsin").css("background-image", "url('Img/dameglad-01.png')");
-		$(".barometerred").css("width", "25%");
-		$(".barometergreen").css("width", "75%");
+	} else if (avatarv == 7) {
+		console.log("Humor 7");
+		$(".avatarsin").css("background-image", "url('images_sitet/glad-01.png')");
 		avatarSkriver30a();
-	} else if (avatarHumor == 8) {
-		console.log("Humør 8");
-		$(".avatarsin").css("background-image", "url('Img/damemegetglad-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "12.5%");
-		$(".barometergreen").css("width", "87.5%");
+	} else if (avatarv == 8) {
+		console.log("Humor 8");
+		$(".avatarsin").css("background-image", "url('images_sitet/megetglad-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver30a();
 	} else {
-		console.log("Humør 9");
-		$(".avatarsin").css("background-image", "url('Img/dameekstatisk-01.png')");
-		$(".doctorsen").css("background-image", "url('Img/meget_glad-01.png')");
-		$(".barometerred").css("width", "0%");
-		$(".barometergreen").css("width", "100%");
+		console.log("Humor 9");
+		$(".avatarsin").css("background-image", "url('images_sitet/ekstatisk-01.png')");
+		$(".doctorsen").css("background-image", "url('images_sitet/gglad-01.png')");
 		avatarSkriver30a();
 	}
 }
 
 function avatarSkriver30a() {
 	console.log("avatarSkriver30a");
-	$(".dialog").css("height", "28vw")
-	$(".prikker").show();
-	setTimeout(avatarSvarer30a, 1); //3000
+	$(".motiver").show();
+	setTimeout(avatarsarer30a, 1); //3000
 }
 
-function avatarSvarer30a() {
-	console.log("avatarSvarer30a");
-	$("#modtaget_besked")[0].play();
-	$("#modtaget_besked")[0].volume = 0.5;
-	$(".prikker").hide(0);
-	$(".dialog").css("height", "32vw");
-	$("ul").append(sv30a);
-	setTimeout(valg31, 1);
+function avatarsarer30a() {
+	console.log("avatarsarer30a");
+	$("#modtaget")[0].play();
+	$("#modtaget")[0].volume = 0.5;
+	$(".motiver").hide(0);
+		$("ul").append(s30a);
+	setTimeout(v31, 3000);
 }
 
-function valg31() {
-	console.log("valg31");
-	$(".avatarsvar").html("<strong></strong>Kommunerne virker kun som en slags bank der vidreformidler og administrere offentlig velfærd");
-	$(".mulighed1").html("<strong></strong>Her har du alle muligheder, grib changsen og find dit rigtige ståsted på arbejdsmarket");
-	$(".mulighed2").html("<strong></strong>Det er godt og mindsker burikratiet på kommunalt plan");
-	$(".mulighed3").html("<strong></strong>Det er meningen at Staten er vores alle sammens økonomi. Det er der for at udliciteringen har været svær at sluge, men når der er konkurrence på området får man også de bedste i ansættelse");
-	$(".valg").css("z-index", "25");
-	$(".mulighed").show(0);
-	$(".mulighed1").on("click", mulighed2a);
-	$(".mulighed2").on("click", mulighed2b);
-	$(".mulighed3").on("click", mulighed2c);
+function v31() {
+	console.log("v31");
+	$(".avatarsar").html("<strong></strong>Kommunerne virker kun som en slags bank der vidreformidler og administrere offentlig velfærd");
+	$(".mulige1").html("<strong></strong>Her har du alle muligeer, grib changsen og find dit rigtige ståsted på arbejdsmarket");
+	$(".mulige2").html("<strong></strong>Det er godt og mindsker burikratiet på kommunalt plan");
+	$(".mulige3").html("<strong></strong>Det er meningen at Staten er vores alle sammens økonomi. Det er der for at udliciteringen har været sær at sluge, men når der er konkurrence på området får man også de bedste i ansættelse");
+	$(".v").css("z-index", "25");
+	$(".mulige").show(0);
+	$(".mulige1").on("click", mulige2a);
+	$(".mulige2").on("click", mulige2b);
+	$(".mulige3").on("click", mulige2c);
 }
 
 
 function getRndInteger(min, max) {
-	return Math.floor(Math.random() * (max - min)) + min;
+	return Math.floor(Math.random() * 10) + 1;
 }

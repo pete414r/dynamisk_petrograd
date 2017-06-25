@@ -45,10 +45,10 @@ h6{
 	top: 0vw;
 		background-repeat: no-repeat;
 	}
-.chatroom {
+.roomers {
 	position: absolute;
 	background-size: 100%;
-	background-image: url(Img/Chatroom8-01.jpg);
+	background-image: url(images_sitet/roomers-01.jpg);
 	width: 100%;
 	height:51vw;
 	margin: 0 auto;
@@ -64,25 +64,25 @@ h6{
 	color:#f51021;
 }
 
-.prikker {
+.motiver {
 	z-index: 25;
 	position: absolute;
-	top: 138vw;
+	top: 136vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
 	z-index: 15;
-	background-image: url(Img/prikker-01.png);
+	background-image: url(images_sitet/motiver-01.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	animation: prik_kf 0.8s infinite steps(5);
+	animation: motiv_kf 0.8s infinite steps(5);
 }
 
-@keyframes prik_kf {
-	80% {
+@keyframes motiv_kf {
+	0% {
 		background-position: 100% 0;
 	}
-	81% {
+	100% {
 		background-position: 0% 0;
 	}
 }
@@ -99,7 +99,7 @@ h6{
 	transition: ease-in-out 1s;
 	background-color: black;
 }
-.avalginfo{
+.avalgetinfo{
 	transition: ease-in-out 1s;
 	background-color: black;
 }
@@ -116,7 +116,7 @@ a {
 	color: grey;
 }
 
-.valg {
+.valget {
 	position: absolute;
 	left: 56vw;
 	top: 124vw;
@@ -129,7 +129,7 @@ a {
 	z-index: 10;
 }
 
-.mulighed {
+.mulige {
 	display: none;
 	z-index: 0;
 	display: none;
@@ -150,16 +150,16 @@ a {
 	background-color: rgba(4, 121, 190, 0.7);
 }
 
-.mulighed1:hover,
-.mulighed2:hover,
-.mulighed3:hover {
+.mulige1:hover,
+.mulige2:hover,
+.mulige3:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.mulighed1:active,
-.mulighed2:active,
-.mulighed3:active {
-	transform: scale(0.75);
+.mulige1:active,
+.mulige2:active,
+.mulige3:active {
+	transform: scale(0.55);
 }
 
 /*
@@ -168,22 +168,22 @@ a {
 }
 */
 
-.send {
+.starter {
 	position: absolute;
-	background-image: url(Img/sendknap-01.png);
+	background-image: url(images_sitet/startknap-01.png);
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 126vw;
+	top: 124vw;
 	left: 40vw;
 	z-index: 25;
 }
 
-.klik {
-	animation: send_kf 2s infinite linear;
+.klikken {
+	animation: sender_kf 2s infinite linear;
 }
 
-@keyframes send_kf {
+@keyframes sender_kf {
 	0% {
 		transform: scale(1);
 	}
@@ -201,36 +201,36 @@ a {
 .doctorsen {
 	z-index: 10;
 	position: absolute;
-	background-image: url(Img/standard-glad-01.png);
+	background-image: url(images_sitet/vand-01.png);
 	width: 10vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top: 126vw;
+	top: 124vw;
 }
 
 .avatarsin {
 
 	position: absolute;
-	background-image: url(Img/dameneutral-01.png);
+	background-image: url(images_sitet/neutral-01.png);
 	background-size: cover;
-	width:7.5vw;
-	height:10vw;
+	width:12vw;
+	height:16vw;
 	left: 35vw;
-	top: 145vw;
+	top: 137vw;
 }
 
-.lastscreen {
+.screenes {
 	position: absolute;
 	z-index: 100;
 	display: none;
 	width: 71vw;
 	height: 42vw;
-	background-image: url(Img/tryagain-01.png);
+	background-image: url(images_sitet/tryagain-01.png);
 	left: 8vw;
 	z-index: 40;
 	background-size: cover;
-	top: 132vw;
+	top: 130vw;
 	margin: 0 auto;
 }
 .affixbar {
@@ -267,13 +267,13 @@ ul {
 ol {
 	color: #000;
 }
-.retry {
-	top: 22vw;
-	left: 41vw;
+.votingcard {
+	top: 24vw;
+	left: 42vw;
 	width: 8vw;
 	height: 8vw;
 	position: absolute;
-	background-image: url(Img/retry-01.png);
+	background-image: url(images_sitet/votingcard-01.png);
 	background-size: cover;
 }
 
@@ -377,8 +377,8 @@ footer{
 }
 
 	.logologin1 img{
-		height: 35%;
-	width: 35%;
+		height: 55%;
+	width: 55%;
 		background-repeat: no-repeat;
 	}
 	.logologin2{
@@ -392,10 +392,10 @@ footer{
 		background-repeat: no-repeat;
 	}
 
-.valg {
+.valget {
 	position: absolute;
 	left: 56vw;
-	top:64vw;
+	top:82vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -412,33 +412,33 @@ footer{
 	background-color: rgba(4, 121, 190, 0.7);
 }
 
-.mulighed1:hover,
-.mulighed2:hover,
-.mulighed3:hover {
+.mulige1:hover,
+.mulige2:hover,
+.mulige3:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.mulighed1:active,
-.mulighed2:active,
-.mulighed3:active {
-	transform: scale(0.75);
+.mulige1:active,
+.mulige2:active,
+.mulige3:active {
+	transform: scale(0.55) 2s;
 }
 
-.prikker {
+.motiver {
 	z-index: 25;
 	position: absolute;
-	top: 76vw;
+	top: 94vw;
 	left: 2vw;
 width: 2.5vw;
 	height: 2.5vw;
 	z-index: 15;
-	background-image: url(Img/prikker-01.png);
+	background-image: url(images_sitet/motiver-01.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	animation: prik_kf 0.8s infinite steps(5);
+	animation: motiv_kf 0.8s infinite steps(5);
 }
 
-@keyframes prik_kf {
+@keyframes motiv_kf {
 	0% {
 		background-position: 0vw;
 	}
@@ -447,22 +447,22 @@ width: 2.5vw;
 	}
 }
 
-.send {
+.starter {
 	position: absolute;
-	background-image: url(Img/sendknap-01.png);
+	background-image: url(images_sitet/startknap-01.png);
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 64vw;
+	top: 82vw;
 	left: 40vw;
 	z-index: 25;
 }
 
-.klik {
-	animation: send_kf 2s infinite linear;
+.klikken {
+	animation: sender_kf 2s infinite linear;
 }
 
-@keyframes send_kf {
+@keyframes sender_kf {
 	0% {
 		transform: scale(1);
 	}
@@ -480,57 +480,54 @@ width: 2.5vw;
 .doctorsen {
 	z-index: 10;
 	position: absolute;
-	background-image: url(Img/standard-glad-01.png);
+	background-image: url(images_sitet/vand-01.png);
 	width: 10vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:64vw;
+	top:82vw;
 }
 
 .avatarsin {
 
 	position: absolute;
-	background-image: url(Img/dameneutral-01.png);
+	background-image: url(images_sitet/neutral-01.png);
 	background-size: cover;
-	width:7.5vw;
-	height:10vw;
+	width:12vw;
+	height:16vw;
 	left: 35vw;
-	top: 82vw;
+	top: 95vw;
 }
 
-.lastscreen {
+.screenes {
 	z-index: 100;
 	display: none;
 	width: 71vw;
 	height: 42vw;
-	background-image: url(Img/tryagain-01.png);
+	background-image: url(images_sitet/tryagain-01.png);
 	position: absolute;
 	left: 8vw;
 	z-index: 40;
 	background-size: cover;
-	top: 69vw;
+	top: 88vw;
 	margin: 0 auto;
 }
 
-.retry {
-	top: 22vw;
-	left: 41vw;
+.votingcard {
+	top: 24vw;
+	left: 42vw;
 	width: 8vw;
 	height: 8vw;
 	position: absolute;
-	background-image: url(Img/retry-01.png);
+	background-image: url(images_sitet/votingcard-01.png);
 	background-size: cover;
 }
-	.chatroom {
+	.roomers {
 	position: absolute;
 	background-size: 100%;
-	background-image: url(Img/Chatroom8-01.jpg);
-	/*	background-size: cover;*/
+	background-image: url(images_sitet/roomers-01.jpg);
 	width: 100%;
-	height:75%;
-	/*	overflow: hidden;
-	*/
+	height:60%;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 }
@@ -596,8 +593,8 @@ width:100%;
   background-size: calc(100% + 50px);
 }
 	.logologin1 img{
-		height: 35%;
-	width: 35%;
+		height: 55%;
+	width: 55%;
 		background-repeat: no-repeat;
 	}
 	.logologin2{
@@ -611,10 +608,10 @@ width:100%;
 		background-repeat: no-repeat;
 	}
 
-.valg {
+.valget {
 	position: absolute;
 	left: 56vw;
-	top:64vw;
+	top:80vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -633,58 +630,58 @@ width:100%;
 	background-color: rgba(4, 121, 190, 0.7);
 }
 
-.mulighed1:hover,
-.mulighed2:hover,
-.mulighed3:hover {
+.mulige1:hover,
+.mulige2:hover,
+.mulige3:hover {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.mulighed1:active,
-.mulighed2:active,
-.mulighed3:active {
-	transform: scale(0.75);
+.mulige1:active,
+.mulige2:active,
+.mulige3:active {
+	transform: scale(0.55) 2s;
 }
 
-.prikker {
+.motiver {
 	z-index: 25;
 	position: absolute;
-	top: 74vw;
+	top: 92vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
 	z-index: 15;
-	background-image: url(Img/prikker-01.png);
+	background-image: url(images_sitet/motiver-01.png);
 
 	background-size: cover;
 	background-repeat: no-repeat;
-	animation: prik_kf 0.8s infinite steps(5);
+	animation: motiv_kf 0.8s infinite steps(5);
 }
 
-@keyframes prik_kf {
-	 80% {
+@keyframes motiv_kf {
+	 0% {
         background-position: 100% 0;
     }
-    81% {
+    100% {
         background-position: 0% 0;
     }
 }
 
-.send {
+.starter {
 	position: absolute;
-	background-image: url(Img/sendknap-01.png);
+	background-image: url(images_sitet/startknap-01.png);
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 62vw;
+	top: 80vw;
 	left: 40vw;
 	z-index: 25;
 }
 
-.klik {
-	animation: send_kf 2s infinite linear;
+.klikken {
+	animation: sender_kf 2s infinite linear;
 }
 
-@keyframes send_kf {
+@keyframes sender_kf {
 	0% {
 		transform: scale(1);
 	}
@@ -702,52 +699,52 @@ width:100%;
 .doctorsen {
 	z-index: 10;
 	position: absolute;
-	background-image: url(Img/standard-glad-01.png);
+	background-image: url(images_sitet/vand-01.png);
 	width: 10vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:62vw;
+	top:80vw;
 }
 
 .avatarsin {
 
 	position: absolute;
-	background-image: url(Img/dameneutral-01.png);
+	background-image: url(images_sitet/neutral-01.png);
 	background-size: cover;
-	width:7.5vw;
-	height:10vw;
+	width:12vw;
+	height:16vw;
 	left: 35vw;
-	top: 82vw;
+	top: 95vw;
 }
 
-.lastscreen {
+.screenes {
 	z-index: 100;
 	display: none;
 	width: 71vw;
 	height: 42vw;
-	background-image: url(Img/tryagain-01.png);
+	background-image: url(images_sitet/tryagain-01.png);
 	position: absolute;
 	left: 8vw;
 	z-index: 40;
 	background-size: cover;
-	top: 70vw;
+	top: 88vw;
 	margin: 0 auto;
 }
 
-.retry {
-	top: 22vw;
+.votingcard {
+	top: 24vw;
 	left: 41vw;
 	width: 8vw;
 	height: 8vw;
 	position: absolute;
-	background-image: url(Img/retry-01.png);
+	background-image: url(images_sitet/votingcard-01.png);
 	background-size: cover;
 }
-.chatroom {
+.roomers {
 	position: absolute;
 	background-size: 100%;
-	background-image: url(Img/Chatroom8-01.jpg);
+	background-image: url(images_sitet/roomers-01.jpg);
 	/*	background-size: cover;*/
 	width: 100%;
 	height: 52vw;
