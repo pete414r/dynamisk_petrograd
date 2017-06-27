@@ -80,7 +80,7 @@
 		<h3>Turen til stemmeboksen</h3>
 		<h4>Valgkortet</h4>
 		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af.</h5></div>
-	<div id="turene">
+	<div id="valgturen">
 	</div>
 	<div id="section2" class="container-fluid">
 		<br>
@@ -366,7 +366,6 @@
 
 
 	<footer>
-
 		<div class="container-fluid">
 
 			<div class="row">
@@ -399,14 +398,14 @@
 		var valgte;
 		var info;
 		var aktiv;
-		$('#turene').load('images_sitet/cs_infografik_12345.svg', kortHentet);
+		$('#valgturen').load('images_sitet/cs_infografik_12345.svg', kortHentet);
 		function kortHentet() {
 			$.getJSON('json/infografik_maps_info.json', dataHentet);
 		};
 		function dataHentet(data) {
 			info = data;
-			$('#turene svg g g').on("mouseenter", onEnter);
-			$('#turene svg g g').on("mouseleave", onOut);
+			$('#valgturen svg g g').on("mouseenter", onEnter);
+			$('#valgturen svg g g').on("mouseleave", onOut);
 		}
 		function onEnter(e) {
 			aktiv = $(e.currentTarget).children();
@@ -418,7 +417,7 @@
 		}
 		function visTekst(val) {
 			if (val.id == valgte) {
-				document.querySelector("#section3 h4").textContent = val.navn;
+				document.querySelector("#section3 h4").textContent = val.sted;
 				document.querySelector("#section3 h5").textContent = val.beskrivelse;
 			}
 		};

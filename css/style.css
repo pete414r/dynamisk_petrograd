@@ -63,7 +63,7 @@ body {
 	height: 100%;
 }
 
-#turene {
+#valgturen {
 	z-index: 3000;
 	padding-top: 1vw;
 	width: 100%;
@@ -125,11 +125,7 @@ a {
 	background-color: rgba(72, 38, 37, 0.52);
 }
 
-ul {
-	margin-bottom: 1vw;
-	margin-top: 1vw;
-	font-size: 2.5vw;
-}
+
 
 #myNavbar ul li a {
 	color: #168f2f;
@@ -401,7 +397,7 @@ footer {
 #top-image123{
 	display: none;
 }
-@media screen and (min-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (orientation: landscape) {
 	body {
 		width: 100%;
 	height: 100%;
@@ -422,9 +418,7 @@ footer {
 .some ul li{
 	color: black;
 }
-.some ul li a{
-	font-size: 2vw
-}
+
 .some ul li img {
 	width: 10%;
 	border-radius: 30%;
@@ -461,11 +455,6 @@ footer {
 	font-weight: bolder;
 }
 
-ul {
-	margin-bottom: 1vw;
-	margin-top: 1vw;
-	font-size: 2.5vw;
-}
 
 ol {
 	color: #000;
@@ -497,13 +486,6 @@ h4 {
 	color: #101010;
 }
 
-h5 {
-	line-height: 5.7vw;
-	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
-	padding: 1vw;
-	color: rgb(255, 255, 255);
-}
 	h1 {
 	margin-left: 3vw;
 	margin-top: 12vw;
@@ -590,11 +572,7 @@ text-align: center;
 	font-weight: bolder;
 }
 
-ul {
-	margin-bottom: 1vw;
-	margin-top: 1vw;
-	font-size: 2.5vw;
-}
+
 
 
 p {
@@ -623,13 +601,7 @@ h4 {
 	color: #101010;
 }
 
-h5 {
-	line-height: 5.7vw;
-	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
-	padding: 1vw;
-	color: rgb(255, 255, 255);
-}
+
 	h1 {
 		font-family: 'Source Sans Pro';
 		padding-bottom: 3vw;
@@ -766,10 +738,6 @@ width:100%;
 	border: 3px solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
-}
-
-footer {
-	background-color: black;
 }
 
 }

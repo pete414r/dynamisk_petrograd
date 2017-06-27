@@ -1,27 +1,27 @@
 [
 {
 		"id": "tur1",
-		"navn": "Valgkortet",
-		"beskrivelse": "Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af."
+		"sted": "Valgkortet",
+		"beskrivelse": "Du modtager valgkortet to uger før selve valgdagen. Tjek sted, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af."
 
     }, {
 		"id": "tur2",
-		"navn": "Byliv",
+		"sted": "Byliv",
 		"beskrivelse": "Festen er kun lige begyndt. Jeg smed dem tilbage gennem gardinet og over på den anden side. He he Hvordan man selv kan blive en tilforordnede."
 
     }, {
 		"id": "tur3",
-		"navn": "Valgstedet",
+		"sted": "Valgstedet",
 		"beskrivelse": "Valgstedet summer af liv, så hyg op med dine venner og lav det til en fest. Tilforordnede må ikke påvirke stemmeafhandlingen."
 
     }, {
 		"id": "tur4",
-		"navn": "Byliv",
+		"sted": "Byliv",
 		"beskrivelse": "At skrive Fuck Jer Allesammen, er ikke det samme som at stemme blank... Lad det være en fest, cocktailbaren er lige rundt om hjørnet."
     }, {
 		"id": "tur5",
-		"navn": "Stemmeafgivelse",
-		"beskrivelse": "Huske dit valgkort, dit navn og personnummer, find din valgtilforordnet og få din valgliste. Du går IND i stemmeboksen fra en side og GÅR UD på den anden siden."
+		"sted": "Stemmeafgivelse",
+		"beskrivelse": "Huske dit valgkort, dit sted og personnummer, find din valgtilforordnet og få din valgliste. Du går IND i stemmeboksen fra en side og GÅR UD på den anden siden."
     }
 
 ]
