@@ -39,7 +39,6 @@ h6{
 .logologin2 img{
 	height: 100%;
 	width: 100%;
-	margin-top: 0vw;
 	top: 0vw;
 		background-repeat: no-repeat;
 	}
@@ -48,7 +47,7 @@ h6{
 	background-size: 100%;
 	background-image: url(images_sitet/roomers-01.jpg);
 	width: 100%;
-	height:51vw;
+	height:49vw;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 }
@@ -260,7 +259,7 @@ ol {
 	color: #000;
 }
 .votingcard {
-	top: 24vw;
+	top: 22vw;
 	left: 42vw;
 	width: 8vw;
 	height: 8vw;
@@ -356,15 +355,25 @@ footer {
 	}
 	.logologin2{
 	display: flex;
-
+	}
+	.logologin2 h1{
+		margin-right: 10vw;
 	}
 .logologin2 img{
+		padding-bottom: 2vw;
 	padding-top: 12vw;
 		height: 50%;
 	width: 50%;
 		background-repeat: no-repeat;
 	}
-
+	.roomers {
+	position: relative;
+	background-size: 100%;
+	background-image: url(images_sitet/roomers-01.jpg);
+	width: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+}
 .valget {
 	position: absolute;
 	left: 56vw;
@@ -469,7 +478,7 @@ width: 2.5vw;
 	width:12vw;
 	height:16vw;
 	left: 35vw;
-	top: 95vw;
+	top: 96vw;
 }
 
 .screenes {
@@ -495,15 +504,7 @@ width: 2.5vw;
 	background-image: url(images_sitet/votingcard-01.png);
 	background-size: cover;
 }
-	.roomers {
-	position: relative;
-	background-size: 100%;
-	background-image: url(images_sitet/roomers-01.jpg);
-	width: 100%;
-	height:48%;
-	margin: 0 auto;
-	background-repeat: no-repeat;
-}
+
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 	body {
@@ -566,6 +567,7 @@ width: 2.5vw;
 	}
 .logologin2 img{
 	padding-top: 12vw;
+		padding-bottom: 2vw;
 		height: 50%;
 	width: 50%;
 		background-repeat: no-repeat;
@@ -574,7 +576,7 @@ width: 2.5vw;
 .valget {
 	position: absolute;
 	left: 56vw;
-	top:80vw;
+	top:82vw;
 	width: 40vw;
 	height: 45vw;
 	display: flex;
@@ -608,7 +610,7 @@ width: 2.5vw;
 .motiver {
 	z-index: 25;
 	position: absolute;
-	top: 92vw;
+	top: 94vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
@@ -635,7 +637,7 @@ width: 2.5vw;
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;
-	top: 80vw;
+	top: 82vw;
 	left: 40vw;
 	z-index: 25;
 }
@@ -667,7 +669,7 @@ width: 2.5vw;
 	height: 14vw;
 	background-size: cover;
 	left: 1vw;
-	top:80vw;
+	top:82vw;
 }
 
 .avatarsin {
@@ -677,7 +679,7 @@ width: 2.5vw;
 	width:12vw;
 	height:16vw;
 	left: 35vw;
-	top: 95vw;
+	top: 96vw;
 }
 
 .screenes {
@@ -690,12 +692,12 @@ width: 2.5vw;
 	left: 8vw;
 	z-index: 40;
 	background-size: cover;
-	top: 88vw;
+	top: 90vw;
 	margin: 0 auto;
 }
 
 .votingcard {
-	top: 24vw;
+	top: 22vw;
 	left: 41vw;
 	width: 8vw;
 	height: 8vw;
@@ -708,7 +710,6 @@ width: 2.5vw;
 	background-size: 100%;
 	background-image: url(images_sitet/roomers-01.jpg);
 	width: 100%;
-	height: 52.5vw;
 	background-repeat: no-repeat;
 }
 
