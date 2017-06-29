@@ -36,7 +36,7 @@
   <h2>Kommunal og regionsvalget 21. nov 2017 -Find call to action!- Kommunal konkurrence</h2></div>
 </div>
 
-	<div id="home"></div>
+	<div id="section"></div>
 	<nav class="navbar navbar-inverse"  data-spy="affix" data-offset-top="48">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -53,15 +53,14 @@
 			<div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a class="aforside" href="#">FORSIDE</a></li>
+						<li><a class="aforside" href="#section">FORSIDE</a></li>
 						<li><a  href="kommunalvalg_valgvideo.html" target="_blank">valgvideo</a></li>
 						</ul>
 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="kommunalvalg_partiinfo.html#link">PARTIINFO</a></li>
-						<li><a href="kommunalvalg_valginfo.html#link">VALGINFO</a></li>
-						<li><a href="valg_mening.html#link">SPIL</a></li>
-						<li><a href="kommunalvalg_kontakt.html#link">KONTAKT</a></li>
+						<li><a href="#section3">VALGINFO</a></li>
+						<li><a href="#section4">PARTIINFO</a></li>
+						<li><a href="#section5">KONTAKT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -90,14 +89,15 @@
 	</div>
 
 </div>
-<div id="link"></div>
 
-	</div>	<div class="center">
+	</div>
+
+
+					<div class="center">
 				<div class="hs-responsive-embed-youtube">
 					<iframe src="https://www.youtube.com/embed/lSTaWNoo7uQ" allowfullscreen></iframe>
 				</div>
 			</div>
-<div id="link1"></div>
 <div id="section3">
 		<br>
 		<h3>Turen til stemmeboksen</h3>
@@ -105,8 +105,6 @@
 		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af.</h5>
 	<div id="valgturen">
 	</div></div>
-
-<div id="link2"></div>
 <div id="section2" class="container-fluid">
 		<br>
 		<br>
@@ -335,18 +333,7 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
-
-
-
-
-
-
-
-
-
-
 			<div class="container-fluid guider">
 				<div class="row">
 
@@ -388,8 +375,7 @@
 		</template>
 	</div>
 
-<div id="link1"></div>
-<div id="section1" class="container-fluid">
+<div id="section4" class="container-fluid">
 		<div class="row">
 			<div class="col-xs-6 col-sm-4 col-lg-2">
 
@@ -493,6 +479,56 @@
 			</div>
 		</div>
 	</div>
+	<div id="section5" class="container-fluid">
+			<div class="row rowoverfotter">
+
+				<h1>Kontakt</h1>
+				<div class="col-xs-1 col-sm-1 col-lg-1"></div>
+				<div class="col-xs-5 col-sm-5 col-lg-5">
+					<ul class="ulkontaktinfo likontaktinfo">
+
+					<li>	<div><strong>
+					TV2 Lorry
+				</strong></div>
+
+						<div>	<strong>
+						Allegade 7-9
+					</strong></div>
+
+							<div><strong>
+						2000 Frederiksberg
+					</strong></div>
+
+						<div>	<strong>Tlf:</strong><a href="tel:(+45)38385555"> (+45)38385555</a></div>
+
+						<div>	<strong>Mail</strong><a href="mailto:redaktion@tv2lorry.dk"> redaktion@tv2lorry.dk</a></div>
+
+				</li>	</ul>
+
+				</div>
+
+
+				<div class=" col-xs-1 col-sm-1 col-lg-1"></div>
+
+				<div class="col-xs-5 col-sm-5 col-lg-5">
+
+					<template id="kort">
+						<iframe src="video_turen/kampvalg.mp4" class="re-responsive"></iframe>
+
+						<img src="images_turen/moedes.png" alt="" class="r-responsive img-responsive">
+						<img src="images_turen/moedes.png" alt="" class="res-responsive img-responsive">
+												<p class="h2class">DATA_ID</p>
+
+						<p class="pclass">DATA_TITLE</p>
+						<p class="h1class">DATA_TXT</p>
+
+					</template>
+					<div id="map"></div>
+
+				</div>
+			</div>
+
+		</div>
 	<footer>
 		<div class="container-fluid">
 
@@ -512,49 +548,13 @@
 
 				</div></div>
 	</footer>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRlYOm2KMsGkxmUiSA21Y8M6WuZ_axavc&callback=initMap" async defer></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="kommunevalg.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fitvids.js"></script>
 
-<script>
-		var valgte;
-		var info;
-		var aktiv;
-		$('#valgturen').load("images_sitet/cs_infografik_12345.svg", kortHentet);
-		function kortHentet() {
-			$.getJSON("json/infografik_maps_info.json", dataHentet);
-		};
-		function dataHentet(data) {
-			info = data;
-			$("#valgturen svg g g").on("mouseenter", onEnter);
-			$("#valgturen svg g g").on("mouseleave", onOut);
-		}
-		function onEnter(e) {
-			aktiv = $(e.currentTarget).children();
-			valgte = $(e.currentTarget).closest("g").attr("id");
-			console.log(valgte);
-			info.forEach(visTekst);
-		};
-		function onOut() {
-		}
-		function visTekst(val) {
-			if (val.id == valgte) {
-				document.querySelector("#section3 h4").textContent = val.sted;
-				document.querySelector("#section3 h5").textContent = val.beskrivelse;
-			}
-		};
-		$(document).ready(function () {
-			console.log("start");
-			$(".lukkeklik").click(function () {
-				var navbar_toggle = $('.navbar-toggle');
-				if (navbar_toggle.is(':visible')) {
-				navbar_toggle.trigger('click');
-				}
-			});
-		});
-	</script>
+
 </body>
 
 </html>

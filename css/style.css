@@ -62,16 +62,26 @@ body {
 	width: 100%;
 	height: 100%;
 }
+section4{
+	background-color: rgba(72, 38, 37, 0.5);
+	border-radius: 1%;
+	border:1vw solid #fff;
+}
+#section3{
 
+	background-color: rgba(72, 38, 37, 0.5);
+	border-radius: 1%;
+	border:1vw solid #fff;
+}
 #valgturen {
 	height: 97%;
 	width: 97%;
 	background-size: 100%;
-	border-radius: 1%;
-	border:1vw solid #fff;
-	background-color: #fff;
 }
+.accoversk{
 
+	background-color: rgba(72, 38, 37, 0.5);
+}
 #accordion{
 	border-radius: 1%;
 	border:1vw solid #f51021;
@@ -87,6 +97,7 @@ body {
 	padding-top:5%;
 	height:25vw;
 }
+
 .guider {
 	background-color: #fff;
 	border-radius: 1%;
