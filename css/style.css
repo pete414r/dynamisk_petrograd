@@ -64,13 +64,33 @@ body {
 }
 
 #valgturen {
-	padding-top: 1vw;
-	width: 100%;
-	height: 100%;
+	height: 97%;
+	width: 97%;
+	background-size: 100%;
+	border-radius: 1%;
+	border:1vw solid #fff;
+	background-color: #fff;
 }
 
-guider {
-	padding-top: 1vw;
+#accordion{
+	border-radius: 1%;
+	border:1vw solid #f51021;
+	background-color: #808080;
+}
+#section1{
+	margin: 3vw;
+	border-radius: 1%;
+	border:1vw solid #f51021;
+	background-color: #000;
+}
+.klook img{
+	padding-top:5%;
+	height:25vw;
+}
+.guider {
+	background-color: #fff;
+	border-radius: 1%;
+	border:1vw solid #f51021;
 	width: 100%;
 	height: 100%;
 }
@@ -251,8 +271,13 @@ table {
 .samlogo {
 	margin-top: 2vw;
 }
+#tur1{
 
+	border-radius: 3%;
+	border: 1vw solid #fff;
+}
 .pic1 {
+	margin-top: 1vw;
 	margin-bottom: 1vw;
 	text-align: center;
 	width: 155px;
@@ -334,6 +359,7 @@ table {
 
 span{
 	color: #000;
+	font-size: 3vw;
 }
 .some {
 	margin-top: 2.5vw;
@@ -352,7 +378,7 @@ span{
 .some ul li img {
 	width: 12%;
 	border-radius: 30%;
-	border: 3px solid #fff;
+	border: 1vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -381,6 +407,9 @@ footer {
 	/* 16:9 Aspect Ratio */
 	padding-top: 1px;
 	margin-bottom: 1vw;
+	border-radius: 1vw;
+	border: 1vw solid #fff;
+
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -391,7 +420,7 @@ footer {
 }
 
 .center {
-	width: 50vw;
+	width: 94vw;
 	margin: 0 auto;
 }
 .callto{
@@ -426,7 +455,7 @@ footer {
 .some ul li img {
 	width: 10%;
 	border-radius: 30%;
-	border: 3px solid #fff;
+	border: 1vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -724,7 +753,7 @@ width:100%;
 .some ul li img {
 	width: 7%;
 	border-radius: 30%;
-	border: 3px solid #fff;
+	border: 1vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
