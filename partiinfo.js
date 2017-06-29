@@ -1,6 +1,6 @@
 
 	$(document).ready(function() {
-var movementStrength = 500;
+var movementStrength = 50000;
 var height = movementStrength / $(window).height();
 var width = movementStrength / $(window).width();
 $("#top-image").mousemove(function(e){
