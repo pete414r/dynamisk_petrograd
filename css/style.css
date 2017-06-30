@@ -6,7 +6,6 @@
 
 body {
 	background-color: rgba(4, 121, 190, 0.7);
-	background-size: 100%;
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
@@ -60,21 +59,26 @@ body {
 #section3{
 	    padding-right: 15px;
 	padding-left: 15px;
-	background-color: rgba(72, 38, 37, 0);
+	background-color: #997bbb;
 	border-radius: 1vw;
-	border:1vw solid #fff;
+	border:1vw solid #f51021;
 	margin: 2vw;
 }
 #section4{
 	    padding-right: 15px;
 	padding-left: 15px;
-	background-color: rgba(22, 143, 47, 0);
+	background-color: rgba(255, 255, 255, 0.7);
 	border-radius: 1vw;
 	border:1vw solid #fff;
 	margin: 2vw;
 }
-.turen3{
-padding: 0;
+#section6{
+		z-index: 100;
+	background-color: rgba(153, 123, 187, 0.7);
+	border-radius: 1vw;
+	border:1vw solid #f51021;
+	width: 100%;
+	height: 100%;
 }
 #valgturen {
 	height: 100%;
@@ -87,16 +91,20 @@ padding: 0;
 }
 #accordion{
 border-radius: 1vw;
-	border:1vw solid #f51021;
+	border:1vw solid #fff;
 	background-color: rgba(128, 128, 128, 0.7);
 }
 #accordion img{
+	padding-top: 1vw;
 height: 20%;
 	width: 20%;
 }
+kbd{
+	padding-top: 2vw;
+}
 .rowhitter{
 	border-radius: 1vw;
-	border:0.2vw solid #f51021;
+	border: 0.2vw solid #fff;
 	background-color: rgba(128, 128, 128, 0.7);
 	margin: 2vw;
 }
@@ -111,14 +119,7 @@ height: 20%;
 	height:25vw;
 }
 
-.guider {
-	z-index: 100;
-	background-color: rgba(255, 255, 255, 0);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	width: 100%;
-	height: 100%;
-}
+
 .affixbar {
 	text-align: center;
 	background-color: rgba(72, 38, 37, 0.5);
@@ -172,7 +173,7 @@ a {
 
 
 #myNavbar ul li a {
-	color: #168f2f;
+	color: #b28c09;
 }
 
 ol {
@@ -194,7 +195,7 @@ h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 5vw;
-	color: #f51021;
+	color: #0479be;
 }
 
 h4 {
@@ -541,7 +542,7 @@ h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 5vw;
-	color: #f51021;
+	color: #0479be;
 }
 
 h4 {
@@ -601,17 +602,19 @@ text-align: center;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
 
+
 .hs-responsive-embed-youtube {
 	 width:100%;
 	height:100%;
 	position: relative;
 	padding-bottom: 60%;
-	padding-top: 1px;
-	margin-bottom: 10vw;
-	background-color: #fff;
-
+	/* 16:9 Aspect Ratio */
+	padding-top: 1vw;
+	margin-bottom: 1vw;
+	border-radius: 1vw;
+	border: 1vw solid #fff;
+background-color: #fff;
 }
-
 .hs-responsive-embed-youtube iframe {
 
 	position: absolute;
@@ -634,16 +637,33 @@ text-align: center;
 
 }
 @media screen and (min-width: 1200px) and (orientation: landscape) {
+	body {
+	background-size: 100%;
+		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
+background-repeat: no-repeat;
+
+	}
+
+#top-image {
+background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
+position:fixed;
+width:100%;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+
+	.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height:6.0vw;
+}
 
 	.nav {
 	z-index: 10;
 	font-size: 2.5vw;
 	font-weight: bolder;
 }
-
-
-
-
 p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
@@ -659,7 +679,7 @@ h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
 	font-size: 5vw;
-	color: #f51021;
+	color: #0479be;
 }
 
 h4 {
@@ -690,43 +710,20 @@ text-align: center;
 	font-size: 2.0vw;
 	color:#f51021;
 }
-
-	body {
-	background-size: 100%;
-		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
-	background-repeat: no-repeat;
-
+	.contop{
+	padding-bottom: 7vw;
+	}
+.contop h1{
+		padding-right: 5vw;
 	}
 
-#top-image {
-background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
-position:fixed;
-width:100%;
-  height:100%;
-  background-size: calc(100% + 50px);
-}
-
-	.affixbar {
-	text-align: center;
-	background-color: rgba(153, 123, 187, 0);
-	color:#fff;
-	height:6.0vw;
-}
-/*
-	.logologin{
-		height: 100%;
-		background-size: 100%;
-		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_testbund.jpg);
-		background-repeat: no-repeat;
-	}
-*/
 	.logologin1 img{
 		height: 35%;
 	width: 35%;
 		background-repeat: no-repeat;
 	}
 .logologin2 img{
-	margin-left: 13vw;
+	margin-left: 3vw;
 	padding-top: 2vw;
 		height:50%;
 	width: 50%;
@@ -757,7 +754,7 @@ width:100%;
 		height: 35vw;
 		padding: 2vw;
 		border-radius: 1vw;
-	border:1vw solid #0479be;
+	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
 
@@ -774,7 +771,6 @@ width:100%;
 }
 
 .hs-responsive-embed-youtube iframe {
-
 	position: absolute;
 	width: 100%;
 	height: 100%;

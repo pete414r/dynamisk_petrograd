@@ -13,7 +13,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <div id="top-image"></div>
 
-<div class="container-fluid affixbar">
+<div id="section" class="container-fluid affixbar">
    <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2"></div>
@@ -34,7 +34,6 @@
   <h2>Kommunal og regionsvalget 21. nov 2017 -Find call to action!- Kommunal konkurrence</h2></div>
 </div>
 
-	<div id="section"></div>
 	<nav class="navbar navbar-inverse"  data-spy="affix" data-offset-top="48">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -51,13 +50,13 @@
 			<div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li><a class="aforside" href="#section">FORSIDE</a></li>
+						<li><a href="#section">FORSIDE</a></li>
 						<li><a  href="kommunalvalg_valgvideo.html" target="_blank">valgvideo</a></li>
 						</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#section3">VALGINFO</a></li>
-						<li><a href="#section4">PARTIINFO</a></li>
+						<li><a href="#section6">PARTIINFO</a></li>
 						<li><a href="#section5">KONTAKT</a></li>
 					</ul>
 				</div>
@@ -65,7 +64,7 @@
 		</div>
 	</nav>
 
-	<div class="container-fluid logologin">
+	<div class="container-fluid contop">
 	<div class="row">
 
 <div class="col-xs-12 logologin1">
@@ -96,22 +95,22 @@
 					<iframe src="https://www.youtube.com/embed/lSTaWNoo7uQ" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class="container-fluid turen3">
+			<div id="section3" class="container-fluid">
 	<div class="row">
 
 <div class="col-xs-12">
-<div id="section3">
+
 		<h3>Turen til stemmeboksen</h3>
 		<h4>Valgkortet</h4>
 		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af.</h5>
 	<div id="valgturen">
-	</div></div></div></div></div>
+	</div></div></div></div>
 <div id="section2" class="container-fluid">
 		<table id="person_info"></table>
 		<template id="personinfo_template">
 
 			<div class="panel-group" id="accordion">
-		<h3>Hvem hitter mest for dig</h3>
+		<h3>Hvem hitter</h3>
 				<div class="row rowhitter">
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 						<div class="panel panel-default">
@@ -126,13 +125,13 @@
 								<div class="panel-body bg-danger">
 
 										<a href="https://www.regionh.dk" target="_blank">
-											<span class="data_svaridm1">DATA_EFTERNAVN11</span></a>
+											<span class="data_svaridm1 small">DATA_EFTERNAVN11</span></a>
 
 
-											<span class="data_svaridm2">DATA_EFTERNAVN12</span>
+											<span class="data_svaridm2 small">DATA_EFTERNAVN12</span>
 
 
-										<span class="data_svaridm3">DATA_EFTERNAVN13</span>
+										<span class="data_svaridm3 small">DATA_EFTERNAVN13</span>
 
 								</div>
 							</div>
@@ -143,14 +142,14 @@
 							<div class="panel-heading">
 
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
-										<span class="rigtsvar1class panel-title">Den mindste kommune </span>
+										<kbd class="rigtsvar1class panel-title">Den mindste kommune</kbd>
 
 									</a>
 
 							</div>
 							<div id="collapse22" class="panel-collapse collapse">
 								<div class="panel-body bg-success"> <a href="https://www.dragoer.dk" target="_blank">
-									<span class="data_rigtsvaridm">DATA_EFTERNAVN1</span></a>
+									<span class="data_rigtsvaridm small">DATA_EFTERNAVN1</span></a>
 								</div>
 							</div>
 						</div>
@@ -171,11 +170,11 @@
 								<div class="panel-body bg-danger">
 
 										<a href="https://www.rm.dk" target="_blank">
-											<span class="data_svarid11">DATA_EFTERNAVN11</span></a>
+											<span class="data_svarid11 small">DATA_EFTERNAVN11</span></a>
 
-											<span class="data_svarid12">DATA_EFTERNAVN12</span>
+											<span class="data_svarid12 small">DATA_EFTERNAVN12</span>
 
-											<span class="data_svarid13">DATA_EFTERNAVN13</span>
+											<span class="data_svarid13 small">DATA_EFTERNAVN13</span>
 
 
 
@@ -189,14 +188,14 @@
 							<div class="panel-heading">
 
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-										<span class="rigtsvar1class panel-title">Den mindste kommune</span>
+										<kbd class="rigtsvar1class panel-title">Den mindste kommune</kbd>
 
 									</a>
 
 							</div>
 							<div id="collapse2" class="panel-collapse collapse">
 								<div class="panel-body bg-success"><a href="https://www.samsoe.dk" target="_blank">
-									<span class="data_rigtsvarid1">DATA_EFTERNAVN1</span></a>
+									<span class="data_rigtsvarid1 small">DATA_EFTERNAVN1</span></a>
 								</div>
 							</div>
 						</div>
@@ -216,11 +215,11 @@
 								<div class="panel-body bg-danger">
 
 										<a href="https://www.rn.dk" target="_blank">
-											<span class="data_svarid21">DATA_EFTERNAVN11</span></a>
+											<span class="data_svarid21 small">DATA_EFTERNAVN11</span></a>
 
-											<span class="data_svarid22">DATA_EFTERNAVN12</span>
+											<span class="data_svarid22 small">DATA_EFTERNAVN12</span>
 
-											<span class="data_svarid23">DATA_EFTERNAVN13</span>
+											<span class="data_svarid23 small">DATA_EFTERNAVN13</span>
 
 
 
@@ -234,13 +233,13 @@
 						<div class="panel panel-default bg-success">
 							<div class="panel-heading">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-										<span class="rigtsvar1class panel-title">Den mindste kommune</span>
+										<kbd class="rigtsvar1class panel-title">Den mindste kommune</kbd>
 
 									</a>
 							</div>
 							<div id="collapse4" class="panel-collapse collapse">
 								<div class="panel-body bg-success"><a href="https://www.laesoe.dk" target="_blank">
-									<span class="data_rigtsvarid2">DATA_EFTERNAVN1</span></a>
+									<span class="data_rigtsvarid2 small">DATA_EFTERNAVN1</span></a>
 								</div>
 							</div>
 						</div>
@@ -259,11 +258,11 @@
 								<div class="panel-body bg-danger">
 
 										<a href="https://www.regionsyddanmark.dk" target="_blank">
-											<span class="data_svarid31">DATA_EFTERNAVN11</span></a>
+											<span class="data_svarid31 small">DATA_EFTERNAVN11</span></a>
 
-											<span class="data_svarid32">DATA_EFTERNAVN12</span>
+											<span class="data_svarid32 small">DATA_EFTERNAVN12</span>
 
-											<span class="data_svarid33">DATA_EFTERNAVN13</span>
+											<span class="data_svarid33 small">DATA_EFTERNAVN13</span>
 
 
 								</div>
@@ -275,13 +274,13 @@
 						<div class="panel panel-default bg-success">
 							<div class="panel-heading">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-										<span class="rigtsvar1class panel-title">Den mindste kommune</span>
+										<kbd class="rigtsvar1class panel-title">Den mindste kommune</kbd>
 
 									</a>
 							</div>
 							<div id="collapse6" class="panel-collapse collapse">
 								<div class="panel-body bg-success"><a href="https://www.fanoe.dk" target="_blank">
-									<span class="data_rigtsvarid3">DATA_EFTERNAVN1</span></a>
+									<span class="data_rigtsvarid3 small">DATA_EFTERNAVN1</span></a>
 								</div>
 							</div>
 						</div>
@@ -301,11 +300,11 @@
 								<div class="panel-body bg-danger">
 
 										<a href="https://www.regionsjaelland.dk" target="_blank">
-											<span class="data_svarid41">DATA_EFTERNAVN11</span></a>
+											<span class="data_svarid41 small">DATA_EFTERNAVN11</span></a>
 
-										<span class="data_svarid42">DATA_EFTERNAVN12</span>
+										<span class="data_svarid42 small">DATA_EFTERNAVN12</span>
 
-											<span class="data_svarid43">DATA_EFTERNAVN13</span>
+											<span class="data_svarid43 small">DATA_EFTERNAVN13</span>
 
 
 								</div>
@@ -318,31 +317,32 @@
 							<div class="panel-heading">
 
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
-										<span class="rigtsvar1class panel-title">Den mindste kommune</span>
+										<kbd class="rigtsvar1class panel-title">Den mindste kommune</kbd>
 
 									</a>
 
 							</div>
 							<div id="collapse8" class="panel-collapse collapse">
 								<div class="panel-body bg-success"><a href="https://www.solrod.dk" target="_blank">
-									<span class="data_rigtsvarid4">DATA_EFTERNAVN1</span></a>
+									<span class="data_rigtsvarid4 small">DATA_EFTERNAVN1</span></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid guider">
+			<div id="section6" class="container-fluid">
+			<h3>Borgerservice</h3>
 				<div class="row">
 
 					<div class="col-xs-2 col-sm-2 col-lg-2"></div>
 					<div class="col-xs-5 col-sm-5 col-lg-5">
-						<div class="kbh klook"><a href="https://www.borger.dk" target="_blank"> <img src="images_turen/københavns-kommune-grå_logo.png"></a></div>
+						<div class="kbh klook"><a href="https://www.kk.dk/borgerservice" target="_blank"> <img src="images_turen/københavns-kommune-grå_logo.png"></a></div>
 
 					</div>
 					<div class="col-xs-5 col-sm-5 col-lg-5">
 
-						<div class="aare klook"><a href="https://www.borger.dk" target="_blank"> <img src="images_turen/AAK-byvaaben-sh_logo.png"></a></div>
+						<div class="aare klook"><a href="https://www.aarhus.dk/omkommunen/kontakt/borgerservice.aspx" target="_blank"> <img src="images_turen/AAK-byvaaben-sh_logo.png"></a></div>
 					</div>
 
 				</div>
@@ -351,11 +351,11 @@
 					<div class="col-xs-2 col-sm-2 col-lg-2"></div>
 
 					<div class="col-xs-5 col-sm-5 col-lg-5">
-						<span class="data_guide1navn">DATA_GUIDE1</span>
+						<span class="data_guide1navn small">DATA_GUIDE1</span>
 					</div>
 					<div class="col-xs-5 col-sm-5 col-lg-5">
 
-						<span class="data_guide2navn">DATA_GUIDE2</span>
+						<span class="data_guide2navn small">DATA_GUIDE2</span>
 					</div>
 
 				</div>
@@ -363,10 +363,10 @@
 					<div class="col-xs-2 col-sm-2 col-lg-2"></div>
 
 					<div class="col-xs-5 col-sm-5 col-lg-5">
-						<span class="data_guide1posi">DATA_GUIDE1</span>
+						<span class="data_guide1posi small">DATA_GUIDE1</span>
 					</div>
 					<div class="col-xs-5 col-sm-5 col-lg-5">
-						<span class="data_guide2posi">DATA_GUIDE2</span>
+						<span class="data_guide2posi small">DATA_GUIDE2</span>
 					</div>
 				</div>
 			</div>
@@ -374,6 +374,7 @@
 	</div>
 
 <div id="section4" class="container-fluid">
+	<h3>Politiske partier</h3>
 		<div class="row">
 			<div class="col-xs-6 col-sm-4 col-lg-2">
 
