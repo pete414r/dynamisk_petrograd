@@ -1,16 +1,16 @@
 
-//	$(document).ready(function() {
-//var movementStrength = 50000;
-//var height = movementStrength / $(window).height();
-//var width = movementStrength / $(window).width();
-//$("#top-image").mousemove(function(e){
-//          var pageX = e.pageX - ($(window).width() / 2);
-//          var pageY = e.pageY - ($(window).height() / 2);
-//          var newvalueX = width * pageX * -1 - 25000;
-//          var newvalueY = height * pageY * -1 - 50000;
-//          $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
-//});
-//});
+	$(document).ready(function() {
+var movementStrength = 50000;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$("#top-image").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25000;
+          var newvalueY = height * pageY * -1 - 50000;
+          $('#top-image').css("background-position", newvalueX+"px     "+newvalueY+"px");
+});
+});
 
 
 		window.addEventListener("load", run);
@@ -32,7 +32,7 @@
 
 			var klon = document.querySelector("#personinfo_template").content.cloneNode(true);
 
-			klon.querySelector(".data_spgidm").innerHTML = person.spgidm;
+			klon.querySelector(".data_imagesidm").src = person.imagesidm;
 
 			klon.querySelector(".data_svaridm1").innerHTML = person.svaridm1;
 
@@ -41,7 +41,8 @@
 			klon.querySelector(".data_svaridm3").innerHTML = person.svaridm3;
 
 			klon.querySelector(".data_rigtsvaridm").innerHTML = person.rigtsvaridm;
-			klon.querySelector(".data_spgid1").innerHTML = person.spgid1;
+
+			klon.querySelector(".data_imagesid1").src = person.imagesid1;
 
 			klon.querySelector(".data_svarid11").innerHTML = person.svarid11;
 
@@ -51,7 +52,7 @@
 
 			klon.querySelector(".data_rigtsvarid1").innerHTML = person.rigtsvarid1;
 
-			klon.querySelector(".data_spgid2").innerHTML = person.spgid2;
+			klon.querySelector(".data_imagesid2").src = person.imagesid2;
 
 			klon.querySelector(".data_svarid21").innerHTML = person.svarid21;
 
@@ -61,7 +62,7 @@
 
 			klon.querySelector(".data_rigtsvarid2").innerHTML = person.rigtsvarid2;
 
-			klon.querySelector(".data_spgid3").innerHTML = person.spgid3;
+			klon.querySelector(".data_imagesid3").src = person.imagesid3;
 
 			klon.querySelector(".data_svarid31").innerHTML = person.svarid31;
 
@@ -71,7 +72,7 @@
 
 			klon.querySelector(".data_rigtsvarid3").innerHTML = person.rigtsvarid3;
 
-			klon.querySelector(".data_spgid4").innerHTML = person.spgid4;
+			klon.querySelector(".data_imagesid4").src = person.imagesid4;
 
 			klon.querySelector(".data_svarid41").innerHTML = person.svarid41;
 
@@ -80,9 +81,6 @@
 			klon.querySelector(".data_svarid43").innerHTML = person.svarid43;
 
 			klon.querySelector(".data_rigtsvarid4").innerHTML = person.rigtsvarid4;
-
-
-
 
 			klon.querySelector(".data_guide1navn").innerHTML = person.guide1navn;
 

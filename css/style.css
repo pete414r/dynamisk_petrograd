@@ -5,24 +5,14 @@
 }
 
 body {
+	background-color: rgba(4, 121, 190, 0.7);
 	background-size: 100%;
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
 		background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
+	background-repeat: no-repeat;
 	}
-
-.video{
-	margin-left: 5vw;
-	background-size: 100%;
-	height: 20vw;
-	width: 80vw;
-	background-color: black;
-	color:white;
-}
-
-
-
 .logologin1 img{
 		height: 100%;
 	width: 100%;
@@ -62,20 +52,33 @@ body {
 	width: 100%;
 	height: 100%;
 }
-section4{
-	background-color: rgba(72, 38, 37, 0.5);
-	border-radius: 1%;
-	border:1vw solid #fff;
+
+#section2{
+	margin: 2vw;
+	padding: 0;
 }
 #section3{
-
-	background-color: rgba(72, 38, 37, 0.5);
-	border-radius: 1%;
+	    padding-right: 15px;
+	padding-left: 15px;
+	background-color: rgba(72, 38, 37, 0);
+	border-radius: 1vw;
 	border:1vw solid #fff;
+	margin: 2vw;
+}
+#section4{
+	    padding-right: 15px;
+	padding-left: 15px;
+	background-color: rgba(22, 143, 47, 0);
+	border-radius: 1vw;
+	border:1vw solid #fff;
+	margin: 2vw;
+}
+.turen3{
+padding: 0;
 }
 #valgturen {
-	height: 97%;
-	width: 97%;
+	height: 100%;
+	width: 100%;
 	background-size: 100%;
 }
 .accoversk{
@@ -83,15 +86,22 @@ section4{
 	background-color: rgba(72, 38, 37, 0.5);
 }
 #accordion{
-	border-radius: 1%;
+border-radius: 1vw;
 	border:1vw solid #f51021;
-	background-color: #808080;
+	background-color: rgba(128, 128, 128, 0.7);
+}
+
+.rowhitter{
+	border-radius: 1vw;
+	border:0.2vw solid #f51021;
+	background-color: rgba(128, 128, 128, 0.7);
+	margin: 2vw;
 }
 #section1{
 	margin: 3vw;
-	border-radius: 1%;
+	border-radius: 1vw;
 	border:1vw solid #f51021;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0);
 }
 .klook img{
 	padding-top:5%;
@@ -99,8 +109,9 @@ section4{
 }
 
 .guider {
-	background-color: #fff;
-	border-radius: 1%;
+	z-index: 100;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 1vw;
 	border:1vw solid #f51021;
 	width: 100%;
 	height: 100%;
@@ -283,7 +294,6 @@ table {
 	margin-top: 2vw;
 }
 #tur1{
-
 	border-radius: 3%;
 	border: 1vw solid #fff;
 }
@@ -389,7 +399,7 @@ span{
 .some ul li img {
 	width: 12%;
 	border-radius: 30%;
-	border: 1vw solid #fff;
+	border: 0.5vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -403,11 +413,16 @@ footer {
 	color: #fff;
 	background-color: #000;
 }
-
+.rowoverfotter a{
+		font-size: 2vw;
+	}
 
 #map {
 	height: 35vw;
 	margin-top: 2vw;
+	border-radius: 1vw;
+	border:1vw solid #0479be;
+	background-color: rgba(128, 128, 128, 0.7);
 }
 
 .hs-responsive-embed-youtube {
@@ -416,11 +431,11 @@ footer {
 	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
-	padding-top: 1px;
+	padding-top: 1vw;
 	margin-bottom: 1vw;
 	border-radius: 1vw;
 	border: 1vw solid #fff;
-
+background-color: #fff;
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -442,10 +457,12 @@ footer {
 }
 @media screen and (min-width: 768px) and (orientation: landscape) {
 	body {
+	background-color: rgba(4, 121, 190, 0.7);
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
 		background-image: url(../images_turen/tabletlandskab-1024%20x768.jpg);
+	background-repeat: no-repeat;
 	}
 
 
@@ -466,7 +483,7 @@ footer {
 .some ul li img {
 	width: 10%;
 	border-radius: 30%;
-	border: 1vw solid #fff;
+	border: 0.5vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -512,6 +529,7 @@ p {
 	color: #101010;
 }
 strong{
+	font-size: 2vw;
 	color: grey;
 }
 
@@ -533,7 +551,8 @@ h4 {
 
 	h1 {
 	margin-left: 3vw;
-	margin-top: 12vw;
+	margin-top: 2vw;
+		margin-bottom: 2vw;
 		font-family: 'Source Sans Pro';
 		padding: 0;
 		font-size: 4vw;
@@ -558,8 +577,9 @@ text-align: center;
 	color: #fff;
 	background-color: #000;
 }
-
-
+.rowoverfotter a{
+		font-size: 2vw;
+	}
 	.pil {
 		z-index: 10000;
 		position: fixed;
@@ -572,8 +592,10 @@ text-align: center;
 	}
 	#map {
 		height: 35vw;
-		padding: 5vw;
-		border-radius: 5%;
+		padding: 2vw;
+	border-radius: 1vw;
+	border:1vw solid #0479be;
+	background-color: rgba(128, 128, 128, 0.7);
 	}
 
 .hs-responsive-embed-youtube {
@@ -583,6 +605,8 @@ text-align: center;
 	padding-bottom: 60%;
 	padding-top: 1px;
 	margin-bottom: 10vw;
+	background-color: #fff;
+
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -645,6 +669,7 @@ h4 {
 
 
 	h1 {
+		margin-left: 3vw;
 		font-family: 'Source Sans Pro';
 		padding-bottom: 3vw;
 		font-size:5vw;
@@ -665,7 +690,9 @@ text-align: center;
 
 	body {
 	background-size: 100%;
-		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium.jpg);
+		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
+	background-repeat: no-repeat;
+
 	}
 
 #top-image {
@@ -682,7 +709,14 @@ width:100%;
 	color:#fff;
 	height:6.0vw;
 }
-
+/*
+	.logologin{
+		height: 100%;
+		background-size: 100%;
+		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_testbund.jpg);
+		background-repeat: no-repeat;
+	}
+*/
 	.logologin1 img{
 		height: 35%;
 	width: 35%;
@@ -702,7 +736,9 @@ width:100%;
 	color: #fff;
 	background-color: #000;
 }
-
+.rowoverfotter a{
+		font-size: 2vw;
+	}
 
 	.pil {
 		z-index: 10000;
@@ -716,8 +752,10 @@ width:100%;
 	}
 	#map {
 		height: 35vw;
-		padding: 5vw;
-		border-radius: 5%;
+		padding: 2vw;
+		border-radius: 1vw;
+	border:1vw solid #0479be;
+	background-color: rgba(128, 128, 128, 0.7);
 	}
 
 .hs-responsive-embed-youtube {
@@ -728,6 +766,8 @@ width:100%;
 	/* 16:9 Aspect Ratio */
 	padding-top: 1px;
 	margin-bottom: 1vw;
+	background-color: #fff;
+
 }
 
 .hs-responsive-embed-youtube iframe {
@@ -762,9 +802,9 @@ width:100%;
 	font-size: 2vw;
 }
 .some ul li img {
-	width: 7%;
+	width: 10%;
 	border-radius: 30%;
-	border: 1vw solid #fff;
+	border: 0.5vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }

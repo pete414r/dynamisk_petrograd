@@ -6,14 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Byråd Regionsråd</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!--
-
 <div id="top-image"></div>
--->
 
 <div class="container-fluid affixbar">
    <div class="container-fluid">
@@ -98,28 +96,29 @@
 					<iframe src="https://www.youtube.com/embed/lSTaWNoo7uQ" allowfullscreen></iframe>
 				</div>
 			</div>
+			<div class="container-fluid turen3">
+	<div class="row">
+
+<div class="col-xs-12">
 <div id="section3">
-		<br>
 		<h3>Turen til stemmeboksen</h3>
 		<h4>Valgkortet</h4>
 		<h5>Du modtager valgkortet to uger før selve valgdagen. Tjek navn, sted og dato. Dygtige vi er til demokrati i Danmark og at det er noget være stolt af.</h5>
 	<div id="valgturen">
-	</div></div>
+	</div></div></div></div></div>
 <div id="section2" class="container-fluid">
-		<br>
-		<br>
-		<h3>De fem store Regioner og de fem mindste Kommuner</h3>
 		<table id="person_info"></table>
 		<template id="personinfo_template">
 
 			<div class="panel-group" id="accordion">
-				<div class="row">
+		<h3>Hvem hitter mest for dig</h3>
+				<div class="row rowhitter">
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse">
-										<span class="data_spgidm spg1class panel-title">DATA_FORNAVN1</span>
+						<img src="images_sitet/ekstatisk-01.png" alt="" class="data_imagesidm img-responsive">
 									</a>
 
 							</div>
@@ -157,14 +156,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row rowhitter">
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 
 						<div class="panel panel-default">
 							<div class="panel-heading">
 
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-									<span class="data_spgid1 spg1class panel-title">DATA_FORNAVN1</span>
+						<img src="DATA_IMAGESID1" alt="" class="data_imagesid1 img-responsive">
 									</a>
 
 							</div>
@@ -203,13 +202,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row rowhitter">
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 
 						<div class="panel panel-default">
 							<div class="panel-heading">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-										<span class="data_spgid2 spg1class panel-title">DATA_FORNAVN1</span>
+						<img src="DATA_IMAGESID2" alt="" class="data_imagesid2 img-responsive">
 
 									</a>
 							</div>
@@ -247,13 +246,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row rowhitter">
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 
 						<div class="panel panel-default">
 							<div class="panel-heading">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-										<span class="data_spgid3 spg1class panel-title">DATA_FORNAVN1</span>
+						<img src="DATA_IMAGESID3" alt="" class="data_imagesid3 img-responsive">
 									</a>
 							</div>
 							<div id="collapse5" class="panel-collapse collapse">
@@ -288,16 +287,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row rowhitter">
 
 					<div class="col-xs-6 col-sm-6 col-lg-6">
 
 						<div class="panel panel-default">
 							<div class="panel-heading">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-										<span class="data_spgid4 spg1class panel-title">DATA_FORNAVN1</span>
-
-									</a>
+						<img src="DATA_IMAGESID4" alt="" class="data_imagesid4 img-responsive">
+						</a>
 							</div>
 							<div id="collapse7" class="panel-collapse collapse">
 								<div class="panel-body bg-danger">
@@ -479,7 +477,12 @@
 			</div>
 		</div>
 	</div>
+
+	<footer>
+
+
 	<div id="section5" class="container-fluid">
+
 			<div class="row rowoverfotter">
 
 				<h1>Kontakt</h1>
@@ -501,7 +504,7 @@
 
 						<div>	<strong>Tlf:</strong><a href="tel:(+45)38385555"> (+45)38385555</a></div>
 
-						<div>	<strong>Mail</strong><a href="mailto:redaktion@tv2lorry.dk"> redaktion@tv2lorry.dk</a></div>
+						<div>	<strong>Mail</strong><a stronghref="mailto:redaktion@tv2lorry.dk"> redaktion@tv2lorry.dk</a></div>
 
 				</li>	</ul>
 
@@ -529,7 +532,6 @@
 			</div>
 
 		</div>
-	<footer>
 		<div class="container-fluid">
 
 			<div class="row">
