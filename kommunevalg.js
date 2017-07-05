@@ -126,12 +126,12 @@ function initMap() {
 		listen.forEach(visPunktInfo);
 	}
 	var bounds = {
-		north: 58.117764258222024,
-		south: 54.373327731522416,
-		east: 13.929399559375042,
-		west: 7.183794090625042
+		north: 58.63008937645516,
+		south: 53.53147389661579,
+		east: 16.152013687499942,
+		west: 7.121950187499942
 	}
-	var overlay = new google.maps.GroundOverlay("images_turen/kort_kbhture_A12-01.svg", bounds);
+	var overlay = new google.maps.GroundOverlay("images_turen/kort_kbhture_A12-01-01.svg", bounds);
 	overlay.setMap(map);
 	function visPunktInfo(punkt) {
 		console.log("Vis info");

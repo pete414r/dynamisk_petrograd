@@ -46,7 +46,9 @@ body {
 .likontaktinfo li{
 	color:black;
 }
-
+.likontaktinfo li a{
+	font-size: 1.3vw;
+}
 
 .r-responsive {
 	padding-top: 1vw;
@@ -79,6 +81,7 @@ body {
 	border:1vw solid #f51021;
 	margin: 2vw;
 }
+
 #section4{
 	    padding-right: 15px;
 	padding-left: 15px;
@@ -135,8 +138,9 @@ kbd{
 }
 .klook img:hover{
 	padding-top:5%;
-	height:24vw;
-		background-color: white;
+	height:23vw;
+	margin-left: 1vw;
+
 }
 
 
@@ -203,9 +207,7 @@ p {
 	font-size: 2vw;
 	color: #101010;
 }
-strong{
-	color: grey;
-}
+
 
 
 h3 {
@@ -238,8 +240,8 @@ h1 {
 	color: rgb(255, 255, 255);
 }
 h6{
-		font-size: 2.5vw;
-		color:white
+		font-size: 1.5vw;
+		color:white;
 	}
 h2{
 	line-height: 0vw;
@@ -436,8 +438,15 @@ footer {
 .rowoverfotter a{
 		font-size: 2vw;
 	}
-
+.keainfo a{
+	font-family: "Times New Roman";
+	color: #fff;
+}
+.keainfo h6{
+	font-size: 2vw;
+}
 #map {
+	margin-top: 2vw;
 	height: 35vw;
 		padding: 1vw;
 	border-radius: 1vw;
@@ -565,10 +574,7 @@ p {
 	font-size: 2vw;
 	color: #101010;
 }
-strong{
-	font-size: 2vw;
-	color: grey;
-}
+
 
 
 h3 {
@@ -596,7 +602,6 @@ h4 {
 		color: rgb(255, 255, 255);
 	}
 	h6{
-		margin-left: 2vw;
 		font-size: 2.5vw;
 		color:white
 	}
@@ -614,8 +619,8 @@ text-align: center;
 }
 	.klook img:hover{
 	padding-top:5%;
-	height:19vw;
-		background-color: white;
+	height:18vw;
+	margin-left: 1vw;
 }
 	.rowoverfotter ul{
 		margin-top: 9vw;
@@ -722,9 +727,7 @@ p {
 	font-size: 2vw;
 	color: #101010;
 }
-strong{
-	color: grey;
-}
+
 
 
 h3 {
@@ -750,11 +753,7 @@ h4 {
 		font-size:5vw;
 		color: rgb(255, 255, 255);
 	}
-	h6{
-		margin-left: 2vw;
-		font-size: 2.5vw;
-		color:white
-	}
+
 h2{
 	line-height: 0vw;
 text-align: center;
@@ -768,8 +767,8 @@ text-align: center;
 }
 .klook img:hover{
 	padding-top:5%;
-	height:14vw;
-		background-color: white;
+	height:13vw;
+	margin-left: 1vw;
 }
 
 	.contop{
