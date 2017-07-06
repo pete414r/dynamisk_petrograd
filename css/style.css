@@ -51,7 +51,7 @@ body {
 	color:black;
 }
 .likontaktinfo li a{
-	font-size: 1.3vw;
+	font-size: 2.0vw;
 }
 
 .r-responsive {
@@ -226,7 +226,8 @@ h4 {
 h5 {
 	font-family: 'Source Sans Pro';
 	font-size: 2.0vw;
-	padding: 0.5vw;
+	padding-left: 0.5vw;
+	padding-top: 2vw;
 	color: rgb(255, 255, 255);
 }
 h1 {
@@ -416,11 +417,9 @@ span{
 	font-size: 2.5vw;
 }
 .some ul li img {
-	width: 12%;
+	width: 8%;
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
-	margin-bottom: 0;
-	padding-bottom: 0;
 }
 
 
@@ -428,7 +427,7 @@ footer {
 	background-color: black;
 }
 
-.rowoverfotter {
+.rowoverfotter ul{
 	color: #fff;
 	background-color: #000;
 }
@@ -439,6 +438,7 @@ footer {
 	font-family: "Times New Roman";
 	color: #fff;
 }
+
 .keainfo h6{
 	font-size: 2vw;
 }
@@ -520,11 +520,9 @@ background-color: #fff;
 	font-size: 2.5vw;
 }
 .some ul li img {
-	width: 10%;
+	width: 8%;
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
-	margin-bottom: 0;
-	padding-bottom: 0;
 }
 
 
@@ -591,7 +589,13 @@ h4 {
 	padding-bottom: 1vw;
 	color: #101010;
 }
-
+h5 {
+	font-family: 'Source Sans Pro';
+	font-size: 2.0vw;
+	padding-left: 0.5vw;
+	padding-top: 2.4vw;
+	color: rgb(255, 255, 255);
+}
 	h1 {
 	margin-left: 3vw;
 	margin-top: 2vw;
@@ -630,6 +634,7 @@ text-align: center;
 .rowoverfotter a{
 		font-size: 2vw;
 	}
+
 	.pil {
 		z-index: 10000;
 		position: fixed;
@@ -744,7 +749,13 @@ h4 {
 	padding-bottom: 1vw;
 	color: #101010;
 }
-
+h5 {
+	font-family: 'Source Sans Pro';
+	font-size: 2.0vw;
+	padding-left: 0.5vw;
+	padding-top: 2.6vw;
+	color: rgb(255, 255, 255);
+}
 
 	h1 {
 		margin-left: 3vw;
@@ -853,11 +864,11 @@ text-align: center;
 }
 
 .some {
-	margin-top: 3vw;
+	margin-bottom: 6vw;
 	padding-right: 0vw;
 	padding-left: 0vw;
 	display: flex;
-	height: 5vw;
+	height: 0.1vw;
 }
 
 .some ul li{
@@ -870,21 +881,19 @@ text-align: center;
 	width: 10%;
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
-	margin-bottom: 0;
-	padding-bottom: 0;
 }
 .motiver {
 	z-index: 2500;
 	position: absolute;
 	top: 16vw;
-	left: 5.8vw;
+	left: 7.6vw;
 	width: 24.89vw;
 	height: 22.62vw;
 	z-index: 15;
 	background-image: url(../images_turen/star18-25-01-01.svg);
 	background-size:448.02vw 22.62vw;
 	background-repeat: no-repeat;
-	animation: motiv_kf 3s 3 steps(18);
+	animation: motiv_kf 4s 3 steps(18);
 }
 
 @keyframes motiv_kf {
@@ -895,5 +904,5 @@ text-align: center;
         background-position: -448.02vw;
     }
 }
-
 }
+
