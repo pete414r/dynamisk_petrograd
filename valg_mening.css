@@ -64,15 +64,15 @@ h6{
 .motiver {
 	z-index: 25;
 	position: absolute;
-	top: 136vw;
+	top: 1vw;
 	left: 2vw;
 	width: 2.5vw;
 	height: 2.5vw;
 	z-index: 15;
-	background-image: url(images_sitet/motiver-01.png);
+	background-image: url(images_sitet/star18-25.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	animation: motiv_kf 0.8s infinite steps(5);
+	animation: motiv_kf 3s infinite steps(18);
 }
 
 @keyframes motiv_kf {
@@ -499,7 +499,7 @@ width: 2.5vw;
 	body {
 	width: 100%;
 	background-size: 100%;
-		background-image: url(images_turen/tabletlandskab-1024%20x768.jpg);
+		background-image: url();
 	}
 	h2{
 	 font-weight: 500;
@@ -601,30 +601,29 @@ width: 2.5vw;
 .motiver {
 	z-index: 25;
 	position: absolute;
-	top: 94vw;
+	top: 9vw;
 	left: 2vw;
-	width: 2.5vw;
-	height: 2.5vw;
+	width: 49.780380673499266vw;
+	height: 45.241581259150806vw;
 	z-index: 15;
-	background-image: url(images_sitet/motiver-01.png);
-
-	background-size: cover;
+	background-image: url(images_sitet/star18-25-01-01.svg);
+	background-size:896.0468521229868vw 45.241581259150806vw;
 	background-repeat: no-repeat;
-	animation: motiv_kf 0.8s infinite steps(5);
+	animation: motiv_kf 3s infinite steps(18);
 }
 
 @keyframes motiv_kf {
 	 0% {
-        background-position: 100% 0;
+        background-position: 0px;
     }
     100% {
-        background-position: 0% 0;
+        background-position: -896.0468521229868vw;
     }
 }
 
 .starter {
 	position: absolute;
-	background-image: url(images_sitet/startknap-01.png);
+	background-image: url();
 	width: 14.4vw;
 	height: 9vw;
 	background-size: cover;

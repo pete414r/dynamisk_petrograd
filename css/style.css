@@ -24,10 +24,14 @@ body {
 .callto h2{
 	color: #FF1653;
 }
-.logologin1 img{
+
+.logologin img{
 		height: 100%;
 	width: 100%;
 		background-repeat: no-repeat;
+	}
+.logologin1 img{
+		display:none;
 	}
 .logologin2 img{
 	margin-top: 10.5vw;
@@ -532,11 +536,12 @@ background-color: #fff;
 	height:6.4vw;
 }
 
-	.logologin1 img{
+	.logologin img{
 		height: 35%;
 	width: 35%;
 		background-repeat: no-repeat;
 	}
+
 	.logologin2{
 	display: flex;
 	}
@@ -772,12 +777,17 @@ text-align: center;
 .contop h1{
 		padding-right: 5vw;
 	}
-
+	.logologin{
+		display:none;
+	}
 	.logologin1 img{
+		  float: left;
+		display: list-item;
 		height: 35%;
 	width: 35%;
 		background-repeat: no-repeat;
 	}
+
 .logologin2 img{
 	margin-left: 3vw;
 	padding-top: 2vw;
@@ -862,6 +872,28 @@ text-align: center;
 	border: 0.5vw solid #fff;
 	margin-bottom: 0;
 	padding-bottom: 0;
+}
+.motiver {
+	z-index: 2500;
+	position: absolute;
+	top: 16vw;
+	left: 5.8vw;
+	width: 24.89vw;
+	height: 22.62vw;
+	z-index: 15;
+	background-image: url(../images_turen/star18-25-01-01.svg);
+	background-size:448.02vw 22.62vw;
+	background-repeat: no-repeat;
+	animation: motiv_kf 3s 3 steps(18);
+}
+
+@keyframes motiv_kf {
+	 0% {
+        background-position: 0vw;
+    }
+    100% {
+        background-position: -448.02vw;
+    }
 }
 
 }
