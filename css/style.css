@@ -1,8 +1,15 @@
+/**************TABLET**POTRAET**************************/
+/************GOOGLE**FONT************************/
+
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
 * {
 	font-family: 'Source Sans Pro';
 	margin: 0 auto;
 }
+
+/**************GOOGLE**FONT**SLUT************************/
+
+/**************BAGGRUND**LOGO********************/
 
 body {
 	background-color: rgba(153, 123, 187, 0.7);
@@ -13,191 +20,32 @@ body {
 	background-repeat: no-repeat;
 	}
 
-#myNavbar ul li a {
-	color: #EEE785;
-	font-weight: bolder;
-}
-#myNavbar ul li a:hover {
-	color: #B6C350;
-	font-weight: 100;
-}
-.callto h2{
-	color: #FF1653;
-}
-
 .logologin img{
 		height: 100%;
 	width: 100%;
 		background-repeat: no-repeat;
 	}
+
 .logologin1 img{
 		display:none;
 	}
+
 .logologin2 img{
 	margin-top: 10.5vw;
 	height: 100%;
 	width: 100%;
 		background-repeat: no-repeat;
 	}
+
 .logologin2 h1{
 	font-size: 7vw;
 	margin-top: 6vw;
 		background-repeat: no-repeat;
 	}
-.likontaktinfo {
-	margin-top: 7vw;
-}
-.likontaktinfo li{
-	color:black;
-}
-.likontaktinfo li a{
-	font-size: 2.0vw;
-}
 
-.r-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	padding-top: 1vw;
-	height: 100%;
-}
+/**************BAGGRUND**LOGO**SLUT******************/
 
-.re-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	height: 100%;
-}
-
-.res-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	height: 100%;
-}
-
-#section2{
-	margin: 2vw;
-	padding: 0;
-}
-#section3{
-	background-color: #997bbb;
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	margin: 2vw;
-}
-
-#section4{
-	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	margin: 2vw;
-}
-#section6{
-		z-index: 100;
-	background-color: rgba(153, 123, 187, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-}
-#valgturen {
-	height: 100%;
-	width: 100%;
-	background-size: 100%;
-}
-.accoversk{
-
-	background-color: rgba(72, 38, 37, 0.5);
-}
-#accordion{
-border-radius: 1vw;
-	border:1vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-}
-#accordion img{
-	padding-top: 1vw;
-height: 20%;
-	width: 20%;
-}
-kbd{
-	padding-top: 2vw;
-}
-.rowhitter{
-	border-radius: 1vw;
-	border: 0.2vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-	margin: 2vw;
-}
-#section1{
-	margin: 2vw;
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	background-color: rgba(0, 0, 0, 0);
-}
-.klook img{
-	padding-top:5%;
-	height:25vw;
-}
-.klook img:hover{
-	padding-top:5%;
-	height:23vw;
-	margin-left: 1vw;
-
-}
-
-
-.affixbar {
-	text-align: center;
-	background-color: rgba(72, 38, 37, 0.5);
-	color:#fff;
-	height:9vw;
-}
-.affix {
-	z-index: 25;
-      top: 0;
-      width: 100%;
-  }
-.social-nav a{
-	z-index: 10;
-	color:lightgoldenrodyellow;
-}
-.aforside{
-	transition: ease-in-out 1s;
-	background-color: black;
-}
-.apartiinfo{
-	transition: ease-in-out 1s;
-	background-color: black;
-}
-.avalginfo{
-	transition: ease-in-out 1s;
-	background-color: black;
-}
-.akonkurrence{
-	transition: ease-in-out 1s;
-	background-color: black;
-}
-.akontakt{
-	transition: ease-in-out 1s;
-	background-color: black;
-}
-
-a {
-	color: grey;
-}
-
-.nav {
-	z-index: 10;
-	font-size: 2.5vw;
-	font-weight: bolder;
-}
-
-.navbar {
-	background-color: rgba(72, 38, 37, 0.5);
-	border-radius: 5%;
-}
-
-
-
-ol {
-	color: #000;
-}
+/**************TABLET**POTRAET**GENERALT**********************/
 
 p {
 	font-family: 'Source Sans Pro';
@@ -207,6 +55,21 @@ p {
 }
 
 
+h1 {
+	margin-left: 3vw;
+	font-family: 'Source Sans Pro';
+	padding: 2vw 2vw 2vw 2vw;
+	font-size: 4vw;
+	color: rgb(255, 255, 255);
+}
+
+h2{
+	line-height: 0vw;
+text-align: center;
+		font-weight:bolder;
+	font-size: 2.3vw;
+	color:#f51021;
+}
 
 h3 {
 	font-family: 'Source Sans Pro';
@@ -225,233 +88,81 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
+	font-size: 2.2vw;
 	padding-left: 0.5vw;
 	padding-top: 2vw;
 	color: rgb(255, 255, 255);
 }
-h1 {
-	margin-left: 3vw;
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 4vw;
-	color: rgb(255, 255, 255);
-}
+
 h6{
 		font-size: 1.5vw;
 		color:white;
 	}
-h2{
-	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
-	font-size: 2.3vw;
-	color:#f51021;
-}
-.panel a {
-	color: #fff;
-}
-.panel a p{
-	color: #fff;
-}
-.panel:hover a {
-	color: black;
-	text-decoration: none;
-}
-.panel-default {
-	border-color: rgba(0, 0, 0, 0);
-}
-
-.panel-group .panel-heading+.panel-collapse>.panel-body {
-	border-color: rgba(0, 0, 0, 0);
-	border-top-color: rgba(0, 0, 0, 0);
-	border-top: 0px;
-}
-
-
-.panel-default .panel-heading {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-	padding: 0;
-}
-
-.element .style a {
-	color: black;
-}
-
-.bg-danger {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.bg-success {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
-}
-
-
-
-.panel {
-	background-color: rgba(0, 0, 0, 0);
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	text-decoration: none;
-}
-
-.panel p {
-	margin: 0;
-
-	color: #101010;
-}
-
-table {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-}
-
-.samlogo {
-	margin-top: 2vw;
-}
-#tur1{
-	border-radius: 3%;
-	border: 1vw solid #fff;
-}
-.pic1 {
-	margin-top: 1vw;
-	margin-bottom: 1vw;
-	text-align: center;
-	width: 155px;
-	height: 155px;
-	background: url(../images_turen/cs_partiring_alternativet.png);
-	border-radius: 50%;
-}
-
-.text1 {
-	text-align: center;
-	transition: ease-in-out 1s;
-	padding-top: 20px;
-	width: 155px;
-	height: 155px;
-	background: #ffffff;
-	opacity: 0;
-}
-
-.pic1:hover .text1 {
-	padding-top: 25px;
-	opacity: 0.9;
-	text-align: center;
-	font-size: 12px;
-	font-weight: 700;
-	border-radius: 20%;
-}
-.pic2 {
-	background: url(../images_turen/cs_partiring_dansk_folkeparti.png);
-	text-align: center;
-}
-.pic3 {
-	background: url(../images_turen/cs_partiring_enhedslisten.png);
-	text-align: center;
-}
-.pic4 {
-	background: url(../images_turen/cs_partiring_guldborgssundlisten.png);
-	text-align: center;
-}
-.pic5 {
-	background: url(../images_turen/cs_partiring_konservative_folkeparti.png);
-	text-align: center;
-}
-.pic6 {
-	background: url(../images_turen/cs_partiring_kristendemokraterne.png);
-	text-align: center;
-}
-.pic7 {
-	background: url(../images_turen/cs_partiring_lbeiral_aliance.png);
-	text-align: center;
-}
-.pic8 {
-	background: url(../images_turen/cs_partiring_socialistisk_folkeparti.png);
-	text-align: center;
-}
-.pic9 {
-	background: url(../images_turen/cs_partiring_radikale_venstre.png);
-	text-align: center;
-}
-.pic10 {
-	background: url(../images_turen/cs_partiring_slesvigskparti.png);
-	text-align: center;
-}
-.pic11 {
-	background: url(../images_turen/cs_partiring_socialdemokratiet.png);
-	text-align: center;
-}
-.pic12 {
-	background: url(../images_turen/cs_partiring_venstre.png);
-	text-align: center;
-}
-input {
-	font-size: 3vw;
-	color: black;
-}
-
-table {
-	width: 100%;
-}
 
 span{
 	color: #000;
 	font-size: 2vw;
 }
-.some {
-	margin-top: 2.5vw;
-	padding-right: 0vw;
-	padding-left: 0vw;
-	display: flex;
-	height: 5vw;
+
+/**************TABLET**POTRAET**GENERALT**SLUT********************/
+
+/**************TOP**NAVBAR************************/
+
+.affixbar {
+	text-align: center;
+	background-color: rgba(72, 38, 37, 0.5);
+	color:#fff;
+	height:9vw;
 }
 
-.some ul li{
-	color: black;
+.affix {
+	z-index: 25;
+      top: 0;
+      width: 100%;
+  }
+
+.callto{
+	text-align: center;
 }
-	.some ul li a{
+
+.callto h2{
 	font-size: 2.5vw;
-}
-.some ul li img {
-	width: 8%;
-	border-radius: 30%;
-	border: 0.5vw solid #fff;
+	color: #FF1653;
 }
 
-
-footer {
-	background-color: black;
+.social-nav a{
+	z-index: 10;
+	color:lightgoldenrodyellow;
 }
 
-.rowoverfotter ul{
-	color: #fff;
-	background-color: #000;
-}
-.rowoverfotter a{
-		font-size: 2vw;
-	}
-.keainfo a{
-	font-family: "Times New Roman";
-	color: #fff;
+a {
+	color: grey;
 }
 
-.keainfo h6{
-	font-size: 2vw;
+.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
 }
-#map {
-	margin-right:  1vw;
-	margin-left:  1vw;
-	margin-top: 2vw;
-	height: 35vw;
-		padding: 1vw;
-	border-radius: 1vw;
-	border:1vw solid #0479be;
-	background-color: rgba(128, 128, 128, 0.7);
+
+.navbar {
+	background-color: rgba(72, 38, 37, 0.5);
+	border-radius: 5%;
 }
+
+#myNavbar ul li a {
+	color: #EEE785;
+	font-weight: bolder;
+}
+
+#myNavbar ul li a:hover {
+	color: #B6C350;
+	font-weight: 100;
+}
+
+/**************TOP**NAVBAR**SLUT**********************/
+
+/**************VALG**VIDEO********************/
 
 .hs-responsive-embed-youtube {
 	 width:100%;
@@ -477,35 +188,298 @@ background-color: #fff;
 	width: 94vw;
 	margin: 0 auto;
 }
-.callto{
+
+/**************VALG**VIDEO**SLUT******************/
+
+/***************PROCESBAR**INFOGRAFIK******************/
+
+#valgturen {
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+}
+
+#section3{
+	background-color: #997bbb;
+	border-radius: 1vw;
+	border:1vw solid #f51021;
+	margin: 2vw;
+}
+
+/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+
+/*******************PERSONA**VALGINFO****************/
+
+#section2{
+	margin: 2vw;
+	padding: 0;
+}
+
+table {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+	width: 100%;
+}
+
+.panel a {
+	color: #fff;
+}
+
+.panel a p{
+	color: #fff;
+}
+
+.panel:hover a {
+	color: black;
+	text-decoration: none;
+}
+
+.panel-default {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: rgba(0, 0, 0, 0);
+	border-top: 0px;
+}
+
+
+.panel-default .panel-heading {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+	padding: 0;
+}
+
+.panel {
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-decoration: none;
+}
+
+.panel p {
+	margin: 0;
+
+	color: #101010;
+}
+
+
+.bg-danger {
+	border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.bg-success {
+	border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#accordion{
+border-radius: 1vw;
+	border:1vw solid #fff;
+	background-color: rgba(128, 128, 128, 0.7);
+}
+#accordion img{
+	padding-top: 1vw;
+height: 20%;
+	width: 20%;
+}
+
+
+.svgstyle{
+	background-size: 50%;
+}
+
+.rowhitter{
+	border-radius: 1vw;
+	border: 0.2vw solid #fff;
+	background-color: rgba(128, 128, 128, 0.7);
+	margin: 2vw;
+}
+
+kbd{
+	padding-top: 2vw;
+}
+
+#section6{
+		z-index: 100;
+	background-color: rgba(153, 123, 187, 0.7);
+	border-radius: 1vw;
+	border:1vw solid #f51021;
+}
+
+.klook img{
+	padding-top:5%;
+	height:25vw;
+}
+
+.klook img:hover{
+	padding-top:5%;
+	height:23vw;
+	margin-left: 1vw;
+
+}
+
+/*******************PERSONA**VALGINFO**SLUT**************/
+
+/*******************PARTIINFO**LOGOLINKS**************/
+
+#section4{
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 1vw;
+	border:1vw solid #fff;
+	margin: 2vw;
+}
+
+#section4 h5{
+	color: black;
+}
+
+.samlogo {
+	margin-top: 2vw;
+}
+
+.pic1 {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	text-align: center;
+	width: 155px;
+	height: 155px;
+	background: url(../images_turen/cs_partiring_alternativet.png);
+	border-radius: 50%;
+}
+
+.pic2 {
+	background: url(../images_turen/cs_partiring_dansk_folkeparti.png);
 	text-align: center;
 }
-.callto h2{
-	font-size: 2.5vw;
-}
-@media screen and (min-width: 768px) and (orientation: landscape) {
-	body {
-	background-color: rgba(153, 123, 187, 0.7);
-		width: 100%;
-	height: 100%;
-	background-size: 100%;
-		background-image: url(../images_turen/tabletlandskab-1024%20x768.jpg);
-	background-repeat: no-repeat;
-	}
 
-#myNavbar ul li a {
-	color: #EEE785;
-	font-weight: bolder;
+.pic3 {
+	background: url(../images_turen/cs_partiring_enhedslisten.png);
+	text-align: center;
 }
-#myNavbar ul li a:hover {
-	color: #B6C350;
-	font-weight: 100;
-	}
-.callto h2{
-	color: #FF1653;
-	font-size: 2.6vw;
+
+.pic4 {
+	background: url(../images_turen/cs_partiring_guldborgssundlisten.png);
+	text-align: center;
 }
-	.some {
+
+.pic5 {
+	background: url(../images_turen/cs_partiring_konservative_folkeparti.png);
+	text-align: center;
+}
+
+.pic6 {
+	background: url(../images_turen/cs_partiring_kristendemokraterne.png);
+	text-align: center;
+}
+
+.pic7 {
+	background: url(../images_turen/cs_partiring_lbeiral_aliance.png);
+	text-align: center;
+}
+
+.pic8 {
+	background: url(../images_turen/cs_partiring_socialistisk_folkeparti.png);
+	text-align: center;
+}
+
+.pic9 {
+	background: url(../images_turen/cs_partiring_radikale_venstre.png);
+	text-align: center;
+}
+
+.pic10 {
+	background: url(../images_turen/cs_partiring_slesvigskparti.png);
+	text-align: center;
+}
+
+.pic11 {
+	background: url(../images_turen/cs_partiring_socialdemokratiet.png);
+	text-align: center;
+}
+
+.pic12 {
+	background: url(../images_turen/cs_partiring_venstre.png);
+	text-align: center;
+}
+
+.text1 {
+	text-align: center;
+	transition: ease-in-out 1s;
+	padding-top: 20px;
+	width: 155px;
+	height: 155px;
+	background: #ffffff;
+	opacity: 0;
+}
+
+.pic1:hover .text1 {
+	padding-top: 25px;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 20%;
+}
+
+/*******************PARTIINFO**LOGOLINKS**SLUT************/
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+
+
+footer {
+	background-color: black;
+}
+
+.rowoverfotter ul{
+	color: #fff;
+	background-color: #000;
+}
+
+.keainfo a{
+	font-family: "Times New Roman";
+	color: #fff;
+}
+
+.keainfo h6{
+	font-size: 2vw;
+}
+
+.likontaktinfo {
+	margin-top: 7vw;
+}
+
+.likontaktinfo li{
+	color:black;
+}
+
+.likontaktinfo li a{
+	font-size: 2.0vw;
+}
+
+.r-responsive {
+	padding-top: 1vw;
+	width: 100%;
+	padding-top: 1vw;
+	height: 100%;
+}
+
+.re-responsive {
+	padding-top: 1vw;
+	width: 100%;
+	height: 100%;
+}
+
+.res-responsive {
+	padding-top: 1vw;
+	width: 100%;
+	height: 100%;
+}
+
+.some {
 	margin-top: 2.5vw;
 	padding-right: 0vw;
 	padding-left: 0vw;
@@ -516,23 +490,45 @@ background-color: #fff;
 .some ul li{
 	color: black;
 }
+
 	.some ul li a{
 	font-size: 2.5vw;
 }
+
 .some ul li img {
 	width: 8%;
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
 }
 
-
-
-	.affixbar {
-	text-align: center;
-	background-color: rgba(153, 123, 187, 0);
-	color:#fff;
-	height:6.4vw;
+#map {
+	margin-right:  1vw;
+	margin-left:  1vw;
+	margin-top: 2vw;
+	height: 35vw;
+		padding: 1vw;
+	border-radius: 1vw;
+	border:1vw solid #0479be;
+	background-color: rgba(128, 128, 128, 0.7);
 }
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+/**************TABLET**POTRAET**SLUT************************/
+
+/**************TABLET**LANDSKAB************************/
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
+/**************BAGGRUND**LOGO********************/
+
+body {
+	background-color: rgba(153, 123, 187, 0.7);
+		width: 100%;
+	height: 100%;
+	background-size: 100%;
+		background-image: url(../images_turen/tabletlandskab-1024%20x768.jpg);
+	background-repeat: no-repeat;
+	}
 
 	.logologin img{
 		height: 35%;
@@ -543,28 +539,24 @@ background-color: #fff;
 	.logologin2{
 	display: flex;
 	}
+
 .logologin2 img{
-	padding-top: 1vw;
-	padding-bottom: 3vw;
+	padding-top: 2.5vw;
+	padding-bottom: 1vw;
 		height: 60%;
 	width: 60%;
 		background-repeat: no-repeat;
 	}
+
 	.logologin2 h1{
-		margin-top: 11.5vw;
+		margin-top: 12.8vw;
 	margin-right: 7vw;
 		font-size: 5vw;
 	}
-.nav {
-	z-index: 10;
-	font-size: 2.5vw;
-	font-weight: bolder;
-}
 
+/**************BAGGRUND**LOGO**SLUT******************/
 
-ol {
-	color: #000;
-}
+/**************TABLET**POTRAET**GENERALT**********************/
 
 p {
 	font-family: 'Source Sans Pro';
@@ -572,8 +564,22 @@ p {
 	font-size: 2vw;
 	color: #101010;
 }
-
-
+h1 {
+	margin-left: 3vw;
+	margin-top: 2vw;
+		margin-bottom: 2vw;
+		font-family: 'Source Sans Pro';
+		padding: 0;
+		font-size: 4vw;
+		color: rgb(255, 255, 255);
+	}
+h2{
+	line-height: 0vw;
+text-align: center;
+		font-weight:bolder;
+	font-size: 2.0vw;
+	color:#C9181D;
+}
 
 h3 {
 	font-family: 'Source Sans Pro';
@@ -596,27 +602,60 @@ h5 {
 	padding-top: 2.4vw;
 	color: rgb(255, 255, 255);
 }
-	h1 {
-	margin-left: 3vw;
-	margin-top: 2vw;
-		margin-bottom: 2vw;
-		font-family: 'Source Sans Pro';
-		padding: 0;
-		font-size: 4vw;
-		color: rgb(255, 255, 255);
-	}
+
 	h6{
 		font-size: 2.5vw;
 		color:white
 	}
-h2{
-	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
-	font-size: 2.0vw;
-	color:#C9181D;
-/*	color:#3f0000;*/
+
+
+/**************TABLET**POTRAET**GENERALT**SLUT********************/
+
+/**************TOP**NAVBAR************************/
+
+.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
 }
+
+.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height:6.4vw;
+}
+
+#myNavbar ul li a {
+	color: #EEE785;
+	font-weight: bolder;
+}
+#myNavbar ul li a:hover {
+	color: #B6C350;
+	font-weight: 100;
+	}
+.callto h2{
+	color: #FF1653;
+	font-size: 2.6vw;
+}
+
+/**************TOP**NAVBAR**SLUT**********************/
+
+/**************VALG**VIDEO********************/
+.center {
+	width: 50vw;
+	margin: 0 auto;
+}
+/**************VALG**VIDEO**SLUT******************/
+
+/***************PROCESBAR**INFOGRAFIK******************/
+
+
+/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+
+
+/*******************PERSONA**VALGINFO****************/
+
 .klook img{
 	padding-top:5%;
 	height:20vw;
@@ -626,25 +665,58 @@ text-align: center;
 	height:18vw;
 	margin-left: 1vw;
 }
-	.rowoverfotter ul{
+
+/*******************PERSONA**VALGINFO**SLUT**************/
+
+/*******************PARTIINFO**LOGOLINKS**************/
+
+/*******************PARTIINFO**LOGOLINKS**SLUT************/
+
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+
+
+.rowoverfotter ul{
 		margin-top: 9vw;
 	color: #fff;
 	background-color: #000;
 }
-.rowoverfotter a{
-		font-size: 2vw;
-	}
 
-	.pil {
-		z-index: 10000;
-		position: fixed;
-		top: 35vw;
-		left: 90vw;
-		height: 12vw;
-		width: 8vw;
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
+
+.likontaktinfo li a{
+	font-size: 1.5vw;
+}
+
+	.some {
+	margin-top: 2.5vw;
+	padding-right: 0vw;
+	padding-left: 0vw;
+	display: flex;
+	height: 5vw;
+}
+
+.some ul li{
+	color: black;
+}
+	.some ul li a{
+	font-size: 2.5vw;
+}
+.some ul li img {
+	width: 8%;
+	border-radius: 30%;
+	border: 0.5vw solid #fff;
+}
+#map {
+	margin-right:  1vw;
+	margin-left:  1vw;
+	margin-top: 2vw;
+	height: 35vw;
+		padding: 1vw;
+	border-radius: 1vw;
+	border:1vw solid #0479be;
+	background-color: rgba(128, 128, 128, 0.7);
+}
+
 	#map {
 		height: 35vw;
 		padding: 1vw;
@@ -653,145 +725,29 @@ text-align: center;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
 
-
-.hs-responsive-embed-youtube {
-	 width:100%;
-	height:100%;
-	position: relative;
-	padding-bottom: 60%;
-	/* 16:9 Aspect Ratio */
-	padding-top: 1vw;
-	margin-bottom: 1vw;
-	border-radius: 1vw;
-	border: 1vw solid #fff;
-background-color: #fff;
-}
-.hs-responsive-embed-youtube iframe {
-
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-#top-image123{
-	display: none;
-}
-.center {
-	width: 50vw;
-	margin: 0 auto;
-}
-	h7{
-		font-weight: bold;
-		z-index: 10;
-	font-size: 2.5vw;
-	color:#f51021;
-}
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
 }
+
+/**************TABLET**LANDSKAB**SLUT************************/
+
+/**************LAPTOP**LANDSKAB**********************/
 @media screen and (min-width: 1200px) and (orientation: landscape) {
-	body {
+
+/**************BAGGRUND**LOGO********************/
+
+body {
 	background-size: 100%;
 		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
 background-repeat: no-repeat;
 
 	}
-.callto h2{
-	color: #F51021;
-	font-size: 2.5vw;
-}
-#myNavbar ul li a {
-	color: #8B8911;
-	font-weight: bolder;
-}
-#myNavbar ul li a:hover {
-	color: #716F08;
-	font-weight: 100;
-}
-#top-image {
-background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
-position:fixed;
-width:100%;
-  height:100%;
-  background-size: calc(100% + 50px);
-}
 
-	.affixbar {
-	text-align: center;
-	background-color: rgba(153, 123, 187, 0);
-	color:#fff;
-	height:6.0vw;
-}
-
-	.nav {
-	z-index: 10;
-	font-size: 2.5vw;
-	font-weight: bolder;
-}
-p {
-	font-family: 'Source Sans Pro';
-	padding-left: 1vw;
-	font-size: 2vw;
-	color: #101010;
-}
-
-
-
-h3 {
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 5vw;
-	color: #0479be;
-}
-
-h4 {
-	font-family: 'Source Sans Pro';
-	font-size: 4vw;
-	padding-left: 11vw;
-	padding-bottom: 1vw;
-	color: #101010;
-}
-h5 {
-	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
-	padding-left: 0.5vw;
-	padding-top: 2.6vw;
-	color: rgb(255, 255, 255);
-}
-
-	h1 {
-		margin-left: 3vw;
-		font-family: 'Source Sans Pro';
-		padding-bottom: 3vw;
-		font-size:5vw;
-		color: rgb(255, 255, 255);
-	}
-
-h2{
-	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
-	font-size: 2.0vw;
-	color:#f51021;
-}
-	.klook img{
-	padding-top:5%;
-	height:15vw;
-}
-.klook img:hover{
-	padding-top:5%;
-	height:13vw;
-	margin-left: 1vw;
-}
-
-	.contop{
-	padding-bottom: 7vw;
-	}
-.contop h1{
-		padding-right: 5vw;
-	}
-	.logologin{
+.logologin{
 		display:none;
 	}
-	.logologin1 img{
+
+.logologin1 img{
 		  float: left;
 		display: list-item;
 		height: 35%;
@@ -799,89 +755,33 @@ text-align: center;
 		background-repeat: no-repeat;
 	}
 
+.logotekst h5{
+		font-family: 'Source Sans Pro';
+	font-size: 2.0vw;
+	padding-left: 0.5vw;
+	padding-top: 1.2vw;
+	color: rgb(255, 255, 255);
+	}
+.logotekst{
+		margin-bottom: 4vw;
+	}
+
 .logologin2 img{
+	margin-top: 1.8vw;
 	margin-left: 3vw;
-	padding-top: 2vw;
 		height:50%;
 	width: 50%;
 		background-repeat: no-repeat;
 	}
 
-
-	.rowoverfotter ul{
-		margin-top: 7vw;
-	color: #fff;
-	background-color: #000;
-}
-.rowoverfotter a{
-		font-size: 2vw;
+.logologin2 h1 {
+	margin-top: 3.5vw;
+		margin-left: 3vw;
+		font-family: 'Source Sans Pro';
+		font-size:5vw;
+		color: rgb(255, 255, 255);
 	}
 
-	.pil {
-		z-index: 10000;
-		position: fixed;
-		top: 35vw;
-		left: 90vw;
-		height: 12vw;
-		width: 8vw;
-		background-size: 100%;
-		background-repeat: no-repeat;
-	}
-	#map {
-		height: 35vw;
-		padding: 1vw;
-		border-radius: 1vw;
-	border:1vw solid #997bbb;
-	background-color: rgba(128, 128, 128, 0.7);
-	}
-
-.hs-responsive-embed-youtube {
-	 width:100%;
-	height:100%;
-	position: relative;
-	padding-bottom: 60%;
-	/* 16:9 Aspect Ratio */
-	padding-top: 1px;
-	margin-bottom: 1vw;
-	background-color: #fff;
-
-}
-
-.hs-responsive-embed-youtube iframe {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-
-.center {
-	width: 50vw;
-	margin: 0 auto;
-}
-	h7{
-		font-weight: bold;
-	font-size: 5.5vw;
-	color:#f51021;
-}
-
-.some {
-	margin-bottom: 6vw;
-	padding-right: 0vw;
-	padding-left: 0vw;
-	display: flex;
-	height: 0.1vw;
-}
-
-.some ul li{
-	color: black;
-}
-	.some ul li a{
-	font-size: 2vw;
-}
-.some ul li img {
-	width: 10%;
-	border-radius: 30%;
-	border: 0.5vw solid #fff;
-}
 .motiver {
 	z-index: 2500;
 	position: absolute;
@@ -904,5 +804,172 @@ text-align: center;
         background-position: -448.02vw;
     }
 }
+/**************BAGGRUND**LOGO**SLUT******************/
+
+
+/**************TABLET**POTRAET**GENERALT**********************/
+
+p {
+	font-family: 'Source Sans Pro';
+	padding-left: 1vw;
+	font-size: 2vw;
+	color: #101010;
 }
 
+
+h2{
+	line-height: 0vw;
+text-align: center;
+		font-weight:bolder;
+	font-size: 2.0vw;
+	color:#f51021;
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro';
+	padding: 2vw 2vw 2vw 2vw;
+	font-size: 5vw;
+	color: #0479be;
+}
+
+h4 {
+	font-family: 'Source Sans Pro';
+	font-size: 4vw;
+	padding-left: 11vw;
+	padding-bottom: 1vw;
+	color: #101010;
+}
+
+h5 {
+	font-family: 'Source Sans Pro';
+	font-size: 2.0vw;
+	padding-left: 0.5vw;
+	padding-top: 2vw;
+	color: rgb(255, 255, 255);
+}
+
+
+/**************TABLET**POTRAET**GENERALT**SLUT********************/
+
+/**************TOP**NAVBAR************************/
+
+.nav {
+	z-index: 10;
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+
+.affixbar {
+	text-align: center;
+	background-color: rgba(153, 123, 187, 0);
+	color:#fff;
+	height:6.0vw;
+}
+
+.callto h2{
+	color: #F51021;
+	font-size: 2.5vw;
+}
+
+#myNavbar ul li a {
+	color: #8B8911;
+	font-weight: bolder;
+}
+
+#myNavbar ul li a:hover {
+	color: #716F08;
+	font-weight: 100;
+}
+
+	#top-image {
+background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
+position:fixed;
+width:100%;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+
+/**************TOP**NAVBAR**SLUT**********************/
+
+/**************VALG**VIDEO********************/
+
+.center {
+	width: 50vw;
+	margin: 0 auto;
+}
+
+/**************VALG**VIDEO**SLUT******************/
+
+/***************PROCESBAR**INFOGRAFIK******************/
+
+
+/***************PROCESBAR**INFOGRAFIK**SLUT****************/
+
+
+/*******************PERSONA**VALGINFO****************/
+
+.klook img{
+	padding-top:5%;
+	height:15vw;
+}
+
+.klook img:hover{
+	padding-top:5%;
+	height:13vw;
+	margin-left: 1vw;
+}
+
+/*******************PERSONA**VALGINFO**SLUT**************/
+
+/*******************PARTIINFO**LOGOLINKS**************/
+
+/*******************PARTIINFO**LOGOLINKS**SLUT************/
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+
+.rowoverfotter ul{
+		margin-top: 7vw;
+	color: #fff;
+	background-color: #000;
+}
+
+.likontaktinfo li a{
+	font-size: 1.3vw;
+}
+
+	#map {
+		height: 35vw;
+		padding: 1vw;
+		border-radius: 1vw;
+	border:1vw solid #997bbb;
+	background-color: rgba(128, 128, 128, 0.7);
+	}
+
+.some {
+	margin-top: 2.0vw;
+	padding-right: 0vw;
+	padding-left: 0vw;
+	display: flex;
+	height: 7vw;
+}
+
+.some ul li{
+	color: black;
+}
+
+	.some ul li a{
+	font-size: 2vw;
+}
+
+.some ul li img {
+	width: 10%;
+	border-radius: 30%;
+	border: 0.5vw solid #fff;
+}
+
+/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+
+}
+
+/**************LAPTOP**LANDSKAB**SLUT************************/

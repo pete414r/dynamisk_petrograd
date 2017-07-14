@@ -2273,5 +2273,6 @@ function v31() {
 
 
 function getRndInteger(min, max) {
-	return Math.floor(Math.random() * 10) + 1;
+	return Math.floor(Math.random() * 4294967296) + 1;
 }
+//18446744073709551616

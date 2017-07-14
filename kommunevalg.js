@@ -1,3 +1,4 @@
+/**************FLOWDING**BACKGROUND******************/
 
 	$(document).ready(function() {
 var movementStrength = 50000;
@@ -12,6 +13,9 @@ $("#top-image").mousemove(function(e){
 });
 });
 
+/**************FLOWDING**BACKGROUND**SLUT****************/
+
+/**************PERSONA**REGIONER**TOKOMMUNER**************/
 
 		window.addEventListener("load", run);
 
@@ -92,6 +96,10 @@ $("#top-image").mousemove(function(e){
 			document.querySelector("#person_info").appendChild(klon);
 		}
 
+/**************PERSONA**REGIONER**TOKOMMUNER**SLUT************/
+
+/**************KORT**INFOVINDUE************/
+
 	var map;
 
 window.addEventListener("load", initMap);
@@ -148,8 +156,7 @@ function initMap() {
 			icon: punkt.icon
 		});
 		var infowindow = new google.maps.InfoWindow({
-			maxWidth: 500
-		});
+			maxWidth: 320});
 		m.addListener("click", visinfo);
 		function visinfo() {
 			var tempinfo =
@@ -165,6 +172,11 @@ function initMap() {
 		}
 	}
 	}
+
+/**************KORT**INFOVINDUE**SLUT**********/
+
+/**************INFOGRAFIK**VALGTUREN**********/
+
 		var valgte;
 		var info;
 		var aktiv;
@@ -191,6 +203,11 @@ function initMap() {
 				document.querySelector("#section3 h5").textContent = val.beskrivelse;
 			}
 		};
+
+/**************INFOGRAFIK**VALGTUREN**SLUT********/
+
+/**************LUKKEKLIK**BURGERBAR********/
+
 		$(document).ready(function () {
 			console.log("start");
 			$(".lukkeklik").click(function () {
@@ -200,3 +217,5 @@ function initMap() {
 				}
 			});
 		});
+
+/**************LUKKEKLIK**BURGERBAR**SLUT******/

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1161.12" height="615.06" viewBox="0 0 1161.12 615.06">
+  <title>cs_voting_card_gul</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <path d="M1081.86,77.79a129,129,0,0,1,129,129v345a129,129,0,0,1-129,129H190.77a129,129,0,0,1-129-129v-345a129,129,0,0,1,129-129h891.09m0-6H190.77a135,135,0,0,0-135,135v345a135,135,0,0,0,135,135h891.09a135,135,0,0,0,135-135v-345a135,135,0,0,0-135-135Z" transform="translate(-55.76 -71.79)"/>
+    <rect x="580.56" y="93.01" width="447.26" height="387.04" fill="#ff0"/>
+    <rect x="6.37" y="6.32" width="574.19" height="601.47" rx="126.74" ry="126.74" fill="#ff0"/>
+    <rect x="132.36" y="6.32" width="448.2" height="387.04" fill="#ff0"/>
+    <rect x="180.36" y="220.75" width="397.38" height="387.04" fill="#ff0"/>
+    <rect x="132.83" y="93.01" width="447.26" height="387.04" fill="#fff"/>
+    <text transform="translate(234.35 568.4)" font-size="72" fill="#fff" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700">25</text>
+    <text transform="translate(1071.78 92.95) rotate(90.2)" font-size="72" fill="#333" font-family="MyriadPro-Regular, Myriad Pro">Kon<tspan x="118.51" y="0" letter-spacing="0em">k</tspan><tspan x="152.57" y="0" letter-spacing="0em">u</tspan><tspan x="192.24" y="0" letter-spacing="0em">r</tspan><tspan x="216.07" y="0" letter-spacing="-0.01em">r</tspan><tspan x="238.89" y="0">en</tspan><tspan x="314.92" y="0" letter-spacing="-0.01em">c</tspan><tspan x="346.75" y="0">e</tspan></text>
+    <text transform="translate(217.86 206.92)" font-size="95.17" fill="#ff931e" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" text-decoration="underline">22</text>
+    <text transform="translate(393.35 187.75)" font-size="92.69" fill="#333" font-family="MyriadPro-Semibold, Myriad Pro" font-weight="700">21</text>
+    <text transform="translate(225.73 374.81)" font-size="115.04" fill="#d4145a" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">23</text>
+    <text transform="translate(442.84 439.86)" font-size="94.78" fill="#42210b" font-family="MyriadPro-Regular, Myriad Pro">24</text>
+    <text transform="translate(356.46 329.85) scale(1.12 1)" font-size="131.44" font-family="SourceSansPro-Regular, Source Sans Pro">20</text>
+    <text transform="translate(652.74 168.34)" font-size="48" fill="#4d4d4d" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" letter-spacing="-0.04em">C<tspan x="26.06" y="0" letter-spacing="0em">OMMING UP</tspan></text>
+    <text transform="translate(350.09 531.29)" font-size="48" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700">Stemme<tspan x="165.26" y="0" letter-spacing="-0.02em">r</tspan><tspan x="185.7" y="0" xml:space="preserve"> du vinne</tspan><tspan x="375.12" y="0" letter-spacing="-0.02em">r</tspan><tspan x="395.55" y="0" xml:space="preserve"> du</tspan><tspan x="90.91" y="57.6">middag fo</tspan><tspan x="297.61" y="57.6" letter-spacing="-0.02em">r</tspan><tspan x="318.05" y="57.6" xml:space="preserve"> to</tspan></text>
+    <circle cx="963.33" cy="420.83" r="46.01" fill="#ff1d25" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+    <text transform="translate(922.83 446.81)" font-size="72" font-family="MyriadPro-Regular, Myriad Pro">18</text>
+    <polygon points="132.83 391.7 161.54 449.87 225.72 459.19 179.28 504.47 190.24 568.4 132.83 538.21 75.42 568.4 86.38 504.47 39.94 459.19 104.12 449.87 132.83 391.7" fill="#333" opacity="0.54"/>
+    <text transform="translate(93.37 512.81)" font-size="72" fill="#fff" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700">19</text>
+    <text transform="translate(203.43 63.31)" font-size="60" font-family="MyriadPro-Semibold, Myriad Pro" font-weight="700"><tspan letter-spacing="-0.04em">V</tspan><tspan x="33.78" y="0">oting </tspan><tspan x="185.16" y="0" letter-spacing="-0.01em">C</tspan><tspan x="219.9" y="0" letter-spacing="0em">a</tspan><tspan x="250.38" y="0" letter-spacing="-0.01em">r</tspan><tspan x="271.2" y="0" letter-spacing="0em">d</tspan></text>
+    <text transform="translate(601.51 230.68)" font-size="60" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" text-decoration="underline">Kommunalvalg<tspan x="51.3" y="72">Nov 2017</tspan></text>
+    <text transform="translate(714.78 70.43)" font-size="56" font-family="SourceSansPro-Regular, Source Sans Pro">#<tspan x="27.83" y="0" letter-spacing="-0.01em">f</tspan><tspan x="43.62" y="0">o</tspan><tspan x="73.97" y="0" letter-spacing="-0.01em">r</tspan><tspan x="92.85" y="0" letter-spacing="0em">dig</tspan></text>
+  </g>
+</svg>

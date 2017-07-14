@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1161.12" height="615.06" viewBox="0 0 1161.12 615.06">
+  <title>cs_voting_card_gu_testl</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <path d="M1081.86,77.79a129,129,0,0,1,129,129v345a129,129,0,0,1-129,129H190.77a129,129,0,0,1-129-129v-345a129,129,0,0,1,129-129h891.09m0-6H190.77a135,135,0,0,0-135,135v345a135,135,0,0,0,135,135h891.09a135,135,0,0,0,135-135v-345a135,135,0,0,0-135-135Z" transform="translate(-55.76 -71.79)"/>
+    <rect x="580.56" y="93.01" width="447.26" height="387.04" rx="33.17" ry="33.17" fill="#ff0"/>
+    <rect x="6.37" y="6.32" width="574.19" height="601.47" rx="126.74" ry="126.74" fill="#ff0"/>
+    <rect x="132.36" y="6.32" width="448.2" height="387.04" rx="35.88" ry="35.88" fill="#ff0"/>
+    <rect x="180.36" y="220.75" width="397.38" height="387.04" rx="33" ry="33" fill="#ff0"/>
+    <rect x="132.83" y="93.01" width="447.26" height="387.04" rx="31.54" ry="31.54" fill="#fff"/>
+    <text transform="translate(234.35 568.4)" font-size="72" fill="#fff" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700">25</text>
+    <text transform="translate(1071.78 92.95) rotate(90.2)" font-size="72" fill="#333" font-family="MyriadPro-Regular, Myriad Pro">Kon<tspan x="118.51" y="0" letter-spacing="0em">k</tspan><tspan x="152.57" y="0" letter-spacing="0em">u</tspan><tspan x="192.24" y="0" letter-spacing="0em">r</tspan><tspan x="216.07" y="0" letter-spacing="-0.01em">r</tspan><tspan x="238.89" y="0">en</tspan><tspan x="314.92" y="0" letter-spacing="-0.01em">c</tspan><tspan x="346.75" y="0">e</tspan></text>
+    <text transform="translate(217.86 206.92)" font-size="95.17" fill="#ff931e" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" text-decoration="underline">22</text>
+    <text transform="translate(393.35 187.75)" font-size="92.69" fill="#333" font-family="MyriadPro-Semibold, Myriad Pro" font-weight="700">21</text>
+    <text transform="translate(225.73 374.81)" font-size="115.04" fill="#d4145a" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">23</text>
+    <text transform="translate(442.84 439.86)" font-size="94.78" fill="#42210b" font-family="MyriadPro-Regular, Myriad Pro">24</text>
+    <text transform="translate(356.46 329.85) scale(1.12 1)" font-size="131.44" font-family="SourceSansPro-Regular, Source Sans Pro">20</text>
+    <text transform="translate(652.74 168.34)" font-size="48" fill="#4d4d4d" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" letter-spacing="-0.04em">C<tspan x="26.06" y="0" letter-spacing="0em">OMMING UP</tspan></text>
+    <text transform="translate(350.09 531.29)" font-size="48" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700">Stemme<tspan x="165.26" y="0" letter-spacing="-0.02em">r</tspan><tspan x="185.7" y="0" xml:space="preserve"> du vinne</tspan><tspan x="375.12" y="0" letter-spacing="-0.02em">r</tspan><tspan x="395.55" y="0" xml:space="preserve"> du</tspan><tspan x="90.91" y="57.6">middag fo</tspan><tspan x="297.61" y="57.6" letter-spacing="-0.02em">r</tspan><tspan x="318.05" y="57.6" xml:space="preserve"> to</tspan></text>
+    <circle cx="963.33" cy="420.83" r="46.01" fill="#ff1d25" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+    <text transform="translate(922.83 446.81)" font-size="72" font-family="MyriadPro-Regular, Myriad Pro">18</text>
+    <polygon points="132.83 391.7 161.54 449.87 225.72 459.19 179.28 504.47 190.24 568.4 132.83 538.21 75.42 568.4 86.38 504.47 39.94 459.19 104.12 449.87 132.83 391.7" fill="#333" opacity="0.54"/>
+    <text transform="translate(93.37 512.81)" font-size="72" fill="#fff" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-weight="700">19</text>
+    <text transform="translate(203.43 63.31)" font-size="60" font-family="MyriadPro-Semibold, Myriad Pro" font-weight="700"><tspan letter-spacing="-0.04em">V</tspan><tspan x="33.78" y="0">oting </tspan><tspan x="185.16" y="0" letter-spacing="-0.01em">C</tspan><tspan x="219.9" y="0" letter-spacing="0em">a</tspan><tspan x="250.38" y="0" letter-spacing="-0.01em">r</tspan><tspan x="271.2" y="0" letter-spacing="0em">d</tspan></text>
+    <text transform="translate(601.51 230.68)" font-size="60" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" text-decoration="underline">Kommunalvalg<tspan x="51.3" y="72">Nov 2017</tspan></text>
+    <text transform="translate(714.78 70.43)" font-size="56" font-family="SourceSansPro-Regular, Source Sans Pro">#<tspan x="27.83" y="0" letter-spacing="-0.01em">f</tspan><tspan x="43.62" y="0">o</tspan><tspan x="73.97" y="0" letter-spacing="-0.01em">r</tspan><tspan x="92.85" y="0" letter-spacing="0em">dig</tspan></text>
+    <path d="M35.61,228.54" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M88.92,288.63" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M35.61,236.12" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M155.78,249.67s-25.84,16.93-60.59,3.56c0,0,26-19.6,7.67-41,0,0-5.7-9.8,0-10.69,1.35-.21,4.07-1.82,7.56-3.8,11.23-6.38,30.33-16.61,36.45,3.8l4.46-.89s7.13-2.67,0,11.58S155.78,249.67,155.78,249.67Z" transform="translate(-55.76 -71.79)" fill="#e7d0a5" style="isolation: isolate"/>
+    <path d="M148.61,204.79s-5-34.67-43.67-1.67c0,0-9.67-14.33,18.67-30.67,0,0,17.67,3.67,15,7,0,0,13.29-2.83,12,18.33S148.61,204.79,148.61,204.79Z" transform="translate(-55.76 -71.79)" fill="#9b8159"/>
+    <line x1="77.51" y1="127.99" x2="87.85" y2="127.99" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="57.51" y1="127.99" x2="67.85" y2="127.99" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="59.61" y1="135.24" x2="67.74" y2="133.41" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <line x1="86.74" y1="135.24" x2="78.61" y2="133.41" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <line x1="69.49" y1="156.13" x2="77.73" y2="157.36" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M129.37,202.12s.73,4.22,1.06,7.31,2.51,10,5.51,13,.43-1.33-3.29,0A24,24,0,0,1,127,223.9a8.34,8.34,0,0,0-3.42-2.14" transform="translate(-55.76 -71.79)" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <path d="M155.27,362.58s-25.84,16.93-60.59,3.56c0,0,26-19.6,7.67-41,0,0-5.7-9.8,0-10.69,1.35-.21-1.33-17.53,1.75-20.1,10.77-9,45.33-12,45,10.67l1.72,8.54s7.13-2.67,0,11.58S155.27,362.58,155.27,362.58Z" transform="translate(-55.76 -71.79)" fill="#e7d0a5" style="isolation: isolate"/>
+    <line x1="59.11" y1="248.15" x2="67.24" y2="246.32" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <path d="M35.1,341.45" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M88.41,401.54" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M35.1,349" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M149,302.63c0,3.81-22.08,7.48-25.89,7.48s-22.33-1.61-22.33-5.42,18.52-3.9,22.33-3.9S149,298.82,149,302.63Z" transform="translate(-55.76 -71.79)"/>
+    <line x1="77.01" y1="240.9" x2="87.35" y2="240.9" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="57.01" y1="240.9" x2="67.35" y2="240.9" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="86.24" y1="248.15" x2="78.11" y2="246.32" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <line x1="68.99" y1="269.04" x2="77.23" y2="270.27" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M128.86,315s.73,4.22,1.06,7.31,2.51,10,5.51,13,.43-1.33-3.29,0a24,24,0,0,1-5.63,1.47,8.34,8.34,0,0,0-3.42-2.14" transform="translate(-55.76 -71.79)" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <polygon points="45.01 232.9 93.23 230.84 87.33 214.06 48.34 215.85 45.01 232.9" stroke="#fff" stroke-miterlimit="10"/>
+    <path d="M34.6,464.89" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M87.91,525" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M34.6,472.47" transform="translate(-55.76 -71.79)" fill="#513d1d"/>
+    <path d="M136.25,404.47c3.48-2.86-3.13-16.39-7.89-17.67-6.15-2.27-1.26,8.75-4.12,9.33-11.31,2.34-5.81,23.34-5.81,23.34s1-2.21,9.59-1.46C134.1,418.53,122.19,398.87,136.25,404.47Z" transform="translate(-55.76 -71.79)" fill="#f15a24"/>
+    <path d="M154.77,486s-25.84,16.93-60.59,3.56c0,0,26-19.6,7.67-41,0,0-5.7-9.8,0-10.69,1.35-.21-1.33-17.53,1.75-20.1,10.77-9,45.33-12,45,10.67l1.72,8.54s7.13-2.67,0,11.58S154.77,486,154.77,486Z" transform="translate(-55.76 -71.79)" fill="#e7d0a5" style="isolation: isolate"/>
+    <line x1="76.5" y1="364.35" x2="86.84" y2="364.35" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="56.5" y1="364.35" x2="66.84" y2="364.35" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="3"/>
+    <line x1="58.6" y1="371.6" x2="66.73" y2="369.77" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <line x1="85.73" y1="371.6" x2="77.6" y2="369.77" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+    <line x1="68.48" y1="392.49" x2="76.72" y2="393.72" fill="none" stroke="#754c24" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M128.36,438.47s.73,4.22,1.06,7.31,2.51,10,5.51,13,.43-1.33-3.29,0a24,24,0,0,1-5.63,1.47,8.34,8.34,0,0,0-3.42-2.14" transform="translate(-55.76 -71.79)" fill="none" stroke="#754c24" stroke-miterlimit="10"/>
+  </g>
+</svg>
