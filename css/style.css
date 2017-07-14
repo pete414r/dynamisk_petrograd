@@ -1,4 +1,5 @@
 /**************TABLET**POTRAET**************************/
+
 /************GOOGLE**FONT************************/
 
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
@@ -163,22 +164,24 @@ a {
 /**************TOP**NAVBAR**SLUT**********************/
 
 /**************VALG**VIDEO********************/
-
+#section1{
+	z-index: 100;
+	background-color: rgba(153, 123, 187, 0.0);
+	border-radius: 1vw;
+	border:1vw solid #fff;
+	margin: 2vw;
+	padding: 1vw;
+}
 .hs-responsive-embed-youtube {
 	 width:100%;
 	height:100%;
 	position: relative;
 	padding-bottom: 60%;
 	/* 16:9 Aspect Ratio */
-	padding-top: 1vw;
-	margin-bottom: 1vw;
 	border-radius: 1vw;
-	border: 1vw solid #fff;
-background-color: #fff;
 }
 
 .hs-responsive-embed-youtube iframe {
-
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -244,7 +247,6 @@ table {
 	border-top: 0px;
 }
 
-
 .panel-default .panel-heading {
 	background-color: rgba(0, 0, 0, 0);
 	border-color: rgba(0, 0, 0, 0);
@@ -281,12 +283,12 @@ border-radius: 1vw;
 	border:1vw solid #fff;
 	background-color: rgba(128, 128, 128, 0.7);
 }
+
 #accordion img{
 	padding-top: 1vw;
 height: 20%;
 	width: 20%;
 }
-
 
 .svgstyle{
 	background-size: 50%;
@@ -319,7 +321,6 @@ kbd{
 	padding-top:5%;
 	height:23vw;
 	margin-left: 1vw;
-
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -513,6 +514,7 @@ footer {
 }
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
+
 /**************TABLET**POTRAET**SLUT************************/
 
 /**************TABLET**LANDSKAB************************/
@@ -564,6 +566,7 @@ p {
 	font-size: 2vw;
 	color: #101010;
 }
+
 h1 {
 	margin-left: 3vw;
 	margin-top: 2vw;
@@ -595,6 +598,7 @@ h4 {
 	padding-bottom: 1vw;
 	color: #101010;
 }
+
 h5 {
 	font-family: 'Source Sans Pro';
 	font-size: 2.0vw;
@@ -607,7 +611,6 @@ h5 {
 		font-size: 2.5vw;
 		color:white
 	}
-
 
 /**************TABLET**POTRAET**GENERALT**SLUT********************/
 
@@ -630,10 +633,12 @@ h5 {
 	color: #EEE785;
 	font-weight: bolder;
 }
+
 #myNavbar ul li a:hover {
 	color: #B6C350;
 	font-weight: 100;
 	}
+
 .callto h2{
 	color: #FF1653;
 	font-size: 2.6vw;
@@ -642,17 +647,17 @@ h5 {
 /**************TOP**NAVBAR**SLUT**********************/
 
 /**************VALG**VIDEO********************/
+
 .center {
 	width: 50vw;
 	margin: 0 auto;
 }
+
 /**************VALG**VIDEO**SLUT******************/
 
 /***************PROCESBAR**INFOGRAFIK******************/
 
-
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
-
 
 /*******************PERSONA**VALGINFO****************/
 
@@ -660,6 +665,7 @@ h5 {
 	padding-top:5%;
 	height:20vw;
 }
+
 	.klook img:hover{
 	padding-top:5%;
 	height:18vw;
@@ -672,9 +678,7 @@ h5 {
 
 /*******************PARTIINFO**LOGOLINKS**SLUT************/
 
-
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-
 
 .rowoverfotter ul{
 		margin-top: 9vw;
@@ -698,9 +702,11 @@ h5 {
 .some ul li{
 	color: black;
 }
+
 	.some ul li a{
 	font-size: 2.5vw;
 }
+
 .some ul li img {
 	width: 8%;
 	border-radius: 30%;
@@ -732,6 +738,7 @@ h5 {
 /**************TABLET**LANDSKAB**SLUT************************/
 
 /**************LAPTOP**LANDSKAB**********************/
+
 @media screen and (min-width: 1200px) and (orientation: landscape) {
 
 /**************BAGGRUND**LOGO********************/
@@ -762,6 +769,7 @@ background-repeat: no-repeat;
 	padding-top: 1.2vw;
 	color: rgb(255, 255, 255);
 	}
+
 .logotekst{
 		margin-bottom: 4vw;
 	}
@@ -803,7 +811,9 @@ background-repeat: no-repeat;
     100% {
         background-position: -448.02vw;
     }
+
 }
+
 /**************BAGGRUND**LOGO**SLUT******************/
 
 

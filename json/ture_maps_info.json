@@ -20,7 +20,7 @@
 		"images1": "images_turen/Århus_Kommunehospital_02_midt.jpg",
 		"icon": "images_turen/icon-1.png",
 		"title": "Regionsforvaltning Viborg Indbyggere 1.282.750 (1.1.2015) Regionsrådsformand Bent Hansen (Wikipedia)",
-		"txt": "Websted www.rm.dk.dk"
+		"txt": "Websted www.rm.dk"
     }, {
 		"id": "Region Nordjylland",
 		"lng": 9.9834693,
@@ -42,7 +42,7 @@
 		"images1": "images_turen/vejle_sygehus_vejle_danmark_syd.jpg",
 		"icon": "images_turen/icon-3.png",
 		"title": "Regionsforvaltning Vejle Indbyggere 1.217.224 (1.1.2017) Regionsrådsformand Stephanie Lose (Wikipedia)",
-		"txt": "Websted www.regionsyddanmark.dk"
+		"txt": "Websted www.rsyd.dk"
     }, {
 		"id": "Region Sjælland",
 		"lng": 11.5570313,
@@ -87,7 +87,7 @@
 		"images1": "images_turen/post7_2.png",
 
 		"icon": "images_turen/icon-7.png",
-		"title": "Vedtagne politikker og strategier Kommunikationspolitik Solpolitik Sammenhængende politik for alle børn og unge Læsø Kommune er en kommune i Region Nordjylland. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret efter kommunesammenlægningen Areal: 118,4 km² Befolkningstal: 1.793 (2017) (Wikipedia)",
+		"title": "Vedtagne politikker og strategier Kommunikationspolitik Solpolitik Sammenhængende politik for alle børn og unge Læsø Kommune er en kommune i Region Nordjylland. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret Areal: 118,4 km² Befolkningstal: 1.793 (2017) (Wikipedia)",
 		"txt": "www.laesoe.dk"
     }, {
 		"id": "FANØ KOMMUNE",
@@ -99,7 +99,7 @@
 		"images1": "images_turen/post8_2.png",
 
 		"icon": "images_turen/icon-8.png",
-		"title": "Politikker, planer og strategier KommuneplanKommuneplanen er Fanø Byråds overordnede plan for kommunens udvikling By- og lokalplaner Fanø Kommunes lokalplan nr. 1 blev vedtaget i 1978 Fanø Kommune er en kommune i Region Syddanmark. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune Areal: 59,86 km² Indbyggere 3.345 (2017) (Wikipedia)",
+		"title": "Politikker, planer og strategier Kommuneplanen er Fanø Byråds overordnede plan for kommunens udvikling By- og lokalplaner Fanø Kommunes lokalplan nr. 1 blev vedtaget i 1978 Fanø Kommune er en kommune i Region Syddanmark. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune Areal: 59,86 km² Indbyggere 3.345 (2017) (Wikipedia)",
 		"txt": "www.fanoe.dk"
     }, {
 		"id": "SOLRØD KOMMUNE",
