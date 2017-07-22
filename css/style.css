@@ -744,6 +744,7 @@ h5 {
 /**************BAGGRUND**LOGO********************/
 
 body {
+	background-color: rgba(4, 121, 190, 0.7);
 	background-size: 100%;
 		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
 background-repeat: no-repeat;
@@ -817,7 +818,7 @@ background-repeat: no-repeat;
 /**************BAGGRUND**LOGO**SLUT******************/
 
 
-/**************TABLET**POTRAET**GENERALT**********************/
+/**************LAPTOP**GENERALT**********************/
 
 p {
 	font-family: 'Source Sans Pro';
@@ -860,7 +861,7 @@ h5 {
 }
 
 
-/**************TABLET**POTRAET**GENERALT**SLUT********************/
+/**************LAPTOP**GENERALT**SLUT********************/
 
 /**************TOP**NAVBAR************************/
 
