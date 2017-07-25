@@ -89,14 +89,14 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 2.2vw;
+	font-size: 2.4vw;
 	padding-left: 0.5vw;
 	padding-top: 2vw;
 	color: rgb(255, 255, 255);
 }
 
 h6{
-		font-size: 1.8vw;
+		font-size: 3vw;
 		color:white;
 	}
 
@@ -335,7 +335,7 @@ kbd{
 	margin: 2vw;
 }
 
-#section4 h5{
+#section4 h6{
 	color: black;
 }
 
@@ -447,7 +447,7 @@ footer {
 }
 
 .keainfo h6{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 .likontaktinfo {
