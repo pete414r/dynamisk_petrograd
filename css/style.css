@@ -40,7 +40,7 @@ body {
 
 .logologin2 h1{
 	font-size: 7vw;
-	margin-top: 6vw;
+	margin-top: 1vw;
 		background-repeat: no-repeat;
 	}
 
@@ -96,7 +96,7 @@ h5 {
 }
 
 h6{
-		font-size: 1.5vw;
+		font-size: 1.8vw;
 		color:white;
 	}
 
@@ -113,7 +113,7 @@ span{
 	text-align: center;
 	background-color: rgba(72, 38, 37, 0.5);
 	color:#fff;
-	height:9vw;
+	height:15vw;
 }
 
 .affix {
@@ -127,7 +127,7 @@ span{
 }
 
 .callto h2{
-	font-size: 2.3vw;
+	font-size: 4.5vw;
 	color: #FF1653;
 }
 
@@ -170,7 +170,7 @@ a {
 	border-radius: 1vw;
 	border:1vw solid #fff;
 	margin: 2vw;
-	padding: 1vw;
+	padding: 2vw;
 }
 .hs-responsive-embed-youtube {
 	 width:100%;
@@ -282,6 +282,7 @@ table {
 border-radius: 1vw;
 	border:1vw solid #fff;
 	background-color: rgba(128, 128, 128, 0.7);
+	padding: 2vw;
 }
 
 #accordion img{
@@ -626,7 +627,7 @@ h5 {
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
 	color:#fff;
-	height:7.4vw;
+	height:8vw;
 }
 
 #myNavbar ul li a {
@@ -641,7 +642,6 @@ h5 {
 
 .callto h2{
 	color: #FF1653;
-	font-size: 2.2vw;
 }
 
 /**************TOP**NAVBAR**SLUT**********************/
@@ -880,7 +880,6 @@ h5 {
 
 .callto h2{
 	color: #F51021;
-	font-size: 2.5vw;
 }
 
 #myNavbar ul li a {
@@ -938,7 +937,17 @@ width:100%;
 /*******************PARTIINFO**LOGOLINKS**SLUT************/
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 92px;
+    background-color: #000;
+    color: #848484;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: FuturaStd-Heavy;
+    letter-spacing: .18em;
+}
 .rowoverfotter ul{
 		margin-top: 7vw;
 	color: #fff;

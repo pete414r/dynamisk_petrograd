@@ -1,0 +1,20 @@
+
+		<script>
+		  (function (win, doc) {
+		    var head = doc.head || doc.getElementsByTagName("head")[0];
+		    if ("-ms-user-select" in doc.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		      var msViewportStyle = doc.createElement("style");
+		      msViewportStyle.appendChild(
+		          doc.createTextNode("@-ms-viewport{width:auto!important}")
+		      );
+		      head.appendChild(msViewportStyle);
+		    }
+		  }(window, document));
+		</script>
+		<script>
+		  !function(t,e){function a(t){var a=e.createElement("style");a.textContent=t,f.appendChild(a)}var n,o="/assets/css/007/webfonts/",s="drc-webfonts",f=e.getElementsByTagName("head")[0],c=!1;try{n=t.localStorage[s],n&&a(n)}catch(t){}var d=t.FontFace;if(d){var r=new d("drc-wfl-woff2",'url("data:application/font-woff2,'+Math.random()+'") format("woff2")',{});r.load().catch(function(){}),c="loading"===r.status}var l=new XMLHttpRequest,i=o+(c?"woff2":"woff")+".css";l.open("get",i,!0),l.onreadystatechange=function(){if(4===l.readyState&&(l.status>=200&&l.status<300||304===l.status)){var e=l.responseText;if(n!==e){a(e);try{t.localStorage[s]=e}catch(t){}}}},n?t.addEventListener("load",function(){l.send(null)},!1):e.addEventListener("DOMContentLoaded",function(){l.send(null)},!1)}(window,document);
+		</script>
+
+
+<div id="snapscrollbar"><div id="snapscrollprogress"></div></div>
+
