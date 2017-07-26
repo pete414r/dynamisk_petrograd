@@ -336,6 +336,7 @@ kbd{
 }
 
 #section4 h6{
+	font-size: 3vw;
 	color: black;
 }
 
@@ -854,7 +855,7 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
+	font-size: 1.6vw;
 	padding-left: 0.5vw;
 	padding-top: 2vw;
 	color: rgb(255, 255, 255);
@@ -979,7 +980,7 @@ footer {
 }
 
 	.some ul li a{
-	font-size: 2vw;
+	font-size: 1.6vw;
 }
 
 .some ul li img {
