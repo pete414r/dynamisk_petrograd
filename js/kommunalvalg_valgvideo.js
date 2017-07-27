@@ -1,4 +1,5 @@
-var videoid = document.querySelector('radissonvideo');
+
+		var videoid = document.querySelector('#radissonvideo');
 		var popcornvideo = Popcorn(videoid);
 		videoid.addEventListener("ended", function (e) {
 			$('#endcredits').show();
@@ -24,5 +25,22 @@ var videoid = document.querySelector('radissonvideo');
 			end: 118,
 			text: "-Call to action på skærmen!-",
 
-			target: "annotation"
+			target: "annotationcallto"
 		});
+
+var myVideo = document.getElementById("radissonvideo");
+
+function playPause() {
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+
+}
+	function enableMute() {
+    myVideo.muted = true;
+}
+
+function disableMute() {
+    myVideo.muted = false;
+}

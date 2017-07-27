@@ -17,7 +17,7 @@ body {
 		width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
+	background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
 	background-repeat: no-repeat;
 	}
 
@@ -25,29 +25,30 @@ body {
 	padding-top: 1.1vw;
 	font-size: 2.5vw;
 	padding-left: 6.5vw;
+	color: #fff;
 	}
 
 .logologin img{
-		height: 100%;
+	height: 100%;
 	width: 100%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
 .logologin1 img{
-		display:none;
+	display:none;
 	}
 
 .logologin2 img{
 	margin-top: 10.5vw;
 	height: 100%;
 	width: 100%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
 .logologin2 h1{
 	font-size: 6.5vw;
 	margin-top: 0vw;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
 /**************BAGGRUND**LOGO**SLUT******************/
@@ -72,8 +73,8 @@ h1 {
 
 h2{
 	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
+	text-align: center;
+	font-weight:bolder;
 	font-size: 2.3vw;
 	color:#f51021;
 }
@@ -95,18 +96,26 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
+	font-size: 2.1vw;
+	padding-left: 0.5vw;
+	padding-top: 2vw;
+	color: #000;
+}
+.copytekst h5{
+	font-family: 'Source Sans Pro';
 	font-size: 2.4vw;
 	padding-left: 0.5vw;
 	padding-top: 2vw;
 	color: rgb(255, 255, 255);
 }
 
-h6{
-		font-size: 3vw;
-		color:white;
+h6 {
+	font-size: 2.5vw;
+	color:white;
+	padding-left: 6.5vw;
 	}
 
-span{
+span {
 	color: #000;
 	font-size: 2vw;
 }
@@ -124,8 +133,8 @@ span{
 
 .affix {
 	z-index: 25;
-      top: 0;
-      width: 100%;
+    top: 0;
+    width: 100%;
   }
 
 .callto{
@@ -178,6 +187,7 @@ a {
 	margin: 1vw 2vw 2vw 2vw;
 	padding: 2vw;
 }
+
 .hs-responsive-embed-youtube {
 	 width:100%;
 	height:100%;
@@ -238,7 +248,7 @@ table {
 	color: #fff;
 }
 
-.panel:hover a {
+.panel a:hover {
 	color: black;
 	text-decoration: none;
 }
@@ -269,10 +279,8 @@ table {
 
 .panel p {
 	margin: 0;
-
 	color: #101010;
 }
-
 
 .bg-danger {
 	border-color: rgba(0, 0, 0, 0);
@@ -285,7 +293,7 @@ table {
 }
 
 #accordion{
-border-radius: 1vw;
+	border-radius: 1vw;
 	border:1vw solid #fff;
 	background-color: rgba(128, 128, 128, 0.7);
 	padding: 2vw;
@@ -293,7 +301,7 @@ border-radius: 1vw;
 
 #accordion img{
 	padding-top: 1vw;
-height: 20%;
+	height: 20%;
 	width: 20%;
 }
 
@@ -320,14 +328,14 @@ kbd{
 }
 
 .klook img{
+	transition: ease-in-out 1.5s;
+	height:24vw;
 	padding-top:5%;
-	height:25vw;
 }
 
 .klook img:hover{
+	height:23.85vw;
 	padding-top:5%;
-	height:23vw;
-	margin-left: 1vw;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -342,8 +350,9 @@ kbd{
 }
 
 #section4 h6{
-	font-size: 3vw;
+	font-size: 2.5vw;
 	color: black;
+	padding-left: 6.5vw;
 }
 
 .samlogo {
@@ -455,6 +464,7 @@ footer {
 
 .keainfo h6{
 	font-size: 3vw;
+	padding-left: 0;
 }
 
 .likontaktinfo {
@@ -500,7 +510,7 @@ footer {
 	color: black;
 }
 
-	.some ul li a{
+.some ul li a{
 	font-size: 2.5vw;
 }
 
@@ -515,7 +525,7 @@ footer {
 	margin-left:  1vw;
 	margin-top: 2vw;
 	height: 35vw;
-		padding: 1vw;
+	padding: 1vw;
 	border-radius: 1vw;
 	border:1vw solid #0479be;
 	background-color: rgba(128, 128, 128, 0.7);
@@ -533,41 +543,42 @@ footer {
 
 body {
 	background-color: rgba(153, 123, 187, 0.7);
-		width: 100%;
+	width: 100%;
 	height: 100%;
 	background-size: 100%;
-		background-image: url(../images_turen/tabletlandskab-1024-x768.jpg);
+	background-image: url(../images_turen/tabletlandskab-1024-x768.jpg);
 	background-repeat: no-repeat;
 	}
 
-	.logologin img{
-		height: 35%;
+.logologin img {
+	height: 35%;
 	width: 35%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
-.logotekst h5{
+
+.logotekst h5 {
 
 	padding-top: 2.1vw;
 	font-size: 2.1vw;
 	padding-left: 6.5vw;
 	}
 
-	.logologin2{
+.logologin2 {
 	display: flex;
 	}
 
-.logologin2 img{
+.logologin2 img {
 	padding-top:8vw;
 	padding-bottom: 15vw;
-		height: 60%;
+	height: 60%;
 	width: 60%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
-	.logologin2 h1{
-		margin-top: 18.5vw;
+.logologin2 h1 {
+	margin-top: 18.5vw;
 	margin-right: 7vw;
-		font-size: 5vw;
+	font-size: 5vw;
 	}
 
 /**************BAGGRUND**LOGO**SLUT******************/
@@ -584,16 +595,17 @@ p {
 h1 {
 	margin-left: 3vw;
 	margin-top: 2vw;
-		margin-bottom: 2vw;
-		font-family: 'Source Sans Pro';
-		padding: 0;
-		font-size: 4vw;
-		color: rgb(255, 255, 255);
+	margin-bottom: 2vw;
+	font-family: 'Source Sans Pro';
+	padding: 0;
+	font-size: 4vw;
+	color: rgb(255, 255, 255);
 	}
-h2{
+
+h2 {
 	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
+	text-align: center;
+	font-weight:bolder;
 	font-size: 2.0vw;
 	color:#C9181D;
 }
@@ -615,17 +627,26 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
+	font-size: 2.5vw;
+	padding-left: 0.5vw;
+	padding-top: 2.4vw;
+	color: #000;
+}
+
+.copytekst h5 {
+	font-family: 'Source Sans Pro';
 	font-size: 2.0vw;
 	padding-left: 0.5vw;
 	padding-top: 2.4vw;
 	color: rgb(255, 255, 255);
-}
-
-	h6{
-		font-size: 2.5vw;
-		color:white
 	}
-	#section4 h6{
+
+h6 {
+	font-size: 2.5vw;
+	color:white
+	}
+
+#section4 h6 {
 	font-size: 2.5vw;
 	color: black;
 }
@@ -657,7 +678,7 @@ h5 {
 	font-weight: 100;
 	}
 
-.callto h2{
+.callto h2 {
 	color: #FF1653;
 }
 
@@ -678,15 +699,14 @@ h5 {
 
 /*******************PERSONA**VALGINFO****************/
 
-.klook img{
+.klook img {
 	padding-top:5%;
 	height:20vw;
 }
 
-	.klook img:hover{
+.klook img:hover {
 	padding-top:5%;
-	height:18vw;
-	margin-left: 1vw;
+	height:19.9vw;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -697,18 +717,18 @@ h5 {
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
-.rowoverfotter ul{
-		margin-top: 9vw;
+.rowoverfotter ul {
+	margin-top: 9vw;
 	color: #fff;
 	background-color: #000;
 }
 
 
-.likontaktinfo li a{
+.likontaktinfo li a {
 	font-size: 1.5vw;
 }
 
-	.some {
+.some {
 	margin-top: 2.5vw;
 	padding-right: 0vw;
 	padding-left: 0vw;
@@ -716,11 +736,11 @@ h5 {
 	height: 5vw;
 }
 
-.some ul li{
+.some ul li {
 	color: black;
 }
 
-	.some ul li a{
+.some ul li a{
 	font-size: 2.5vw;
 }
 
@@ -734,13 +754,13 @@ h5 {
 	margin-left:  1vw;
 	margin-top: 2vw;
 	height: 35vw;
-		padding: 1vw;
+	padding: 1vw;
 	border-radius: 1vw;
 	border:1vw solid #0479be;
 	background-color: rgba(128, 128, 128, 0.7);
 }
 
-	#map {
+#map {
 		height: 35vw;
 		padding: 1vw;
 	border-radius: 1vw;
@@ -763,24 +783,23 @@ h5 {
 body {
 	background-color: rgba(4, 121, 190, 0.7);
 	background-size: 100%;
-		background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
-background-repeat: no-repeat;
-
+	background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
+	background-repeat: no-repeat;
 	}
 
-.logologin{
-		display:none;
+.logologin {
+	display:none;
 	}
 
-.logologin1 img{
-		  float: left;
-		display: list-item;
-		height: 35%;
+.logologin1 img {
+	float: left;
+	display: list-item;
+	height: 35%;
 	width: 35%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
-.logotekst h5{
+.logotekst h5 {
 	font-size: 2.0vw;
 	padding-left: 6.5vw;
 	padding-top: 1vw;
@@ -788,19 +807,19 @@ background-repeat: no-repeat;
 	}
 
 
-.logologin2 img{
+.logologin2 img {
 	padding-bottom: 3vw;
 	margin-top: 1vw;
 	margin-left: 3vw;
 	width: 50%;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	}
 
 
 .logologin2 h1 {
 	margin-top: 8.6vw;
-		margin-left: 3vw;
-		font-size:5vw;
+	margin-left: 3vw;
+	font-size:5vw;
 
 	}
 
@@ -841,10 +860,10 @@ p {
 }
 
 
-h2{
+h2 {
 	line-height: 0vw;
-text-align: center;
-		font-weight:bolder;
+	text-align: center;
+	font-weight:bolder;
 	font-size: 2.0vw;
 	color:#f51021;
 }
@@ -867,13 +886,27 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 1.6vw;
+	font-size: 2.2vw;
 	padding-left: 0.5vw;
 	padding-top: 2vw;
-	color: rgb(255, 255, 255);
+	color: #000;
+}
+.keainfo h6{
+		font-size: 2vw;
+	color:white;
+	}
+
+	#section4 h6{
+	font-size: 2vw;
+	color: black;
+	padding-left: 3.5vw;
 }
 
-
+	h6{
+		font-size: 2vw;
+	color:white;
+	padding-left: 3.5vw;
+	}
 /**************LAPTOP**GENERALT**SLUT********************/
 
 /**************TOP**NAVBAR************************/
@@ -891,7 +924,7 @@ h5 {
 	height:6.0vw;
 }
 
-.callto h2{
+.callto h2 {
 	color: #F51021;
 }
 
@@ -905,12 +938,12 @@ h5 {
 	font-weight: 100;
 }
 
-	#top-image {
-background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
-position:fixed;
-width:100%;
-  height:100%;
-  background-size: calc(100% + 50px);
+#top-image {
+	background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
+	position:fixed;
+	width:100%;
+  	height:100%;
+  	background-size: calc(100% + 50px);
 }
 
 /**************TOP**NAVBAR**SLUT**********************/
@@ -932,15 +965,14 @@ width:100%;
 
 /*******************PERSONA**VALGINFO****************/
 
-.klook img{
+.klook img {
 	padding-top:5%;
-	height:15vw;
+	height:14vw;
 }
 
-.klook img:hover{
+.klook:hover img {
 	padding-top:5%;
-	height:13vw;
-	margin-left: 1vw;
+	height:13.95vw;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -961,20 +993,20 @@ footer {
     font-family: FuturaStd-Heavy;
     letter-spacing: .18em;
 }
-.rowoverfotter ul{
+.rowoverfotter ul {
 		margin-top: 7vw;
 	color: #fff;
 	background-color: #000;
 }
 
-.likontaktinfo li a{
+.likontaktinfo li a {
 	font-size: 1.3vw;
 }
 
-	#map {
-		height: 35vw;
-		padding: 1vw;
-		border-radius: 1vw;
+#map {
+	height: 35vw;
+	padding: 1vw;
+	border-radius: 1vw;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
@@ -987,11 +1019,11 @@ footer {
 	height: 7vw;
 }
 
-.some ul li{
+.some ul li {
 	color: black;
 }
 
-	.some ul li a{
+.some ul li a {
 	font-size: 1.6vw;
 }
 
@@ -1000,7 +1032,13 @@ footer {
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
 }
-
+.copytekst h5 {
+			font-family: 'Source Sans Pro';
+	font-size: 1.6vw;
+	padding-left: 0.5vw;
+	padding-top: 2vw;
+	color: rgb(255, 255, 255);
+	}
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
 }
