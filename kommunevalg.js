@@ -24,7 +24,7 @@ $("#top-image").mousemove(function(e){
 		function run() {
 			console.log("Start programmet");
 
-			$.getJSON("json/guider_quiz.json", visPersonListe);
+			$.getJSON("json/persona_info.json", visPersonListe);
 		}
 
 		function visPersonListe(listen) {
@@ -86,13 +86,13 @@ $("#top-image").mousemove(function(e){
 
 			klon.querySelector(".data_rigtsvarid4").innerHTML = person.rigtsvarid4;
 
-			klon.querySelector(".data_guide1navn").innerHTML = person.guide1navn;
+			klon.querySelector(".data_kommuner1navn").innerHTML = person.kommuner1navn;
 
-			klon.querySelector(".data_guide1posi").innerHTML = person.guide1posi;
+			klon.querySelector(".data_kommuner1posi").innerHTML = person.kommuner1posi;
 
-			klon.querySelector(".data_guide2navn").innerHTML = person.guide2navn;
+			klon.querySelector(".data_kommuner2navn").innerHTML = person.kommuner2navn;
 
-			klon.querySelector(".data_guide2posi").innerHTML = person.guide2posi;
+			klon.querySelector(".data_kommuner2posi").innerHTML = person.kommuner2posi;
 			document.querySelector("#person_info").appendChild(klon);
 		}
 
@@ -113,7 +113,7 @@ function initMap() {
 		zoom: 6,
 		center: center
 	});
-	$.getJSON("json/ture_maps_info.json", visKort);
+	$.getJSON("json/maps_info.json", visKort);
 	var mig = new google.maps.Marker({
 		map: map,
 		icon: "images_turen/pointer_5turen.png",
@@ -182,7 +182,7 @@ function initMap() {
 		var aktiv;
 		$('#valgturen').load("images_sitet/cs_infografik_12345.svg", kortHentet);
 		function kortHentet() {
-			$.getJSON("json/infografik_maps_info.json", dataHentet);
+			$.getJSON("json/grafik_info.json", dataHentet);
 		};
 		function dataHentet(data) {
 			info = data;
