@@ -14,20 +14,19 @@
 
 				<div id="annotation"> </div>
 <div id="annotationcallto"> </div>
-<nav>	 <a href="kommunalvalg_valgvideo_konkurence.html" target="_self">Konkurrencen</a>
+<nav>	 <a href="kommunalvalg_valgvideo_konkurence.html" target="_self"> Konkurrencen </a>
 				<a href="kommunalvalg.html" target="_self"> Kommunalvalg </a>
 					<a href="https://www.facebook.com/Kommunal-og-Regionsvalg-2017-1174689772639649/" target="_blank"> Facebook.dk </a>
 	<a href="http://www.tv2lorry.dk" target="_self"> Tv2lorry.dk </a>			</nav>
 <div id="annotationbutton">
 				 <button onclick="playPause()">Play/Pause</button>
+<button onclick="enableMute()" type="button">Mute</button>
+<button onclick="disableMute()" type="button">Sound</button>
 
 	</div>
 				<div id="endcredits">
 					<div id="endcriditbuttons">CTA -> <a href="kommunalvalg_valgvideo_konkurence.html" target="_self" class="btn btn-link btn-succes btn-lg">Deltag i Kommunal konkurrencen</a></div>
 				</div>
-
-				<!--<button id="vidpause">deltag</button>-->
-
 
 	<div class="container-fluid">
 		<div class="row">
@@ -94,7 +93,16 @@ function playPause() {
         myVideo.play();
     else
         myVideo.pause();
+
 }
+	function enableMute() {
+    myVideo.muted = true;
+}
+
+function disableMute() {
+    myVideo.muted = false;
+}
+
 	</script>
 
 </body>
