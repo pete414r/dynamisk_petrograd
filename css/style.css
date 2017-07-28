@@ -328,14 +328,16 @@ kbd{
 }
 
 .klook img{
-	transition: ease-in-out 1.5s;
+	transition: ease-in-out 0.5s;
 	height:24vw;
 	padding-top:5%;
+	opacity: 0.7;
 }
 
 .klook img:hover{
-	height:23.85vw;
+	height:24vw;
 	padding-top:5%;
+	opacity: 1;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -702,11 +704,13 @@ h6 {
 .klook img {
 	padding-top:5%;
 	height:20vw;
+	opacity: 0.7;
 }
 
 .klook img:hover {
 	padding-top:5%;
-	height:19.9vw;
+	height:20vw;
+	opacity: 1;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -968,11 +972,13 @@ h5 {
 .klook img {
 	padding-top:5%;
 	height:14vw;
+	opacity: 0.7;
 }
 
 .klook:hover img {
 	padding-top:5%;
-	height:13.95vw;
+	height:14vw;
+	opacity: 1;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
