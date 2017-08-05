@@ -528,8 +528,8 @@ footer {
 	margin-top: 2vw;
 	height: 35vw;
 	padding: 1vw;
-	border-radius: 1vw;
-	border:1vw solid #0479be;
+	border-radius: 2%;
+	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 }
 
@@ -590,7 +590,7 @@ body {
 p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	color: #101010;
 }
 
@@ -759,18 +759,10 @@ h6 {
 	margin-top: 2vw;
 	height: 35vw;
 	padding: 1vw;
-	border-radius: 1vw;
-	border:1vw solid #0479be;
+	border-radius: 2%;
+	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 }
-
-#map {
-		height: 35vw;
-		padding: 1vw;
-	border-radius: 1vw;
-	border:1vw solid #0479be;
-	background-color: rgba(128, 128, 128, 0.7);
-	}
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
@@ -859,7 +851,7 @@ body {
 p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
-	font-size: 2vw;
+	font-size: 1.3vw;
 	color: #101010;
 }
 
@@ -1012,7 +1004,7 @@ footer {
 #map {
 	height: 35vw;
 	padding: 1vw;
-	border-radius: 1vw;
+	border-radius: 2%;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
