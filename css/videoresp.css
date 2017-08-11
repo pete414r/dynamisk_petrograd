@@ -48,14 +48,24 @@ video {
 	padding-top: 25px;
 }
 
-
+.form-right:hover {
+	  transform: rotateY(180deg); /* Standard syntax */
+	height: 15vw;
+	width: 15vw;
+}
 
 .form-right{
-	background-position:right;
+	height: 15vw;
+	width: 15vw;
+	transform: rotateY(0deg);
+	    transition: transform 1.2s;
 	background-image: url(../images_turen/cs_voting_card_gul_test.svg);
-background-size:28%;
+background-size:100%;
 		background-repeat: no-repeat;
+	transition-timing-function: ease-in-out;
 }
+
+
 
 
 .center {
