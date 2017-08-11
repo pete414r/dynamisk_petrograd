@@ -981,16 +981,9 @@ h5 {
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 footer {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 92px;
     background-color: #000;
-    color: #848484;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-family: FuturaStd-Heavy;
-    letter-spacing: .18em;
-}
+  }
+
 .rowoverfotter ul {
 		margin-top: 7vw;
 	color: #fff;
@@ -999,7 +992,7 @@ footer {
 
 .likontaktinfo li a {
 	font-size: 1.3vw;
-	}
+}
 
 #map {
 	height: 35vw;
@@ -1037,9 +1030,8 @@ footer {
 	padding-top: 2vw;
 	color: rgb(255, 255, 255);
 	}
-	}
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
-
+}
 
 /**************LAPTOP**LANDSKAB**SLUT************************/
