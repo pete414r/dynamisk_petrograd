@@ -227,7 +227,7 @@ a {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 12px;
+	font-size: 13px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
@@ -705,7 +705,7 @@ h6 {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 14px;
+	font-size: 20px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
@@ -878,10 +878,6 @@ h5 {
 	color: #000;
 }
 
-	#section4 h6 {
-	padding-left: 25px;
-}
-
 h6 {
 	font-size: 25px;
 	color:white;
@@ -956,6 +952,9 @@ h6 {
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
+#section4 h6 {
+	padding-left: 25px;
+}
 
 /*******************PERSONA**VALGINFO****************/
 
