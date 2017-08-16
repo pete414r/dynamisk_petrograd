@@ -21,9 +21,12 @@ body {
 	background-repeat: no-repeat;
 	}
 
+div {
+	transition: ease-in-out 0.4s;
+}
 .logotekst h5{
-	padding-top: 1.1vw;
-	font-size: 2.5vw;
+	padding-top: 1.8vw;
+	font-size: 18px;
 	padding-left: 6.5vw;
 	color: #fff;
 	}
@@ -39,16 +42,18 @@ body {
 	}
 
 .logologin2 img{
-	margin-top: 10.5vw;
+	margin-top: 5.5vw;
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
 	}
 
 .logologin2 h1{
-	font-size: 6.5vw;
+	font-size: 40px;
 	margin-top: 0vw;
 	background-repeat: no-repeat;
+	margin-bottom: 4vw;
+	height: 20vw;
 	}
 
 /**************BAGGRUND**LOGO**SLUT******************/
@@ -56,68 +61,69 @@ body {
 /**************TABLET**POTRAET**GENERALT**********************/
 
 p {
+	transition: ease-in-out 1s;
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
-	font-size: 2vw;
+	font-size: 12px;
 	color: #101010;
 }
 
 
 h1 {
+	transition: ease-in-out 1s;
 	margin-left: 3vw;
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
-	font-size: 4vw;
+	font-size: 40px;
 	color: rgb(255, 255, 255);
 }
 
-h2{
-	line-height: 0vw;
+h2 {
+	transition: ease-in-out 1s;
+	line-height: 0;
 	text-align: center;
 	font-weight:bolder;
-	font-size: 2.3vw;
+	font-size: 20px;
 	color:#f51021;
 }
 
 h3 {
+	transition: ease-in-out 1s;
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
-	font-size: 5vw;
+	font-size: 30px;
 	color: #0479be;
 }
 
 h4 {
+	transition: ease-in-out 1s;
 	font-family: 'Source Sans Pro';
-	font-size: 4vw;
+	font-size: 30px;
 	padding-left: 11vw;
 	padding-bottom: 1vw;
 	color: #101010;
 }
 
 h5 {
+	line-height: 0.2em;
+	transition: ease-in-out 1s;
 	font-family: 'Source Sans Pro';
-	font-size: 2.1vw;
+	font-size: 12px;
 	padding-left: 0.5vw;
-	padding-top: 2vw;
 	color: #000;
-}
-.copytekst h5{
-	font-family: 'Source Sans Pro';
-	font-size: 2.4vw;
-	padding-left: 0.5vw;
-	padding-top: 2vw;
-	color: rgb(255, 255, 255);
 }
 
 h6 {
-	font-size: 2.5vw;
+	transition: ease-in-out 1s;
+	font-size: 18px;
 	color:white;
 	padding-left: 6.5vw;
+	padding-bottom: 2vw;
 	}
 
 span {
+	transition: ease-in-out 1s;
 	color: #000;
-	font-size: 2vw;
 }
 
 /**************TABLET**POTRAET**GENERALT**SLUT********************/
@@ -128,7 +134,7 @@ span {
 	text-align: center;
 	background-color: rgba(72, 38, 37, 0.5);
 	color:#fff;
-	height:15vw;
+	height:70px;
 }
 
 .affix {
@@ -142,7 +148,7 @@ span {
 }
 
 .callto h2{
-	font-size: 4.5vw;
+	font-size: 20px;
 	color: #FF1653;
 }
 
@@ -157,7 +163,7 @@ a {
 
 .nav {
 	z-index: 10;
-	font-size: 2.5vw;
+	font-size: 20px;
 	font-weight: bolder;
 }
 
@@ -204,7 +210,7 @@ a {
 }
 
 .center {
-	width: 90vw;
+	width: 87vw;
 	margin: 0 auto;
 }
 
@@ -216,6 +222,14 @@ a {
 	height: 100%;
 	width: 100%;
 	background-size: 100%;
+}
+
+#section3 h5 {
+	line-height: 1.5em;
+	font-family: 'Source Sans Pro';
+	font-size: 12px;
+	padding: 0.2vw 0.5vw 1.5vw;
+	color: #000;
 }
 
 #section3{
@@ -352,17 +366,18 @@ kbd{
 }
 
 #section4 h6{
-	font-size: 2.5vw;
+	font-size: 18px;
 	color: black;
 	padding-left: 6.5vw;
+	padding-bottom: 2vw;
 }
 
 .samlogo {
-	margin-top: 2vw;
+	margin-top: 0.2vw;
 }
 
 .pic1 {
-	margin-top: 1vw;
+	margin-top: 0.2vw;
 	margin-bottom: 1vw;
 	text-align: center;
 	width: 155px;
@@ -429,7 +444,7 @@ kbd{
 .text1 {
 	text-align: center;
 	transition: ease-in-out 1s;
-	padding-top: 20px;
+	padding-top: 2px;
 	width: 155px;
 	height: 155px;
 	background: #ffffff;
@@ -437,7 +452,7 @@ kbd{
 }
 
 .pic1:hover .text1 {
-	padding-top: 25px;
+	padding-top: 0.3vw;
 	opacity: 0.9;
 	text-align: center;
 	font-size: 12px;
@@ -454,32 +469,31 @@ footer {
 	background-color: black;
 }
 
-.rowoverfotter ul{
-	color: #fff;
-	background-color: #000;
+.keaside{
+	margin-top: 8vw;
+	font-size: 12px;
 }
-
-.keainfo a{
+.keaside a{
 	font-family: "Times New Roman";
 	color: #fff;
 }
 
 .keainfo h6{
-	font-size: 3vw;
+	margin-top: 3vw;
+	font-size: 15px;
 	padding-left: 0;
+	padding-bottom: 0;
 }
 
 .likontaktinfo {
-	margin-top: 7vw;
+	margin-top: 0vw;
 }
 
 .likontaktinfo li{
 	color:black;
 }
 
-.likontaktinfo li a{
-	font-size: 2.0vw;
-}
+
 
 .r-responsive {
 	padding-top: 1vw;
@@ -500,34 +514,32 @@ footer {
 	height: 100%;
 }
 
-.some {
-	margin-top: 2.5vw;
-	padding-right: 0vw;
-	padding-left: 0vw;
-	display: flex;
-	height: 5vw;
-}
+.some{
+		margin-top: 1vw;
+	}
 
 .some ul li{
 	color: black;
 }
 
 .some ul li a{
-	font-size: 2.5vw;
+	font-size: 12px;
 }
 
 .some ul li img {
-	width: 8%;
+	width: 6%;
 	border-radius: 30%;
 	border: 0.5vw solid #fff;
 }
 
+.someleft{
+	padding-top: 1vw;
+	margin: 0;
+}
+
 #map {
-	margin-right:  1vw;
-	margin-left:  1vw;
-	margin-top: 2vw;
+	margin-top: 3vw;
 	height: 35vw;
-	padding: 1vw;
 	border-radius: 2%;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
@@ -561,7 +573,7 @@ body {
 .logotekst h5 {
 
 	padding-top: 2.1vw;
-	font-size: 2.1vw;
+	font-size: 17px;
 	padding-left: 6.5vw;
 	}
 
@@ -570,7 +582,7 @@ body {
 	}
 
 .logologin2 img {
-	padding-top:5vw;
+	padding-top:9.5vw;
 	padding-bottom: 18vw;
 	height: 60%;
 	width: 60%;
@@ -578,9 +590,10 @@ body {
 	}
 
 .logologin2 h1 {
-	margin-top: 15.5vw;
+	margin-top: 13vw;
 	margin-right: 7vw;
-	font-size: 5vw;
+	font-size: 40px;
+	height:22vw;
 	}
 
 /**************BAGGRUND**LOGO**SLUT******************/
@@ -590,38 +603,29 @@ body {
 p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
-	font-size: 1.5vw;
+	font-size: 13px;
 	color: #101010;
 }
 
-h1 {
-	margin-left: 3vw;
-	margin-top: 2vw;
-	margin-bottom: 2vw;
-	font-family: 'Source Sans Pro';
-	padding: 0;
-	font-size: 4vw;
-	color: rgb(255, 255, 255);
-	}
+
 
 h2 {
-	line-height: 0vw;
+	line-height: 0;
 	text-align: center;
 	font-weight:bolder;
-	font-size: 2.0vw;
+	font-size: 15px;
 	color:#C9181D;
 }
 
 h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
-	font-size: 5vw;
+	font-size: 40px;
 	color: #0479be;
 }
 
 h4 {
-	font-family: 'Source Sans Pro';
-	font-size: 4vw;
+	font-size: 35px;
 	padding-left: 11vw;
 	padding-bottom: 1vw;
 	color: #101010;
@@ -629,28 +633,31 @@ h4 {
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 2.5vw;
+	font-size: 15px;
 	padding-left: 0.5vw;
-	padding-top: 2.4vw;
+	padding-top: 20px;
 	color: #000;
 }
 
-.copytekst h5 {
-	font-family: 'Source Sans Pro';
-	font-size: 2.0vw;
-	padding-left: 0.5vw;
-	padding-top: 2.4vw;
-	color: rgb(255, 255, 255);
-	}
-
 h6 {
-	font-size: 2.5vw;
+	font-size: 20px;
 	color:white
 	}
 
 #section4 h6 {
-	font-size: 2.5vw;
-	color: black;
+	font-size: 20px;
+}
+
+.keainfo h6{
+	margin-top: 3vw;
+	font-size: 18px;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+.keaside{
+	margin-top: 8vw;
+	font-size: 12px;
 }
 
 /**************TABLET**LANDSKAB**GENERALT**SLUT********************/
@@ -658,16 +665,13 @@ h6 {
 /**************TOP**NAVBAR************************/
 
 .nav {
-	z-index: 10;
-	font-size: 2.5vw;
-	font-weight: bolder;
+	font-size: 25px;
 }
 
 .affixbar {
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
 	color:#fff;
-	height:8vw;
 }
 
 #myNavbar ul li a {
@@ -682,6 +686,7 @@ h6 {
 
 .callto h2 {
 	color: #FF1653;
+	font-size: 35px;
 }
 
 /**************TOP**NAVBAR**SLUT**********************/
@@ -696,6 +701,14 @@ h6 {
 /**************VALG**VIDEO**SLUT******************/
 
 /***************PROCESBAR**INFOGRAFIK******************/
+
+#section3 h5 {
+	line-height: 1.5em;
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	padding: 0.2vw 0.5vw 1.5vw;
+	color: #000;
+}
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
@@ -721,44 +734,26 @@ h6 {
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
-.rowoverfotter ul {
-	margin-top: 9vw;
-	color: #fff;
-	background-color: #000;
-}
-
-
 .likontaktinfo li a {
-	font-size: 1.5vw;
+	font-size: 18px;
 }
 
-.some {
-	margin-top: 2.5vw;
-	padding-right: 0vw;
-	padding-left: 0vw;
-	display: flex;
-	height: 5vw;
-}
 
 .some ul li {
-	color: black;
+	padding: 0;
 }
 
 .some ul li a{
-	font-size: 2.5vw;
+	font-size: 18px;
 }
 
 .some ul li img {
-	width: 8%;
+	width: 5%;
 	border-radius: 30%;
-	border: 0.5vw solid #fff;
+	border: 0.4vw solid #fff;
 }
 #map {
-	margin-right:  1vw;
-	margin-left:  1vw;
-	margin-top: 2vw;
 	height: 35vw;
-	padding: 1vw;
 	border-radius: 2%;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
@@ -796,15 +791,16 @@ body {
 	}
 
 .logotekst h5 {
-	font-size: 2.0vw;
+	line-height: 1.5vw;
+	font-size: 25px;
 	padding-left: 6.5vw;
-	padding-top: 1vw;
+	padding-top: 0.9vw;
 	color: rgb(255, 255, 255);
 	}
 
 
 .logologin2 img {
-	padding-bottom: 3vw;
+	padding-bottom: 0vw;
 	margin-top: 1vw;
 	margin-left: 3vw;
 	width: 50%;
@@ -813,10 +809,10 @@ body {
 
 
 .logologin2 h1 {
-	margin-top: 5.6vw;
+	margin-top: 8.9vw;
 	margin-left: 3vw;
-	font-size:5vw;
-
+	font-size:50px;
+	height: 6vw;
 	}
 
 .motiver {
@@ -851,16 +847,16 @@ body {
 p {
 	font-family: 'Source Sans Pro';
 	padding-left: 1vw;
-	font-size: 1.3vw;
+	font-size: 15px;
 	color: #101010;
 }
 
 
 h2 {
-	line-height: 0vw;
+	line-height: 0;
 	text-align: center;
 	font-weight:bolder;
-	font-size: 2.0vw;
+	font-size: 35px;
 	color:#f51021;
 }
 
@@ -868,38 +864,26 @@ h2 {
 h3 {
 	font-family: 'Source Sans Pro';
 	padding: 2vw 2vw 2vw 2vw;
-	font-size: 5vw;
+	font-size: 55px;
 	color: #0479be;
 }
 
 h4 {
-	font-family: 'Source Sans Pro';
-	font-size: 4vw;
-	padding-left: 11vw;
-	padding-bottom: 1vw;
-	color: #101010;
+	font-size: 40px;
 }
 
 h5 {
 	font-family: 'Source Sans Pro';
-	font-size: 2.2vw;
-	padding-left: 0.5vw;
-	padding-top: 2vw;
+	font-size: 18px;
 	color: #000;
 }
-.keainfo h6{
-		font-size: 2vw;
-	color:white;
-	}
 
-	#section4 h6{
-	font-size: 2vw;
-	color: black;
-	padding-left: 3.5vw;
+	#section4 h6 {
+	padding-left: 25px;
 }
 
-	h6{
-		font-size: 2vw;
+h6 {
+	font-size: 25px;
 	color:white;
 	padding-left: 3.5vw;
 	}
@@ -908,20 +892,19 @@ h5 {
 /**************TOP**NAVBAR************************/
 
 .nav {
-	z-index: 10;
-	font-size: 2.5vw;
-	font-weight: bolder;
+	font-size: 30px;
 }
 
 .affixbar {
 	text-align: center;
 	background-color: rgba(153, 123, 187, 0);
 	color:#fff;
-	height:6.0vw;
+	height:83px;
 }
 
 .callto h2 {
 	color: #F51021;
+		font-size: 45px;
 }
 
 #myNavbar ul li a {
@@ -953,8 +936,23 @@ h5 {
 
 /**************VALG**VIDEO**SLUT******************/
 
+	#section1{
+	z-index: 100;
+	background-color: rgba(153, 123, 187, 0.0);
+	border-radius: 1vw;
+	border:1vw solid #fff;
+	margin: 3.5vw 2vw 2vw 2vw;
+}
+
 /***************PROCESBAR**INFOGRAFIK******************/
 
+#section3 h5 {
+	line-height: 1.5em;
+	font-family: 'Source Sans Pro';
+	font-size: 25px;
+	padding: 0.2vw 0.5vw 1.5vw;
+	color: #000;
+}
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
@@ -984,52 +982,43 @@ footer {
     background-color: #000;
   }
 
-.rowoverfotter ul {
-		margin-top: 7vw;
-	color: #fff;
-	background-color: #000;
-}
-
 .likontaktinfo li a {
-	font-size: 1.3vw;
+	font-size: 20px;
 }
 
 #map {
-	height: 35vw;
-	padding: 1vw;
+	height: 30vw;
 	border-radius: 2%;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
 	}
 
-.some {
-	margin-top: 2.0vw;
-	padding-right: 0vw;
-	padding-left: 0vw;
-	display: flex;
-	height: 7vw;
+.keainfo h6 {
+	font-size: 25px;
+	color:white;
+	padding-top: 1vw;
+
+	}
+
+.keaside{
+	margin-top: 12vw;
+	font-size: 17px;
 }
 
 .some ul li {
-	color: black;
+	padding: 0;
 }
 
 .some ul li a {
-	font-size: 1.6vw;
+	font-size: 25px;
 }
 
 .some ul li img {
-	width: 10%;
+	width: 5%;
 	border-radius: 30%;
-	border: 0.5vw solid #fff;
+	border: 0.3vw solid #fff;
 }
-.copytekst h5 {
-			font-family: 'Source Sans Pro';
-	font-size: 1.6vw;
-	padding-left: 0.5vw;
-	padding-top: 2vw;
-	color: rgb(255, 255, 255);
-	}
+
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
 }
