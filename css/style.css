@@ -21,9 +21,6 @@ body {
 	background-repeat: no-repeat;
 	}
 
-div {
-	transition: ease-in-out 0.4s;
-}
 .logotekst h5{
 	padding-top: 1.8vw;
 	font-size: 18px;
@@ -843,6 +840,10 @@ body {
 
 
 /**************LAPTOP**GENERALT**********************/
+
+div {
+	transition: ease-in-out 0.4s;
+}
 
 p {
 	font-family: 'Source Sans Pro';
