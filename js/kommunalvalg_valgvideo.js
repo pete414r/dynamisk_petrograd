@@ -10,7 +10,7 @@
 
 
 		function status() {
-			// console.log("tid er "+videoid.currentTime);
+			// console.log("start tid");
 			if (videoid.currentTime >= 7) {
 				$('#endcredits').show();
 				clearInterval(loop);
