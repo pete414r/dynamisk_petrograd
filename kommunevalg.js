@@ -165,8 +165,12 @@ function initMap() {
 			tempinfo.querySelector(".re-responsive").src = punkt.video;
 			tempinfo.querySelector(".r-responsive").src = punkt.images;
 			tempinfo.querySelector(".res-responsive").src = punkt.images1;
-			tempinfo.querySelector(".h1class").innerHTML = punkt.txt;
+			tempinfo.querySelector(".aclass").href = punkt.txt;
+			tempinfo.querySelector(".aclass").innerHTML = punkt.txt;
+			tempinfo.querySelector(".aclass").target = "_blank";
 			tempinfo.querySelector(".pclass").innerHTML = punkt.title;
+
+
 			infowindow.setContent(tempinfo);
 			infowindow.open(map, m);
 		}
