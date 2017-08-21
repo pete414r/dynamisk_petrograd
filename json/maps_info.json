@@ -113,7 +113,64 @@
 		"icon": "images_turen/icon-9.png",
 		"title": "Planer og politikker På denne side finder du de overordnede politikker og planer En stor del af politikkerne og planerne udstikker visioner og mål for et enkelte fagområde, mens andre går på tværs af fagområder og dækker kommunen i bred forstand. Solrød Kommune er en kommune i Region Sjælland på Sjælland. Solrød Kommune ligger cirka 30 kilometer syd for København med seks kilometers kyststrækning ud til Køge Bugt. Areal: 40 km² Indbyggere 22.147 (2017)",
 		"txt": "https://www.solrod.dk"
+    },  {
+		"id": "KØBENHAVNS KOMMUNE",
+		"lng": 12.571043,
+		"lat":55.675295,
+		"ll": "55.675295, 12.571043",
+		"video": "https://www.youtube.com/embed/RETOQ0MlFVk",
+		"images": "images_turen/kob_logo.jpg",
+		"images1": "images_turen/21252873026_200fff8818_b_staden.jpg",
+		"icon": "images_turen/icon-11.png",
+		"title": "Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger",
+		"txt": "https://www.kk.dk"
     }, {
+		"id": "AARHUS KOMMUNE",
+		"lng": 10.203479,
+		"lat":56.152588,
+		"ll": "56.152588, 10.203479",
+		"video": "https://www.youtube.com/embed/RSweZrFkrGg",
+		"images": "images_turen/aar_logo.jpg",
+		"images1": "images_turen/Århus_Kommunehospital_02_midt.jpg",
+		"icon": "images_turen/icon-12.png",
+		"title": "Aarhus kommune er Regionens største kommune med 323.477 indbyggere. Der er 31 medlemmer, her af er der to Magistratsmedlemmer, seks Rådmænd og en Borgmester.",
+		"txt": "https://www.aarhus.dk"
+    }, {
+		"id": "AALBORG KOMMUNE",
+		"lng": 9.921141,
+		"lat":57.048274,
+		"ll": "57.048274, 9.921141",
+			"video": "https://www.youtube.com/embed/CsYJGOnwhkM",
+		"images": "images_turen/aal_logo.jpg",
+		"images1": "images_turen/aalborg_sygehus_2010_ubt_nord.jpg",
+		"icon": "images_turen/icon-13.png",
+		"title": "Aalborg kommune er Regionens største kommune med 205.630 indbyggere. Kommunens Byråb har 31 medlemmer. En Borgmester, to viceborgmestre, seks rådmænd og medlemmer af de syv stående udvalg.",
+		"txt": "https://www.aalborg.dk"
+    }, {
+		"id": "ODENSE KOMMUNE",
+		"lng": 10.388560,
+		"lat":55.395990,
+		"ll": "55.395990, 10.388560",
+			"video": "https://www.youtube.com/embed/10kSxfL5Bgw",
+		"images": "images_turen/ode_logo.jpg",
+		"images1": "images_turen/vejle_sygehus_vejle_danmark_syd.jpg",
+		"icon": "images_turen/icon-14.png",
+		"title": "Odense kommune er Regionens største med 195.908 indbyggere. Byrådet har 29 medlemmer, her af er en Borgmester, to viceborgmestre, fire rådmænd.",
+		"txt": "https://www.odense.dk"
+    }, {
+		"id": "ROSKILDE KOMMUNE",
+		"lng": 12.2121907,
+		"lat":55.533792,
+		"ll": "55.680916, 12.585121",
+	"video": "https://www.youtube.com/embed/foG5XvdQogM",
+		"images": "images_turen/ros_logo.jpg",
+		"images1": "images_turen/Ambulance_fra_Falck_og_Region_Sjælland.jpg",
+		"icon": "images_turen/icon-15.png",
+		"title": "Roskilde kommune er Regionens største med 84.471 indbyggere. Byrådet har 31 medlemmer, her af er en Borgmester, to viceborgmestre herudover er der ti udvalg.",
+		"txt": "https://www.roskilde.dk"
+    },
+
+	{
 		"id": "TV2 Lorry Regionerne",
 		"lng": 12.532004,
 		"lat": 55.675285,
