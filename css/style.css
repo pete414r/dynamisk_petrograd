@@ -383,11 +383,6 @@ kbd{
 }
 
 .pic1 {
-	margin-top: 1.2vw;
-	margin-bottom: 3vw;
-	text-align: center;
-	width: 155px;
-	height: 155px;
 	background: url(../images_turen/cs_partiring_alternativet.png);
 	border-radius: 50%;
 }
@@ -475,24 +470,48 @@ footer {
 	background-color: black;
 }
 
-.keaside{
+.keaside_top{
 	margin-top: 8vw;
 	font-size: 12px;
+	display: none;
 }
-.keaside a{
+.keaside_top a{
 	font-family: "Times New Roman";
 	color: #fff;
 }
-
+.keaside_bund{
+	margin-top: 8vw;
+	font-size: 12px;
+	text-align: center;
+}
+.keaside_bund a{
+	font-family: "Times New Roman";
+	color: #fff;
+}
 .keainfo h6{
-	margin-top: 3vw;
+	margin-top: 3vw 0 0 0;
 	font-size: 15px;
-	padding-left: 0;
-	padding-bottom: 0;
+	text-align: center;
+	padding: 0 0 0 0;
+}
+
+.likontaktinfo a {
+	font-size: 13px;
+}
+
+.likontaktinfo h4{
+	line-height: 3.5px;
+	padding: 1.2vw 0 0 7vw;
+	text-align: left;
+	font-size: 13px;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	color: grey;
 }
 
 .likontaktinfo {
 	margin-top: 0vw;
+	text-align: center;
 }
 
 .likontaktinfo li{
@@ -564,7 +583,7 @@ display: none;
 
 #map {
 	margin-top: 3vw;
-	height: 35vw;
+	height: 55vw;
 	border-radius: 2%;
 	border:1vw solid #997bbb;
 	background-color: rgba(128, 128, 128, 0.7);
@@ -666,13 +685,15 @@ h5 {
 
 h6 {
 	font-size: 20px;
-	color:white
+	color:white;
 	}
 
 #section4 h6 {
 	font-size: 20px;
 }
-
+.likontaktinfo {
+	margin-top: 0vw;
+}
 .keainfo h6{
 	margin-top: 3vw;
 	font-size: 18px;
@@ -680,11 +701,31 @@ h6 {
 	padding-bottom: 0;
 }
 
-.keaside{
-	margin-top: 8vw;
-	font-size: 12px;
+.likontaktinfo a {
+	font-size: 16px;
 }
 
+.likontaktinfo h4{
+	line-height: 4px;
+	padding: 1.1vw 0 0 7vw;
+	text-align: left;
+	font-size: 16px;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	color: grey;
+}
+
+.keaside_top{
+	margin-top: 8vw;
+	font-size: 12px;
+	display: block;
+}
+
+	.keaside_bund{
+	margin-top: 8vw;
+	font-size: 12px;
+		display: none;
+}
 /**************TABLET**LANDSKAB**GENERALT**SLUT********************/
 
 /**************TOP**NAVBAR************************/
@@ -759,9 +800,7 @@ h6 {
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
-.likontaktinfo li a {
-	font-size: 18px;
-}
+
 
 /*
 
@@ -936,7 +975,7 @@ h3 {
 }
 
 h4 {
-	font-size: 40px;
+	font-size: 35px;
 }
 
 h5 {
@@ -1048,10 +1087,6 @@ footer {
     background-color: #000;
   }
 
-.likontaktinfo li a {
-	font-size: 20px;
-}
-
 #map {
 	height: 30vw;
 	border-radius: 2%;
@@ -1066,11 +1101,29 @@ footer {
 
 	}
 
-.keaside{
+.likontaktinfo a {
+	font-size: 20px;
+}
+
+.likontaktinfo h4{
+	line-height: 12px;
+	padding: 0.5vw 0 0 9vw;
+	text-align: left;
+	font-size: 20px;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	color: grey;
+}
+
+.keaside_top{
 	margin-top: 12vw;
 	font-size: 17px;
 }
 
+.keaside_bund{
+	margin-top: 12vw;
+	font-size: 17px;
+}
 /*
 .some ul li {
 	padding: 0;
