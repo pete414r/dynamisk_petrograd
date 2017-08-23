@@ -151,7 +151,7 @@ function initMap() {
 			position: ll,
 			map: map,
 			icon: "images_turen/pointer_5turen.png",
-			title: "Husk at stemme til kommunalvalget",
+			title: "Her finder du regioner og kommuner, hvor de unge bor",
 			animation: google.maps.Animation.DROP,
 			icon: punkt.icon
 		});

@@ -362,7 +362,7 @@ kbd{
 	margin: 2vw;
 }
 
-#section4 h6{
+#section4 h6 {
 	font-size: 18px;
 	color: black;
 	padding-left: 6.5vw;
@@ -370,12 +370,21 @@ kbd{
 }
 
 .samlogo {
-	margin-top: 0.2vw;
+	margin-top: 0.5vw;
+}
+
+.pic {
+	margin-top: 2.5vw;
+	margin-bottom: 6vw;
+	text-align: center;
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
 }
 
 .pic1 {
-	margin-top: 0.2vw;
-	margin-bottom: 1vw;
+	margin-top: 1.2vw;
+	margin-bottom: 3vw;
 	text-align: center;
 	width: 155px;
 	height: 155px;
@@ -448,7 +457,7 @@ kbd{
 	opacity: 0;
 }
 
-.pic1:hover .text1 {
+.pic:hover .text1 {
 	padding-top: 0.3vw;
 	opacity: 0.9;
 	text-align: center;
@@ -511,27 +520,46 @@ footer {
 	height: 100%;
 }
 
-.some{
-		margin-top: 1vw;
-	}
-
-.some ul li{
-	color: black;
-}
+/*
 
 .some ul li a{
 	font-size: 12px;
 }
 
-.some ul li img {
-	width: 6%;
-	border-radius: 30%;
-	border: 0.5vw solid #fff;
-}
-
 .someleft{
 	padding-top: 1vw;
 	margin: 0;
+}
+.some ul li{
+	color: black;
+}
+
+.some img {
+	width: 30px;
+	border-radius: 30%;
+	border: 3px solid #fff;
+}
+
+*/
+.some_ikon {
+display: none;
+}
+
+.some {
+	margin-top: 3vw;
+	text-align: center;
+	}
+
+.some_copyright {
+	text-align: center;
+}
+
+.some_lorry {
+	text-align: center;
+}
+
+.some_copyrightlorry{
+	display: none;
 }
 
 #map {
@@ -735,6 +763,7 @@ h6 {
 	font-size: 18px;
 }
 
+/*
 
 .some ul li {
 	padding: 0;
@@ -744,8 +773,45 @@ h6 {
 	font-size: 18px;
 }
 
-.some ul li img {
+	.some img {
 	width: 5%;
+	border-radius: 30%;
+	border: 0.4vw solid #fff;
+}
+
+*/
+
+.some {
+display: none;
+	}
+
+
+
+.some_copyright {
+	display: none;
+}
+
+.some_lorry {
+	display: none;
+}
+
+
+	.some_copyrightlorry {
+	margin: 4vw 0 0 0;
+	padding: 0 0 1vw 0;
+	display: block;
+}
+
+.some_ikon {
+	margin:3vw 0 0 0;
+	padding: 0;
+	display: block;
+}
+
+.some_ikon img {
+	margin: 0 0 1vw 0;
+	padding: 0;
+	width: 40px;
 	border-radius: 30%;
 	border: 0.4vw solid #fff;
 }
@@ -1005,6 +1071,7 @@ footer {
 	font-size: 17px;
 }
 
+/*
 .some ul li {
 	padding: 0;
 }
@@ -1019,6 +1086,39 @@ footer {
 	border: 0.3vw solid #fff;
 }
 
+		*/
+.some {
+	display: none;
+	}
+
+.some_copyright {
+	display: none;
+}
+
+.some_lorry {
+	display: none;
+}
+
+.some_copyrightlorry {
+	margin: 5vw 0 0 0;
+	padding: 0 0 1vw 0;
+	text-align: left;
+	display: block;
+}
+
+.some_ikon {
+	margin:3vw 0 0 0;
+	padding: 0;
+	display: block;
+}
+
+.some_ikon img {
+	margin: 0 0 1vw 0;
+	padding: 0;
+	width: 50px;
+	border-radius: 30%;
+	border: 0.3vw solid #fff;
+}
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
 
 }
