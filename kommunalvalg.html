@@ -153,6 +153,65 @@
 <!--*********PERSONA**VALGINFO**guider_quiz.json*************-->
 
 <div id="section2" class="container-fluid">
+<div class="row">
+			<div class="col-xs-12">
+
+     <ul id="teksten_union"></ul>
+
+    <template id="tekstenunion_template">
+        <li>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sx-4 col-sx-offset-2">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
+                            <span class="data_fornavn2">DATA_FORNAVN</span> <span class="data_efternavn2">DATA_EFTERNAVN</span>
+                        </button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                   <h2 class="modal-title" id="exampleModalLabel">Detajler</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Navn:
+                                    <span class="data_fornavn">DATA_FORNAVN</span> <span class="data_efternavn">DATA_EFTERNAVN</span>
+                                    <br> Alder:
+                                    <span class="data_alder">DATA_ALDER</span> år
+
+
+                                    <br>Kaktagorifarve: <span class="colorbox data_yndlingsfarve"></span>
+                                    <br> Bopæl: <span class="data_bopæl">DATA_BOPÆL</span>
+                                    <br> Befolkning: <span class="data_vægt">DATA_VÆGT</span>
+                                    <br> Svømmehal: <span class="data_højde">DATA_HØJDE</span>
+                                    <br> børnehaver: <span class="data_uddannelse">DATA_UDDANNELSE</span>
+                                    <br> skoler: <span class="data_idol">DATA_IDOL</span>
+                                    <br> Gymnasier: <span class="data_kæledyr">DATA_KÆLEDYR</span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn btn-danger">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </li>
+
+    </template>
+		</div></div>
+<!--
 		<table id="person_info"></table>
 		<template id="personinfo_template">
 
@@ -393,6 +452,7 @@
 				</div>
 			</div>
 		</template>
+-->
 	</div>
 
 <!--*********PERSONA**VALGINFO**guider_quiz.json**SLUT*************-->
@@ -408,7 +468,7 @@
 
 				<div class="pic1 pic">
 					<div class="text1 samlogo">
-						<strong>"Mod Generøsitet Gennemsigtighed Ydmyghed Humor Empati." www.alternativet.dk/ (21.05.17)</strong></div>  <button type="button" class="btn btn-default btn-xs samlogo"><a href="https://alternativet.dk" target="_blank">Alternativet</a></button>
+						<strong>"Mod Generøsitet Gennemsigtighed Ydmyghed Humor Empati." www.alternativet.dk/ (21.05.17)</strong></div>  <a  class="btn btn-default btn-xs samlogo" href="https://alternativet.dk" target="_blank">Alternativet</a>
 
 				</div>
 			</div>
@@ -416,7 +476,7 @@
 
 				<div class="pic2 pic">
 					<div class="text2 text1 samlogo">
-						<strong>"På kommunalt basis skal vi være med til at bibeholde de over 60 årige i et aktivt liv med plads til individualisme." www.danskfolkeparti.dk/ (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.danskfolkeparti.dk" target="_blank">Dansk folkeparti</a></button>
+						<strong>"På kommunalt basis skal vi være med til at bibeholde de over 60 årige i et aktivt liv med plads til individualisme." www.danskfolkeparti.dk/ (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.danskfolkeparti.dk" target="_blank">Dansk folkeparti</a>
 				</div>
 			</div>
 
@@ -425,7 +485,7 @@
 
 
 				<div class="pic3 pic">
-					<div class="text3 text1 samlogo"><strong>"omkring os ændrer sig hele tiden. Som parti får vi nye erfaringer. Gennem diskussioner bliver vi klogere." www.enhedslisten.dk (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://enhedslisten.dk" target="_blank">Enhedslisten</a></button>
+					<div class="text3 text1 samlogo"><strong>"omkring os ændrer sig hele tiden. Som parti får vi nye erfaringer. Gennem diskussioner bliver vi klogere." www.enhedslisten.dk (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="http://enhedslisten.dk" target="_blank">Enhedslisten</a>
 				</div>
 			</div>
 
@@ -433,7 +493,7 @@
 
 				<div class="pic4 pic">
 					<div class="text4 text1 samlogo">
-						<strong>"Det gode liv i Guldborgsund krydret med alle de gode historier kan være med til at skabe endnu mere vækst og udvikling i vores kommune." www.guldborgsundlisten.dk/ (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="https://www.guldborgsundlisten.dk" target="_blank">Guldborgsundlisten</a></button>
+						<strong>"Det gode liv i Guldborgsund krydret med alle de gode historier kan være med til at skabe endnu mere vækst og udvikling i vores kommune." www.guldborgsundlisten.dk/ (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="https://www.guldborgsundlisten.dk" target="_blank">Guldborgsundlisten</a>
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-2">
@@ -441,7 +501,7 @@
 
 
 				<div class="pic5 pic">
-					<div class="text5 text1 samlogo"> <strong>"Familien er grundlaget for et velfungerende samfund." www.konservative.dk (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="https://konservative.dk/" target="_blank">Konservative</a></button>
+					<div class="text5 text1 samlogo"> <strong>"Familien er grundlaget for et velfungerende samfund." www.konservative.dk (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="https://konservative.dk/" target="_blank">Konservative</a>
 				</div>
 			</div>
 
@@ -449,7 +509,7 @@
 
 
 				<div class="pic6 pic">
-					<div class="text6 text1 samlogo"><strong>"Kristendemokraterne er et politisk parti, der ønsker at præge samfundet ud fra det kristne livs- og menneskesyn." www.kd.dk (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.kd.dk/" target="_blank">Kristendemokraterne</a></button>
+					<div class="text6 text1 samlogo"><strong>"Kristendemokraterne er et politisk parti, der ønsker at præge samfundet ud fra det kristne livs- og menneskesyn." www.kd.dk (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.kd.dk/" target="_blank">Kristendemokraterne</a>
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-2">
@@ -457,7 +517,7 @@
 
 
 				<div class="pic7 pic">
-					<div class="text7 text1 samlogo"> <strong>"Liberal Alliance tror på dig Liberal Alliance sætter din frihed i højsædet." www.liberalalliance.dk (21.05.17)</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="https://www.liberalalliance.dk" target="_blank">Liberal Alliance</a></button>
+					<div class="text7 text1 samlogo"> <strong>"Liberal Alliance tror på dig Liberal Alliance sætter din frihed i højsædet." www.liberalalliance.dk (21.05.17)</strong></div> <a class="btn btn-default btn-xs samlogo" href="https://www.liberalalliance.dk" target="_blank">Liberal Alliance</a>
 				</div>
 			</div>
 
@@ -465,7 +525,7 @@
 
 
 				<div class="pic8 pic">
-					<div class="text8 text1 samlogo"><strong>"Socialistisk Folkeparti. Kontrol og minuttyranni har taget overhånd i den offentlige sektor." www.sf.dk (21.05.17) </strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.sf.dk/" target="_blank">Socialistisk Folkeparti</a></button>
+					<div class="text8 text1 samlogo"><strong>"Socialistisk Folkeparti. Kontrol og minuttyranni har taget overhånd i den offentlige sektor." www.sf.dk (21.05.17) </strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.sf.dk/" target="_blank">Socialistisk Folkeparti</a>
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-2">
@@ -473,7 +533,7 @@
 
 
 				<div class="pic9 pic">
-					<div class="text9 text1 samlogo"> <strong>"Det Radikale Venstre tror på det frie og ansvarlige menneske, der virker i samhørighed med andre mennesker." www.radikale.dk (21.05.17) </strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="https://www.radikale.dk" target="_blank">Radikale Venstre</a></button>
+					<div class="text9 text1 samlogo"> <strong>"Det Radikale Venstre tror på det frie og ansvarlige menneske, der virker i samhørighed med andre mennesker." www.radikale.dk (21.05.17) </strong></div> <a class="btn btn-default btn-xs samlogo" href="https://www.radikale.dk" target="_blank">Radikale Venstre</a>
 				</div>
 			</div>
 
@@ -481,7 +541,7 @@
 
 
 				<div class="pic10 pic">
-					<div class="text10 text1 samlogo"><strong>"SP er det eneste regionale parti i Sønderjylland. Vi fokuserer fuldt ud på Sønderjylland."www.slesvigsk-parti.dk (21.05.17) </strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.slesvigsk-parti.dk" target="_blank">Slesvigsk Parti</a></button>
+					<div class="text10 text1 samlogo"><strong>"SP er det eneste regionale parti i Sønderjylland. Vi fokuserer fuldt ud på Sønderjylland."www.slesvigsk-parti.dk (21.05.17) </strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.slesvigsk-parti.dk" target="_blank">Slesvigsk Parti</a>
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-2">
@@ -489,7 +549,7 @@
 
 
 				<div class="pic11 pic">
-					<div class="text11 text1 samlogo"><strong>"Ved det seneste regions- og kommunalvalg den 19. november 2013 fik Socialdemokratiet 29,5 procent af stemmerne, hvilket igen gør S til Danmarks største kommunale parti."www.socialdemokratiet.dk (21.05.17) </strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.socialdemokratiet.dk" target="_blank">Socialdemokratiet</a></button>
+					<div class="text11 text1 samlogo"><strong>"Ved det seneste regions- og kommunalvalg den 19. november 2013 fik Socialdemokratiet 29,5 procent af stemmerne, hvilket igen gør S til Danmarks største kommunale parti."www.socialdemokratiet.dk (21.05.17) </strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.socialdemokratiet.dk" target="_blank">Socialdemokratiet</a>
 				</div>
 			</div>
 
@@ -498,11 +558,190 @@
 
 				<div class="pic12 pic">
 					<div class="text12 text1 samlogo"><strong>"DET LIBERALE MENNESKESYN RETTEN TIL EGET LIVET LEVENDE FOLKESTYRE DET DANSKE FÆLLESSKAB KULTUR GIVER FÆLLESSKAB FOLKEKIRKE OG RELIGION."www.venstre.dk (21.05.17)
-</strong></div> <button type="button" class="btn btn-default btn-xs samlogo"><a href="http://www.venstre.dk" target="_blank">Venstre</a></button>
+</strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.venstre.dk" target="_blank">Venstre</a>
 				</div>
 			</div>
-		</div>
-	</div>
+
+
+
+
+
+
+
+
+   <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
+
+<!--
+    <div class="container-fluid main">
+        <div class="row">
+
+            <div class="col-sm-12 menuer">
+              <ul class="sortering_parti">
+                        <li><a class="filterknap_sjaelland" href="">sjaelland</a></li>
+                        <li><a class="filterknap_fyn" href="">fyn</a></li>
+                        <li><a class="filterknap_jylland" href="">jylland</a></li>
+                        <li><a class="sorter_storst" href="">storst</a></li>
+                        <li><a class="sorter_mindst" href="">mindst</a></li>
+
+                    </ul></div></div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                <h3>regioner</h3>
+            </div>
+        </div>
+
+        <div class="row regioner"></div>
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                <hr>
+                <h3>kommuner</h3>
+            </div>
+        </div>
+        <div class="row kommuner"></div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                <hr>
+                <h3>partier</h3>
+            </div>
+        </div>
+        <div class="row partier"></div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                        <hr>
+-->
+<!--
+<h3>personer</h3>
+            </div>
+        </div>
+        <div class="row personerr"></div>
+        <div class="row">
+            <div class="col-sm-12 menuer">
+                <hr> -->
+
+<!--
+            </div>
+        </div>
+        <div class="row personer"></div>
+
+
+        <template id="produkt_template">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 produkt">
+                <img src="images_turen/small/icon-5-sm.jpg" class="img-responsive data_billede">
+                <h5 class="data_navn">DATA_NAVN</h5>
+                <p class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</p>
+                <h4 class="befolkning">børnehaver<span class="data_befolkning"></span></h4>
+                <h5 class="bornehavertekst">Denne kommune har fodboldsklub i Superligaen</h5>
+                <h3 class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></h3>
+
+                <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
+            </div>
+
+
+        </template>
+
+
+
+        <template id="modal_template">
+            <h5 class="modal-title" id="exampleModalLabel">Dit ynglings sted</h5>
+            <h4 class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></h4>
+
+
+
+            <div class="modal-body">
+                <img src="images_turen/medium/icon-5-md.jpg" alt="" class="img-responsive data_billede modalbillede">
+
+                <h5 strong class="befolkning">Børnehaver <span class="data_befolkning"></span></h5>
+                <h4 class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></h4>
+                <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
+                <h6>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></h6>
+
+                <h6>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </h6>
+                <h6>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </h6> Stjerner:
+                <span class="data_stjerner">DATA_STJERNER</span>
+            </div>
+            <button type="button" class="btn btn-link" data-dismiss="modal">CLOSE</button>
+                        <button type="button" class="btn btn-link" data-dismiss="modal">save</button>
+
+
+
+
+
+
+        </template>
+
+
+
+    </div>
+-->
+   <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
+
+
+    <ul id="person_info"></ul>
+
+    <template id="personinfo_template">
+        <li>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sx-4 col-sx-offset-2">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
+                            <span class="data_fornavn2">DATA_FORNAVN</span> <span class="data_efternavn2">DATA_EFTERNAVN</span>
+                        </button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                   <h2 class="modal-title" id="exampleModalLabel">Detajler</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Navn:
+                                    <span class="data_fornavn">DATA_FORNAVN</span> <span class="data_efternavn">DATA_EFTERNAVN</span>
+                                    <br> Alder:
+                                    <span class="data_alder">DATA_ALDER</span> år
+
+
+                                    <br>Kaktagorifarve: <span class="colorbox data_yndlingsfarve"></span>
+                                    <br> Bopæl: <span class="data_bopæl">DATA_BOPÆL</span>
+                                    <br> Befolkning: <span class="data_vægt">DATA_VÆGT</span>
+                                    <br> Svømmehal: <span class="data_højde">DATA_HØJDE</span>
+                                    <br> børnehaver: <span class="data_uddannelse">DATA_UDDANNELSE</span>
+                                    <br> skoler: <span class="data_idol">DATA_IDOL</span>
+                                    <br> Gymnasier: <span class="data_kæledyr">DATA_KÆLEDYR</span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" data-dismiss="modal" class="btn btn-danger">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </li>
+
+    </template>
+
+    </div>
+</div>
+
 
 <!--*********PARTIINFO**LOGOLINKS**TRANSITION**SLUT*************-->
 
@@ -638,11 +877,11 @@ i forbindelse med en case-opgave af KEA-studerende</a>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRlYOm2KMsGkxmUiSA21Y8M6WuZ_axavc&callback=initMap" async defer></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="kommunevalg.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.fitvids.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
 
-<!--************SCRIPT**SERCE**SLUT*******-->
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="kommunevalg.js"></script>
+
 
 </body>
 
