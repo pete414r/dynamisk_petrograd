@@ -25,42 +25,84 @@
 }*/
 /************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
 .colorbox {
-    width: 1rem;
-    height: 1rem;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     border: 1px solid black;
 }
 
 
 .json_form {
-	background-image: url(icon-7-md.jpg);
     position: relative;
-    top: 0;
     z-index: 1;
-    width: 200px;
-    height: 200px;
+    width: 88vw;
+	min-height: 15.5vw;
     color: #fff;
-    border: 10px solid black;
-    border-radius: 0px 0px;
+	text-decoration: none;
+    border: 1px solid black;
+	background-color: #202020;
+display: flex;
 }
 
+.json_form img {
+	height: 100px;
+}
+
+.modal-header {
+		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
+}
+.modal-body{
+	opacity: 50;
+		background-image: url(../images_turen/medium/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
+	background-color: lightyellow;
+}
+.modal-dialog img {
+	height: 200px;
+}
+
+.modal-footer {
+		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
+}
+
+span {
+	text-decoration: none;
+	color:#fff;
+	text-align: left;
+}
+.cololnavn {
+	display: inline-block;
+	margin-right: 10px;
+}
 #teksten_union {
     list-style-type: none;
-    display: inline;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+	padding-left: 0;
 }
-
+.thumbnail img {
+	height: 150px;
+}
+/*
+#tekstenunion_template li{
+	padding-bottom: 10px;
+}
 #tekstenunion_template li {
-
-    margin: 10px;
+padding: 0;
+    margin: 0;
 }
-
+*/
+#section2{
+	z-index: 100;
+	background-color: rgba(153, 123, 187, 0.0);
+	border-radius: 1vw;
+	border:1vw solid #fff;
+	margin: 1vw 2vw 2vw 2vw;
+	padding: 2vw;
+}
 
 
 /************Dynamisk**parti**slut**********************/
@@ -280,14 +322,14 @@ a {
 
 #valgturen {
 	height: 100%;
-	width: 100%;
+	width: 88vw;
 	background-size: 100%;
 }
 
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 13px;
+	font-size: 12px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
@@ -423,7 +465,7 @@ kbd{
 #section4{
 	background-color: rgba(255, 255, 255, 0.7);
 	border-radius: 1vw;
-	border:1vw solid #fff;
+	border:1vw solid #f51021;
 	margin: 2vw;
 }
 
@@ -836,7 +878,7 @@ h6 {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 20px;
+	font-size: 18px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
@@ -1115,7 +1157,7 @@ h6 {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }

@@ -418,6 +418,11 @@ function initMap() {
 //    document.querySelector(".modal-content").appendChild(klon);
 //
 //}
+
+
+
+
+
 //******
 //
 //
@@ -708,33 +713,21 @@ function vistekstUnion(tekst)  {
     var teksten = document.querySelector("#tekstenunion_template").content.cloneNode(true);
 
     // til teksten
-    teksten.querySelector(".data_fornavn").innerHTML = tekst.fornavn;
-    teksten.querySelector(".data_efternavn").innerHTML = tekst.efternavn;
     teksten.querySelector(".data_fornavn2").innerHTML = tekst.fornavn;
     teksten.querySelector(".data_efternavn2").innerHTML = tekst.efternavn;
     teksten.querySelector(".data_alder").innerHTML = tekst.alder;
 
-    teksten.querySelector(".data_yndlingsfarve").style.backgroundColor = tekst.yndlingsfarve;
+	teksten.querySelector(".data_billede").src = "images_turen/small/" + tekst.billede + "-sm.svg";
 
+	teksten.querySelector(".data_billede").src = "images_turen/medium/" + tekst.billede + "-md.svg";
+
+    teksten.querySelector(".data_yndlingsfarve").style.backgroundColor = tekst.yndlingsfarve;
     teksten.querySelector(".data_bopæl").innerHTML = tekst.bopæl;
     teksten.querySelector(".data_vægt").innerHTML = tekst.vægt;
     teksten.querySelector(".data_højde").innerHTML = tekst.højde;
     teksten.querySelector(".data_uddannelse").innerHTML = tekst.uddannelse;
     teksten.querySelector(".data_idol").innerHTML = tekst.idol;
     teksten.querySelector(".data_kæledyr").innerHTML = tekst.kæledyr;
-
-    console.log("Vis info");
-    console.log("fornavn: " + tekst.fornavn);
-    console.log("efternavn: " + tekst.efternavn);
-    console.log("stjernetegn: " + tekst.stjernetegn);
-    console.log("yndlingsfarve: " + tekst.yndlingsfarve);
-    console.log("bopæl: " + tekst.bopæl);
-    console.log("vægt: " + tekst.vægt);
-    console.log("højde: " + tekst.højde);
-    console.log("uddannelse: " + tekst.uddannelse);
-    console.log("idol: " + tekst.idol);
-    console.log("kæledyr: " + tekst.kæledyr);
-
     teksten.querySelector(".modal").id = "modal" + tekst.id;
     teksten.querySelector(".modalknap").dataset.target = "#modal" + tekst.id;
 

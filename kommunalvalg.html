@@ -160,12 +160,20 @@
 
     <template id="tekstenunion_template">
         <li>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sx-4 col-sx-offset-2">
+
                         <!-- Button trigger modal -->
-                        <button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
-                            <span class="data_fornavn2">DATA_FORNAVN</span> <span class="data_efternavn2">DATA_EFTERNAVN</span>
+<button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
+<br><div class="cololnavn">
+                  <span class="colorbox data_yndlingsfarve"></span>
+
+                    <span class="data_fornavn2">DATA_FORNAVN</span>
+                    <span class="data_efternavn2">DATA_EFTERNAVN</span>
+                    <br><span class="data_alder">DATA_ALDER</span> år</div>
+
+<br><span class="data_bopæl">DATA_BOPÆL</span>
+ 				 <img src="images_turen/small/reg-01-sm.svg" alt="" class="img-responsive data_billede">
+<br><span class="data_uddannelse">DATA_UDDANNELSE</span>
+
                         </button>
 
 
@@ -174,24 +182,20 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                   <h2 class="modal-title" id="exampleModalLabel">Detajler</h2>
+                   <h5 class="modal-title" id="exampleModalLabel">Detajler om Regionen og mindste kommune</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <p>Navn:
-                                    <span class="data_fornavn">DATA_FORNAVN</span> <span class="data_efternavn">DATA_EFTERNAVN</span>
-                                    <br> Alder:
-                                    <span class="data_alder">DATA_ALDER</span> år
 
 
-                                    <br>Kaktagorifarve: <span class="colorbox data_yndlingsfarve"></span>
-                                    <br> Bopæl: <span class="data_bopæl">DATA_BOPÆL</span>
-                                    <br> Befolkning: <span class="data_vægt">DATA_VÆGT</span>
-                                    <br> Svømmehal: <span class="data_højde">DATA_HØJDE</span>
-                                    <br> børnehaver: <span class="data_uddannelse">DATA_UDDANNELSE</span>
-                                    <br> skoler: <span class="data_idol">DATA_IDOL</span>
+   									<br> Livvidde: <span class="data_vægt">DATA_VÆGT</span>
+                                    <br> Højde: <span class="data_højde">DATA_HØJDE</span>
+ <img src="images_turen/medium/reg-01-md.svg" alt="" class="img-responsive data_billede">
+<!--                                    modalbillede-->
+
+                                    <br><span class="data_idol">DATA_IDOL</span>
                                     <br> Gymnasier: <span class="data_kæledyr">DATA_KÆLEDYR</span>
                             </div>
                             <div class="modal-footer">
@@ -201,9 +205,7 @@
                         </div>
                     </div>
                 </div>
-                        </div>
-                    </div>
-                </div>
+
 
 
 
@@ -453,12 +455,15 @@
 			</div>
 		</template>
 -->
+
 	</div>
 
 <!--*********PERSONA**VALGINFO**guider_quiz.json**SLUT*************-->
 
 <!--*********PARTIINFO**LOGOLINKS**TRANSITION*************-->
 
+
+<!--
 <div id="section4" class="container-fluid">
 	<h3>De politiske partier</h3>
 	<h6>Klik på logoet og find lidt parti politik. Knappen linker til partiernes hjemmeside</h6>
@@ -530,8 +535,9 @@
 			</div>
 			<div class="col-xs-6 col-sm-4 col-lg-2">
 
+-->
 
-
+<!--
 				<div class="pic9 pic">
 					<div class="text9 text1 samlogo"> <strong>"Det Radikale Venstre tror på det frie og ansvarlige menneske, der virker i samhørighed med andre mennesker." www.radikale.dk (21.05.17) </strong></div> <a class="btn btn-default btn-xs samlogo" href="https://www.radikale.dk" target="_blank">Radikale Venstre</a>
 				</div>
@@ -561,6 +567,7 @@
 </strong></div> <a class="btn btn-default btn-xs samlogo" href="http://www.venstre.dk" target="_blank">Venstre</a>
 				</div>
 			</div>
+-->
 
 
 
@@ -635,11 +642,11 @@
         <template id="produkt_template">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 produkt">
                 <img src="images_turen/small/icon-5-sm.jpg" class="img-responsive data_billede">
-                <h5 class="data_navn">DATA_NAVN</h5>
+                <p class="data_navn">DATA_NAVN</h5>
                 <p class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</p>
-                <h4 class="befolkning">børnehaver<span class="data_befolkning"></span></h4>
-                <h5 class="bornehavertekst">Denne kommune har fodboldsklub i Superligaen</h5>
-                <h3 class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></h3>
+                <p class="befolkning">børnehaver<span class="data_befolkning"></span></p>
+                <p class="bornehavertekst">Denne kommune har fodboldsklub i Superligaen</p>
+                <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
 
                 <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
             </div>
@@ -650,21 +657,21 @@
 
 
         <template id="modal_template">
-            <h5 class="modal-title" id="exampleModalLabel">Dit ynglings sted</h5>
-            <h4 class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></h4>
+            <p class="modal-title" id="exampleModalLabel">Dit ynglings sted</p>
+            <p class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></p>
 
 
 
             <div class="modal-body">
                 <img src="images_turen/medium/icon-5-md.jpg" alt="" class="img-responsive data_billede modalbillede">
 
-                <h5 strong class="befolkning">Børnehaver <span class="data_befolkning"></span></h5>
-                <h4 class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></h4>
+                <p strong class="befolkning">Børnehaver <span class="data_befolkning"></span></p>
+                <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
                 <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
-                <h6>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></h6>
+                <p>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></p>
 
-                <h6>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </h6>
-                <h6>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </h6> Stjerner:
+                <p>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </p>
+                <p>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </p> Stjerner:
                 <span class="data_stjerner">DATA_STJERNER</span>
             </div>
             <button type="button" class="btn btn-link" data-dismiss="modal">CLOSE</button>
@@ -684,6 +691,7 @@
    <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
 
 
+<!--
     <ul id="person_info"></ul>
 
     <template id="personinfo_template">
@@ -691,13 +699,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sx-4 col-sx-offset-2">
-                        <!-- Button trigger modal -->
                         <button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
                             <span class="data_fornavn2">DATA_FORNAVN</span> <span class="data_efternavn2">DATA_EFTERNAVN</span>
                         </button>
+-->
 
 
                         <!-- Modal -->
+<!--
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -738,9 +747,12 @@
             </li>
 
     </template>
+-->
+<!--
 
     </div>
 </div>
+-->
 
 
 <!--*********PARTIINFO**LOGOLINKS**TRANSITION**SLUT*************-->

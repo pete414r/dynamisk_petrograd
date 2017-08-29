@@ -1,4 +1,4 @@
-[/*{
+[{
 		"id": "10",
 		"kategori": "regioner",
 		"navn": "med",
@@ -295,7 +295,7 @@
 		"sjaelland": true,
 		"jyllandprocent": 0,
 		"billede": "icon-5"
-	}*/
+	},
     {
         "id": "mill0482",
         "fornavn": "Mille",

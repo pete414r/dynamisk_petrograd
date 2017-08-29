@@ -1,150 +1,147 @@
 [
 
 	{
-        "id": "mill0482",
-        "fornavn": "Mille",
-        "efternavn": "Dinesen",
-        "alder": 22,
-        "livret": "Chili con Carne",
-        "hobby": "Bage",
-        "øjenfarve": "Grøn",
-        "vægt": 50,
-        "højde": 163,
-        "hårfarve": "Brun med rødligt skær",
-        "blodtype": null,
-        "civilstatus": "Kæreste",
-        "uddannelse": "Multimediedesigner",
-        "stjernetegn": "Tyr",
-        "skostørrelse": 38,
-        "beskæftigelse": "Digital assistent",
-        "bopæl": "Amager",
-        "yndlingsfarve": "#245d2f",
-        "køn": "Hun",
-        "idol": "Hella Joof",
-        "religion": null,
-        "sexualitet": "Hetero",
-        "nationalitet": "Dansker",
-        "fagforening": "HK",
-        "allergier": null,
-        "kæledyr": "Kat"
-    }
-    , {
-        "id": "albe1014",
-        "fornavn": "Alberte",
-        "efternavn": "Josephsen",
-        "alder": 24,
-        "livret": "sushi",
-        "hobby": "tegne",
-        "øjenfarve": "blå/grøn",
-        "vægt": 54,
-        "højde": 163,
-        "hårfarve": "blond",
-        "blodtype": "A rhesus negativ",
-        "civilstatus": "single",
-        "uddannelse": "Multimediedesigner",
-        "stjernetegn": "Jomfru",
-        "skostørrelse": 37,
-        "beskæftigelse": "studerende",
-        "bopæl": "Vanløse",
-        "yndlingsfarve": "#7196a7",
-        "køn": "hun",
-        "idol": "Jimmy Fallon",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": null,
-        "allergier": "dyreallergi",
-        "kæledyr": "kattebamser"
-    }
-    , {
-        "id": "mads1241",
-        "fornavn": "Mads Kristian",
-        "efternavn": "Skærbæk",
-        "alder": 26,
-        "livret": "Katsudon",
-        "hobby": "Tegning og Magic the Gathering",
-        "øjenfarve": "Blå",
-        "vægt": 70,
-        "højde": 180,
-        "hårfarve": "Brunt",
-        "blodtype": "Ret rødt",
-        "civilstatus": "Forlovet",
-        "uddannelse": "Bachelor i Klassisk Arkæologi",
-        "stjernetegn": "Tvilling",
-        "skostørrelse": 42,
-        "beskæftigelse": "Studerende",
-        "bopæl": "Sydhavnen",
-        "yndlingsfarve": "#f42b2b",
-        "køn": "Han",
-        "idol": "Hayao Miyazaki",
-        "religion": "Ingen",
-        "sexualitet": "Hetero",
-        "nationalitet": "Jyde",
-        "fagforening": "Dansk Magisterforening",
-        "allergier": "Ild",
-        "kæledyr": "Ingen, desværre"
-    },
-
-    {
-        "id": "phil2301",
-        "fornavn": "Philip August",
-        "efternavn": "Hyltoft",
-        "alder": 20,
-        "hobby": "fodbold",
-        "øjenfarve": "grøn og brun",
-        "hårfarve": "brun",
-        "vægt": 79,
-        "højde": 184,
-        "blodtype": "AB-",
-        "civilstatus": "single",
-        "stjernetegn": "søstjerne",
-        "skostørrelse": 44,
-        "beskæftigelse": "studerende",
-        "bopæl": "Hvidovre",
-        "yndlingsfarve": "#0000dd",
-        "køn": "han",
-        "idol": "Neymar",
-        "Religion": "Agnostisk",
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": null,
-        "allergier": "græspollen",
-        "kæledyr": null
-    },
-
-    {
-        "id": "loui3450",
-        "fornavn": "Louise",
-        "efternavn": "Hrouda-Rasmussen",
+        "id": "2",
+        "fornavn": "Lars",
+        "efternavn": "Jørgensen",
         "alder": 25,
-        "livret": "Julemad",
-        "hobby": "Fitness",
-        "øjenfarve": "Mørkebrune",
-        "vægt": null,
-        "højde": 170,
-        "hårfarve": "Brunt",
-        "blodtype": null,
-        "civilstatus": "Optaget",
-        "uddannelse": "Multimediedesign",
-        "stjernetegn": "Stjernetegn",
-        "skostørrelse": 38,
-        "beskæftigelse": "Kantinemedarbejder",
-        "bopæl": "Nordvest",
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "reg-01",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		"vægt": 84,
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+
+		  },
+    {
+		"id": "4",
+        "fornavn": "Michael",
+        "efternavn": "Nielsen",
+        "alder": 22,
+        "livret": "Silkeborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#7196a7",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Michael er single. i sin fritid kan Michael godt lide at sejle, og har tilmed været medlem af Silkeborg Sejlklub siden han var 16 år",
+
+		"billede": "reg-02",
+
+        "uddannelse": "Er under uddannelse som civilingeniør. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION ADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		"vægt": 84,
+        "højde": 173,
+
+        "kæledyr": "AGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+    {
+	"id": "6",
+        "fornavn": "Camilla",
+        "efternavn": "Adelsgaard",
+          "alder": 24,
+        "livret": "Aalborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#f42b2b",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Kæreste med Benny. Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning og restaurering. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time",
+
+		"billede": "reg-03",
+
+        "uddannelse": "Er Landmand. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION DEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		"vægt": 65,
+        "højde": 179,
+
+        "kæledyr": "GØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+  },
+
+    {
+       "id": "8",
+        "fornavn": "Katrine",
+        "efternavn": "Milder",
+          "alder": 18,
+        "livret": "Kerteminde Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#0000dd",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Er i et forhold. Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning og restaurering. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time",
+
+		"billede": "reg-04",
+
+        "uddannelse": "Går i 3.C på Kerteminde Gymnasium.  når hun ikke laver lektier, kan Katrine godt lide at se en film eller gå en lang tur i skoven med hendes hund",
+
+        "idol": "REGION EN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+  "vægt": 55,
+        "højde": 165,
+
+        "kæledyr": "ØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+  },
+
+    {"id": "10",
+        "fornavn": "Oskar",
+        "efternavn": "Svaendekilde",
+          "alder": 19,
+        "livret": "Greve Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
         "yndlingsfarve": "#ff0000",
-        "køn": "Kvinde",
-        "idol": null,
-        "religion": "Agnostiker",
-        "sexualitet": "Heteroseksuel",
-        "nationalitet": "Dansk",
-        "fagforening": null,
-        "allergier": "Solen",
-        "kæledyr": "En kat ved navn Linux - og ja, han er opkaldt efter styresystemet."
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Er Single. Oskar bor i en ungdomsbolig og tilbringer derfor rigtig meget tid hjemme hos resten af sin familie lillebror og søster. Han spiller spil på playstation og har en stor venneskare han kan gå i byen med",
+
+		"billede": "reg-05",
+
+        "uddannelse": "Tømrer lærling.  når hun ikke laver lektier, kan Katrine godt lide at se en film eller gå en lang tur i skoven med hendes hund",
+        "idol": "REGION N er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+	 	"vægt": 70,
+        "højde": 183,
+
+        "kæledyr": "R KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
     },
 
     {
         "id": "ande8043",
-        "fornavn": "Anders",
-        "efternavn": "Lindum",
+        "fornavn": "s",
+        "efternavn": "m",
         "køn": "han",
         "alder": 20,
         "højde": 180,
@@ -179,11 +176,12 @@
         "afkom": null,
         "personlighedstype": "Fantastisk",
         "sexulitet": "Hetero",
-        "fagforening": null
+        "fagforening": null,
+		"billede": "icon-5"
     },
     {
-        "fornavn": "Sia",
-        "efternavn": "Frost",
+        "fornavn": "a",
+        "efternavn": "t",
         "alder": 21,
         "livret": "Lassange",
         "hobby": "Styrketræning",
@@ -199,15 +197,16 @@
         "bopæl": "Amagerbro",
         "yndlingsfarve": "#000000",
         "køn": "Kvinde",
-        "religion": null,
+
         "sexualitet": "Lidt af hvert",
-        "nationalitet": "Dansk"
+        "nationalitet": "Dansk",
+		"billede": "icon-6"
     },
 
     {
         "id": "sean0186",
-        "fornavn": "Sean",
-        "efternavn": "Rønholt",
+        "fornavn": "n",
+        "efternavn": "t",
         "alder": 25,
         "livret": "Frikadeller",
         "hobby": "E-sports",
@@ -225,18 +224,15 @@
         "yndlingsfarve": "#b927a7",
         "køn": "han",
         "idol": "Raul",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": "kat"
+
+        "kæledyr": "kat",
+		"billede": "icon-7"
     },
 
     {
         "id": "ande591x",
-        "fornavn": "Anders",
-        "efternavn": "Berenth",
+        "fornavn": "s",
+        "efternavn": "h",
         "alder": 26,
         "livret": "Durum",
         "hobby": "Hockey",
@@ -254,19 +250,16 @@
         "yndlingsfarve": "#5c0000",
         "køn": "han",
         "idol": "neil degrasse tyson",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "formentlig ikke dansker længere (jfr Martin Henriksen)",
-        "fagforening": null,
-        "allergier": "ingen",
-        "kæledyr": "kat"
+
+        "kæledyr": "kat",
+		"billede": "icon-5"
     },
 
 
     {
         "id": "loui564a",
-        "fornavn": "Louise",
-        "efternavn": "Ganci",
+        "fornavn": "e",
+        "efternavn": "i",
         "alder": 21,
         "livret": "Pizza",
         "hobby": "Hækling",
@@ -284,18 +277,15 @@
         "yndlingsfarve": "#409b7c",
         "køn": "Hun",
         "idol": "Idi Amin",
-        "religion": null,
-        "sexualitet": "Hetero",
-        "nationalitet": "Dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     },
 
     {
         "id": "karo1238",
-        "fornavn": "Karoline",
-        "efternavn": "Ursbak",
+        "fornavn": "e",
+        "efternavn": "k",
         "alder": 21,
         "livret": "Brændende kærlighed",
         "hobby": "Hækling",
@@ -313,18 +303,15 @@
         "yndlingsfarve": "#446984",
         "køn": "Hun",
         "idol": "Ellen Degeneres",
-        "religion": "Kristen",
-        "sexualitet": "hetero",
-        "nationalitet": "Dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     },
 
     {
         "id": "mich636i",
-        "fornavn": "Michaela",
-        "efternavn": "Brandt",
+        "fornavn": "a",
+        "efternavn": "t",
         "alder": 21,
         "livret": "boller i karry, som fars kone laver den! ",
         "hobby": "dansemus på dansegulvet",
@@ -342,18 +329,15 @@
         "yndlingsfarve": "#5e0808",
         "køn": "hun",
         "idol": "Niomi Smart",
-        "religion": "Barnedåb og konfirmation beskriver det hele",
-        "sexualitet": "hetero",
-        "nationalitet": "dansk",
-        "fagforening": "HK",
-        "allergier": "multi",
-        "kæledyr": "kat og hund"
+
+        "kæledyr": "kat og hund",
+		"billede": "icon-5"
     },
 
     {
         "id": "karo0353",
-        "fornavn": "Karoline",
-        "efternavn": "Paarup",
+        "fornavn": "e",
+        "efternavn": "p",
         "alder": 23,
         "livret": "Pandekager",
         "hobby": "hækling",
@@ -371,18 +355,15 @@
         "yndlingsfarve": "#1e4506",
         "køn": "hun",
         "idol": "min mor",
-        "religion": "højtids-kristen",
-        "sexualitet": "hetero",
-        "nationalitet": "dansk",
-        "fagforening": "HK",
-        "allergier": "katte",
-        "kæledyr": "null"
+
+        "kæledyr": "null",
+		"billede": "icon-5"
     },
 
     {
         "id": "lina0904",
-        "fornavn": "Lina",
-        "efternavn": "Tran",
+        "fornavn": "a",
+        "efternavn": "n",
         "alder": 22,
         "livret": "Sushi & Korean BBQ",
         "hobby": "Se serier & tegne",
@@ -400,18 +381,15 @@
         "yndlingsfarve": "#b3e8ef",
         "køn": "hun",
         "idol": "Tiffany Hwang & Chanyeol Park",
-        "religion": null,
-        "sexualitet": "Straight",
-        "nationalitet": "Asian",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     },
 
     {
         "id": "seba7843",
-        "fornavn": "Sebastian",
-        "efternavn": "Storm",
+        "fornavn": "n",
+        "efternavn": "m",
         "alder": 22,
         "livret": "Mexikanske pandekager",
         "hobby": "Fodbold",
@@ -429,18 +407,15 @@
         "yndlingsfarve": "#eeff1c",
         "køn": "han",
         "idol": "Wayne Shaw",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": "Hund"
+
+        "kæledyr": "Hund",
+		"billede": "icon-5"
     },
 
     {
         "id": "annx2351",
-        "fornavn": "Ann Sophie",
-        "efternavn": "Lindskjold",
+        "fornavn": "e",
+        "efternavn": "d",
         "alder": 22,
         "livret": "Indisk",
         "hobby": "levende billeder, musik",
@@ -458,18 +433,15 @@
         "yndlingsfarve": "rgb(59, 74, 188)",
         "køn": "kvinde",
         "idol": "Quentin Tarantino",
-        "religion": "null",
-        "sexualitet": "hetero",
-        "nationalitet": "dansk",
-        "fagforening": "null",
-        "allergier": "null",
-        "kæledyr": "null"
+
+        "kæledyr": "null",
+		"billede": "icon-5"
     },
 
     {
         "id": "moni0217",
-        "fornavn": "Monica",
-        "efternavn": "Kruuse Bach",
+        "fornavn": "a",
+        "efternavn": "h",
         "alder": 26,
         "livret": "Shrimp New Orleans",
         "hobby": "Hækling og arbejde",
@@ -487,19 +459,16 @@
         "yndlingsfarve": "#000000",
         "køn": "hun",
         "idol": "J. K. Rowling",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": "Forbundet arkitekter og designere",
-        "allergier": null,
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     },
 
 
     {
         "id": "annx4173",
-        "fornavn": "Ann-Sofie",
-        "efternavn": "Pagels",
+        "fornavn": "e",
+        "efternavn": "s",
         "alder": 23,
         "livret": "Pastasalat med kylling",
         "hobby": "JavaScript",
@@ -517,18 +486,15 @@
         "yndlingsfarve": "#BBFBF1",
         "køn": "Hun",
         "idol": "Beyonce",
-        "religion": "Null",
-        "sexualitet": "Hetero",
-        "nationalitet": "Dansker",
-        "fagforening": "Krifa",
-        "allergier": "Tomater",
-        "kæledyr": "Kat og marsvin"
+
+        "kæledyr": "Kat og marsvin",
+		"billede": "icon-5"
     },
 
     {
         "id": "mikk6995",
-        "fornavn": "Mikkel",
-        "efternavn": "Herringsø",
+        "fornavn": "l",
+        "efternavn": "ø",
         "alder": 21,
         "livret": "Spaghetti Bolognese",
         "hobby": "Fodbold",
@@ -546,18 +512,15 @@
         "yndlingsfarve": "#0000FF",
         "køn": "Han",
         "idol": "John Terry",
-        "religion": null,
-        "sexualitet": "Hetero",
-        "nationalitet": "Dansk",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": "To hunde"
+
+        "kæledyr": "To hunde",
+		"billede": "icon-5"
     },
 
     {
         "id": "jose3925",
-        "fornavn": "Josephine",
-        "efternavn": "Daniel",
+        "fornavn": "e",
+        "efternavn": "l",
         "alder": 26,
         "livret": "Butter chicken",
         "hobby": "Gaming",
@@ -571,16 +534,17 @@
         "yndlingsfarve": "#95beff",
         "køn": "Kvinde",
         "idol": "Kanye West",
-        "religion": null,
+
         "sexualitet": "hetero",
         "nationalitet": "Halv dansk, halv hahitiask",
-        "allergier": "Støv"
+        "allergier": "Støv",
+		"billede": "icon-5"
     },
 
     {
         "id": "mikk052b",
-        "fornavn": "Mikkel",
-        "efternavn": "Lind Blach",
+        "fornavn": "l",
+        "efternavn": "h",
         "alder": 20,
         "livret": "Tortilla",
         "hobby": "Fodbold, musik og computer",
@@ -598,18 +562,15 @@
         "yndlingsfarve": "#57f338",
         "køn": "han",
         "idol": "Jacob Nielsen",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "Muligvis dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": "nej"
+
+        "kæledyr": "nej",
+		"billede": "icon-5"
     },
 
     {
         "id": "alex5662",
-        "fornavn": "Alexander",
-        "efternavn": "Weilguny",
+        "fornavn": "r",
+        "efternavn": "y",
         "alder": 23,
         "livret": "ris_boller_karry",
         "hobby": "professionel_gamer",
@@ -627,18 +588,15 @@
         "yndlingsfarve": "#ff00e0",
         "køn": "han",
         "idol": "Jackie Chan",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "måske dansker eller måske østriger",
-        "fagforening": null,
-        "allergier": "græs pollen",
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     },
 
     {
         "id": "pete414r",
-        "fornavn": "Peter Rud",
-        "efternavn": "Frankild",
+        "fornavn": "d",
+        "efternavn": "d",
         "alder": 37,
         "livret": "Vegetar pasta",
         "hobby": "JavaScript",
@@ -656,59 +614,14 @@
         "yndlingsfarve": "#008000",
         "køn": "han",
         "idol": "Helle Thorning",
-        "religion": "Atiest",
-        "sexualitet": "hetero",
-        "nationalitet": "Dansk",
-        "fagforening": "HK",
-        "allergier": "Rygning og tatuveret",
-        "kæledyr": "Ingen"
-    },
 
-    {
-        "id": "ande8043",
-        "fornavn": "Anders",
-        "efternavn": "Lindum",
-        "køn": "han",
-        "alder": 20,
-        "højde": 180,
-        "vægt": 76,
-        "bmi": 23,
-        "nationalitet": "Dansk",
-        "fødested": "Viborg",
-        "civilstation": "I et forhold",
-        "bopæl": null,
-        "uddannelse": "Multimediedesigner",
-        "email": "anderslindum@hotmail.com",
-        "telefonnummer": "60 84 19 41",
-        "yndlingsfarve": "#2bea08",
-        "hobbier": "Fodbold",
-        "lingvistiskekundskaber": null,
-        "beskæftigelse": "Uddannelse",
-        "indkomst": "SU",
-        "afstamning": "",
-        "livret": "Alt med kød til",
-        "stjernetegn": "Skytte",
-        "kæledyr": "Hund",
-        "allergier": null,
-        "sygedomme": null,
-        "hårfarve": "brun",
-        "fedtprocent": null,
-        "muskelmasse": null,
-        "sædkvalitet": null,
-        "udseende": "Ekstrem flot",
-        "husleje": "Alt for høj",
-        "søskende": "To storesøstre",
-        "børn": null,
-        "afkom": null,
-        "personlighedstype": "Fantastisk",
-        "sexulitet": "Hetero",
-        "fagforening": null
+        "kæledyr": "Ingen",
+		"billede": "icon-5"
     },
-
     {
         "id": "rene974",
-        "fornavn": "Rene",
-        "efternavn": "Nielsen",
+        "fornavn": "e",
+        "efternavn": "n",
         "alder": 46,
         "livret": "Mad",
         "hobby": "Kodning og  digital marketing",
@@ -726,18 +639,15 @@
         "yndlingsfarve": "#ff00e0",
         "køn": "han",
         "idol": "ingen",
-        "religion": null,
-        "sexualitet": "hvem ved",
-        "nationalitet": "Human",
-        "fagforening": null,
-        "allergier": "Acetylsalisysyre",
-        "kæledyr": "ingen"
+
+        "kæledyr": "ingen",
+		"billede": "icon-5"
     },
 
     {
         "id": "loui3450",
-        "fornavn": "Louise",
-        "efternavn": "Hrouda-Rasmussen",
+        "fornavn": "e",
+        "efternavn": "n",
         "alder": 25,
         "stjernetegn": "Stenbuk",
         "livret": "Julemad",
@@ -755,18 +665,15 @@
         "yndlingsfarve": "#ff0000",
         "køn": "Kvinde",
         "idol": null,
-        "religion": "Agnostiker",
-        "sexualitet": "Heteroseksuel",
-        "nationalitet": "Dansk",
-        "fagforening": null,
-        "allergier": "Solen",
-        "kæledyr": "En kat ved navn Linux - og ja, han er opkaldt efter styresystemet."
+
+        "kæledyr": "En kat ved navn Linux - og ja, han er opkaldt efter styresystemet.",
+		"billede": "icon-5"
     },
 
     {
         "id": "ceci2483",
-        "fornavn": "Cecilie",
-        "efternavn": "Johansen",
+        "fornavn": "e",
+        "efternavn": "n",
         "alder": 22,
         "livret": "Mexikanske pandekager",
         "hobby": "Design",
@@ -783,18 +690,15 @@
         "yndlingsfarve": "#eeff1c",
         "køn": "hun",
         "idol": "Sebastian Storm",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": null,
-        "allergier": null,
-        "kæledyr": "Kat"
+
+        "kæledyr": "Kat",
+		"billede": "icon-5"
     },
 
     {
         "id": "loui6161",
-        "fornavn": "Louise",
-        "efternavn": "Skovgaard",
+        "fornavn": "e",
+        "efternavn": "d",
         "alder": 24,
         "livret": "Lasagne",
         "hobby": "Fotografi",
@@ -812,18 +716,15 @@
         "yndlingsfarve": "#3f64b5",
         "køn": "Kvinde",
         "idol": "Claire Boucher",
-        "religion": null,
-        "sexualitet": "Hetero",
-        "nationalitet": "Bornholmer",
-        "fagforening": "Dansk Journalistforbund",
-        "allergier": "null",
-        "kæledyr": "Sølvfisk"
+
+        "kæledyr": "Sølvfisk",
+		"billede": "icon-5"
     },
 
     {
         "id": "male3549",
-        "fornavn": "Malene",
-        "efternavn": "Bærtelsen",
+        "fornavn": "e",
+        "efternavn": "n",
         "alder": 21,
         "livret": "Sushi",
         "hobby": "JavaScript",
@@ -840,17 +741,15 @@
         "yndlingsfarve": "#9a063f",
         "køn": "hun",
         "idol": "Yoncé",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "Dansker",
-        "allergier": "Pollen",
-        "kæledyr": "Intet :("
+
+        "kæledyr": "Intet :(",
+		"billede": "icon-5"
     },
 
     {
         "id": "andr8110",
-        "fornavn": "André",
-        "efternavn": "Vestergaard",
+        "fornavn": "a",
+        "efternavn": "d",
         "alder": 24,
         "livret": "Kylling og pasta",
         "hobby": "Styrketræning",
@@ -868,20 +767,17 @@
         "yndlingsfarve": "#ff00e0",
         "køn": "Han",
         "idol": "Sidney Lee",
-        "religion": "null",
-        "sexualitet": "hetero",
-        "nationalitet": "Dansker",
-        "fagforening": "null",
-        "allergier": "null",
+
         "kæledyr": "null",
         "fødselsdato": "9.februar 1993",
-        "tatoveringer": "null"
+        "tatoveringer": "null",
+		"billede": "icon-5"
     },
 
     {
         "id": "sign3517",
-        "fornavn": "Signe",
-        "efternavn": "Brauer Christiansen",
+        "fornavn": "e",
+        "efternavn": "n",
         "alder": 21,
         "livret": "Lasagne",
         "hobby": "Strikke",
@@ -898,11 +794,8 @@
         "yndlingsfarve": "#016c0d",
         "køn": "Hun",
         "idol": "Samuel Jackson",
-        "religion": null,
-        "sexualitet": "hetero",
-        "nationalitet": "dansker",
-        "fagforening": "HK",
-        "allergier": null,
-        "kæledyr": null
+
+        "kæledyr": null,
+		"billede": "icon-5"
     }
 ]
