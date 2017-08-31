@@ -150,18 +150,127 @@
 
 <!--*********PROCESBAR**INFOGRAFIK**infografik_maps_info.json**SLUT***************-->
 
-<!--*********PERSONA**VALGINFO**guider_quiz.json*************-->
+<!--*********PERSONA**VALGINFO***************-->
 
+  <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
+
+    <div id="section2" class="container-fluid main">
+        <div class="row">
+
+            <div class="col-sm-6">
+              <ul class="sortering_parti">
+                        <li><a class="filterknap_sjaelland" href="">sjaelland</a></li>
+                        <li><a class="filterknap_fyn" href="">fyn</a></li>
+                        <li><a class="filterknap_jylland" href="">jylland</a></li>
+                        <li><a class="sorter_storst" href="">storst</a></li>
+                        <li><a class="sorter_mindst" href="">mindst</a></li>
+
+                    </ul></div></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>regioner</h3>
+            </div>
+        </div>
+
+        <div class="row regioner"></div>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <hr>
+                <h3>kommuner</h3>
+            </div>
+        </div>
+        <div class="row kommuner"></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <hr>
+                <h3>partier</h3>
+            </div>
+        </div>
+        <div class="row partier"></div>
+        <div class="row">
+            <div class="col-sm-12">
+                <hr>
+                <h3>Borger service</h3>
+            </div>
+
+        </div>
+
+        <div id="teksten_union"></div>
+
+        <template id="produkt_template">
+
+            <div class="col-xs-10 col-sm-5 col-md-4 col-lg-2 json_form">
+                 <br><p>Øjne</p><div class="color_navn">
+                  <span class="colorbox data_yndlingsfarve"></span>
+                  <div class="temp_navn">
+               <span class="data_fornavn2"> DATA_FORNAVN </span>
+                   <span class="data_efternavn2"> DATA_EFTERNAVN </span>
+				</div>
+                    <br><span class="data_alder">DATA_ALDER</span> år<br>
+
+
+				<span class="temp-images"> <img src="images_turen/small/reg-01-sm.svg" alt="" class="img-responsive data_billede" style="height: 50px;"></span></div>
+<!--
+ 				 <span class="data_bopæl">DATA_BOPÆL</span>
+<span class="data_uddannelse">DATA_UDDANNELSE</span>
+-->
+
+
+<!--               <p class="data_navn">DATA_NAVN</p>-->
+
+
+
+<!--             <p class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</p>-->
+<!--                <p class="befolkning"><span class="data_befolkning"></span></p>-->
+<!--                <p class="bornehavertekst">Denne kommune har fodboldsklub i Superligaen</p>-->
+<!--				<p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>-->
+
+
+                <button type="button" class="btn btn-success modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
+            </div>
+
+        </template>
+
+        <template id="modal_template">
+            <p class="modal-title" id="exampleModalLabel">Dit ynglings sted</p>
+<!--            <p class="modal-title" class="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></p>-->
+
+            <div class="modal-body">
+ <img src="images_turen/small/reg-01-md.svg" alt="" class="img-responsive data_billede">
+                <p strong class="befolkning">Børnehaver <span class="data_befolkning"></span></p>
+                <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
+                <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
+                <p>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></p>
+
+                <p>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </p>
+                <p>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </p> Stjerner:
+                <span class="data_stjerner">DATA_STJERNER</span>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">CLOSE</button>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">save</button></div>
+
+        </template>
+
+    </div>
+
+<!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
+<!--
 <div id="section2" class="container-fluid">
 <div class="row">
-			<div class="col-xs-12">
 
-     <ul id="teksten_union"></ul>
+     <table id="teksten_union"></table>
 
     <template id="tekstenunion_template">
-        <li>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 produkt">
 
-                        <!-- Button trigger modal -->
 <button type="button" class="json_form btn-link modalknap" data-toggle="modal" data-target="#myModal">
 <br><div class="cololnavn">
                   <span class="colorbox data_yndlingsfarve"></span>
@@ -177,7 +286,7 @@
                         </button>
 
 
-                        <!-- Modal -->
+
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -193,7 +302,7 @@
    									<br> Livvidde: <span class="data_vægt">DATA_VÆGT</span>
                                     <br> Højde: <span class="data_højde">DATA_HØJDE</span>
  <img src="images_turen/medium/reg-01-md.svg" alt="" class="img-responsive data_billede">
-<!--                                    modalbillede-->
+                                    modalbillede
 
                                     <br><span class="data_idol">DATA_IDOL</span>
                                     <br> Gymnasier: <span class="data_kæledyr">DATA_KÆLEDYR</span>
@@ -205,15 +314,17 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-            </li>
-
+		</div>
     </template>
-		</div></div>
+		</div>-->
+
+		<!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
+
+<!--********PERSONA**VALGINFO****SLUT*************-->
+
 <!--
+
+		<div id="section12">
 		<table id="person_info"></table>
 		<template id="personinfo_template">
 
@@ -221,202 +332,7 @@
 		<h3>En person du kender</h3>
 					<h6>Korte historier om unges hverdag og den Region de bor i</h6>
 
-				<div class="row rowhitter">
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default">
-							<div class="panel-heading">
 
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse">
-						<img src="images_sitet/ekstatisk-01.svg" alt="" class="data_imagesidm svgstyle">
-									</a>
-
-							</div>
-							<div id="collapse" class="panel-collapse collapse in">
-								<div class="panel-body bg-danger">
-
-										<a href="https://www.regionh.dk" target="_blank">
-											<span class="data_svaridm1 ">DATA_EFTERNAVN11</span></a>
-											<span class="data_svaridm2 ">DATA_EFTERNAVN12</span>
-										<span class="data_svaridm3 ">DATA_EFTERNAVN13</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default bg-success">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
-										<kbd class="rigtsvar1class panel-title">Region Hovedstaden</kbd>
-									</a>
-							</div>
-							<div id="collapse22" class="panel-collapse collapse in">
-								<div class="panel-body bg-success"> <a href="https://www.dragoer.dk" target="_blank">
-									<span class="data_rigtsvaridm ">DATA_EFTERNAVN1</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row rowhitter">
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-						<img src="DATA_IMAGESID1" alt="" class="data_imagesid1 svgstyle">
-									</a>
-
-							</div>
-							<div id="collapse1" class="panel-collapse collapse">
-								<div class="panel-body bg-danger">
-
-										<a href="https://www.rm.dk" target="_blank">
-											<span class="data_svarid11">DATA_EFTERNAVN11</span></a>
-
-											<span class="data_svarid12">DATA_EFTERNAVN12</span>
-
-											<span class="data_svarid13">DATA_EFTERNAVN13</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default bg-success">
-							<div class="panel-heading">
-
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-										<kbd class="rigtsvar1class panel-title">Region Midtjylland</kbd>
-
-									</a>
-
-							</div>
-							<div id="collapse2" class="panel-collapse collapse">
-								<div class="panel-body bg-success"><a href="https://www.samsoe.dk" target="_blank">
-									<span class="data_rigtsvarid1">DATA_EFTERNAVN1</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row rowhitter">
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-						<img src="DATA_IMAGESID2" alt="" class="data_imagesid2 svgstyle">
-
-									</a>
-							</div>
-							<div id="collapse3" class="panel-collapse collapse">
-								<div class="panel-body bg-danger">
-
-										<a href="https://www.rn.dk" target="_blank">
-											<span class="data_svarid21 ">DATA_EFTERNAVN11</span></a>
-
-											<span class="data_svarid22 ">DATA_EFTERNAVN12</span>
-
-											<span class="data_svarid23">DATA_EFTERNAVN13</span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default bg-success">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-										<kbd class="rigtsvar1class panel-title">Region Nordjylland</kbd>
-
-									</a>
-							</div>
-							<div id="collapse4" class="panel-collapse collapse">
-								<div class="panel-body bg-success"><a href="https://www.laesoe.dk" target="_blank">
-									<span class="data_rigtsvarid2">DATA_EFTERNAVN1</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row rowhitter">
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-						<img src="DATA_IMAGESID3" alt="" class="data_imagesid3 svgstyle">
-									</a>
-							</div>
-							<div id="collapse5" class="panel-collapse collapse">
-								<div class="panel-body bg-danger">
-
-										<a href="https://www.regionsyddanmark.dk" target="_blank">
-											<span class="data_svarid31">DATA_EFTERNAVN11</span></a>
-
-											<span class="data_svarid32">DATA_EFTERNAVN12</span>
-
-											<span class="data_svarid33">DATA_EFTERNAVN13</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default bg-success">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-										<kbd class="rigtsvar1class panel-title">Region Syddanmark</kbd>
-
-									</a>
-							</div>
-							<div id="collapse6" class="panel-collapse collapse">
-								<div class="panel-body bg-success"><a href="https://www.fanoe.dk" target="_blank">
-									<span class="data_rigtsvarid3">DATA_EFTERNAVN1</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row rowhitter">
-
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-						<img src="DATA_IMAGESID4" alt="" class="data_imagesid4 svgstyle">
-						</a>
-							</div>
-							<div id="collapse7" class="panel-collapse collapse">
-								<div class="panel-body bg-danger">
-
-										<a href="https://www.regionsjaelland.dk" target="_blank">
-											<span class="data_svarid41">DATA_EFTERNAVN11</span></a>
-
-										<span class="data_svarid42">DATA_EFTERNAVN12</span>
-
-											<span class="data_svarid43">DATA_EFTERNAVN13</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="panel panel-default bg-success">
-							<div class="panel-heading">
-
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
-										<kbd class="rigtsvar1class panel-title">Region Sjælland</kbd>
-									</a>
-							</div>
-							<div id="collapse8" class="panel-collapse collapse">
-								<div class="panel-body bg-success"><a href="https://www.solrod.dk" target="_blank">
-									<span class="data_rigtsvarid4">DATA_EFTERNAVN1</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div id="section6" class="container-fluid">
 			<h3>Borgerservice i de to største kommuner</h3>
 			<h6>Adresse og link</h6>
@@ -453,12 +369,12 @@
 					</div>
 				</div>
 			</div>
-		</template>
--->
+
 
 	</div>
+-->
 
-<!--*********PERSONA**VALGINFO**guider_quiz.json**SLUT*************-->
+<!--********PERSONA**VALGINFO****SLUT*************-->
 
 <!--*********PARTIINFO**LOGOLINKS**TRANSITION*************-->
 
@@ -568,127 +484,6 @@
 				</div>
 			</div>
 -->
-
-
-
-
-
-
-
-
-   <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
-
-<!--
-    <div class="container-fluid main">
-        <div class="row">
-
-            <div class="col-sm-12 menuer">
-              <ul class="sortering_parti">
-                        <li><a class="filterknap_sjaelland" href="">sjaelland</a></li>
-                        <li><a class="filterknap_fyn" href="">fyn</a></li>
-                        <li><a class="filterknap_jylland" href="">jylland</a></li>
-                        <li><a class="sorter_storst" href="">storst</a></li>
-                        <li><a class="sorter_mindst" href="">mindst</a></li>
-
-                    </ul></div></div>
-        <div class="row">
-            <div class="col-sm-12 menuer">
-                <h3>regioner</h3>
-            </div>
-        </div>
-
-        <div class="row regioner"></div>
-
-
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 menuer">
-                <hr>
-                <h3>kommuner</h3>
-            </div>
-        </div>
-        <div class="row kommuner"></div>
-        <div class="row">
-            <div class="col-sm-12 menuer">
-                <hr>
-                <h3>partier</h3>
-            </div>
-        </div>
-        <div class="row partier"></div>
-        <div class="row">
-            <div class="col-sm-12 menuer">
-                        <hr>
--->
-<!--
-<h3>personer</h3>
-            </div>
-        </div>
-        <div class="row personerr"></div>
-        <div class="row">
-            <div class="col-sm-12 menuer">
-                <hr> -->
-
-<!--
-            </div>
-        </div>
-        <div class="row personer"></div>
-
-
-        <template id="produkt_template">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 produkt">
-                <img src="images_turen/small/icon-5-sm.jpg" class="img-responsive data_billede">
-                <p class="data_navn">DATA_NAVN</h5>
-                <p class="data_kortbeskrivelse">DATA_KORTBESKRIVELSE</p>
-                <p class="befolkning">børnehaver<span class="data_befolkning"></span></p>
-                <p class="bornehavertekst">Denne kommune har fodboldsklub i Superligaen</p>
-                <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
-
-                <button type="button" class="btn btn-link modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
-            </div>
-
-
-        </template>
-
-
-
-        <template id="modal_template">
-            <p class="modal-title" id="exampleModalLabel">Dit ynglings sted</p>
-            <p class="modal-title" id="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></p>
-
-
-
-            <div class="modal-body">
-                <img src="images_turen/medium/icon-5-md.jpg" alt="" class="img-responsive data_billede modalbillede">
-
-                <p strong class="befolkning">Børnehaver <span class="data_befolkning"></span></p>
-                <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
-                <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
-                <p>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></p>
-
-                <p>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </p>
-                <p>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </p> Stjerner:
-                <span class="data_stjerner">DATA_STJERNER</span>
-            </div>
-            <button type="button" class="btn btn-link" data-dismiss="modal">CLOSE</button>
-                        <button type="button" class="btn btn-link" data-dismiss="modal">save</button>
-
-
-
-
-
-
-        </template>
-
-
-
-    </div>
--->
-   <!--************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************-->
 
 
 <!--
@@ -889,9 +684,7 @@ i forbindelse med en case-opgave af KEA-studerende</a>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRlYOm2KMsGkxmUiSA21Y8M6WuZ_axavc&callback=initMap" async defer></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script src="js/jquery.fitvids.js"></script>
-
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="kommunevalg.js"></script>
 
 

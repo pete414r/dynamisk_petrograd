@@ -210,131 +210,172 @@ function initMap() {
 
 /**************INFOGRAFIK**VALGTUREN**SLUT********/
 
-/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
 
 
 /**************PARTIINFO**MODAL********/
 //*******TODO ME
-//window.addEventListener("load", sidenVises);
-//
-//function sidenVises() {
-//    console.log("Siden vises");
-//    //læs produktliste
-//
-//    $.getJSON("json/parti_info.json", visProduktListe);
-//    // visProdukt();
-//
-//}
-//
-//document.querySelector(".filterknap_sjaelland").addEventListener("click", filtrersjaelland);
-//
-//document.querySelector(".filterknap_fyn").addEventListener("click", filterfyn);
-//
-//document.querySelector(".filterknap_jylland").addEventListener("click", filtrerjylland);
-//
-////SORTER FUNKTIONER
-//document.querySelector(".sorter_storst").addEventListener("click", sorterstorst);
-//
-//document.querySelector(".sorter_mindst").addEventListener("click", sortermindst);
-//
-//
-////*******
-////************
-//function filtrersjaelland(event) {
-//    console.log("Klik på sjaelland-filter");
-//    //find alle
-//
-//    var liste = document.querySelectorAll(".produkt:not(.sjaelland)");
-//    //skjul all
-//
-//    liste.forEach(div => div.classList.toggle("hide"));
-//    event.preventDefault();
-//    //  event.preventDefault();
-//
-//}
-////************
-//
-//
-////***************
-//
-//function filterfyn(event) {
-//    console.log("Klik på fyn-filter");
-//    var liste = document.querySelectorAll(".produkt:not(.fyn)");
-//    liste.forEach(div => div.classList.toggle("hide"));
-//    event.preventDefault();
-//}
-//
-//function filtrerjylland(event) {
-//    console.log("Klik på jylland-filter");
-//    var liste = document.querySelectorAll(".produkt:not(.jylland)");
-//    liste.forEach(div => div.classList.toggle("hide"));
-//    event.preventDefault();
-//}
-//
-//function sorterstorst(listen) {
-//
-//    console.log("Klik på sorter storst");
-//    var liste = document.querySelectorAll(".produkt:<(.produkt)");
-//    liste.forEach(div => div.classList.toggle("hide"));
-//    event.preventDefault();
-//
-//}
-//
-//function sortermindst(listen) {
-//
-//    console.log("Klik på sorter storst");
-//    var liste = document.querySelectorAll(".produkt:>(.produkt)");
-//    liste.forEach(div => div.classList.toggle("hide"));
-//    event.preventDefault();
-//
-//}
-//
-//function visProduktListe(listen) {
-//    console.log(listen);
-//    //filtrer bornehavere produkter fra
-//    //  listen = listen.filter(fjernbornehavere);
-//
-//    listen = listen.filter(produkt => !produkt.bornehaver);
-//
+window.addEventListener("load", sidenVises);
+
+function sidenVises() {
+    console.log("Siden vises");
+    //læs produktliste
+
+    $.getJSON("json/parti_info.json", visProduktListe);
+    // visProdukt();
+
+}
+
+document.querySelector(".filterknap_sjaelland").addEventListener("click", filtrersjaelland);
+
+document.querySelector(".filterknap_fyn").addEventListener("click", filterfyn);
+
+document.querySelector(".filterknap_jylland").addEventListener("click", filtrerjylland);
+
+//SORTER FUNKTIONER
+document.querySelector(".sorter_storst").addEventListener("click", sorterstorst);
+
+document.querySelector(".sorter_mindst").addEventListener("click", sortermindst);
+
+
+//*******
+//************
+function filtrersjaelland(event) {
+    console.log("Klik på sjaelland-filter");
+    //find alle
+
+    var liste = document.querySelectorAll(".produkt:not(.sjaelland)");
+    //skjul all
+
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
+    //  event.preventDefault();
+
+}
+//************
+
+
+//***************
+
+function filterfyn(event) {
+    console.log("Klik på fyn-filter");
+    var liste = document.querySelectorAll(".produkt:not(.fyn)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
+}
+
+function filtrerjylland(event) {
+    console.log("Klik på jylland-filter");
+    var liste = document.querySelectorAll(".produkt:not(.jylland)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
+}
+
+function sorterstorst(listen) {
+
+    console.log("Klik på sorter storst");
+    var liste = document.querySelectorAll(".produkt:<(.produkt)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
+
+}
+
+function sortermindst(listen) {
+
+    console.log("Klik på sorter storst");
+    var liste = document.querySelectorAll(".produkt:>(.produkt)");
+    liste.forEach(div => div.classList.toggle("hide"));
+    event.preventDefault();
+
+}
+
+function visProduktListe(listen) {
+    console.log(listen);
+    //filtrer bornehavere produkter fra
+    //  listen = listen.filter(fjernbornehavere);
+var products = listen;
+    listen = listen.filter(produkt => !produkt.bornehaver);
+
+    listen.forEach(visProdukt);
+}
+//**************
+
+//    listen=listen.filter( function (produkt) {
+//          return produkt.bornehaver;){};
 //    listen.forEach(visProdukt);
+//
+//    var fjernbornehavere =
+//      function fjernbornehavere = function (produkt) {
+//          return produkt.bornehaver;
+//     }
+//  }
+//********
+
+//function vistekstUnion(tekst)  {
+//    // teksten tekst templ
+//
+//    var teksten = document.querySelector("#tekstenunion_template").content.cloneNode(true);
+//
+//    // til teksten
+//    klon.querySelector(".data_fornavn2").innerHTML = produkt.fornavn;
+//    klon.querySelector(".data_efternavn2").innerHTML = produkt.efternavn;
+//    klon.querySelector(".data_alder").innerHTML = produkt.alder;
+//	klon.querySelector(".data_billede").src = "images_turen/small/" + produkt.billede + "-sm.svg";
+//  klon.querySelector(".data_yndlingsfarve").style.backgroundColor = produkt.yndlingsfarve;
+//    klon.querySelector(".data_bopæl").innerHTML = produkt.bopæl;
+//    klon.querySelector(".data_uddannelse").innerHTML = produkt.uddannelse;
+
+//	klon.querySelector(".data_billede").src = "images_turen/medium/" + produkt.billede + "-md.svg";
+
+
+//    klon.querySelector(".data_vægt").innerHTML = produkt.vægt;
+
+//    klon.querySelector(".data_højde").innerHTML = produkt.højde;
+
+
+//    klon.querySelector(".data_idol").innerHTML = produkt.idol;
+
+//    klon.querySelector(".data_kæledyr").innerHTML = produkt.kæledyr;
+
+//    klon.querySelector(".modal").id = "modal" + produkt.id;
+//    klon.querySelector(".modalknap").dataset.target = "#modal" + produkt.id;
+//
+//    // teksten til tekst div
+//    document.querySelector("#teksten_union").appendChild(teksten);
 //}
-////**************
-//
-////    listen=listen.filter( function (produkt) {
-////          return produkt.bornehaver;){};
-////    listen.forEach(visProdukt);
-////
-////    var fjernbornehavere =
-////      function fjernbornehavere = function (produkt) {
-////          return produkt.bornehaver;
-////     }
-////  }
-////********
-//function visProdukt(produkt) {
-//    console.log(produkt);
-//
-//    var klon = document.querySelector("#produkt_template").content.cloneNode(true);
-//
-//    if (produkt.sjaelland) {
-//        klon.querySelector(".produkt").classList.add("sjaelland");
-//    }
-//    if (produkt.rabatsats) {
-//        klon.querySelector(".produkt").classList.add("fyn");
-//    }
-//    if (produkt.jyllandprocent) {
-//        klon.querySelector(".produkt").classList.add("jylland");
-//    }
-//
+
+function visProdukt(produkt) {
+    console.log(produkt);
+
+    var klon = document.querySelector("#produkt_template").content.cloneNode(true);
+
+    if (produkt.sjaelland) {
+        klon.querySelector(".produkt").classList.add("sjaelland");
+    }
+    if (produkt.rabatsats) {
+        klon.querySelector(".produkt").classList.add("fyn");
+    }
+    if (produkt.jyllandprocent) {
+        klon.querySelector(".produkt").classList.add("jylland");
+    }
+
 //    klon.querySelector(".data_navn").innerHTML = produkt.navn;
-//    klon.querySelector(".data_kortbeskrivelse").innerHTML = produkt.kortbeskrivelse;
-//    klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
-//
+   // klon.querySelector(".data_kortbeskrivelse").innerHTML = produkt.kortbeskrivelse;
+   // klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
+
+	klon.querySelector(".data_fornavn2").innerHTML = produkt.fornavn;
+    klon.querySelector(".data_efternavn2").innerHTML = produkt.efternavn;
+    klon.querySelector(".data_alder").innerHTML = produkt.alder;
+	klon.querySelector(".data_billede").src = "images_turen/small/" + produkt.billede + "-sm.svg";
+	klon.querySelector(".data_yndlingsfarve").style.backgroundColor = produkt.yndlingsfarve;
+//    klon.querySelector(".data_bopæl").innerHTML = produkt.bopæl;
+  //  klon.querySelector(".data_uddannelse").innerHTML = produkt.uddannelse;
+
 //    var skoler = Math.ceil(produkt.befolkning - (produkt.befolkning * produkt.rabatsats / 100));
 //
 //    klon.querySelector(".data_skoler").innerHTML = skoler;
 //
 //    klon.querySelector(".data_billede").src = "images_turen/small/" + produkt.billede + "-sm.jpg";
-//
+
 //    if (produkt.bornehaver == false) {
 //        var bornehavertekst = klon.querySelector(".bornehavertekst");
 //        bornehavertekst.parentNode.removeChild(bornehavertekst);
@@ -342,82 +383,92 @@ function initMap() {
 //    } else {
 //        klon.querySelector(".befolkning").classList.add("bornehaver");
 //    }
-//
-//    if (produkt.rabatsats == 0) {
-//        var skoler = klon.querySelector(".skoler");
-//        skoler.parentNode.removeChild(skoler);
-//    } else {
+
+    if (produkt.rabatsats == 0) {
+        var skoler = klon.querySelector(".skoler");
+        skoler.parentNode.removeChild(skoler);
+    }
+//	else {
 //        klon.querySelector(".befolkning").classList.add("rabat");
 //    }
-//
-//    klon.querySelector(".modalknap").dataset.produkt = produkt.id;
-//
-//    klon.querySelector(".modalknap").addEventListener("click", modalKnapKlik);
-//
-//
-//    if (produkt.kategori == "regioner") {
-//        document.querySelector(".regioner").appendChild(klon);
-//
-//    } else if (produkt.kategori == "kommuner") {
-//        document.querySelector(".kommuner").appendChild(klon);
-//
-//    } else if (produkt.kategori == "partier") {
-//        document.querySelector(".partier").appendChild(klon);
-//
-//        //    } else if (produkt.kategori == "personer") {
-//        //        document.querySelector(".personerr").appendChild(klon);
-//    } else {
-//        document.querySelector(".personer").appendChild(klon);
-//    }
-//}
-//
-////MODAL
-//function modalKnapKlik(event) {
-//    console.log("knapklik", event);
-//
-//    var produktId = event.target.dataset.produkt;
-//    console.log("klik på produkt: ", produktId);
-//
+
+    klon.querySelector(".modalknap").dataset.produkt = produkt.id;
+
+    klon.querySelector(".modalknap").addEventListener("click", modalKnapKlik);
+
+
+    if (produkt.kategori == "regioner") {
+        document.querySelector(".regioner").appendChild(klon);
+
+    } else if (produkt.kategori == "kommuner") {
+        document.querySelector(".kommuner").appendChild(klon);
+
+    } else if (produkt.kategori == "partier") {
+        document.querySelector(".partier").appendChild(klon);
+
+        //    } else if (produkt.kategori == "personer") {
+        //        document.querySelector(".personerr").appendChild(klon);
+    } else {
+        document.querySelector(".personer").appendChild(klon);
+    }
+}
+
+//MODAL
+function modalKnapKlik(event) {
+    console.log("knapklik", event);
+
+    var produktId = event.target.dataset.produkt;
+    console.log("klik på produkt: ", produktId);
+
+ $.getJSON("json/parti_info.json",{id:produktId}, function(data) {
+	   console.log(data)
+	   var x = data.filter(d=>d.id==produktId)
+	   visModalProdukt(x[0])
+});
+	//visModalProdukt();
+
+}
+
 //    $.getJSON("json/parti_info.json", {
 //        id: produktId
 //    }, visModalProdukt);
 //}
-//
-//function visModalProdukt(produkt) {
-//
-//    console.log("vis modal for ", produkt);
-//
-//    var klon = document.querySelector("#modal_template").content.cloneNode(true);
-//
-//    if (produkt.rabatsats) {
-//        klon.querySelector(".befolkning").classList.add("rabat");
-//    } else if (produkt.rabatsats == false) {
-//        klon.querySelector(".skoler").classList.add("ingenrabat");
-//    }
-//
+
+function visModalProdukt(produkt) {
+
+    console.log("vis modal for ", produkt);
+
+    var klon = document.querySelector("#modal_template").content.cloneNode(true);
+
+    if (produkt.rabatsats) {
+        klon.querySelector(".befolkning").classList.add("rabat");
+    } else if (produkt.rabatsats == false) {
+        klon.querySelector(".skoler").classList.add("ingenrabat");
+    }
+
 //    klon.querySelector(".data_navn").innerHTML = produkt.navn;
-//
-//    klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
-//
-//    klon.querySelector(".data_skoler").innerHTML = Math.ceil(produkt.befolkning - (produkt.befolkning * produkt.rabatsats / 100));
-//
-//    klon.querySelector(".data_billede").src = "images_turen/medium/" + produkt.billede + "-md.jpg";
-//
-//    klon.querySelector(".data_langbeskrivelse").innerHTML = produkt.langbeskrivelse;
-//
-//    klon.querySelector(".data_oprindelsesregion").innerHTML = produkt.oprindelsesregion;
-//
-//    klon.querySelector(".data_allergener").innerHTML = produkt.allergener;
-//
-//    klon.querySelector(".data_jyllandprocent").innerHTML = produkt.jyllandprocent;
-//
-//    klon.querySelector(".data_stjerner").innerHTML = produkt.stjerner;
-//
-//    document.querySelector(".modal-content").innerHTML = "";
-//
-//    document.querySelector(".modal-content").appendChild(klon);
-//
-//}
+
+    klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
+
+    klon.querySelector(".data_skoler").innerHTML = Math.ceil(produkt.befolkning - (produkt.befolkning * produkt.rabatsats / 100));
+
+    klon.querySelector(".data_billede").src = "images_turen/medium/" + produkt.billede + "-md.jpg";
+
+    klon.querySelector(".data_langbeskrivelse").innerHTML = produkt.langbeskrivelse;
+
+    klon.querySelector(".data_oprindelsesregion").innerHTML = produkt.oprindelsesregion;
+
+    klon.querySelector(".data_allergener").innerHTML = produkt.allergener;
+
+    klon.querySelector(".data_jyllandprocent").innerHTML = produkt.jyllandprocent;
+
+    klon.querySelector(".data_stjerner").innerHTML = produkt.stjerner;
+
+    document.querySelector(".modal-content").innerHTML = "";
+
+    document.querySelector(".modal-content").appendChild(klon);
+
+}
 
 
 
@@ -689,51 +740,54 @@ function initMap() {
 //            alert("Jeg fik navnet! " + navn);
 //        }
 
-window.addEventListener("load", start);
 
 
 
-function start() {
-    console.log("Start programmet");
-
-    $.getJSON("json/parti_info.json", vistekstLuften);
-
-}
 
 
+/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
 
-function vistekstLuften(listen) {
-    console.table(listen);
-    listen.forEach(vistekstUnion);
-}
-
-function vistekstUnion(tekst)  {
-    // teksten tekst templ
-
-    var teksten = document.querySelector("#tekstenunion_template").content.cloneNode(true);
-
-    // til teksten
-    teksten.querySelector(".data_fornavn2").innerHTML = tekst.fornavn;
-    teksten.querySelector(".data_efternavn2").innerHTML = tekst.efternavn;
-    teksten.querySelector(".data_alder").innerHTML = tekst.alder;
-
-	teksten.querySelector(".data_billede").src = "images_turen/small/" + tekst.billede + "-sm.svg";
-
-	teksten.querySelector(".data_billede").src = "images_turen/medium/" + tekst.billede + "-md.svg";
-
-    teksten.querySelector(".data_yndlingsfarve").style.backgroundColor = tekst.yndlingsfarve;
-    teksten.querySelector(".data_bopæl").innerHTML = tekst.bopæl;
-    teksten.querySelector(".data_vægt").innerHTML = tekst.vægt;
-    teksten.querySelector(".data_højde").innerHTML = tekst.højde;
-    teksten.querySelector(".data_uddannelse").innerHTML = tekst.uddannelse;
-    teksten.querySelector(".data_idol").innerHTML = tekst.idol;
-    teksten.querySelector(".data_kæledyr").innerHTML = tekst.kæledyr;
-    teksten.querySelector(".modal").id = "modal" + tekst.id;
-    teksten.querySelector(".modalknap").dataset.target = "#modal" + tekst.id;
-
-    // teksten til tekst div
-    document.querySelector("#teksten_union").appendChild(teksten);
-}
+//
+//window.addEventListener("load", start);
+//
+//function start() {
+//    console.log("Start programmet");
+//
+//    $.getJSON("json/parti_info.json", vistekstLuften);
+//
+//}
+//
+//function vistekstLuften(listen) {
+//    console.table(listen);
+//    listen.forEach(vistekstUnion);
+//}
+//
+//function vistekstUnion(tekst)  {
+//    // teksten tekst templ
+//
+//    var teksten = document.querySelector("#tekstenunion_template").content.cloneNode(true);
+//
+//    // til teksten
+//    teksten.querySelector(".data_fornavn2").innerHTML = tekst.fornavn;
+//    teksten.querySelector(".data_efternavn2").innerHTML = tekst.efternavn;
+//    teksten.querySelector(".data_alder").innerHTML = tekst.alder;
+//
+//teksten.querySelector(".data_billede").src = "images_turen/small/" + tekst.billede + "-sm.svg";
+//	teksten.querySelector(".data_billede").src = "images_turen/medium/" + tekst.billede + "-md.svg";
+//
+//  teksten.querySelector(".data_yndlingsfarve").style.backgroundColor = tekst.yndlingsfarve;
+//    teksten.querySelector(".data_bopæl").innerHTML = tekst.bopæl;
+//    teksten.querySelector(".data_vægt").innerHTML = tekst.vægt;
+//    teksten.querySelector(".data_højde").innerHTML = tekst.højde;
+//    teksten.querySelector(".data_uddannelse").innerHTML = tekst.uddannelse;
+//    teksten.querySelector(".data_idol").innerHTML = tekst.idol;
+//    teksten.querySelector(".data_kæledyr").innerHTML = tekst.kæledyr;
+//    teksten.querySelector(".modal").id = "modal" + tekst.id;
+//    teksten.querySelector(".modalknap").dataset.target = "#modal" + tekst.id;
+//
+//    // teksten til tekst div
+//    document.querySelector("#teksten_union").appendChild(teksten);
+//}
 /**************PARTIINFO**MODAL**SLUT***********************/
 
 /************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
