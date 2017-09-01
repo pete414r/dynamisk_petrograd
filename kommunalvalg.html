@@ -46,11 +46,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-
-
-
 				</button>
-
 			</div>
 			<div>
 				<div class="collapse navbar-collapse" id="myNavbar">
@@ -202,7 +198,7 @@
 
         </div>
 
-        <div id="teksten_union"></div>
+        <div id="teksten_union" class="row personer"></div>
 
         <template id="produkt_template">
 
@@ -213,7 +209,7 @@
                <span class="data_fornavn2"> DATA_FORNAVN </span>
                    <span class="data_efternavn2"> DATA_EFTERNAVN </span>
 				</div>
-                    <br><span class="data_alder">DATA_ALDER</span> år<br>
+                    <br><span class="data_alder">DATA_ALDER</span><br>
 
 
 				<span class="temp-images"> <img src="images_turen/small/reg-01-sm.svg" alt="" class="img-responsive data_billede" style="height: 50px;"></span></div>
@@ -235,23 +231,60 @@
 
                 <button type="button" class="btn btn-success modalknap" data-toggle="modal" data-target="#myModal"> DETALJER </button>
             </div>
+<!--            Modal til filter template-->
 
         </template>
 
         <template id="modal_template">
-            <p class="modal-title" id="exampleModalLabel">Dit ynglings sted</p>
+            <p class="modal-title" id="exampleModalLabel">DIT YNGLINGS STED</p>
 <!--            <p class="modal-title" class="exampleModalLabel"><span class="data_navn">DATA_NAVN</span></p>-->
 
             <div class="modal-body">
+
+    <!--          PERSON HISTORIE tekst modal-->
+
+            <!--             person demogrfi tekst modal-->
+ 				 <span class="data_bopæl">DATA_BOPÆL</span>
+ 				 <!--           person livbrede vægt  tekst modal-->
+				   <br>
+ 				   <div class="vaegt_navn">
+ 				    <span class="data_vægttekst">DATA_VÆGT</span>
+ 				 <span class="data_vægt">DATA_VÆGTTEKST</span>
+					  </div>
+                                    <div class="hojde_navn">
+                                   <span class="data_højdetekst">DATA_HØJDETEKST</span>
+										<br> <span class="data_højde">DATA_HØJDE</span></div>
+                        <!--           person  billed tekst modal-->
  <img src="images_turen/small/reg-01-md.svg" alt="" class="img-responsive data_billede">
-                <p strong class="befolkning">Børnehaver <span class="data_befolkning"></span></p>
+ <!--             person valg tekst modal-->
+<span class="data_uddannelse">DATA_UDDANNELSE</span>
+             			 <!--           REGION KOMMUNAL tekst modal-->
+
+                	      <!--           region tekst modal-->
+
+                                       <p strong class="idol"> <span class="data_idol">DATA_IDOL</span></p>
+						<!--             kommune tekst modal-->
+
+                 <p strong class="Hobby"> <span class="data_hobby">DATA_HOBBY</span></p>
+                         <p strong class="Kæledyr"> <span class="data_kæledyr">DATA_KÆLEDYR</span></p>
+
+                            <!--           Partier politik princip tekst modal-->
+                                             <p strong class="parti"> <span class="data_parti">DATA_PARTI</span></p>
+                 <p strong class="partiside"> <span class="data_partiside">DATA_PARTISIDE</span></p>
+
+
+               <!--    <p strong class="befolkning">Børnehaver <span class="data_befolkning"></span></p>
+
+
                 <p class="skoler">Skoler<span class="data_skoler">DATA_skoler</span></p>
                 <p class="data_langbeskrivelse">DATA_LANGBESKRIVELSE</p>
-                <p>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></p>
+               <p>Oprindelse:<span class="data_oprindelsesregion">DATA_OPRINDELSESREGION</span></p>
 
-                <p>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </p>
-                <p>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span> </p> Stjerner:
-                <span class="data_stjerner">DATA_STJERNER</span>
+             <p>Allergi: <span class="data_allergener">DATA_ALLERGENER</span> </p>
+                  <p>jyllandprocent: <span class="data_jyllandprocent">DATA_jyllandPROCENT</span>
+                </p> Stjerner:
+            <span class="data_stjerner">DATA_STJERNER</span>
+-->
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-success" data-dismiss="modal">CLOSE</button>

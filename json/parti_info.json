@@ -14,7 +14,7 @@
         "alder": 25,
 
         "livret": "Helsingør Kommune",
-        "hobby": "",
+
         "øjenfarve": "",
 
         "parti": "",
@@ -23,17 +23,22 @@
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel. Han har derfor tænkt sig at stemme på et parti som vil holde byen pæn og ren, så man kan lide at bruge den.",
 
 		"billede": "reg-01",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, hvilket præger hans butik. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen. Han hader mere end noget at gå gennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen. Der ligger glasskår over det hele, og gaderne lugter.",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Livvidde:",
+		"vægt": 94,
+		"højdetekst":"Højde:",
         "højde": 173,
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+        "kæledyr": ""
 
 		  },
     {
@@ -58,17 +63,24 @@
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Michael er single. i sin fritid kan Michael godt lide at sejle, og har tilmed været medlem af Silkeborg Sejlklub siden han var 16 år",
+		"bopæl":"Michael er single. I sin fritid kan Michael godt lide at sejle, og har været medlem af Silkeborg Sejlklub siden han var 16 år. Michael uddanner sig til til civilingeniør, hvor han i 2018 får sit diplom. Han er meget engageret i sin skole, og håber med sit høje snit en dag at kunne arbejde for Mærsk. Han bor hjemme hos sin store familie, som han også tilbringer meget tid med. Han håber dog på snart at finde en studiebolig i København, men har endnu ikke haft heldet med sig.",
 
 		"billede": "reg-02",
 
-        "uddannelse": "Er under uddannelse som civilingeniør. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "Michael stemte til sidste kommunalvalg, men kun fordi det er noget man ‘bare gør’ i hans familie. Han tvivler på, hvor meget hans stemme egentlig gør en forskel. Til kommunalvalget til november, har Michael stadig tænkt sig at stemme, men han ved dog ikke på hvem endnu, da han synes der er rigtig mange forskellige der stiller op, og han endnu ikke ved hvad de hver især står for. Bopæl: Silkeborg Kommune.",
 
-        "idol": "REGION ADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Livvidde:",
+		"vægt": 104,
+		"højdetekst":"Højde:",
         "højde": 173,
 
-        "kæledyr": "AGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+
+        "kæledyr": ""
     },
     {
 		"kategori": "regioner",
@@ -92,17 +104,22 @@
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Kæreste med Benny. Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning og restaurering. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time",
+		"bopæl":"Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning af fremtiden og restaurering af boligen. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time. Camilla var heldig at komme godt igennem uddannelsen til landmand og fik tilbudt en mindre gård, hun ikke kunne sige nej til. Det er kun 10% som starter eget landbrug efter uddannelsen, så Camilla så sig meget heldig. Camilla har tænkt alternativt og vil gået ind på et nichemarked, for ormeproduktion. Produktionen skal omlægge til økologi, men det er dyrt at tage lån, skal hun hilse at sige",
 
 		"billede": "reg-03",
 
-        "uddannelse": "Er Landmand. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "Camilla var med til at stemme V regeringen til magten i 2015 og ønsker fortsat en regering som styrker landbruget investeringsmuligheder og fremmer afsætning til udlandet,  så  Camilla føler ingen grund til ikke at afgive stemme til kommunalvalget. Hun kender til at Aalborg har en V borgmester og Regionen har en S formand.",
 
-        "idol": "REGION DEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 65,
-        "højde": 179,
+        "idol": "",
 
-        "kæledyr": "GØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+		"hobby": "",
+
+		"vægttekst":"Livvidde:",
+		"vægt": 74,
+		"højdetekst":"Højde:",
+        "højde": 174,
+
+        "kæledyr": ""
   },
 
     {
@@ -127,17 +144,22 @@
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Er i et forhold. Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning og restaurering. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time",
+		"bopæl":"Katrine er lige blevet 18 år og er i et forhold. Hun går i 3.C på Kerteminde Gymnasium. Når hun ikke laver lektier, se hun en god film eller gå en lang tur i skoven med hendes hund. Hun bruger også meget af sin fritid med sin kæreste og familie, hvor de laver god mad og snakker om, hvordan det er gået i skolen og på arbejde. I øjeblikket er Katrines mormor på plejehjem, da hun ikke længere kan klare tingene på egen hånd. Hele familien besøgte hende igår, og blev alle en smule chokerede over de forhold, hun skulle leve under.",
 
 		"billede": "reg-04",
 
-        "uddannelse": "Går i 3.C på Kerteminde Gymnasium.  når hun ikke laver lektier, kan Katrine godt lide at se en film eller gå en lang tur i skoven med hendes hund",
+        "uddannelse": "Katrine ved der afholdes Regionsråds- og Kommunalvalg, men havde ikke stemmeret sidste gang. Hun ved ikke om hun stemmer til dette års valg - både fordi hun ikke føler, at hendes stemme gør en forskel, og fordi hun ikke ved hvem hun skal stemme på. Hendes forældre håber dog at hun vil gøre brug af sin stemmeret, da selv en enkelt stemme gør en forskel, og man på den måde bidrager til demokratiet.",
 
-        "idol": "REGION EN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-  "vægt": 55,
-        "højde": 165,
+        "idol": "",
 
-        "kæledyr": "ØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+		"hobby": "",
+
+		"vægttekst":"Livvidde:",
+		"vægt": 64,
+		"højdetekst":"Højde:",
+        "højde": 163,
+
+        "kæledyr": ""
   },
     {
 		"kategori": "regioner",
@@ -160,16 +182,22 @@
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Er Single. Oskar bor i en ungdomsbolig og tilbringer derfor rigtig meget tid hjemme hos resten af sin familie lillebror og søster. Han spiller spil på playstation og har en stor venneskare han kan gå i byen med",
+		"bopæl":"Oskar er 19 år og Single. Han bor i en lille ungdomsbolig og er tømrer lærling på 2. år hos Svendsen & søn der ligger tæt på hans bopæl, hvilket sparer ham for en del transportudgifter, han synes dog stadig lønnen er for lav, sammenlignet med hvad man får i et normalt job. Han vil gerne læse videre til bygningskonstruktør når han er færdig som tømrer. Oskars bolig er præget af at der er meget arbejdstøj og at det er dyrt at vaske, som gør at han tilbringer rigtig meget tid hjemme hos resten af sin familie, lillebror og søster. Han spiller spil på playstation og har en stor venneskare han kan gå i byen med",
 
 		"billede": "reg-05",
 
-        "uddannelse": "Tømrer lærling.  når hun ikke laver lektier, kan Katrine godt lide at se en film eller gå en lang tur i skoven med hendes hund",
-        "idol": "REGION N er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-	 	"vægt": 70,
-        "højde": 183,
+        "uddannelse": "Oskar kender ikke meget til kommunale anliggender og slet ikke valg af medlemmer til kommunens kommunalbestyrelse og Regionsråd. Han kender dog til byggetilladelser udstedt af kommunen. Kommunalvalget er Oskars første mulighed for at stemme og det vil han gerne prøve.",
 
-        "kæledyr": "R KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+        "idol": "",
+
+		"hobby": "",
+
+	 	"vægttekst":"Livvidde:",
+		"vægt": 114,
+		"højdetekst":"Højde:",
+        "højde": 193,
+
+        "kæledyr": ""
     },
 	 {
 		"kategori": "regioner",
@@ -179,114 +207,47 @@
         "fornavn": "Lars"
 
     },
-    {
-		"kategori": "kommuner",
-		"pris": 29,
-		"udsolgt": false,
-		"vegetar": true,
-		"alkoholprocent": 0,
-
-		"id": "dar2332",
-        "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
-        "øjenfarve": "",
-
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
-
-        "hårfarve": "",
-        "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
-
-		"billede": "icon-5",
-
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
-
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
-
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
-    },
-
-    {
-		"kategori": "kommuner",
+	{
+    	"kategori": "kommuner",
 		"pris": 29,
 		"udsolgt": false,
 		"vegetar": true,
 		"alkoholprocent": 0,
 
 
-        "id": "sean0186",
-        "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
+        "id": "14",
+        "fornavn": "Region Hovedstaden",
+        "efternavn": "og regionens kommuner",
+        "alder": "",
 
         "livret": "Helsingør Kommune",
-        "hobby": "",
+
         "øjenfarve": "",
 
         "parti": "",
 		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "yndlingsfarve": "#003460",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "host",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amt og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning ligger i Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand er Sophie Hæstorp Andersen. Websted www.regionh.dk.",
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
-    },
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
 
-    {
-		"kategori": "kommuner",
-		"pris": 29,
-		"udsolgt": false,
-		"udsolgt": true,
-		"alkoholprocent": 0,
-
-
-        "id": "ande591x",
-        "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
-        "øjenfarve": "",
-
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
-
-        "hårfarve": "",
-        "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
-
-		"billede": "icon-5",
-
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
-
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
-    },
 
-
+		  },
     {
 		"kategori": "kommuner",
 		"pris": 29,
@@ -295,68 +256,162 @@
 		"alkoholprocent": 0,
 
 
-        "id": "loui564a",
-        "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
+		"id": "16",
+        "fornavn": "Region Midtjylland",
+        "efternavn": "og regionens kommuner",
+        "alder": "",
+        "livret": "Silkeborg Kommune",
+       "hobby": "",
         "øjenfarve": "",
 
         "parti": "",
 		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "yndlingsfarve": "#850041",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "mijy",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+        "idol": "REGION MIDTJYLLAND er en administrativ enhed med hovedansvaret sundhedsvæsenet, regional udvikling og drift af en række sociale institutioner i Midtjylland. Regionsforvaltning ligger i Viborg. Indbyggere 1.282.750 (2015) Regionsrådsformand er Bent Hansen. Websted www.rm.dk.",
+
+		"hobby": "AARHUS KOMMUNE er Regionens største kommune med 323.477 indbyggere. Der er 31 medlemmer, her af er der to Magistratsmedlemmer, seks Rådmænd og en Borgmester. Websted www.aarhus.dk.",
+
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "SAMSØ KOMMUNE er Regionens mindste kommune. Samsø Kommune udgør det lokale styre på Samsø og en række småøer. Kommunen blev dannet pr. 1. april 1962 ved sammenlægning af sognekommunerne Besser, Kolby, Nordby, Onsbjerg og Tranebjerg Areal: 114,71 km². Befolkningstal: 3.724 (kilde:www.da.wikipedia.org). Websted www.samsoe.dk"
     },
-
     {
 		"kategori": "kommuner",
-		"pris": 29,
+		"pris": "",
 		"udsolgt": false,
 		"vegetar": true,
 		"alkoholprocent": 0,
 
 
-        "id": "karo1238",
-          "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
+		"id": "18",
+        "fornavn": "REGION Nordjylland",
+        "efternavn": "og regionens kommuner",
+          "alder": 24,
+        "livret": "Aalborg Kommune",
+       "hobby": "",
         "øjenfarve": "",
 
         "parti": "",
 		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "yndlingsfarve": "#822434",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "nojy",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+        "idol": "REGION Nordjylland omfatter det tidligere Nordjyllands Amt samt de dele af Viborg Amt der ligger nord for Limfjorden, herunder øen Mors. Desuden den nordligste del af det nedlagte Århus Amt hvor byen Mariager ligger. Regionsforvaltningen ligger i Aalborg. Indbyggere 582.632. (2015) Regionsrådsformand er Ulla Astman. Websted www.rn.dk.",
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+		"hobby": "AALBORG KOMMUNE er Regionens største kommune med 205.630 indbyggere. Kommunens Byråb har 31 medlemmer. En Borgmester, to viceborgmestre, seks rådmænd og medlemmer af de syv stående udvalg. Websted www.aalborg.dk.",
+
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "LÆSØ KOMMUNE er Regionens mindste kommune. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret efter kommunesammenlægningen Areal: 118,4 km² Befolkningstal: 1.793 (kilde:www.da.wikipedia.org). Websted www.laesoe.dk"
+  },
+
+    {
+		"kategori": "kommuner",
+		"pris": "",
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+       "id": "20",
+        "fornavn": "Region Syddanmark",
+        "efternavn": "og regionens kommuner",
+          "alder": 18,
+        "livret": "Kerteminde Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#8aa80c",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "syda",
+
+        "uddannelse": "",
+
+        "idol": "REGION SYDDANMARK omfatter de tidligere Fyns, Ribe og Sønderjyllands amter, samt de tidligere kommuner Børkop, Egtved, Fredericia, Give, Jelling, Kolding, Lunderskov, Vamdrup og Vejle, der lå i Vejle Amt. Regionsforvaltningen ligger i Vejle. Indbyggere 1.217.224 (2017) Regionsrådsformand er Stephanie Lose. Websted www.regionsyddanmark.dk.",
+
+		"hobby": "ODENSE KOMMUNE er Regionens største med 195.908 indbyggere. Byrådet har 29 medlemmer, her af er en Borgmester, to viceborgmestre, fire rådmænd. Websted www.odense.dk.",
+
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "FANØ KOMMUNE er en lille kommune der hører under Region Syddanmark. Lokalplan nr. 1 blev vedtaget i 1978. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune. Areal: 59,86 km². Indbyggere 3.345 (kilde:www.da.wikipedia.org). Websted www.fanoe.dk"
+  },
+    {
+		"kategori": "kommuner",
+		"pris": "",
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+		"id": "22",
+        "fornavn": "Region Sjælland",
+        "efternavn": "og regionens kommuner",
+          "alder": 19,
+        "livret": "Greve Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#6db5cd",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "sjae",
+
+        "uddannelse": "",
+
+        "idol": "Region Sjælland er etableret den 2007 som en del af den danske kommunalreform 2007, som har erstattet de traditionelle amter med fem regioner. Regionsforvaltning Sorø. Indbyggere 820.480 (2015) Regionsrådsformand Jens Stenbæk. Websted www.regionsjaelland.dk.",
+
+		"hobby": "ROSKILDE KOMMUNE er Regionens største med 84.471 indbyggere. Byrådet har 31 medlemmer, her af er en Borgmester, to viceborgmestre herudover er der ti udvalg. Websted www.roskilde.dk. SOLRØD KOMMUNE er Regionens mindste kommune.",
+
+	 	"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "Solrød Kommune ligger cirka 30 kilometer syd for København med seks kilometers kyststrækning ud til Køge Bugt. Areal: 40 km² Indbyggere 22.147 (kilde:www.da.wikipedia.org). Websted www.solrod.dk"
+    },
+	 {
+		"kategori": "kommuner",
+
+
+		"id": "24",
+        "fornavn": "kommuner"
+
     },
     {
 		"kategori": "partier",
@@ -366,104 +421,38 @@
 		"alkoholprocent": 0,
 
 
-        "id": "karo0353",
-          "fornavn": "Lars",
-        "efternavn": "Jørgensen",
+        "id": "26",
+          "fornavn": "Alternativet",
+        "efternavn": "",
         "alder": 25,
 
-        "livret": "Helsingør Kommune",
+        "livret": "",
         "hobby": "",
         "øjenfarve": "",
 
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "parti": "“Mod Generøsitet Gennemsigtighed Ydmyghed Humor Empati.”",
+		"partiside": "www.alternativet.dk/",
+
+        "yndlingsfarve": "#00ff00",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "alte",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+        "idol": "",
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
-    },
+		"hobby": "",
 
-    {
-		"kategori": "partier",
-		"pris": 29,
-		"udsolgt": false,
-		"vegetar": true,
-		"alkoholprocent": 0,
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
-
-        "id": "lina0904",
-         "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
-        "øjenfarve": "",
-
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
-
-        "hårfarve": "",
-        "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
-
-		"billede": "icon-5",
-
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
-
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
-
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
-    },
-
-    {
-		"kategori": "partier",
-		"pris": 29,
-		"udsolgt": false,
-		"vegetar": true,
-		"alkoholprocent": 0,
-
-
-        "id": "seba7843",
-          "fornavn": "Lars",
-        "efternavn": "Jørgensen",
-        "alder": 25,
-
-        "livret": "Helsingør Kommune",
-        "hobby": "",
-        "øjenfarve": "",
-
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
-
-        "hårfarve": "",
-        "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
-
-		"billede": "icon-5",
-
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
-
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
-
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+        "kæledyr": ""
     },
 
     {
@@ -474,32 +463,38 @@
 		"alkoholprocent": 0,
 
 
-        "id": "annx2351",
-          "fornavn": "Lars",
-        "efternavn": "Jørgensen",
+        "id": "28",
+          "fornavn": "Dansk folkeparti",
+        "efternavn": "",
         "alder": 25,
 
-        "livret": "Helsingør Kommune",
+        "livret": "",
         "hobby": "",
         "øjenfarve": "",
 
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "parti": "“På kommunalt basis skal vi være med til at bibeholde de over 60 årige i et aktivt liv med plads til individualisme.”",
+		"partiside": "www.danskfolkeparti.dk/",
+
+        "yndlingsfarve": "#004cb4",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "dans",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+        "idol": "",
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
     },
 
     {
@@ -510,33 +505,411 @@
 		"alkoholprocent": 0,
 
 
-        "id": "moni0217",
-      "fornavn": "Lars",
-        "efternavn": "Jørgensen",
+        "id": "30",
+          "fornavn": "Enhedslisten",
+        "efternavn": "",
         "alder": 25,
 
-        "livret": "Helsingør Kommune",
+        "livret": "",
         "hobby": "",
         "øjenfarve": "",
 
-        "parti": "",
-		"partiside": "",
-        "yndlingsfarve": "#245d2f",
+        "parti": "“omkring os ændrer sig hele tiden. Som parti får vi nye erfaringer. Gennem diskussioner bliver vi klogere.”",
+		"partiside": "www.enhedslisten.dk",
+
+        "yndlingsfarve": "#f90844",
 
         "hårfarve": "",
         "civilstatus": "",
-		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+		"bopæl":"",
 
-		"billede": "icon-5",
+		"billede": "enhe",
 
-        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+        "uddannelse": "",
 
-        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+        "idol": "",
 
-        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
     },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "32",
+          "fornavn": "Guldborgssundlisten",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Det gode liv i Guldborgsund krydret med alle de gode historier kan være med til at skabe endnu mere vækst og udvikling i vores kommune.“",
+		"partiside": "www.guldborgsundlisten.dk/",
+
+        "yndlingsfarve": "#48bce5",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "guld",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "34",
+          "fornavn": "Konservative",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Familien er grundlaget for et velfungerende samfund.”",
+		"partiside": "www.konservative.dk",
+
+        "yndlingsfarve": "#005241",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "kons",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "36",
+          "fornavn": "Kristendemokraterne",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Kristendemokraterne er et politisk parti, der ønsker at præge samfundet ud fra det kristne livs- og menneskesyn.”",
+		"partiside": "www.kd.dk",
+
+        "yndlingsfarve": "#ff4100",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "kris",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+	"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "38",
+          "fornavn": "Liberal Alliance",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Liberal Alliance tror på dig Liberal Alliance sætter din frihed i højsædet.”",
+		"partiside": "www.liberalalliance.dk",
+
+        "yndlingsfarve": "#000728",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "libe",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "38",
+          "fornavn": "Socialistisk Folkeparti",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Socialistisk Folkeparti. Kontrol og minuttyranni har taget overhånd i den offentlige sektor.”",
+		"partiside": "www.sf.dk",
+
+        "yndlingsfarve": "#df0014",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "iali",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "40",
+          "fornavn": "Radikale Venstre",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Det Radikale Venstre tror på det frie og ansvarlige menneske, der virker i samhørighed med andre mennesker.”",
+		"partiside": "www.radikale.dk",
+
+        "yndlingsfarve": "#ff0090",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "radi",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+	"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "42",
+          "fornavn": "Slesvisk Parti",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“SP er det eneste regionale parti i Sønderjylland. Vi fokuserer fuldt ud på Sønderjylland.”",
+		"partiside": "www.slesvigsk-parti.dk",
+
+        "yndlingsfarve": "#f0c300",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "sles",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+	"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "44",
+          "fornavn": "Socialdemokratiet",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Ved det seneste regions- og kommunalvalg den 19. november 2013 fik Socialdemokratiet 29,5 procent af stemmerne, hvilket igen gør S til Danmarks største kommunale parti.”",
+		"partiside": "www.socialdemokratiet.dk",
+
+        "yndlingsfarve": "#ea0029",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "soci",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "46",
+          "fornavn": "Venstre",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“DET LIBERALE MENNESKESYN RETTEN TIL EGET LIVET LEVENDE FOLKESTYRE DET DANSKE FÆLLESSKAB KULTUR GIVER FÆLLESSKAB FOLKEKIRKE OG RELIGION.”",
+		"partiside": "www.venstre.dk",
+
+        "yndlingsfarve": "#0093d8",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "vens",
+
+        "uddannelse": "",
+
+        "idol": "",
+
+		"hobby": "",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
     {
 		"kategori": "personer",
 		"pris": 29,
@@ -567,8 +940,13 @@
         "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
 
         "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
     },
@@ -603,8 +981,13 @@
         "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
 
         "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
     },
@@ -639,8 +1022,13 @@
         "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
 
         "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
     },
@@ -675,8 +1063,13 @@
         "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
 
         "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
     },
@@ -711,9 +1104,22 @@
         "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
 
         "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
-		"vægt": 84,
-        "højde": 173,
+
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+
+		"vægttekst":"Folketingsmedlemmer (MF'er):",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
         "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+	 {
+		"kategori": "personer",
+
+
+		"id": "12",
+        "fornavn": "Lars"
+
     }
 ]

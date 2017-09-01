@@ -448,21 +448,42 @@ function visModalProdukt(produkt) {
 
 //    klon.querySelector(".data_navn").innerHTML = produkt.navn;
 
-    klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
+  //  klon.querySelector(".data_befolkning").innerHTML = produkt.befolkning;
 
-    klon.querySelector(".data_skoler").innerHTML = Math.ceil(produkt.befolkning - (produkt.befolkning * produkt.rabatsats / 100));
+ //   klon.querySelector(".data_skoler").innerHTML = Math.ceil(produkt.befolkning - (produkt.befolkning * produkt.rabatsats / 100));
+//PERSON HISTORIE
+	// index model
+	klon.querySelector(".data_bopæl").innerHTML = produkt.bopæl;
+
+		   klon.querySelector(".data_vægttekst").innerHTML = produkt.vægttekst;
+	   klon.querySelector(".data_vægt").innerHTML = produkt.vægt;
+
+	   klon.querySelector(".data_højdetekst").innerHTML = produkt.højdetekst;
+   klon.querySelector(".data_højde").innerHTML = produkt.højde;
+
 
     klon.querySelector(".data_billede").src = "images_turen/medium/" + produkt.billede + "-md.jpg";
 
-    klon.querySelector(".data_langbeskrivelse").innerHTML = produkt.langbeskrivelse;
+	klon.querySelector(".data_uddannelse").innerHTML = produkt.uddannelse;
+	//REGION KOMMUNE
+	klon.querySelector(".data_hobby").innerHTML = produkt.hobby;
+	klon.querySelector(".data_idol").innerHTML = produkt.idol;
+	klon.querySelector(".data_kæledyr").innerHTML = produkt.kæledyr;
+	//PARTI POLITIK PRINCIP
+		klon.querySelector(".data_parti").innerHTML = produkt.parti;
+	klon.querySelector(".data_partiside").innerHTML = produkt.partiside;
 
-    klon.querySelector(".data_oprindelsesregion").innerHTML = produkt.oprindelsesregion;
 
-    klon.querySelector(".data_allergener").innerHTML = produkt.allergener;
 
-    klon.querySelector(".data_jyllandprocent").innerHTML = produkt.jyllandprocent;
+ //   klon.querySelector(".data_langbeskrivelse").innerHTML = produkt.langbeskrivelse;
 
-    klon.querySelector(".data_stjerner").innerHTML = produkt.stjerner;
+  //  klon.querySelector(".data_oprindelsesregion").innerHTML = produkt.oprindelsesregion;
+
+   // klon.querySelector(".data_allergener").innerHTML = produkt.allergener;
+
+  //  klon.querySelector(".data_jyllandprocent").innerHTML = produkt.jyllandprocent;
+
+   // klon.querySelector(".data_stjerner").innerHTML = produkt.stjerner;
 
     document.querySelector(".modal-content").innerHTML = "";
 

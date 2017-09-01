@@ -1,1340 +1,1123 @@
-/**************TABLET**POTRAET**************************/
-/**************TABLET**POTRAET**************************/
-
-/************Dynamisk**parti************************/
-/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
-
-/*
-
-.hr {
-    background-color: #4242ff;
-}
-
-.rowmain {
-    margin-top: 1%;
-}
-
-.data_rabatpris {
-    color: forestgreen;
-}
-.colorbox {
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
-    border: 0px;
-}*/
-/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
-.colorbox {
-    width: 50px;
-    height: 50px;
-    display:block;
-    border: 1px solid black;
-}
-/*
-.teksten_union{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-*/
-
-.color_navn {
-	display: inline-flex;
-}
-
-.temp_navn {
-	display: block;
-	margin-right: 10px;
-}
-
-.sortering_parti {
-	display: flex;	
-	padding:0;
-}
-.json_form button{
-	width: 100%;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-.json_form {
-    position: relative; 
-    height: 150px;
-	width: 89.2vw;
-    z-index: 1;
-    color: #fff;
-	text-decoration: none;
-    border: 5px solid #fff;
-	background-color: #202020;
-	margin: 0 10px 10px;
-	padding-left: 2vw;
-}
-
-.modal-title {
-		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-}
-.modal-body{
-	opacity: 50;
-		background-image: url(../images_turen/medium/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-	background-color: lightyellow;
-}
-
-.modal-footer {
-		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-}
-
-#section2 span {
-	text-decoration: none;
-	color:#fff;
-	text-align: left;
-	margin: 0 10px 10px 8vw;
-}
-
-#teksten_union {
-	margin:auto;
-	padding-left: 0;
-}
-
-
-/*
-#tekstenunion_template li{
-	padding-bottom: 10px;
-}
-#tekstenunion_template li {
-padding: 0;
-    margin: 0;
-}
-*/
-#section2 {
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.0);
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	margin: 1vw 2vw 2vw 2vw;
-}
-
-
-
-/************Dynamisk**parti**slut**********************/
-
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
-* {
-	font-family: 'Source Sans Pro';
-	margin: 0 auto;
-}
-
-/**************GOOGLE**FONT**SLUT************************/
-
-/**************BAGGRUND**LOGO********************/
-
-body {
-	background-color: rgba(153, 123, 187, 0.7);
-		width: 100%;
-	height: 100%;
-	background-size: 100%;
-	background-image: url(../images_turen/tabletpotrat-768%20x%201024.jpg);
-	background-repeat: no-repeat;
-	}
-
-.logotekst h5{
-	padding-top: 1.8vw;
-	font-size: 18px;
-	padding-left: 6.5vw;
-	color: #fff;
-	}
-
-.logologin img{
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	}
-
-.logologin1 img{
-	display:none;
-	}
-
-.logologin2 img{
-	margin-top: 5.5vw;
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	}
-
-.logologin2 h1{
-	font-size: 40px;
-	margin-top: 0vw;
-	background-repeat: no-repeat;
-	margin-bottom: 4vw;
-	height: 20vw;
-	}
-
-/**************BAGGRUND**LOGO**SLUT******************/
-
-/**************TABLET**POTRAET**GENERALT**********************/
-
-p {
-	transition: ease-in-out 1s;
-	font-family: 'Source Sans Pro';
-	padding-left: 1vw;
-	font-size: 12px;
-	color: #101010;
-}
-
-
-h1 {
-	transition: ease-in-out 1s;
-	margin-left: 3vw;
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 40px;
-	color: rgb(255, 255, 255);
-}
-
-h2 {
-	transition: ease-in-out 1s;
-	line-height: 0;
-	text-align: center;
-	font-weight:bolder;
-	font-size: 20px;
-	color:#f51021;
-}
-
-h3 {
-	transition: ease-in-out 1s;
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 30px;
-	color: #0479be;
-}
-
-h4 {
-	transition: ease-in-out 1s;
-	font-family: 'Source Sans Pro';
-	font-size: 30px;
-	padding-left: 11vw;
-	padding-bottom: 1vw;
-	color: #101010;
-}
-
-h5 {
-	line-height: 0.2em;
-	transition: ease-in-out 1s;
-	font-family: 'Source Sans Pro';
-	font-size: 12px;
-	padding-left: 0.5vw;
-	color: #000;
-}
-
-h6 {
-	transition: ease-in-out 1s;
-	font-size: 18px;
-	color:white;
-	padding-left: 6.5vw;
-	padding-bottom: 2vw;
-	}
-
-
-
-/**************TABLET**POTRAET**GENERALT**SLUT********************/
-
-/**************TOP**NAVBAR************************/
-
-.affixbar {
-	text-align: center;
-	background-color: rgba(72, 38, 37, 0.5);
-	color:#fff;
-	height:70px;
-}
-
-.affix {
-	z-index: 25;
-    top: 0;
-    width: 100%;
-  }
-
-.callto{
-	text-align: center;
-}
-
-.callto h2{
-	font-size: 20px;
-	color: #FF1653;
-}
-
-.social-nav a{
-	z-index: 10;
-	color:lightgoldenrodyellow;
-}
-
-a {
-	color: grey;
-}
-
-.nav {
-	z-index: 10;
-	font-size: 20px;
-	font-weight: bolder;
-}
-
-.navbar {
-	background-color: rgba(72, 38, 37, 0.5);
-	border-radius: 5%;
-}
-
-#myNavbar ul li a {
-	color: #EEE785;
-	font-weight: bolder;
-}
-
-#myNavbar ul li a:hover {
-	color: #B6C350;
-	font-weight: 100;
-}
-
-/**************TOP**NAVBAR**SLUT**********************/
-
-/**************VALG**VIDEO********************/
-#section1{
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.0);
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	margin: 1vw 2vw 2vw 2vw;
-	padding: 2vw;
-}
-
-.hs-responsive-embed-youtube {
-	 width:100%;
-	height:100%;
-	position: relative;
-	padding-bottom: 60%;
-	/* 16:9 Aspect Ratio */
-	border-radius: 1vw;
-}
-
-.hs-responsive-embed-youtube iframe {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
-
-.center {
-	width: 87vw;
-	margin: 0 auto;
-}
-
-/**************VALG**VIDEO**SLUT******************/
-
-/***************PROCESBAR**INFOGRAFIK******************/
-
-#valgturen {
-	height: 100%;
-	width: 88vw;
-	background-size: 100%;
-}
-
-#section3 h5 {
-	line-height: 1.5em;
-	font-family: 'Source Sans Pro';
-	font-size: 12px;
-	padding: 0.2vw 0.5vw 1.5vw;
-	color: #000;
-}
-
-#section3{
-	background-color: #997bbb;
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	margin: 2vw;
-}
-
-/***************PROCESBAR**INFOGRAFIK**SLUT****************/
-
-/*******************PERSON**VALGINFO****************/
-
-/*
-
-#section2{
-	margin: 2vw;
-	padding: 0;
-}
-
-table {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-	width: 100%;
-}
-
-.panel a {
-	color: #fff;
-}
-
-.panel a p{
-	color: #fff;
-}
-
-.panel a:hover {
-	color: black;
-	text-decoration: none;
-}
-
-.panel-default {
-	border-color: rgba(0, 0, 0, 0);
-}
-
-.panel-group .panel-heading+.panel-collapse>.panel-body {
-	border-color: rgba(0, 0, 0, 0);
-	border-top-color: rgba(0, 0, 0, 0);
-	border-top: 0px;
-}
-
-.panel-default .panel-heading {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-	padding: 0;
-}
-
-.panel {
-	background-color: rgba(0, 0, 0, 0);
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	text-decoration: none;
-}
-
-.panel p {
-	margin: 0;
-	color: #101010;
-}
-
-.bg-danger {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.bg-success {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
-}
-
-#accordion{
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-	padding: 2vw;
-}
-
-#accordion img{
-	padding-top: 1vw;
-	height: 20%;
-	width: 20%;
-}
-
-.svgstyle{
-	background-size: 50%;
-}
-
-.rowhitter{
-	border-radius: 1vw;
-	border: 0.2vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-	margin: 2vw;
-}
-
-kbd{
-	padding-top: 2vw;
-}
-
-#section6{
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-}
-
-.klook img{
-	transition: ease-in-out 0.5s;
-	height:24vw;
-	padding-top:5%;
-	opacity: 0.7;
-}
-
-.klook img:hover{
-	height:24vw;
-	padding-top:5%;
-	opacity: 1;
-}
-*/
-
-/*******************PERSONA**VALGINFO**SLUT**************/
-
-/*******************PARTIINFO**LOGOLINKS**************/
-
-#section4{
-	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	margin: 2vw;
-}
-
-#section4 h6 {
-	font-size: 18px;
-	color: black;
-	padding-left: 6.5vw;
-	padding-bottom: 2vw;
-}
-
-.samlogo {
-	margin-top: 0.5vw;
-}
-
-.pic {
-	margin-top: 2.5vw;
-	margin-bottom: 6vw;
-	text-align: center;
-	width: 155px;
-	height: 155px;
-	border-radius: 50%;
-}
-
-.pic1 {
-	background: url(../images_turen/cs_partiring_alternativet.png);
-	border-radius: 50%;
-}
-
-.pic2 {
-	background: url(../images_turen/cs_partiring_dansk_folkeparti.png);
-	text-align: center;
-}
-
-.pic3 {
-	background: url(../images_turen/cs_partiring_enhedslisten.png);
-	text-align: center;
-}
-
-.pic4 {
-	background: url(../images_turen/cs_partiring_guldborgssundlisten.png);
-	text-align: center;
-}
-
-.pic5 {
-	background: url(../images_turen/cs_partiring_konservative_folkeparti.png);
-	text-align: center;
-}
-
-.pic6 {
-	background: url(../images_turen/cs_partiring_kristendemokraterne.png);
-	text-align: center;
-}
-
-.pic7 {
-	background: url(../images_turen/cs_partiring_lbeiral_aliance.png);
-	text-align: center;
-}
-
-.pic8 {
-	background: url(../images_turen/cs_partiring_socialistisk_folkeparti.png);
-	text-align: center;
-}
-
-.pic9 {
-	background: url(../images_turen/cs_partiring_radikale_venstre.png);
-	text-align: center;
-}
-
-.pic10 {
-	background: url(../images_turen/cs_partiring_slesvigskparti.png);
-	text-align: center;
-}
-
-.pic11 {
-	background: url(../images_turen/cs_partiring_socialdemokratiet.png);
-	text-align: center;
-}
-
-.pic12 {
-	background: url(../images_turen/cs_partiring_venstre.png);
-	text-align: center;
-}
-
-.text1 {
-	text-align: center;
-	transition: ease-in-out 1s;
-	padding-top: 2px;
-	width: 155px;
-	height: 155px;
-	background: #ffffff;
-	opacity: 0;
-}
-
-.pic:hover .text1 {
-	padding-top: 0.3vw;
-	opacity: 0.9;
-	text-align: center;
-	font-size: 12px;
-	font-weight: 700;
-	border-radius: 20%;
-}
-
-/*******************PARTIINFO**LOGOLINKS**SLUT************/
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-
-
-footer {
-	background-color: black;
-}
-
-.keaside_top{
-	margin-top: 8vw;
-	font-size: 12px;
-	display: none;
-}
-.keaside_top a{
-	font-family: "Times New Roman";
-	color: #fff;
-}
-.keaside_bund{
-	margin-top: 8vw;
-	font-size: 12px;
-	text-align: center;
-}
-.keaside_bund a{
-	font-family: "Times New Roman";
-	color: #fff;
-}
-.keainfo h6{
-	margin-top: 3vw 0 0 0;
-	font-size: 15px;
-	text-align: center;
-	padding: 0 0 0 0;
-}
-
-.likontaktinfo a {
-	font-size: 13px;
-}
-
-.likontaktinfo h4{
-	line-height: 3.5px;
-	padding: 1.2vw 0 0 7vw;
-	text-align: left;
-	font-size: 13px;
-	font-family:'Source Sans Pro';
-	font-weight: 500;
-	color: grey;
-}
-
-.likontaktinfo {
-	margin-top: 0vw;
-	text-align: center;
-}
-
-.likontaktinfo li{
-	color:black;
-}
-
-
-
-.r-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	padding-top: 1vw;
-	height: 100%;
-}
-
-.re-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	height: 100%;
-}
-
-.res-responsive {
-	padding-top: 1vw;
-	width: 100%;
-	height: 100%;
-}
-
-/*
-
-.some ul li a{
-	font-size: 12px;
-}
-
-.someleft{
-	padding-top: 1vw;
-	margin: 0;
-}
-.some ul li{
-	color: black;
-}
-
-.some img {
-	width: 30px;
-	border-radius: 30%;
-	border: 3px solid #fff;
-}
-
-*/
-.some_ikon {
-display: none;
-}
-
-.some {
-	margin-top: 3vw;
-	text-align: center;
-	}
-
-.some_copyright {
-	text-align: center;
-}
-
-.some_lorry {
-	text-align: center;
-}
-
-.some_copyrightlorry{
-	display: none;
-}
-
-#map {
-	margin-top: 3vw;
-	height: 55vw;
-	border-radius: 2%;
-	border:1vw solid #997bbb;
-	background-color: rgba(128, 128, 128, 0.7);
-}
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
-
-/**************TABLET**POTRAET**SLUT************************/
-
-/**************TABLET**LANDSKAB************************/
-
-@media screen and (min-width: 768px) and (orientation: landscape) {
-
-/**************BAGGRUND**LOGO********************/
-
-body {
-	background-color: rgba(153, 123, 187, 0.7);
-	width: 100%;
-	height: 100%;
-	background-size: 100%;
-	background-image: url(../images_turen/tabletlandskab-1024-x768.jpg);
-	background-repeat: no-repeat;
-	}
-
-.logologin img {
-	height: 35%;
-	width: 35%;
-	background-repeat: no-repeat;
-	}
-
-.logotekst h5 {
-
-	padding-top: 2.1vw;
-	font-size: 17px;
-	padding-left: 6.5vw;
-	}
-
-.logologin2 {
-	display: flex;
-	}
-
-.logologin2 img {
-	padding-top:9.5vw;
-	padding-bottom: 18vw;
-	height: 60%;
-	width: 60%;
-	background-repeat: no-repeat;
-	}
-
-.logologin2 h1 {
-	margin-top: 13vw;
-	margin-right: 7vw;
-	font-size: 40px;
-	height:22vw;
-	}
-
-/**************BAGGRUND**LOGO**SLUT******************/
-
-/**************TABLET**LANDSKAB**GENERALT**********************/
-
-p {
-	font-family: 'Source Sans Pro';
-	padding-left: 1vw;
-	font-size: 13px;
-	color: #101010;
-}
-
-
-
-h2 {
-	line-height: 0;
-	text-align: center;
-	font-weight:bolder;
-	font-size: 15px;
-	color:#C9181D;
-}
-
-h3 {
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 40px;
-	color: #0479be;
-}
-
-h4 {
-	font-size: 35px;
-	padding-left: 11vw;
-	padding-bottom: 1vw;
-	color: #101010;
-}
-
-h5 {
-	font-family: 'Source Sans Pro';
-	font-size: 15px;
-	padding-left: 0.5vw;
-	padding-top: 20px;
-	color: #000;
-}
-
-h6 {
-	font-size: 20px;
-	color:white;
-	}
-
-#section4 h6 {
-	font-size: 20px;
-}
-.likontaktinfo {
-	margin-top: 0vw;
-}
-.keainfo h6{
-	margin-top: 3vw;
-	font-size: 18px;
-	padding-left: 0;
-	padding-bottom: 0;
-}
-
-.likontaktinfo a {
-	font-size: 16px;
-}
-
-.likontaktinfo h4{
-	line-height: 4px;
-	padding: 1.1vw 0 0 7vw;
-	text-align: left;
-	font-size: 16px;
-	font-family:'Source Sans Pro';
-	font-weight: 500;
-	color: grey;
-}
-
-.keaside_top{
-	margin-top: 8vw;
-	font-size: 12px;
-	display: block;
-}
-
-	.keaside_bund{
-	margin-top: 8vw;
-	font-size: 12px;
-		display: none;
-}
-/**************TABLET**LANDSKAB**GENERALT**SLUT********************/
-
-/**************TOP**NAVBAR************************/
-
-.nav {
-	font-size: 25px;
-}
-
-.affixbar {
-	text-align: center;
-	background-color: rgba(153, 123, 187, 0);
-	color:#fff;
-}
-
-#myNavbar ul li a {
-	color: #EEE785;
-	font-weight: bolder;
-}
-
-#myNavbar ul li a:hover {
-	color: #B6C350;
-	font-weight: 100;
-	}
-
-.callto h2 {
-	color: #FF1653;
-	font-size: 35px;
-}
-
-/**************TOP**NAVBAR**SLUT**********************/
-
-/**************VALG**VIDEO********************/
-
-.center {
-	width: 50vw;
-	margin: 0 auto;
-}
-
-/**************VALG**VIDEO**SLUT******************/
-
-/***************PROCESBAR**INFOGRAFIK******************/
-
-#section3 h5 {
-	line-height: 1.5em;
-	font-family: 'Source Sans Pro';
-	font-size: 18px;
-	padding: 0.2vw 0.5vw 1.5vw;
-	color: #000;
-}
-
-/***************PROCESBAR**INFOGRAFIK**SLUT****************/
-
-/*******************PERSONA**VALGINFO****************/
-.json_form {
-    position: relative; 
-    height: 150px;
-	width: 43.29vw;
-    z-index: 1;
-    color: #fff;
-	text-decoration: none;
-    border: 5px solid #fff;
-	background-color: #202020;
-	margin: 0 10px 10px;
-	padding-left:1.4vw;
-}
+[
+
+	{
+		"kategori": "regioner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "2",
+        "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+      
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel. Han har derfor tænkt sig at stemme på et parti som vil holde byen pæn og ren, så man kan lide at bruge den.",
+
+		"billede": "reg-01",
+
+        "uddannelse": "Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, hvilket præger hans butik. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen. Han hader mere end noget at gå gennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen. Der ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Livvidde:",
+		"vægt": 84,
+		"højdetekst":"Højde:",
+        "højde": 173,
+
+        "kæledyr": ""
+
+		  },
+    {
+		"kategori": "regioner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+		"id": "4",
+        "fornavn": "Michael",
+        "efternavn": "Nielsen",
+        "alder": 22,
+        "livret": "Silkeborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#7196a7",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Michael er single. I sin fritid kan Michael godt lide at sejle, og har været medlem af Silkeborg Sejlklub siden han var 16 år. Michael uddanner sig til til civilingeniør, hvor han i 2018 får sit diplom. Han er meget engageret i sin skole, og håber med sit høje snit en dag at kunne arbejde for Mærsk. Han bor hjemme hos sin store familie, som han også tilbringer meget tid med. Han håber dog på snart at finde en studiebolig i København, men har endnu ikke haft heldet med sig.",
+
+		"billede": "reg-02",
+
+        "uddannelse": "Michael stemte til sidste kommunalvalg, men kun fordi det er noget man ‘bare gør’ i hans familie. Han tvivler på, hvor meget hans stemme egentlig gør en forskel. Til kommunalvalget til november, har Michael stadig tænkt sig at stemme, men han ved dog ikke på hvem endnu, da han synes der er rigtig mange forskellige der stiller op, og han endnu ikke ved hvad de hver især står for. Bopæl: Silkeborg Kommune.",
+
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Livvidde:",
+		"vægt": 104,
+		"højdetekst":"Højde:",
+        "højde": 173,
+
+        "kæledyr": ""
+    },
+    {
+		"kategori": "regioner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+		"id": "6",
+        "fornavn": "Camilla",
+        "efternavn": "Adelsgaard",
+          "alder": 24,
+        "livret": "Aalborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#311e08",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Camilla er kæreste med Benny og bruger alt sin fritid på ham, planlægning af fremtiden og restaurering af boligen. Benny bor i Aalborg 20 km fra gården, så han mener det er hans pligt at hente hende i bil, med bus tager det en time. Camilla var heldig at komme godt igennem uddannelsen til landmand og fik tilbudt en mindre gård, hun ikke kunne sige nej til. Det er kun 10% som starter eget landbrug efter uddannelsen, så Camilla så sig meget heldig. Camilla har tænkt alternativt og vil gået ind på et nichemarked, for ormeproduktion. Produktionen skal omlægge til økologi, men det er dyrt at tage lån, skal hun hilse at sige",
+
+		"billede": "reg-03",
+
+        "uddannelse": "Camilla var med til at stemme V regeringen til magten i 2015 og ønsker fortsat en regering som styrker landbruget investeringsmuligheder og fremmer afsætning til udlandet,  så  Camilla føler ingen grund til ikke at afgive stemme til kommunalvalget. Hun kender til at Aalborg har en V borgmester og Regionen har en S formand.",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Livvidde:",
+		"vægt": 74,
+		"højdetekst":"Højde:",
+        "højde": 174,
+
+        "kæledyr": ""
+  },
+
+    {
+		"kategori": "regioner:",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+       "id": "8",
+        "fornavn": "Katrine",
+        "efternavn": "Milder",
+          "alder": 18,
+        "livret": "Kerteminde Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#0000dd",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Katrine er lige blevet 18 år og er i et forhold. Hun går i 3.C på Kerteminde Gymnasium. Når hun ikke laver lektier, se hun en god film eller gå en lang tur i skoven med hendes hund. Hun bruger også meget af sin fritid med sin kæreste og familie, hvor de laver god mad og snakker om, hvordan det er gået i skolen og på arbejde. I øjeblikket er Katrines mormor på plejehjem, da hun ikke længere kan klare tingene på egen hånd. Hele familien besøgte hende igår, og blev alle en smule chokerede over de forhold, hun skulle leve under.",
+
+		"billede": "reg-04",
+
+        "uddannelse": "Katrine ved der afholdes Regionsråds- og Kommunalvalg, men havde ikke stemmeret sidste gang. Hun ved ikke om hun stemmer til dette års valg - både fordi hun ikke føler, at hendes stemme gør en forskel, og fordi hun ikke ved hvem hun skal stemme på. Hendes forældre håber dog at hun vil gøre brug af sin stemmeret, da selv en enkelt stemme gør en forskel, og man på den måde bidrager til demokratiet.",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Livvidde:",
+		"vægt": 64,
+		"højdetekst":"Højde:",
+        "højde": 163,
+        "kæledyr": ""
+  },
+    {
+		"kategori": "regioner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+		"id": "10",
+        "fornavn": "Oskar",
+        "efternavn": "Svaendekilde",
+          "alder": 19,
+        "livret": "Greve Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#404040",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Oskar er 19 år og Single. Han bor i en lille ungdomsbolig og er tømrer lærling på 2. år hos Svendsen & søn der ligger tæt på hans bopæl, hvilket sparer ham for en del transportudgifter, han synes dog stadig lønnen er for lav, sammenlignet med hvad man får i et normalt job. Han vil gerne læse videre til bygningskonstruktør når han er færdig som tømrer. Oskars bolig er præget af at der er meget arbejdstøj og at det er dyrt at vaske, som gør at han tilbringer rigtig meget tid hjemme hos resten af sin familie, lillebror og søster. Han spiller spil på playstation og har en stor venneskare han kan gå i byen med",
+
+		"billede": "reg-05",
+
+        "uddannelse": "Oskar kender ikke meget til kommunale anliggender og slet ikke valg af medlemmer til kommunens kommunalbestyrelse og Regionsråd. Han kender dog til byggetilladelser udstedt af kommunen. Kommunalvalget er Oskars første mulighed for at stemme og det vil han gerne prøve.",
+		
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Livvidde:",
+		"vægt": 114,
+		"højdetekst":"Højde:",
+        "højde": 193,
+
+        "kæledyr": ""
+    },
+	 {
+		"kategori": "regioner",
+
+
+		"id": "12",
+        "fornavn": "Lars"
+
+    },
+	{
+    	"kategori": "kommuner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "14",
+        "fornavn": "Region Hovedstaden",
+        "efternavn": "og regionens kommuner",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+      
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "host",
+
+        "uddannelse": "",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amt og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning ligger i Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand er Sophie Hæstorp Andersen. Websted www.regionh.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+
+		  },
+    {
+		"kategori": "kommuner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+		"id": "16",
+        "fornavn": "Region Midtjylland",
+        "efternavn": "og regionens kommuner",
+        "alder": 22,
+        "livret": "Silkeborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#7196a7",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "mijy",
+
+        "uddannelse": "",
+
+
+        "idol": "REGION MIDTJYLLAND er en administrativ enhed med hovedansvaret sundhedsvæsenet, regional udvikling og drift af en række sociale institutioner i Midtjylland. Regionsforvaltning ligger i Viborg. Indbyggere 1.282.750 (2015) Regionsrådsformand er Bent Hansen. Websted www.rm.dk.",
+		
+		"hobby": "AARHUS KOMMUNE er Regionens største kommune med 323.477 indbyggere. Der er 31 medlemmer, her af er der to Magistratsmedlemmer, seks Rådmænd og en Borgmester. Websted www.aarhus.dk.",
+		
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "SAMSØ KOMMUNE er Regionens mindste kommune. Samsø Kommune udgør det lokale styre på Samsø og en række småøer. Kommunen blev dannet pr. 1. april 1962 ved sammenlægning af sognekommunerne Besser, Kolby, Nordby, Onsbjerg og Tranebjerg Areal: 114,71 km². Befolkningstal: 3.724 (kilde:www.da.wikipedia.org). Websted www.samsoe.dk"
+    },
+    {
+		"kategori": "kommuner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+		"id": "18",
+        "fornavn": "REGION Nordjylland",
+        "efternavn": "og regionens kommuner",
+          "alder": 24,
+        "livret": "Aalborg Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#311e08",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "nojy",
+
+        "uddannelse": "",
+
+        "idol": "REGION Nordjylland omfatter det tidligere Nordjyllands Amt samt de dele af Viborg Amt der ligger nord for Limfjorden, herunder øen Mors. Desuden den nordligste del af det nedlagte Århus Amt hvor byen Mariager ligger. Regionsforvaltningen ligger i Aalborg. Indbyggere 582.632. (2015) Regionsrådsformand er Ulla Astman. Websted www.rn.dk.",
+		
+		"hobby": "AALBORG KOMMUNE er Regionens største kommune med 205.630 indbyggere. Kommunens Byråb har 31 medlemmer. En Borgmester, to viceborgmestre, seks rådmænd og medlemmer af de syv stående udvalg. Websted www.aalborg.dk.",
+		
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "LÆSØ KOMMUNE er Regionens mindste kommune. Kommunen omfatter øen Læsø, beliggende i Kattegat. Kommunen var før Kommunalreformen i 2007 en selvstændig kommune, og fortsætter uændret efter kommunesammenlægningen Areal: 118,4 km² Befolkningstal: 1.793 (kilde:www.da.wikipedia.org). Websted www.laesoe.dk"
+  },
+
+    {
+		"kategori": "kommuner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+       "id": "20",
+        "fornavn": "Region Syddanmark",
+        "efternavn": "og regionens kommuner",
+          "alder": 18,
+        "livret": "Kerteminde Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#0000dd",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "syda",
+
+        "uddannelse": "",
+
+        "idol": "REGION SYDDANMARK omfatter de tidligere Fyns, Ribe og Sønderjyllands amter, samt de tidligere kommuner Børkop, Egtved, Fredericia, Give, Jelling, Kolding, Lunderskov, Vamdrup og Vejle, der lå i Vejle Amt. Regionsforvaltningen ligger i Vejle. Indbyggere 1.217.224 (2017) Regionsrådsformand er Stephanie Lose. Websted www.regionsyddanmark.dk.",
+		
+		"hobby": "ODENSE KOMMUNE er Regionens største med 195.908 indbyggere. Byrådet har 29 medlemmer, her af er en Borgmester, to viceborgmestre, fire rådmænd. Websted www.odense.dk.",
+		
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+
+        "kæledyr": "FANØ KOMMUNE er en lille kommune der hører under Region Syddanmark. Lokalplan nr. 1 blev vedtaget i 1978. I forbindelse med Kommunalreformen forblev kommunen selvstændig, men der blev indgået øsamarbejdsaftale med Esbjerg Kommune. Areal: 59,86 km². Indbyggere 3.345 (kilde:www.da.wikipedia.org). Websted www.fanoe.dk"
+  },
+    {
+		"kategori": "kommuner",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+		"id": "22",
+        "fornavn": "Region Sjælland",
+        "efternavn": "og regionens kommuner",
+          "alder": 19,
+        "livret": "Greve Kommune",
+       "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#404040",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "sjae",
+
+        "uddannelse": "",
+		
+        "idol": "Region Sjælland er etableret den 2007 som en del af den danske kommunalreform 2007, som har erstattet de traditionelle amter med fem regioner. Regionsforvaltning Sorø. Indbyggere 820.480 (2015) Regionsrådsformand Jens Stenbæk. Websted www.regionsjaelland.dk.",
+		
+		"hobby": "ROSKILDE KOMMUNE er Regionens største med 84.471 indbyggere. Byrådet har 31 medlemmer, her af er en Borgmester, to viceborgmestre herudover er der ti udvalg. Websted www.roskilde.dk. SOLRØD KOMMUNE er Regionens mindste kommune.",
+		
+		"vægttekst":"Kommuner:",
+		"vægt": 40,
+		"højdetekst":"Svømmehaller:",
+        "højde": 3,
+		
+        "kæledyr": "Solrød Kommune ligger cirka 30 kilometer syd for København med seks kilometers kyststrækning ud til Køge Bugt. Areal: 40 km² Indbyggere 22.147 (kilde:www.da.wikipedia.org). Websted www.solrod.dk"
+    },
+	 {
+		"kategori": "kommuner",
+
+
+		"id": "24",
+        "fornavn": "kommuner"
+
+    },
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "26",
+          "fornavn": "Alternativet",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Mod Generøsitet Gennemsigtighed Ydmyghed Humor Empati.”",
+		"partiside": "www.alternativet.dk/",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "alte",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "28",
+          "fornavn": "Dansk folkeparti",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“På kommunalt basis skal vi være med til at bibeholde de over 60 årige i et aktivt liv med plads til individualisme.”",
+		"partiside": "www.danskfolkeparti.dk/",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "dans",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+    },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "30",
+          "fornavn": "Enhedslisten",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“omkring os ændrer sig hele tiden. Som parti får vi nye erfaringer. Gennem diskussioner bliver vi klogere.”",
+		"partiside": "www.enhedslisten.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "enhe",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "32",
+          "fornavn": "Guldborgssundlisten",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Det gode liv i Guldborgsund krydret med alle de gode historier kan være med til at skabe endnu mere vækst og udvikling i vores kommune.“",
+		"partiside": "www.guldborgsundlisten.dk/",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "guld",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+
+    {
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "34",
+          "fornavn": "Konservative",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Familien er grundlaget for et velfungerende samfund.”",
+		"partiside": "www.konservative.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "kons",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "36",
+          "fornavn": "Kristendemokraterne",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Kristendemokraterne er et politisk parti, der ønsker at præge samfundet ud fra det kristne livs- og menneskesyn.”",
+		"partiside": "www.kd.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "kris",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },	
 	
-	#section2 span {
-	text-decoration: none;
-	color:#fff;
-	text-align: left;
-	margin: 0 10px 10px 2.4vw;
-}
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
 
+
+        "id": "38",
+          "fornavn": "Liberal Alliance",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Liberal Alliance tror på dig Liberal Alliance sætter din frihed i højsædet.”",
+		"partiside": "www.liberalalliance.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "libe",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
 	
-.klook img {
-	padding-top:5%;
-	height:20vw;
-	opacity: 0.7;
-}
-
-.klook img:hover {
-	padding-top:5%;
-	height:20vw;
-	opacity: 1;
-}
-
-/*******************PERSONA**VALGINFO**SLUT**************/
-
-/*******************PARTIINFO**LOGOLINKS**************/
-
-/*******************PARTIINFO**LOGOLINKS**SLUT************/
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
 
 
+        "id": "38",
+          "fornavn": "Socialistisk Folkeparti",
+        "efternavn": "",
+        "alder": 25,
 
-/*
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
 
-.some ul li {
-	padding: 0;
-}
+        "parti": "“Socialistisk Folkeparti. Kontrol og minuttyranni har taget overhånd i den offentlige sektor.”",
+		"partiside": "www.sf.dk",
+		
+        "yndlingsfarve": "#245d2f",
 
-.some ul li a{
-	font-size: 18px;
-}
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
 
-	.some img {
-	width: 5%;
-	border-radius: 30%;
-	border: 0.4vw solid #fff;
-}
+		"billede": "iali",
 
-*/
+        "uddannelse": "",
 
-.some {
-display: none;
-	}
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
 
-
-
-.some_copyright {
-	display: none;
-}
-
-.some_lorry {
-	display: none;
-}
-
-
-	.some_copyrightlorry {
-	margin: 4vw 0 0 0;
-	padding: 0 0 1vw 0;
-	display: block;
-}
-
-.some_ikon {
-	margin:3vw 0 0 0;
-	padding: 0;
-	display: block;
-}
-
-.some_ikon img {
-	margin: 0 0 1vw 0;
-	padding: 0;
-	width: 40px;
-	border-radius: 30%;
-	border: 0.4vw solid #fff;
-}
-#map {
-	height: 35vw;
-	border-radius: 2%;
-	border:1vw solid #997bbb;
-	background-color: rgba(128, 128, 128, 0.7);
-}
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
-
-}
-
-/**************TABLET**LANDSKAB**SLUT************************/
-
-/**************LAPTOP**LANDSKAB**********************/
-
-@media screen and (min-width: 1200px) and (orientation: landscape) {
-
-/**************BAGGRUND**LOGO********************/
-
-body {
-	background-color: rgba(4, 121, 190, 0.7);
-	background-size: 100%;
-	background-image: url(../images_turen/laptop16x9-5120-x-2880_medium_test.jpg);
-	background-repeat: no-repeat;
-	}
-
-.logologin {
-	display:none;
-	}
-
-.logologin1 img {
-	display: list-item;
-	height: 35%;
-	width: 35%;
-	background-repeat: no-repeat;
-	}
-
-.logotekst h5 {
-	line-height: 1.5vw;
-	font-size: 25px;
-	padding-left: 6.5vw;
-	padding-top: 0.9vw;
-	color: rgb(255, 255, 255);
-	}
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
 
 
-.logologin2 img {
-	padding-bottom: 0vw;
-	margin-top: 1vw;
-	margin-left: 3vw;
-	width: 50%;
-	background-repeat: no-repeat;
-	}
+        "id": "40",
+          "fornavn": "Radikale Venstre",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Det Radikale Venstre tror på det frie og ansvarlige menneske, der virker i samhørighed med andre mennesker.”",
+		"partiside": "www.radikale.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "radi",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+		
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
 
 
-.logologin2 h1 {
-	margin-top: 8.9vw;
-	margin-left: 3vw;
-	font-size:50px;
-	height: 6vw;
-	}
+        "id": "42",
+          "fornavn": "Slesvisk Parti",
+        "efternavn": "",
+        "alder": 25,
 
-.motiver {
-	z-index: 250;
-	position: absolute;
-	top: 16vw;
-	left: 7.6vw;
-	width: 24.89vw;
-	height: 22.62vw;
-	background-image: url(../images_turen/star18-25-01-01.svg);
-	background-size:448.02vw 22.62vw;
-	background-repeat: no-repeat;
-	animation: motiv_kf 4s 3 steps(18);
-}
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
 
-@keyframes motiv_kf {
-	 0% {
-        background-position: 0vw;
+        "parti": "“SP er det eneste regionale parti i Sønderjylland. Vi fokuserer fuldt ud på Sønderjylland.”",
+		"partiside": "www.slesvigsk-parti.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "sles",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+		
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "44",
+          "fornavn": "Socialdemokratiet",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“Ved det seneste regions- og kommunalvalg den 19. november 2013 fik Socialdemokratiet 29,5 procent af stemmerne, hvilket igen gør S til Danmarks største kommunale parti.”",
+		"partiside": "www.socialdemokratiet.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "soci",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	{
+		"kategori": "partier",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "46",
+          "fornavn": "Venstre",
+        "efternavn": "",
+        "alder": 25,
+
+        "livret": "",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "“DET LIBERALE MENNESKESYN RETTEN TIL EGET LIVET LEVENDE FOLKESTYRE DET DANSKE FÆLLESSKAB KULTUR GIVER FÆLLESSKAB FOLKEKIRKE OG RELIGION.”",
+		"partiside": "www.venstre.dk",
+		
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"",
+
+		"billede": "vens",
+
+        "uddannelse": "",
+
+        "idol": "",
+		
+		"hobby": "",
+		
+		"vægttekst":"Folketingsmedlemmer:",
+		"vægt": 40,
+		"højdetekst":"Borgmestre:",
+        "højde": 3,
+
+        "kæledyr": ""
+    },
+	
+    {
+		"kategori": "personer",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "annx4173",
+         "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "icon-5",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"vægttekst":"Livvidde",
+		"vægt": 84,
+		"højdetekst":"Højde",
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+
+    {
+		"kategori": "personer",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "mikk6995",
+          "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "icon-5",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"vægttekst":"Livvidde",
+		"vægt": 104,
+		"højdetekst":"Højde",
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+
+    {
+		"kategori": "personer",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "jose3925",
+         "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "icon-5",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"vægttekst":"Livvidde",
+		"vægt": 104,
+		"højdetekst":"Højde",
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+
+    {
+		"kategori": "personer",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "mikk052b",
+          "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "icon-5",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+	"vægttekst":"Livvidde",
+		"vægt": 104,
+		"højdetekst":"Højde",
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+
+    {
+		"kategori": "personer",
+		"pris": 29,
+		"udsolgt": false,
+		"vegetar": true,
+		"alkoholprocent": 0,
+
+
+        "id": "alex5662",
+        "fornavn": "Lars",
+        "efternavn": "Jørgensen",
+        "alder": 25,
+
+        "livret": "Helsingør Kommune",
+        "hobby": "",
+        "øjenfarve": "",
+
+        "parti": "",
+		"partiside": "",
+        "yndlingsfarve": "#245d2f",
+
+        "hårfarve": "",
+        "civilstatus": "",
+		"bopæl":"Lars er nyforlovet med Maria og tilbringer derfor rigtig meget tid med hende. Lars er udmærket klar over der snart bliver afholdt kommunalvalg, og han mener med sikkerhed at hans stemme gøre en forskel, og har derfor tænkt sig at stemme så gaderne snart kan blive pæne og rene, så man igen kan lide at gå i dem.",
+
+		"billede": "icon-5",
+
+        "uddannelse": "Lars har sin egen butik med specialvarer som er noget han interesserer sig meget for. Lars er meget organiseret og går op i alt ser pænt og rent ud, dette præger hans butik også rigtig meget af. Lars har altid åbent i weekenderne hvor han åbner sin butik kl. 09 om morgenen, men der er ikke noget Lars hader mere end at gå igennem Helsingørs gader kl. 8.30 om morgenen, efter de unge har været ude og feste hele fredag og lørdag nat. Der flyder med skrald fra både natten og den tidlige morgen, der er ligger glasskår over det hele, og gaderne lugter.",
+
+        "idol": "REGION HOVEDSTADEN er med sine 1,8 mio. indbyggere den mest folkerige af Danmarks fem regioner. Regionen består af de tidligere Københavns og Frederiksborg amter og derudover af Københavns og Frederiksberg kommuner samt Bornholms Regionskommune. Regionsforvaltning Hillerød. Indbyggere 1.807.404 (2017) Regionsrådsformand Sophie Hæstorp Andersen. Websted www.regionh.dk. KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"hobby": "KØBNENHAVNS kOMMUNE er Regionens største med 572.287 indbyggere (2014). Københavns Borgerrepræsentation har 55 medlemmer hvoraf de 7 er borgmestre i forskellige udvalg, som er øverste myndighed for kommunale beslutninger Websted www.kk.dk.",
+		
+		"vægttekst":"Livvidde",
+		"vægt": 104,
+		"højdetekst":"Højde",
+        "højde": 173,
+
+        "kæledyr": "DRAGØR KOMMUNE er en lille kommune på Amager der hører under Region Hovedstaden. Dragør Kommune omfatter byerne Dragør og Store Magleby. De to byer er næsten helt vokset sammen. Dragør Kommune blev dannet ved kommunalreformen i 1974 af Areal: 18,41 km². Befolkningstal: 14.028 (kilde:www.da.wikipedia.org). Websted www.dragoer.dk"
+    },
+	 {
+		"kategori": "personer",
+
+
+		"id": "12",
+        "fornavn": "Lars"
+
     }
-    100% {
-        background-position: -448.02vw;
-    }
-
-}
-
-/**************BAGGRUND**LOGO**SLUT******************/
-
-
-/**************LAPTOP**GENERALT**********************/
-
-div {
-	transition: ease-in-out 0.4s;
-}
-
-p {
-	font-family: 'Source Sans Pro';
-	padding-left: 1vw;
-	font-size: 15px;
-	color: #101010;
-}
-
-
-h2 {
-	line-height: 0;
-	text-align: center;
-	font-weight:bolder;
-	font-size: 35px;
-	color:#f51021;
-}
-
-
-h3 {
-	font-family: 'Source Sans Pro';
-	padding: 2vw 2vw 2vw 2vw;
-	font-size: 55px;
-	color: #0479be;
-}
-
-h4 {
-	font-size: 35px;
-}
-
-h5 {
-	font-family: 'Source Sans Pro';
-	font-size: 18px;
-	color: #000;
-}
-
-h6 {
-	font-size: 25px;
-	color:white;
-	padding-left: 3.5vw;
-	}
-	
-	span {
-	transition: ease-in-out 1s;
-}
-/**************LAPTOP**GENERALT**SLUT********************/
-
-/**************TOP**NAVBAR************************/
-
-.nav {
-	font-size: 30px;
-}
-
-.affixbar {
-	text-align: center;
-	background-color: rgba(153, 123, 187, 0);
-	color:#fff;
-	height:83px;
-}
-
-.callto h2 {
-	color: #F51021;
-		font-size: 45px;
-}
-
-#myNavbar ul li a {
-	color: #8B8911;
-	font-weight: bolder;
-}
-
-#myNavbar ul li a:hover {
-	color: #716F08;
-	font-weight: 100;
-}
-
-#top-image {
-	background:url('../images_turen/cs_flovding_bg_light_30_3333.png') -25px -50px;
-	position:fixed;
-	width:100%;
-  	height:100%;
-  	background-size: calc(100% + 50px);
-}
-
-/**************TOP**NAVBAR**SLUT**********************/
-
-/**************VALG**VIDEO********************/
-
-.center {
-	width: 50vw;
-	margin: 0 auto;
-}
-
-/**************VALG**VIDEO**SLUT******************/
-
-	#section1{
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.0);
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	margin: 3.5vw 2vw 2vw 2vw;
-}
-
-/***************PROCESBAR**INFOGRAFIK******************/
-
-#section3 h5 {
-	line-height: 1.5em;
-	font-family: 'Source Sans Pro';
-	font-size: 16px;
-	padding: 0.2vw 0.5vw 1.5vw;
-	color: #000;
-}
-
-/***************PROCESBAR**INFOGRAFIK**SLUT****************/
-
-#section4 h6 {
-	padding-left: 25px;
-}
-
-/*******************PERSONA**VALGINFO****************/
-.json_form {
-    position: relative; 
-    height: 150px;
-	width: 29.2vw;
-    z-index: 1;
-    color: #fff;
-	text-decoration: none;
-    border: 5px solid #fff;
-	background-color: #202020;
-	margin: 0 10px 10px;
-	padding-left: 1vw;
-}
-	
-#section2 span {
-	text-decoration: none;
-	color:#fff;
-	text-align: left;
-	margin: 0 10px 10px 1.2vw;
-}
-	
-.klook img {
-	padding-top:5%;
-	height:14vw;
-	opacity: 0.7;
-}
-
-.klook:hover img {
-	padding-top:5%;
-	height:14vw;
-	opacity: 1;
-}
-
-/*******************PERSONA**VALGINFO**SLUT**************/
-
-/*******************PARTIINFO**LOGOLINKS**************/
-
-/*******************PARTIINFO**LOGOLINKS**SLUT************/
-
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
-footer {
-    background-color: #000;
-  }
-
-#map {
-	height: 30vw;
-	border-radius: 2%;
-	border:1vw solid #997bbb;
-	background-color: rgba(128, 128, 128, 0.7);
-	}
-
-.keainfo h6 {
-	font-size: 25px;
-	color:white;
-	padding-top: 1vw;
-
-	}
-
-.likontaktinfo a {
-	font-size: 20px;
-}
-
-.likontaktinfo h4{
-	line-height: 12px;
-	padding: 0.5vw 0 0 9vw;
-	text-align: left;
-	font-size: 20px;
-	font-family:'Source Sans Pro';
-	font-weight: 500;
-	color: grey;
-}
-
-.keaside_top{
-	margin-top: 12vw;
-	font-size: 17px;
-}
-
-.keaside_bund{
-	margin-top: 12vw;
-	font-size: 17px;
-}
-/*
-.some ul li {
-	padding: 0;
-}
-
-.some ul li a {
-	font-size: 25px;
-}
-
-.some ul li img {
-	width: 5%;
-	border-radius: 30%;
-	border: 0.3vw solid #fff;
-}
-
-		*/
-.some {
-	display: none;
-	}
-
-.some_copyright {
-	display: none;
-}
-
-.some_lorry {
-	display: none;
-}
-
-.some_copyrightlorry {
-	margin: 5vw 0 0 0;
-	padding: 0 0 1vw 0;
-	text-align: left;
-	display: block;
-}
-
-.some_ikon {
-	margin:3vw 0 0 0;
-	padding: 0;
-	display: block;
-}
-
-.some_ikon img {
-	margin: 0 0 1vw 0;
-	padding: 0;
-	width: 50px;
-	border-radius: 30%;
-	border: 0.3vw solid #fff;
-}
-/*******************FOOTER**KONTAKT**GOOGLE**MAPS**SLUT**********/
-
-}
-
-/**************LAPTOP**LANDSKAB**SLUT************************/
+]
