@@ -1,152 +1,6 @@
 /**************TABLET**POTRAET**************************/
 /**************TABLET**POTRAET**************************/
 
-/************Dynamisk**parti************************/
-/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
-
-/*
-
-.hr {
-    background-color: #4242ff;
-}
-
-.rowmain {
-    margin-top: 1%;
-}
-
-.data_rabatpris {
-    color: forestgreen;
-}
-.colorbox {
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
-    border: 0px;
-}*/
-/************Dynamisk**parti**TESTTESTTESTTESTTESTTESTTEST**********************/
-
- #section2 .modal-body span {
-	color: black;
-}
-.colorbox {
-    width: 50px;
-    height: 50px;
-    display:block;
-    border: 0.1vw solid black;
-
-	border-radius: 50%;
-}
-/*
-.teksten_union{
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-*/
-hr{
-	border-top: 1vw solid white;
-
-}
-.color_navn {
-	display: inline-flex;
-}
-
-.temp_navn {
-	display: block;
-	margin-right: 10px;
-}
-
-.vaegt_navn {
-	display: inline-flex;
-	margin-right: 10px;
-}
-.hojde_navn {
-	display: inline-flex;
-	margin-right: 10px;
-}
-
-.sortering_parti {
-	display: flex;
-	padding:0;
-}
-.json_form button{
-	width: 100%;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-.json_form {
-/*
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
-    position: relative;
-    height: 165px;
-	width: 89.2vw;
-    z-index: 1;
-    color: #fff;
-	text-decoration: none;
-    border: 0.1vw solid #fff;
-	background-color: #202020;
-	margin: 0 10px 10px;
-	padding-left: 2vw;
-	border-radius: 1%;
-}
-
-.modal-title {
-		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-}
-.modal-body{
-	opacity: 50;
-		background-image: url(../images_turen/medium/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-	background-color: lightyellow;
-}
-
-.modal-footer {
-		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
-background-size: cover;
-}
-
-#section2 json_form span {
-	text-decoration: none;
-	color:#fff;
-	text-align: left;
-	margin: 0 10px 10px 8vw;
-}
-
-#teksten_union {
-	margin:auto;
-	padding-left: 0;
-}
-
-
-/*
-#tekstenunion_template li{
-	padding-bottom: 10px;
-}
-#tekstenunion_template li {
-padding: 0;
-    margin: 0;
-}
-*/
-#section2 {
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.0);
-	border-radius: 1vw;
-	border:1vw solid #fff;
-	margin: 1vw 2vw 2vw 2vw;
-}
-
-
-
-/************Dynamisk**parti**slut**********************/
 
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
 * {
@@ -367,7 +221,7 @@ a {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 12px;
+	font-size: 13px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
@@ -381,239 +235,109 @@ a {
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
-/*******************PERSON**VALGINFO****************/
+/************Dynamisk**parti************************/
 
-/*
 
-#section2{
-	margin: 2vw;
-	padding: 0;
-}
-
-table {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-	width: 100%;
-}
-
-.panel a {
-	color: #fff;
-}
-
-.panel a p{
-	color: #fff;
-}
-
-.panel a:hover {
+ #section2 .modal-body span {
 	color: black;
-	text-decoration: none;
+}
+.colorbox {
+    width: 50px;
+    height: 50px;
+    display:block;
+    border: 0.1vw solid black;
+	border-radius: 50%;
 }
 
-.panel-default {
-	border-color: rgba(0, 0, 0, 0);
+.color_navn {
+	display: inline-flex;
 }
 
-.panel-group .panel-heading+.panel-collapse>.panel-body {
-	border-color: rgba(0, 0, 0, 0);
-	border-top-color: rgba(0, 0, 0, 0);
-	border-top: 0px;
+.temp_navn {
+	display: block;
+	margin-right: 10px;
 }
 
-.panel-default .panel-heading {
-	background-color: rgba(0, 0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
+.vaegt_navn {
+	display: inline-flex;
+	margin-right: 10px;
+}
+.hojde_navn {
+	display: inline-flex;
+	margin-right: 10px;
+}
+
+.json_form button{
+	width: 100%;
+	height: 90%;
 	padding: 0;
 }
 
-.panel {
-	background-color: rgba(0, 0, 0, 0);
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+.json_form {
+	background-image: url(../images_turen/medium/8645-01-sams%C3%B8-h%C3%B8st.png);
+
+    position: relative;
+    height: 165px;
+	width: 87vw;
+    z-index: 1;
+    color: #fff;
 	text-decoration: none;
+	background-color: #202020;
+	margin-top:  10px;
+	border-radius: 1%;
 }
 
-.panel p {
-	margin: 0;
-	color: #101010;
+.modal-title {
+		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
+}
+.modal-body{
+	opacity: 50;
+		background-image: url(../images_turen/medium/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
+	background-color: lightyellow;
 }
 
-.bg-danger {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
+.modal-footer {
+		background-image: url(../images_turen/8645-01-sams%C3%B8-h%C3%B8st.png);
+background-size: cover;
 }
 
-.bg-success {
-	border-color: rgba(0, 0, 0, 0);
-	background-color: rgba(0, 0, 0, 0);
+.color_navn span {
+	text-decoration: none;
+	color:#fff;
+	text-align: left;
+	margin: 50px 20px 0 10vw;
 }
 
-#accordion{
+.color_navn img{
+	margin-top: 9.5vw;
+}
+
+#teksten_union {
+	margin:auto;
+	padding-left: 0;
+}
+
+#section2 {
+	z-index: 100;
+	background-color: rgba(153, 123, 187, 0.0);
 	border-radius: 1vw;
 	border:1vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-	padding: 2vw;
+	margin: 1vw 2vw 2vw 2vw;
+	padding-top: 1vw
 }
 
-#accordion img{
-	padding-top: 1vw;
-	height: 20%;
-	width: 20%;
-}
 
-.svgstyle{
-	background-size: 50%;
-}
 
-.rowhitter{
-	border-radius: 1vw;
-	border: 0.2vw solid #fff;
-	background-color: rgba(128, 128, 128, 0.7);
-	margin: 2vw;
-}
+/************Dynamisk**parti**slut**********************/
 
-kbd{
-	padding-top: 2vw;
-}
-
-#section6{
-	z-index: 100;
-	background-color: rgba(153, 123, 187, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-}
-
-.klook img{
-	transition: ease-in-out 0.5s;
-	height:24vw;
-	padding-top:5%;
-	opacity: 0.7;
-}
-
-.klook img:hover{
-	height:24vw;
-	padding-top:5%;
-	opacity: 1;
-}
-*/
-
-/*******************PERSONA**VALGINFO**SLUT**************/
-
-/*******************PARTIINFO**LOGOLINKS**************/
-
-#section4{
-	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 1vw;
-	border:1vw solid #f51021;
-	margin: 2vw;
-}
-
-#section4 h6 {
-	font-size: 18px;
-	color: black;
-	padding-left: 6.5vw;
-	padding-bottom: 2vw;
-}
-
-.samlogo {
-	margin-top: 0.5vw;
-}
-
-.pic {
-	margin-top: 2.5vw;
-	margin-bottom: 6vw;
-	text-align: center;
-	width: 155px;
-	height: 155px;
-	border-radius: 50%;
-}
-
-.pic1 {
-	background: url(../images_turen/cs_partiring_alternativet.png);
-	border-radius: 50%;
-}
-
-.pic2 {
-	background: url(../images_turen/cs_partiring_dansk_folkeparti.png);
-	text-align: center;
-}
-
-.pic3 {
-	background: url(../images_turen/cs_partiring_enhedslisten.png);
-	text-align: center;
-}
-
-.pic4 {
-	background: url(../images_turen/cs_partiring_guldborgssundlisten.png);
-	text-align: center;
-}
-
-.pic5 {
-	background: url(../images_turen/cs_partiring_konservative_folkeparti.png);
-	text-align: center;
-}
-
-.pic6 {
-	background: url(../images_turen/cs_partiring_kristendemokraterne.png);
-	text-align: center;
-}
-
-.pic7 {
-	background: url(../images_turen/cs_partiring_lbeiral_aliance.png);
-	text-align: center;
-}
-
-.pic8 {
-	background: url(../images_turen/cs_partiring_socialistisk_folkeparti.png);
-	text-align: center;
-}
-
-.pic9 {
-	background: url(../images_turen/cs_partiring_radikale_venstre.png);
-	text-align: center;
-}
-
-.pic10 {
-	background: url(../images_turen/cs_partiring_slesvigskparti.png);
-	text-align: center;
-}
-
-.pic11 {
-	background: url(../images_turen/cs_partiring_socialdemokratiet.png);
-	text-align: center;
-}
-
-.pic12 {
-	background: url(../images_turen/cs_partiring_venstre.png);
-	text-align: center;
-}
-
-.text1 {
-	text-align: center;
-	transition: ease-in-out 1s;
-	padding-top: 2px;
-	width: 155px;
-	height: 155px;
-	background: #ffffff;
-	opacity: 0;
-}
-
-.pic:hover .text1 {
-	padding-top: 0.3vw;
-	opacity: 0.9;
-	text-align: center;
-	font-size: 12px;
-	font-weight: 700;
-	border-radius: 20%;
-}
-
-/*******************PARTIINFO**LOGOLINKS**SLUT************/
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
 
 footer {
-	background-color: black;
+	background-color: #000;
 }
 
 .keaside_top{
@@ -685,29 +409,32 @@ footer {
 	height: 100%;
 }
 
-/*
-
-.some ul li a{
-	font-size: 12px;
+.lorry img {
+	height: 50px;
+	width: 100px;
+	padding-bottom: 0;
+	margin-top: 0;
 }
 
-.someleft{
-	padding-top: 1vw;
-	margin: 0;
+.lorrypil {
+    height: 7px;
+    width: 7px;
+    border-left: 2px solid #ff004b;
+    border-top: 2px solid #ff004b;
+    transform: rotate(225deg);
+	margin-bottom:  1vw;
 }
-.some ul li{
-	color: black;
+.lorrypil1 {
+    height: 7px;
+    width: 7px;
+    border-left: 2px solid #ff004b;
+    border-top: 2px solid #ff004b;
+    transform: rotate(225deg);
 }
 
-.some img {
-	width: 30px;
-	border-radius: 30%;
-	border: 3px solid #fff;
-}
 
-*/
 .some_ikon {
-display: none;
+	display: none;
 }
 
 .some {
@@ -717,6 +444,7 @@ display: none;
 
 .some_copyright {
 	text-align: center;
+	margin-left: 0;
 }
 
 .some_lorry {
@@ -834,44 +562,6 @@ h6 {
 	color:white;
 	}
 
-#section4 h6 {
-	font-size: 20px;
-}
-.likontaktinfo {
-	margin-top: 0vw;
-}
-.keainfo h6{
-	margin-top: 3vw;
-	font-size: 18px;
-	padding-left: 0;
-	padding-bottom: 0;
-}
-
-.likontaktinfo a {
-	font-size: 16px;
-}
-
-.likontaktinfo h4{
-	line-height: 4px;
-	padding: 1.1vw 0 0 7vw;
-	text-align: left;
-	font-size: 16px;
-	font-family:'Source Sans Pro';
-	font-weight: 500;
-	color: grey;
-}
-
-.keaside_top{
-	margin-top: 8vw;
-	font-size: 12px;
-	display: block;
-}
-
-	.keaside_bund{
-	margin-top: 8vw;
-	font-size: 12px;
-		display: none;
-}
 /**************TABLET**LANDSKAB**GENERALT**SLUT********************/
 
 /**************TOP**NAVBAR************************/
@@ -917,46 +607,47 @@ h6 {
 #section3 h5 {
 	line-height: 1.5em;
 	font-family: 'Source Sans Pro';
-	font-size: 18px;
+	font-size: 21px;
 	padding: 0.2vw 0.5vw 1.5vw;
 	color: #000;
 }
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
-/*******************PERSONA**VALGINFO****************/
+/*******************PERSONA**VALGINFO**DYNAMICK**************/
 .json_form {
     position: relative;
     height: 165px;
-	width: 43.2vw;
+	width: 41.3vw;
     z-index: 1;
     color: #fff;
 	text-decoration: none;
-    border: 5px solid #fff;
+
 	background-color: #202020;
 	margin: 0 10px 10px;
-	padding-left:1.4vw;
+	padding-left: 0.4vw;
 }
 
-	#section2 json_form span {
+
+.color_navn span {
 	text-decoration: none;
 	color:#fff;
 	text-align: left;
-	margin: 0 10px 10px 2.4vw;
+	margin: 0 0.1vw 0 3vw;
 }
 
+.color_navn img {
+		margin-top: 6.5vw;
 
-.klook img {
-	padding-top:5%;
-	height:20vw;
-	opacity: 0.7;
+	}
+
+.json_form button{
+	width: 100%;
+	height: 90%;
+	padding: 0;
+	margin: 0 0 0 0.4vw;
 }
 
-.klook img:hover {
-	padding-top:5%;
-	height:20vw;
-	opacity: 1;
-}
 
 /*******************PERSONA**VALGINFO**SLUT**************/
 
@@ -966,25 +657,42 @@ h6 {
 
 /*******************FOOTER**KONTAKT**GOOGLE**MAPS************/
 
-
-
-/*
-
-.some ul li {
-	padding: 0;
+.likontaktinfo {
+	margin-top: 0vw;
 }
 
-.some ul li a{
+.keainfo h6{
+	margin-top: 3vw;
 	font-size: 18px;
+	padding-left: 0;
+	padding-bottom: 0;
 }
 
-	.some img {
-	width: 5%;
-	border-radius: 30%;
-	border: 0.4vw solid #fff;
+.likontaktinfo a {
+	font-size: 16px;
 }
 
-*/
+.likontaktinfo h4{
+	line-height: 4px;
+	padding: 1.1vw 0 0 7vw;
+	text-align: left;
+	font-size: 16px;
+	font-family:'Source Sans Pro';
+	font-weight: 500;
+	color: grey;
+}
+
+.keaside_top{
+	margin-top: 8vw;
+	font-size: 12px;
+	display: block;
+}
+
+.keaside_bund{
+	margin-top: 8vw;
+	font-size: 12px;
+		display: none;
+}
 
 .some {
 display: none;
@@ -1001,9 +709,8 @@ display: none;
 }
 
 
-	.some_copyrightlorry {
-	margin: 4vw 0 0 0;
-	padding: 0 0 1vw 0;
+.some_2017 {
+	margin-top: 4.5vw;
 	display: block;
 }
 
@@ -1229,41 +936,38 @@ h6 {
 
 /***************PROCESBAR**INFOGRAFIK**SLUT****************/
 
-#section4 h6 {
-	padding-left: 25px;
-}
 
 /*******************PERSONA**VALGINFO****************/
 .json_form {
     position: relative;
-    height: 167px;
-	width: 29.2vw;
+    height: 165px;
+	width: 28.36vw;
     z-index: 1;
     color: #fff;
 	text-decoration: none;
-    border: 5px solid #fff;
+
 	background-color: #202020;
 	margin: 0 10px 10px;
-	padding-left: 1vw;
+	padding-left: 0.4vw;
 }
 
-#section2 json_form span {
+
+.color_navn span {
 	text-decoration: none;
 	color:#fff;
 	text-align: left;
-	margin: 0 10px 10px 1.2vw;
+	margin: 0 0.1vw 0 0;
 }
 
-.klook img {
-	padding-top:5%;
-	height:14vw;
-	opacity: 0.7;
-}
+.color_navn img {
+	margin-top: 5.5vw;
+	}
 
-.klook:hover img {
-	padding-top:5%;
-	height:14vw;
-	opacity: 1;
+.json_form button{
+	width: 100%;
+	height: 90%;
+	padding: 0;
+	margin: 0 0 0 0.4vw;
 }
 
 /*******************PERSONA**VALGINFO**SLUT**************/
@@ -1314,22 +1018,7 @@ footer {
 	margin-top: 12vw;
 	font-size: 17px;
 }
-/*
-.some ul li {
-	padding: 0;
-}
 
-.some ul li a {
-	font-size: 25px;
-}
-
-.some ul li img {
-	width: 5%;
-	border-radius: 30%;
-	border: 0.3vw solid #fff;
-}
-
-		*/
 .some {
 	display: none;
 	}
@@ -1342,10 +1031,8 @@ footer {
 	display: none;
 }
 
-.some_copyrightlorry {
-	margin: 5vw 0 0 0;
-	padding: 0 0 1vw 0;
-	text-align: left;
+.some_2017 {
+	margin-top: 4.5vw;
 	display: block;
 }
 
@@ -1368,31 +1055,40 @@ footer {
 
 @media screen and (min-width: 1535px) and (orientation: landscape) {
 
-	.some_copyrightlorry {
-	margin: 4vw 0 0 0;
-	padding: 0 0 1vw 0;
-	text-align: left;
+	.some_2017 {
+	margin-top: 4vw;
 	display: block;
 }
 
 .json_form {
     position: relative;
     height: 165px;
-	width: 17.27vw;
+	width: 16.88vw;
     z-index: 1;
     color: #fff;
 	text-decoration: none;
-    border: 5px solid #fff;
+
 	background-color: #202020;
 	margin: 0 10px 10px;
 	padding-left: 1vw;
 }
 
-#section2 json_form span {
+.json_form button{
+	width: 100%;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+.color_navn span {
 	text-decoration: none;
 	color:#fff;
 	text-align: left;
-	margin: 0 10px 10px 0.68vw;
+	margin: 0 0.1vw 0 0;
 }
+.color_navn img {
+		margin-top: 5vw;
+
+	}
 }
 /**************LAPTOP**LANDSKAB**SLUT************************/
